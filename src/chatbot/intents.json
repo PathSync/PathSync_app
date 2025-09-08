@@ -1,0 +1,88 @@
+{
+  "intents": [
+    {
+      "tag": "greeting",
+      "patterns": [
+        "Hello",
+        "Hi",
+        "Hey",
+        "How are you?",
+        "Is anyone there?",
+        "Good day"
+      ],
+      "responses": [
+        "Hello! How can I assist with your health analysis today?",
+        "Hi there! Ready to analyze some biometric data?",
+        "Hello! I'm here to help with health predictions."
+      ]
+    },
+    {
+      "tag": "goodbye",
+      "patterns": [
+        "Bye",
+        "See you later",
+        "Goodbye",
+        "Nice chatting to you, bye",
+        "Till next time"
+      ],
+      "responses": [
+        "See you! Take care of your health!",
+        "Have a great day! Remember to monitor your biometrics regularly.",
+        "Bye! Come back if you have more health data to analyze."
+      ]
+    },
+    {
+      "tag": "health_prediction",
+      "patterns": [
+        "Can you analyze my health data?",
+        "I want a health prediction",
+        "Predict my health status",
+        "Analyze my biometrics",
+        "What does my health data indicate?"
+      ],
+      "responses": [
+        "Based on your biometric data, my prediction is: {prediction}",
+        "After analyzing your health metrics, I'd say: {prediction}",
+        "Your biometric analysis suggests: {prediction}"
+      ]
+    },
+    {
+      "tag": "triage_request",
+      "patterns": [
+        "What's my urgency level?",
+        "Do I need immediate care?",
+        "Triage assessment",
+        "How urgent is my condition?",
+        "Should I go to the emergency room?"
+      ],
+      "responses": [
+        "Based on your clinical data, the triage level is: {prediction}",
+        "Your condition appears to be: {prediction}",
+        "The triage assessment suggests: {prediction}"
+      ]
+    },
+    {
+      "tag": "help",
+      "patterns": [
+        "Help",
+        "What can you do?",
+        "How does this work?",
+        "What should I ask?",
+        "What information do you need?"
+      ],
+      "responses": [
+        "I can help analyze biometric data and provide health predictions. You can ask me to analyze health metrics or provide triage assessments.",
+        "I'm a health analysis chatbot. You can provide biometric data and ask for predictions or triage assessments.",
+        "I specialize in health data analysis. Try asking me to predict health status or assess urgency of care needed."
+      ]
+    },
+    {
+      "tag": "unknown",
+      "patterns": [],
+      "responses": [
+        "I'm not sure I understand. Could you rephrase that?",
+        "I don't have enough information to respond to that. Try asking about health predictions.",
+        "I'm still learning about health analysis. Could you try asking in a different way?"
+      ]
+    }
+  ]}

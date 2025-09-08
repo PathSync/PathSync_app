@@ -1,0 +1,1001 @@
+claim_id,provider_type,province,patient_age,icd10_code,claimed_amount_zar,num_items,after_hours,duplicate_within_30d,member_tenure_years,has_referral,medical_scheme,is_fraud
+1,Specialist,North West,1,A09,26.01,5,0,0,5.4,0,Medihelp,0
+2,Pharmacy,North West,60,K21,87.69,2,0,0,2.0,0,Momentum,0
+3,Hospital,Eastern Cape,39,K21,202.54,5,0,1,8.0,0,Momentum,1
+4,Hospital,Eastern Cape,62,S01,134.1,6,0,0,4.0,0,Momentum,0
+5,GP,Free State,24,L02,192.45,3,0,0,3.0,1,None,0
+6,Lab,Mpumalanga,37,S01,213.53,3,0,0,5.5,0,Bonitas,0
+7,GP,Limpopo,36,A09,69.0,6,1,0,6.3,0,Fedhealth,1
+8,Hospital,Gauteng,81,N39,92.52,6,0,0,8.0,0,GEMS,0
+9,GP,Limpopo,26,N39,76.04,2,0,0,3.5,1,Momentum,0
+10,GP,KwaZulu-Natal,83,N39,92.89,3,1,0,6.7,0,Medihelp,0
+11,GP,Northern Cape,49,A09,89.13,1,0,0,4.3,0,Momentum,0
+12,Hospital,KwaZulu-Natal,33,J18,220.74,5,0,0,2.5,0,GEMS,0
+13,Hospital,Northern Cape,43,L02,81.38,6,0,0,2.1,0,Discovery,1
+14,GP,Free State,71,I10,34.03,7,0,0,1.3,1,Bonitas,0
+15,GP,North West,3,I10,100.68,4,0,0,2.1,0,Medihelp,1
+16,Pharmacy,Northern Cape,93,K21,110.65,5,0,0,6.8,1,Bonitas,0
+17,GP,Northern Cape,51,N39,37.32,2,0,1,5.8,0,Bonitas,1
+18,GP,Mpumalanga,54,E11,36.26,3,0,0,0.9,0,Discovery,0
+19,Specialist,Gauteng,72,K21,129.08,3,0,0,0.4,1,Momentum,0
+20,Pharmacy,North West,11,M54,45.68,1,0,0,1.2,0,Medihelp,0
+21,GP,Mpumalanga,13,S01,49.67,3,0,0,2.1,1,Fedhealth,0
+22,Lab,Eastern Cape,34,I10,48.03,2,0,0,3.2,0,Bonitas,0
+23,Specialist,Limpopo,5,A09,78.76,2,0,0,6.9,0,GEMS,0
+24,Specialist,Western Cape,46,N39,143.61,4,0,0,2.6,0,Fedhealth,0
+25,GP,Eastern Cape,22,I10,105.94,5,0,0,8.2,1,Fedhealth,1
+26,Hospital,North West,67,J18,48.0,7,0,0,0.2,1,None,1
+27,GP,Eastern Cape,64,R51,169.27,5,0,0,3.1,0,Momentum,0
+28,Hospital,Eastern Cape,58,K21,121.93,5,0,0,6.0,0,Fedhealth,0
+29,GP,Eastern Cape,8,S01,132.89,7,0,0,6.1,0,Medihelp,1
+30,Specialist,Northern Cape,57,I10,129.9,4,0,0,3.2,0,Momentum,0
+31,Pharmacy,Western Cape,47,R51,46.28,4,0,0,6.5,0,GEMS,0
+32,Hospital,Mpumalanga,62,E11,34.85,4,1,0,6.0,0,Fedhealth,0
+33,GP,KwaZulu-Natal,8,M54,52.35,1,0,0,2.3,1,Momentum,0
+34,Hospital,Eastern Cape,43,I10,132.72,4,0,1,4.8,1,Medihelp,1
+35,Hospital,Gauteng,45,M54,29.05,3,0,0,5.8,1,Bonitas,0
+36,GP,KwaZulu-Natal,14,N39,26.42,6,0,0,2.5,1,Discovery,0
+37,Specialist,Western Cape,87,S01,18.64,1,0,0,8.2,0,Momentum,0
+38,GP,Mpumalanga,52,J18,27.54,7,0,0,1.9,1,GEMS,0
+39,Specialist,Limpopo,47,K21,38.19,3,0,0,4.4,0,Discovery,0
+40,Pharmacy,Gauteng,71,N39,72.38,7,0,0,0.9,1,None,0
+41,GP,North West,91,R51,29.63,5,0,0,4.3,0,Bonitas,0
+42,GP,Northern Cape,41,J18,105.45,2,1,0,1.3,0,GEMS,0
+43,GP,Gauteng,16,I10,68.47,5,0,0,3.3,1,Medihelp,0
+44,Lab,Free State,34,K21,15.88,4,0,0,0.0,1,GEMS,0
+45,Hospital,Mpumalanga,30,S01,65.49,2,0,0,6.0,1,Bonitas,0
+46,GP,Western Cape,3,S01,73.25,5,1,1,4.9,1,Discovery,0
+47,Specialist,Limpopo,47,I10,253.76,1,0,0,6.7,0,Medihelp,1
+48,GP,North West,13,J18,78.59,4,0,0,3.1,1,GEMS,0
+49,Hospital,North West,24,A09,19.23,5,0,0,6.8,1,Fedhealth,0
+50,Specialist,North West,45,S01,77.91,2,0,0,4.1,1,Fedhealth,0
+51,Lab,Limpopo,47,N39,74.96,3,0,0,4.3,0,Momentum,0
+52,GP,Limpopo,39,K21,101.32,5,0,0,9.3,0,Fedhealth,0
+53,Hospital,KwaZulu-Natal,49,E11,420.18,1,1,0,2.8,0,GEMS,0
+54,Hospital,Western Cape,6,S01,45.57,2,0,0,7.1,0,Discovery,0
+55,Pharmacy,Free State,94,A09,42.01,5,0,0,5.2,1,Fedhealth,0
+56,Specialist,Northern Cape,59,N39,92.13,3,0,0,2.6,0,Momentum,0
+57,Hospital,Eastern Cape,34,A09,238.11,4,1,0,0.7,0,Medihelp,0
+58,GP,Free State,62,K21,106.12,4,0,0,1.4,1,Fedhealth,0
+59,Specialist,Limpopo,19,I10,52.19,7,0,0,6.8,0,Momentum,1
+60,Pharmacy,Limpopo,15,N39,132.19,4,0,0,8.3,0,Fedhealth,0
+61,Lab,Eastern Cape,21,I10,232.88,6,0,1,4.2,0,None,1
+62,Hospital,Eastern Cape,35,K21,38.73,2,0,0,4.4,0,Fedhealth,0
+63,Specialist,North West,18,E11,32.93,7,0,0,5.9,0,GEMS,0
+64,Pharmacy,Free State,1,A09,68.99,7,0,0,4.2,1,Discovery,0
+65,GP,Free State,67,K21,81.91,7,0,0,6.7,0,Momentum,1
+66,GP,Northern Cape,6,I10,174.8,6,0,0,4.7,0,Momentum,0
+67,Hospital,Eastern Cape,46,S01,47.78,7,0,0,4.3,0,Bonitas,0
+68,GP,Mpumalanga,48,R51,87.9,3,0,0,2.3,0,Bonitas,0
+69,Lab,Free State,77,A09,197.29,3,0,0,1.6,0,Momentum,0
+70,Specialist,Northern Cape,42,L02,77.6,5,0,0,3.9,0,GEMS,0
+71,Specialist,North West,31,E11,50.31,4,0,0,7.1,1,Discovery,1
+72,Hospital,North West,16,N39,98.89,2,0,0,3.6,0,Fedhealth,0
+73,Pharmacy,KwaZulu-Natal,13,R51,52.65,6,0,0,3.0,0,Medihelp,1
+74,Specialist,Northern Cape,80,M54,84.03,6,0,0,0.9,0,GEMS,1
+75,GP,North West,31,R51,58.23,4,0,0,2.4,0,Fedhealth,0
+76,Pharmacy,KwaZulu-Natal,59,L02,59.97,6,0,0,2.1,0,Medihelp,0
+77,GP,Gauteng,59,R51,50.04,4,0,0,2.0,0,Discovery,0
+78,GP,Free State,51,R51,44.4,5,0,0,4.8,1,Bonitas,0
+79,Hospital,Eastern Cape,65,A09,133.04,5,0,0,4.3,0,Momentum,0
+80,GP,North West,3,I10,75.78,5,0,0,0.6,0,Discovery,0
+81,Lab,Limpopo,93,M54,161.82,1,1,0,0.8,1,Medihelp,1
+82,Hospital,Free State,93,N39,13.73,1,0,0,0.8,0,GEMS,0
+83,Lab,Northern Cape,62,E11,46.11,6,0,0,8.5,0,Momentum,0
+84,GP,Limpopo,32,N39,39.5,2,0,0,7.7,0,Medihelp,0
+85,Lab,KwaZulu-Natal,0,N39,55.54,2,0,0,1.9,1,Fedhealth,0
+86,GP,Limpopo,63,E11,32.21,5,0,1,0.9,1,Fedhealth,0
+87,GP,Eastern Cape,94,L02,21.54,3,0,0,4.3,0,GEMS,1
+88,GP,Free State,36,E11,106.21,2,0,0,4.1,0,Fedhealth,0
+89,Specialist,Limpopo,77,I10,43.8,6,0,0,4.8,0,Momentum,0
+90,GP,Northern Cape,69,J18,97.88,7,0,0,5.9,0,Bonitas,0
+91,Specialist,KwaZulu-Natal,6,J18,29.08,1,1,0,5.1,0,Bonitas,0
+92,GP,Gauteng,23,K21,21.11,7,0,0,1.2,0,Medihelp,0
+93,GP,Western Cape,67,K21,78.55,7,0,0,4.7,1,Bonitas,1
+94,Hospital,North West,54,L02,103.31,6,0,0,6.1,0,Bonitas,1
+95,GP,Eastern Cape,88,N39,43.12,6,0,0,2.2,0,Medihelp,0
+96,Pharmacy,Mpumalanga,2,K21,32.55,1,0,0,4.7,1,Medihelp,0
+97,Hospital,Western Cape,91,A09,159.07,4,1,0,2.6,1,Medihelp,0
+98,Lab,North West,22,S01,63.74,7,0,0,9.0,0,Momentum,1
+99,Specialist,Northern Cape,35,M54,32.99,5,0,0,0.7,1,None,0
+100,Lab,Mpumalanga,56,L02,23.26,7,0,0,6.9,0,Medihelp,1
+101,Hospital,Gauteng,47,A09,40.97,6,0,0,0.2,0,Momentum,1
+102,Lab,Western Cape,12,J18,50.34,3,0,0,8.5,0,Momentum,1
+103,GP,Northern Cape,60,R51,113.16,5,0,0,1.1,0,Momentum,0
+104,Hospital,Mpumalanga,85,I10,65.57,7,0,0,4.5,0,None,0
+105,Pharmacy,KwaZulu-Natal,88,L02,60.34,1,0,0,0.1,0,Medihelp,0
+106,GP,Free State,23,M54,34.96,3,0,0,0.6,0,Bonitas,0
+107,Hospital,Gauteng,42,M54,174.4,2,0,0,6.2,0,GEMS,0
+108,Pharmacy,KwaZulu-Natal,32,S01,131.42,4,1,0,6.6,0,GEMS,1
+109,Hospital,Eastern Cape,77,S01,124.28,6,1,0,4.6,0,None,0
+110,GP,Eastern Cape,23,K21,63.58,1,0,1,5.9,0,Bonitas,0
+111,Hospital,Mpumalanga,21,R51,87.84,4,0,0,6.6,0,None,1
+112,GP,Free State,51,S01,10.94,6,0,0,2.3,0,Medihelp,0
+113,Pharmacy,Northern Cape,86,J18,76.44,7,0,0,0.5,1,Bonitas,0
+114,GP,Mpumalanga,5,E11,254.89,7,1,0,4.0,1,None,1
+115,GP,Western Cape,18,L02,44.19,6,1,0,2.6,0,Medihelp,1
+116,GP,North West,75,J18,33.28,5,0,0,5.0,0,None,0
+117,Hospital,Western Cape,89,R51,60.05,3,0,0,5.4,0,Momentum,1
+118,Lab,Mpumalanga,28,A09,36.3,5,0,0,2.3,0,Fedhealth,0
+119,GP,Free State,63,S01,34.74,4,0,0,5.8,0,Discovery,0
+120,GP,Limpopo,13,K21,79.86,7,0,0,5.6,0,None,0
+121,Specialist,Eastern Cape,80,A09,118.15,1,0,0,5.8,0,GEMS,0
+122,Pharmacy,Free State,29,K21,80.37,4,0,0,3.0,0,None,0
+123,Specialist,Free State,70,L02,29.74,1,0,0,5.9,0,Medihelp,1
+124,GP,Mpumalanga,20,I10,41.53,7,0,0,5.3,0,Momentum,0
+125,Hospital,Eastern Cape,64,S01,83.06,7,1,0,5.6,1,Fedhealth,0
+126,GP,Free State,3,A09,105.11,4,0,1,8.2,0,Momentum,0
+127,Specialist,Eastern Cape,45,N39,57.35,5,1,0,4.8,0,Discovery,0
+128,GP,Eastern Cape,7,E11,35.5,7,1,0,2.5,0,GEMS,0
+129,Pharmacy,North West,17,K21,114.08,4,0,0,1.2,0,Bonitas,0
+130,Lab,Free State,59,I10,235.94,2,0,0,6.8,0,Bonitas,1
+131,Pharmacy,Northern Cape,44,E11,145.69,7,0,0,4.9,0,Momentum,1
+132,Specialist,Free State,71,M54,266.11,5,0,1,8.2,0,Discovery,0
+133,Specialist,North West,94,J18,42.94,4,0,0,1.1,1,Momentum,0
+134,GP,KwaZulu-Natal,30,I10,136.57,4,1,0,6.3,0,Bonitas,1
+135,Hospital,Mpumalanga,27,E11,163.48,3,0,1,3.3,0,Momentum,0
+136,Hospital,Gauteng,63,S01,47.17,7,0,0,3.1,1,Fedhealth,0
+137,Lab,Free State,36,M54,37.22,5,1,0,2.1,0,Discovery,0
+138,GP,Western Cape,66,N39,33.85,3,0,0,6.2,0,Bonitas,0
+139,Pharmacy,North West,78,R51,62.25,5,0,0,5.5,0,GEMS,0
+140,Hospital,Limpopo,67,R51,23.12,1,0,0,1.1,0,GEMS,0
+141,GP,Free State,34,J18,216.47,5,0,0,4.4,0,Momentum,0
+142,Hospital,KwaZulu-Natal,35,K21,27.01,5,0,0,5.8,0,Discovery,0
+143,Lab,Gauteng,56,J18,89.13,4,0,0,4.4,0,Momentum,0
+144,Lab,North West,69,M54,13.61,2,0,1,6.8,0,Bonitas,1
+145,Hospital,Free State,3,N39,277.69,6,0,0,3.3,0,Discovery,1
+146,GP,Northern Cape,48,R51,159.08,5,0,0,1.6,1,Bonitas,0
+147,Pharmacy,Mpumalanga,93,R51,21.74,3,0,0,4.5,1,Fedhealth,1
+148,Hospital,Gauteng,38,L02,82.13,2,0,0,4.5,0,Fedhealth,0
+149,GP,Gauteng,17,A09,56.02,5,0,0,4.8,1,GEMS,1
+150,GP,Mpumalanga,59,M54,73.95,2,0,0,6.8,0,Medihelp,0
+151,GP,Mpumalanga,85,M54,103.5,1,0,0,0.9,1,Discovery,0
+152,GP,Northern Cape,9,K21,37.88,2,0,1,3.4,0,Fedhealth,0
+153,Pharmacy,Western Cape,92,M54,63.9,1,0,0,1.7,1,Medihelp,0
+154,GP,Mpumalanga,22,L02,18.69,2,1,0,1.0,1,GEMS,0
+155,GP,Western Cape,67,N39,70.32,2,0,0,3.8,0,Discovery,0
+156,Specialist,Western Cape,58,I10,15.7,3,0,0,5.8,0,Bonitas,0
+157,Specialist,Free State,82,R51,165.49,6,0,0,4.8,1,Momentum,0
+158,GP,Northern Cape,89,M54,23.79,3,1,1,2.3,0,Momentum,0
+159,GP,Northern Cape,6,A09,81.52,4,0,0,3.6,0,Bonitas,0
+160,GP,Gauteng,12,M54,118.49,2,0,1,6.3,0,Fedhealth,1
+161,Hospital,Mpumalanga,2,E11,244.63,1,0,0,5.7,0,Momentum,0
+162,GP,KwaZulu-Natal,39,A09,229.56,7,0,0,2.6,0,Bonitas,1
+163,Hospital,Gauteng,10,S01,176.01,2,0,0,2.5,0,Medihelp,0
+164,GP,Western Cape,79,M54,65.6,7,1,1,0.3,0,Medihelp,0
+165,GP,Limpopo,83,M54,144.86,5,0,0,2.9,1,Bonitas,0
+166,Specialist,Western Cape,50,K21,80.48,1,0,0,0.3,0,Discovery,0
+167,GP,Western Cape,86,E11,85.43,5,0,0,9.2,0,Fedhealth,0
+168,GP,Eastern Cape,22,I10,42.98,4,0,0,1.9,0,Fedhealth,0
+169,GP,KwaZulu-Natal,31,M54,224.5,5,0,0,6.8,1,Bonitas,0
+170,GP,North West,40,N39,37.82,4,0,0,8.5,0,Momentum,0
+171,Hospital,North West,41,I10,31.36,4,0,0,4.5,1,GEMS,0
+172,GP,Limpopo,37,R51,88.25,4,1,0,3.7,0,Fedhealth,1
+173,Pharmacy,Eastern Cape,66,I10,18.92,5,0,0,0.7,0,Fedhealth,0
+174,Pharmacy,Mpumalanga,71,A09,72.03,4,0,0,2.7,0,Medihelp,0
+175,Pharmacy,Northern Cape,77,N39,208.32,4,0,0,8.0,0,Medihelp,0
+176,GP,Western Cape,71,L02,88.71,3,0,0,4.9,1,Medihelp,0
+177,Pharmacy,Limpopo,74,K21,67.83,7,0,0,4.1,0,GEMS,0
+178,GP,Mpumalanga,41,N39,36.85,6,0,0,7.3,0,Fedhealth,0
+179,GP,Gauteng,42,R51,23.18,2,0,0,5.7,1,Fedhealth,0
+180,GP,Limpopo,32,E11,121.43,4,0,0,3.6,0,GEMS,1
+181,Lab,North West,78,L02,67.66,1,0,0,4.5,0,None,0
+182,GP,Mpumalanga,36,R51,102.72,1,0,0,2.1,1,Fedhealth,0
+183,Lab,Western Cape,77,R51,14.3,3,0,0,2.6,0,Momentum,0
+184,GP,Western Cape,89,S01,110.74,5,0,0,3.5,1,Momentum,0
+185,Lab,Eastern Cape,56,K21,266.37,5,1,0,5.4,1,Momentum,1
+186,Lab,Free State,63,J18,169.65,5,0,0,0.9,0,None,0
+187,Lab,Free State,63,S01,81.65,4,0,0,4.2,0,Discovery,0
+188,Specialist,Western Cape,59,L02,31.93,6,1,0,3.0,0,Fedhealth,1
+189,Pharmacy,Mpumalanga,51,I10,72.25,7,0,0,1.7,0,GEMS,0
+190,Lab,North West,71,J18,73.9,6,0,0,3.0,1,Fedhealth,0
+191,GP,Western Cape,67,A09,46.89,5,0,0,1.8,0,GEMS,0
+192,Specialist,Eastern Cape,81,J18,49.47,5,1,0,2.1,0,None,0
+193,Hospital,KwaZulu-Natal,26,S01,288.25,2,0,0,1.3,0,Bonitas,0
+194,GP,Eastern Cape,58,S01,33.74,6,0,0,3.3,0,Bonitas,0
+195,Pharmacy,Free State,18,S01,49.14,4,0,0,1.7,0,Discovery,0
+196,GP,Limpopo,2,M54,98.26,4,0,0,4.5,1,Bonitas,0
+197,Specialist,Western Cape,72,M54,305.35,7,0,0,6.3,0,Momentum,1
+198,GP,Limpopo,38,J18,53.74,1,0,0,3.7,1,Discovery,1
+199,GP,Northern Cape,65,S01,18.83,1,0,0,5.2,0,Discovery,0
+200,GP,North West,72,K21,14.87,2,1,0,2.7,0,Discovery,1
+201,Pharmacy,Gauteng,55,E11,387.19,3,0,0,0.1,0,Medihelp,0
+202,GP,Northern Cape,5,I10,17.43,4,0,0,4.0,1,None,0
+203,Pharmacy,Western Cape,27,K21,69.97,7,0,1,5.7,0,Bonitas,0
+204,Pharmacy,Gauteng,47,K21,23.01,1,0,0,0.7,1,Fedhealth,0
+205,Specialist,Limpopo,92,I10,38.2,5,0,0,2.8,1,Medihelp,0
+206,GP,Gauteng,47,A09,42.14,4,1,0,3.4,1,GEMS,0
+207,GP,Limpopo,66,M54,16.88,4,0,0,11.1,0,Momentum,0
+208,Specialist,Western Cape,53,J18,155.73,4,0,0,4.6,0,Medihelp,1
+209,GP,Mpumalanga,15,E11,89.69,6,1,0,0.8,0,Momentum,0
+210,Specialist,Mpumalanga,34,N39,49.2,1,0,0,1.4,0,None,0
+211,Lab,Eastern Cape,74,I10,44.36,2,1,0,5.8,1,Fedhealth,1
+212,GP,Western Cape,86,S01,142.13,1,1,0,10.2,1,Fedhealth,0
+213,Hospital,Mpumalanga,29,K21,70.66,5,0,0,3.3,1,Bonitas,0
+214,Lab,Gauteng,47,N39,285.66,5,0,0,3.1,0,GEMS,1
+215,Pharmacy,Western Cape,68,I10,48.5,3,1,0,5.1,0,Medihelp,1
+216,Pharmacy,Western Cape,7,J18,89.37,1,0,0,2.0,0,Fedhealth,0
+217,Pharmacy,Gauteng,50,R51,28.02,1,0,0,2.4,0,None,0
+218,GP,Northern Cape,9,I10,48.99,3,0,0,6.6,1,Momentum,0
+219,Pharmacy,Limpopo,27,N39,137.15,3,0,0,2.5,1,Fedhealth,0
+220,Lab,KwaZulu-Natal,35,S01,151.41,4,0,0,6.6,0,Bonitas,0
+221,Specialist,Limpopo,59,K21,240.75,4,1,0,2.1,0,Momentum,0
+222,Specialist,Mpumalanga,9,I10,90.59,5,1,0,4.3,0,Discovery,0
+223,Specialist,KwaZulu-Natal,13,S01,157.57,7,1,1,6.1,0,GEMS,1
+224,GP,Eastern Cape,62,L02,102.67,7,0,0,6.7,0,Bonitas,0
+225,GP,Gauteng,46,I10,49.69,7,0,0,4.6,0,None,0
+226,Hospital,Limpopo,68,A09,22.99,7,0,0,4.5,0,None,1
+227,Hospital,Limpopo,55,M54,56.42,2,0,0,5.5,1,None,0
+228,Specialist,Northern Cape,5,A09,29.76,5,0,0,5.2,0,None,0
+229,GP,Western Cape,93,N39,138.8,6,0,0,0.8,1,Bonitas,0
+230,Pharmacy,Free State,18,J18,144.43,1,1,0,0.8,0,Discovery,0
+231,GP,Free State,51,I10,32.59,7,0,0,1.3,1,GEMS,1
+232,GP,Mpumalanga,61,S01,144.51,2,0,0,5.9,1,None,0
+233,Hospital,Free State,48,S01,29.04,4,0,0,3.0,0,Fedhealth,1
+234,Specialist,Eastern Cape,77,A09,182.38,3,0,0,6.1,0,Bonitas,1
+235,GP,Western Cape,10,R51,59.24,3,0,0,5.0,0,Discovery,0
+236,Specialist,North West,45,E11,91.47,7,0,0,1.5,0,GEMS,0
+237,Pharmacy,Free State,68,M54,182.98,5,0,0,3.7,0,Discovery,0
+238,Hospital,Eastern Cape,44,L02,100.75,7,1,0,2.9,0,GEMS,0
+239,Specialist,Northern Cape,94,N39,60.42,1,0,0,2.5,1,Bonitas,0
+240,GP,Western Cape,57,M54,122.38,1,0,0,6.3,0,Medihelp,0
+241,Hospital,KwaZulu-Natal,31,M54,33.7,3,0,0,10.3,0,None,0
+242,Pharmacy,North West,87,S01,17.19,5,0,0,6.8,0,Bonitas,0
+243,Hospital,Eastern Cape,9,L02,147.98,6,0,0,3.9,1,None,1
+244,Pharmacy,Northern Cape,12,E11,26.47,5,0,0,7.1,0,GEMS,0
+245,Specialist,Northern Cape,12,J18,126.49,4,0,0,8.3,0,Medihelp,0
+246,Hospital,Northern Cape,35,R51,73.24,7,0,0,0.5,1,Fedhealth,0
+247,Pharmacy,Gauteng,85,N39,65.67,4,0,0,7.1,0,Discovery,1
+248,Pharmacy,Limpopo,72,I10,34.24,4,0,0,5.9,0,Momentum,0
+249,Lab,Limpopo,18,K21,48.41,7,0,0,7.0,0,Bonitas,1
+250,Specialist,North West,6,N39,66.98,6,0,0,6.0,0,Momentum,0
+251,Lab,Mpumalanga,14,J18,76.24,2,0,1,3.4,0,Fedhealth,0
+252,Hospital,Mpumalanga,80,M54,35.26,5,0,0,9.1,1,Bonitas,0
+253,Pharmacy,Western Cape,45,N39,111.65,5,0,0,4.8,0,Momentum,0
+254,GP,Eastern Cape,77,R51,116.73,6,0,0,2.9,0,Fedhealth,0
+255,Hospital,Gauteng,47,L02,93.09,7,1,1,5.3,0,Medihelp,1
+256,Pharmacy,Mpumalanga,65,R51,48.8,4,0,0,6.4,0,Fedhealth,1
+257,GP,Eastern Cape,77,J18,121.08,3,0,0,4.2,0,Bonitas,0
+258,Hospital,Northern Cape,3,R51,102.47,4,0,0,5.0,1,GEMS,0
+259,Pharmacy,Limpopo,2,K21,16.89,2,0,0,4.2,1,GEMS,0
+260,GP,Limpopo,2,J18,76.92,6,0,0,2.3,0,None,1
+261,Specialist,Northern Cape,74,L02,256.73,7,1,1,1.9,0,None,1
+262,Hospital,North West,68,L02,131.0,3,0,0,0.5,0,GEMS,0
+263,Specialist,Limpopo,92,M54,148.75,5,1,0,7.8,1,Bonitas,0
+264,GP,Limpopo,27,M54,40.61,2,0,0,3.4,0,Bonitas,0
+265,GP,Limpopo,22,J18,72.44,2,0,0,4.6,0,Fedhealth,0
+266,GP,Eastern Cape,29,L02,58.36,6,1,0,5.0,1,Bonitas,1
+267,GP,Free State,61,J18,66.24,3,0,0,4.9,0,None,0
+268,GP,KwaZulu-Natal,86,M54,46.29,4,0,0,0.7,0,Fedhealth,1
+269,Hospital,Northern Cape,50,L02,27.94,4,1,0,1.9,0,GEMS,1
+270,Hospital,Western Cape,40,L02,69.4,1,1,0,1.8,0,None,1
+271,Pharmacy,Mpumalanga,85,K21,38.41,3,0,0,2.1,1,Discovery,0
+272,GP,Gauteng,63,A09,99.99,4,1,0,7.0,0,Discovery,0
+273,Specialist,Mpumalanga,42,I10,64.93,2,0,0,3.6,0,None,1
+274,GP,Western Cape,75,I10,17.22,6,0,0,2.9,0,None,0
+275,Pharmacy,Free State,90,S01,174.53,4,0,0,6.8,1,Discovery,1
+276,Hospital,Gauteng,57,L02,89.98,6,1,0,5.2,1,Momentum,0
+277,Pharmacy,Free State,58,J18,48.15,4,0,0,0.4,0,Discovery,0
+278,GP,Eastern Cape,39,S01,52.42,6,0,0,2.5,0,Discovery,0
+279,Hospital,Gauteng,45,K21,28.08,2,0,0,4.8,0,Fedhealth,0
+280,Specialist,Gauteng,61,M54,63.51,3,0,0,1.7,0,Fedhealth,0
+281,Pharmacy,Mpumalanga,48,S01,106.87,1,0,0,9.1,0,GEMS,0
+282,Specialist,KwaZulu-Natal,78,A09,225.04,6,0,0,4.3,0,None,1
+283,Specialist,Northern Cape,22,A09,62.35,4,0,0,2.1,1,Bonitas,0
+284,GP,Northern Cape,43,A09,68.66,6,0,0,1.2,0,Bonitas,0
+285,Hospital,Northern Cape,43,R51,152.87,6,0,0,6.3,0,Bonitas,0
+286,GP,Gauteng,18,M54,29.48,4,0,0,2.4,1,GEMS,0
+287,GP,Eastern Cape,43,K21,73.46,7,0,0,4.9,0,Fedhealth,0
+288,GP,Gauteng,10,S01,39.07,4,0,0,1.1,0,Fedhealth,0
+289,Lab,Gauteng,59,I10,72.72,3,0,0,4.2,0,Discovery,0
+290,GP,Northern Cape,37,S01,127.81,2,0,0,2.4,0,Medihelp,1
+291,Pharmacy,Free State,2,A09,20.87,2,0,0,3.2,1,Fedhealth,0
+292,Lab,Gauteng,15,S01,144.41,2,0,0,2.0,0,GEMS,0
+293,Lab,KwaZulu-Natal,8,K21,85.34,2,1,0,6.6,0,Medihelp,1
+294,Pharmacy,Mpumalanga,40,N39,73.17,2,0,0,2.8,1,Fedhealth,0
+295,Pharmacy,Western Cape,37,S01,170.21,7,1,0,3.6,0,GEMS,0
+296,GP,Eastern Cape,68,K21,38.14,2,0,0,3.8,0,Fedhealth,0
+297,GP,Western Cape,64,L02,25.97,4,0,0,8.0,0,Momentum,0
+298,Hospital,Northern Cape,34,I10,32.39,4,0,0,6.2,1,Medihelp,0
+299,Specialist,Northern Cape,34,A09,96.32,2,0,0,6.0,0,None,0
+300,GP,Mpumalanga,75,L02,46.92,2,0,0,0.1,0,None,0
+301,Hospital,Mpumalanga,84,S01,35.99,3,0,0,2.4,0,Momentum,0
+302,Hospital,Western Cape,47,K21,33.47,6,0,0,7.0,1,Discovery,1
+303,Pharmacy,North West,7,A09,74.98,3,0,0,1.1,1,Momentum,0
+304,Hospital,Gauteng,26,S01,65.08,5,0,0,4.2,0,Momentum,0
+305,Hospital,North West,8,N39,24.57,4,0,0,1.3,1,GEMS,0
+306,Specialist,Free State,91,K21,25.15,7,0,0,1.6,1,None,0
+307,Specialist,Eastern Cape,29,R51,45.88,2,0,0,8.2,0,Discovery,0
+308,Lab,Western Cape,13,J18,126.15,7,1,0,5.8,0,Medihelp,1
+309,GP,KwaZulu-Natal,22,J18,49.24,6,0,1,6.5,0,Bonitas,1
+310,Specialist,Western Cape,28,S01,23.6,7,0,0,6.0,0,Fedhealth,1
+311,Hospital,Eastern Cape,25,N39,62.44,4,0,1,3.7,1,GEMS,1
+312,Specialist,KwaZulu-Natal,85,S01,68.13,7,0,0,2.3,0,Medihelp,0
+313,GP,Free State,14,E11,23.46,5,0,0,3.0,0,Discovery,0
+314,GP,Mpumalanga,72,K21,28.29,3,0,0,3.5,0,Momentum,1
+315,GP,Northern Cape,89,S01,111.67,5,0,0,8.4,1,Bonitas,0
+316,GP,Free State,80,R51,28.04,1,1,0,0.7,0,Momentum,1
+317,Pharmacy,North West,72,J18,115.02,7,0,0,2.6,0,Fedhealth,0
+318,Specialist,Western Cape,66,K21,22.47,3,0,0,1.7,1,Discovery,0
+319,GP,Limpopo,15,K21,23.06,4,1,0,6.6,1,Bonitas,0
+320,Specialist,North West,12,I10,67.43,3,0,0,8.6,1,Medihelp,0
+321,GP,Northern Cape,89,K21,39.12,5,1,0,4.8,0,Medihelp,0
+322,Lab,Eastern Cape,80,R51,45.63,2,0,0,5.0,0,Discovery,0
+323,Specialist,Eastern Cape,23,S01,73.77,6,0,0,4.2,1,Discovery,0
+324,Lab,Mpumalanga,61,M54,44.7,5,0,0,5.1,0,GEMS,0
+325,GP,Eastern Cape,56,I10,34.16,5,0,0,5.9,0,Momentum,0
+326,Pharmacy,Free State,35,A09,93.52,7,1,0,5.1,0,Bonitas,1
+327,GP,Western Cape,59,S01,75.29,7,0,0,5.2,1,Fedhealth,0
+328,GP,Western Cape,85,J18,68.38,2,0,0,5.9,0,Discovery,1
+329,GP,Free State,72,S01,65.51,6,0,0,0.4,0,Bonitas,0
+330,Hospital,Western Cape,21,S01,37.84,4,0,1,4.0,0,GEMS,1
+331,GP,Limpopo,83,E11,32.71,6,0,0,4.8,0,None,0
+332,Specialist,Limpopo,2,A09,52.12,7,0,0,5.0,1,Discovery,1
+333,Pharmacy,North West,35,L02,38.29,4,1,0,3.6,0,Discovery,0
+334,GP,Gauteng,81,J18,65.77,3,0,0,4.4,0,Medihelp,0
+335,GP,Mpumalanga,35,A09,50.43,5,0,0,2.2,0,None,0
+336,Pharmacy,Mpumalanga,9,I10,67.18,3,0,0,0.4,0,Bonitas,0
+337,Specialist,Northern Cape,20,L02,62.17,2,0,0,6.5,1,Medihelp,0
+338,Pharmacy,Eastern Cape,88,I10,228.27,1,0,0,1.2,1,GEMS,0
+339,Specialist,Mpumalanga,48,E11,25.14,7,0,0,3.6,0,Medihelp,1
+340,Specialist,Limpopo,8,I10,58.19,4,0,1,2.1,0,None,0
+341,GP,Eastern Cape,90,N39,30.55,2,0,0,8.0,0,GEMS,0
+342,Lab,North West,78,N39,47.31,4,0,0,3.8,0,None,0
+343,Pharmacy,KwaZulu-Natal,51,S01,37.45,3,0,0,3.2,0,Bonitas,0
+344,Lab,North West,47,J18,103.76,1,0,0,5.9,0,GEMS,0
+345,Specialist,Free State,59,R51,23.64,7,0,1,9.4,1,GEMS,1
+346,Pharmacy,Eastern Cape,49,K21,114.59,6,0,0,5.0,1,Medihelp,0
+347,Specialist,KwaZulu-Natal,38,R51,96.12,5,0,1,3.1,0,None,1
+348,Specialist,Mpumalanga,15,A09,279.67,6,1,0,5.7,1,Momentum,0
+349,Pharmacy,Mpumalanga,27,I10,234.38,4,0,0,0.1,1,None,0
+350,GP,Limpopo,5,M54,37.95,5,0,0,4.1,0,Fedhealth,0
+351,GP,KwaZulu-Natal,60,S01,157.69,7,0,0,9.0,1,Fedhealth,0
+352,GP,Northern Cape,5,L02,52.87,3,0,0,4.4,1,Momentum,0
+353,Pharmacy,Western Cape,65,M54,82.1,4,0,1,4.3,0,Discovery,0
+354,Specialist,KwaZulu-Natal,39,K21,221.16,6,0,0,4.1,1,Medihelp,0
+355,Specialist,Gauteng,70,N39,39.02,3,0,0,3.0,0,Fedhealth,0
+356,Lab,Mpumalanga,90,R51,68.99,5,0,0,4.8,0,Bonitas,1
+357,Specialist,Western Cape,61,A09,16.97,3,0,0,5.9,0,GEMS,0
+358,GP,North West,27,K21,123.52,7,0,0,3.2,1,GEMS,0
+359,Hospital,Northern Cape,79,M54,289.07,7,0,0,2.2,0,Discovery,0
+360,Pharmacy,Western Cape,46,E11,99.1,7,0,0,5.2,0,Fedhealth,0
+361,GP,Limpopo,8,L02,172.86,7,1,0,9.3,0,None,0
+362,Hospital,Gauteng,51,N39,147.55,7,0,0,3.1,0,Medihelp,0
+363,GP,North West,14,N39,40.46,3,0,0,0.3,0,Fedhealth,0
+364,Specialist,Free State,33,R51,83.24,3,0,0,5.7,0,Medihelp,0
+365,GP,Northern Cape,19,A09,93.74,2,0,0,8.4,0,Discovery,0
+366,GP,KwaZulu-Natal,77,J18,29.32,2,0,0,5.3,1,None,1
+367,Specialist,Western Cape,59,I10,182.38,4,0,0,8.3,0,None,0
+368,Lab,Mpumalanga,57,L02,46.6,3,0,0,6.0,1,None,0
+369,Hospital,Mpumalanga,74,A09,57.0,6,0,0,5.8,0,GEMS,0
+370,Lab,Free State,93,M54,55.16,3,0,0,2.7,0,Momentum,0
+371,Hospital,Mpumalanga,66,L02,68.11,7,0,0,4.7,1,GEMS,0
+372,GP,Limpopo,1,E11,515.74,3,0,0,3.9,0,Medihelp,0
+373,GP,Northern Cape,49,K21,43.39,2,0,0,3.8,1,Medihelp,0
+374,Lab,KwaZulu-Natal,13,K21,22.48,5,0,0,3.4,0,Discovery,1
+375,Hospital,Eastern Cape,55,S01,74.39,3,0,0,4.6,0,Discovery,0
+376,Lab,Northern Cape,92,M54,36.26,7,0,0,0.8,0,Bonitas,0
+377,GP,North West,68,I10,49.84,1,1,0,6.0,0,GEMS,0
+378,GP,Limpopo,43,N39,102.38,4,0,0,1.8,0,GEMS,1
+379,Specialist,KwaZulu-Natal,45,N39,30.99,2,1,0,3.4,0,Discovery,0
+380,GP,Northern Cape,5,R51,51.42,5,0,0,4.8,0,Fedhealth,0
+381,GP,Northern Cape,7,S01,81.44,7,0,0,1.7,0,Medihelp,0
+382,Specialist,Limpopo,38,E11,38.47,1,0,0,0.9,0,None,0
+383,Hospital,Western Cape,92,I10,64.53,3,0,0,3.0,0,Momentum,0
+384,GP,Mpumalanga,43,L02,81.41,6,0,0,0.4,0,Discovery,0
+385,GP,Northern Cape,26,N39,61.15,6,0,0,5.8,0,None,0
+386,Hospital,Northern Cape,15,L02,74.05,2,0,1,1.1,1,Medihelp,0
+387,Specialist,KwaZulu-Natal,90,A09,85.17,3,0,0,7.7,0,Momentum,1
+388,Hospital,Western Cape,38,J18,41.41,4,0,0,4.0,0,Bonitas,0
+389,Specialist,Free State,0,E11,23.74,2,0,0,4.1,0,Fedhealth,0
+390,Pharmacy,Mpumalanga,50,M54,32.13,1,0,0,1.0,0,Bonitas,0
+391,Hospital,KwaZulu-Natal,62,L02,28.68,6,0,0,4.4,0,Discovery,0
+392,Lab,Eastern Cape,32,R51,157.2,7,0,0,3.8,0,Fedhealth,0
+393,Specialist,Western Cape,49,K21,19.68,5,0,0,0.8,0,Bonitas,0
+394,GP,Western Cape,53,R51,102.98,5,1,0,4.2,0,Medihelp,1
+395,Specialist,Mpumalanga,26,I10,41.08,4,0,0,3.0,0,Discovery,0
+396,Specialist,Western Cape,80,E11,136.95,5,1,0,3.5,0,GEMS,0
+397,Specialist,Gauteng,78,R51,49.37,5,0,0,4.1,0,Bonitas,0
+398,Hospital,Eastern Cape,85,L02,67.8,7,1,0,2.8,0,Fedhealth,0
+399,GP,Limpopo,18,S01,95.3,4,0,1,4.6,0,Fedhealth,0
+400,Hospital,Eastern Cape,27,R51,159.62,6,1,0,3.8,0,GEMS,0
+401,Pharmacy,Gauteng,22,N39,44.51,1,0,0,5.2,0,None,0
+402,Hospital,Gauteng,63,A09,43.09,2,0,0,2.7,0,Momentum,0
+403,Specialist,Northern Cape,38,K21,94.9,6,0,0,1.3,0,Fedhealth,0
+404,Lab,Gauteng,48,N39,21.84,2,0,1,2.2,1,Fedhealth,1
+405,Specialist,Mpumalanga,58,L02,19.94,4,0,0,7.6,0,None,0
+406,GP,Mpumalanga,19,S01,85.77,6,0,0,6.4,0,Discovery,0
+407,Pharmacy,Gauteng,60,E11,105.98,3,1,0,7.0,0,Fedhealth,1
+408,GP,Gauteng,8,J18,83.81,4,0,0,7.2,0,Momentum,0
+409,Hospital,Limpopo,22,M54,61.96,4,0,0,2.8,0,Fedhealth,0
+410,GP,North West,6,S01,45.51,4,0,1,4.7,0,Momentum,0
+411,GP,Mpumalanga,30,R51,201.57,4,0,0,4.2,0,None,0
+412,GP,Limpopo,59,E11,220.79,5,0,0,5.6,0,Medihelp,0
+413,Specialist,KwaZulu-Natal,60,E11,71.53,5,0,1,3.3,0,Momentum,0
+414,GP,Mpumalanga,74,A09,41.11,6,1,0,4.2,0,Discovery,1
+415,GP,Limpopo,80,I10,32.74,1,0,0,4.2,1,Bonitas,0
+416,Pharmacy,North West,25,A09,89.72,4,0,0,5.3,1,GEMS,0
+417,Pharmacy,Eastern Cape,81,K21,28.08,2,0,1,5.6,1,Bonitas,0
+418,Pharmacy,Northern Cape,53,M54,28.53,3,0,0,4.2,0,Medihelp,0
+419,Pharmacy,Gauteng,30,L02,47.27,5,0,1,4.3,1,Discovery,0
+420,Specialist,Mpumalanga,40,L02,94.62,2,0,0,4.6,1,Medihelp,0
+421,Pharmacy,Northern Cape,27,J18,185.48,5,0,0,8.1,1,Medihelp,0
+422,Specialist,Gauteng,89,M54,79.07,6,0,0,0.3,0,Fedhealth,0
+423,Specialist,KwaZulu-Natal,5,E11,93.92,1,0,0,1.6,1,Fedhealth,0
+424,Hospital,Mpumalanga,33,N39,131.98,3,0,0,5.7,0,Discovery,0
+425,GP,Northern Cape,91,I10,123.65,5,0,1,4.7,0,Bonitas,1
+426,Pharmacy,Gauteng,8,J18,45.08,3,0,0,4.7,0,Momentum,0
+427,Specialist,Limpopo,92,S01,122.08,3,0,0,5.7,1,Fedhealth,0
+428,GP,Western Cape,11,E11,136.6,6,0,0,4.5,0,Discovery,0
+429,GP,Free State,15,S01,82.46,2,0,0,2.6,0,Discovery,0
+430,GP,Mpumalanga,70,L02,72.99,5,1,0,5.6,1,None,0
+431,Pharmacy,Mpumalanga,30,J18,100.93,3,0,1,4.1,0,Bonitas,1
+432,Lab,Mpumalanga,32,E11,93.82,6,0,0,2.9,1,Discovery,1
+433,Specialist,Eastern Cape,6,K21,18.01,4,0,0,5.7,1,GEMS,0
+434,GP,Limpopo,2,E11,89.57,7,1,0,5.6,0,Discovery,0
+435,GP,Limpopo,19,N39,151.44,3,0,0,4.5,0,Bonitas,0
+436,Pharmacy,Mpumalanga,4,N39,132.54,3,0,0,8.3,0,Fedhealth,1
+437,GP,Northern Cape,66,J18,86.39,5,0,0,7.3,1,Bonitas,0
+438,Lab,Limpopo,37,A09,73.59,7,0,0,6.5,1,Medihelp,0
+439,Hospital,Gauteng,78,M54,50.25,4,0,0,10.4,0,Fedhealth,0
+440,Pharmacy,North West,55,M54,61.23,3,0,1,3.6,0,Medihelp,1
+441,Hospital,Western Cape,22,A09,110.39,5,0,0,2.8,0,Discovery,0
+442,Hospital,KwaZulu-Natal,1,M54,86.84,5,0,0,6.2,1,Medihelp,0
+443,Hospital,Free State,20,E11,124.89,6,0,0,3.4,0,Bonitas,0
+444,Pharmacy,Limpopo,77,K21,46.12,7,0,0,4.0,0,Bonitas,0
+445,Pharmacy,Mpumalanga,13,M54,141.65,3,1,0,1.5,1,None,1
+446,Hospital,Eastern Cape,61,S01,43.03,1,1,0,5.5,0,Momentum,0
+447,Hospital,KwaZulu-Natal,10,K21,76.46,1,0,1,0.3,0,None,0
+448,Lab,Northern Cape,3,S01,44.77,2,0,0,3.8,1,None,0
+449,Lab,Eastern Cape,46,I10,61.92,1,1,0,4.0,0,GEMS,0
+450,Hospital,Northern Cape,93,A09,275.47,1,0,0,2.9,0,None,0
+451,GP,Northern Cape,19,M54,94.76,5,0,0,0.4,0,Discovery,0
+452,GP,KwaZulu-Natal,51,I10,77.67,5,1,0,0.4,0,Bonitas,0
+453,Pharmacy,KwaZulu-Natal,15,S01,178.25,6,0,0,2.1,0,Fedhealth,0
+454,GP,North West,44,R51,11.02,7,0,0,5.3,1,None,0
+455,GP,Gauteng,7,K21,59.36,3,0,0,4.7,0,None,0
+456,GP,Limpopo,61,R51,46.76,7,1,0,4.0,0,None,1
+457,Hospital,Limpopo,83,E11,36.4,7,0,0,1.8,0,Bonitas,0
+458,Hospital,Northern Cape,20,I10,22.75,3,0,0,4.9,0,Fedhealth,0
+459,GP,Western Cape,63,M54,56.91,5,0,0,0.5,0,Discovery,0
+460,GP,North West,29,K21,107.8,3,0,0,2.0,0,GEMS,1
+461,Pharmacy,Mpumalanga,35,K21,59.86,5,0,0,3.4,0,Momentum,0
+462,Lab,Western Cape,4,R51,116.06,7,0,0,2.6,0,Momentum,0
+463,GP,Gauteng,84,L02,69.75,7,0,0,6.5,0,Medihelp,0
+464,GP,Eastern Cape,37,R51,150.08,1,0,0,4.4,1,Bonitas,0
+465,Hospital,Western Cape,86,S01,46.66,3,0,0,8.1,0,Discovery,0
+466,Pharmacy,KwaZulu-Natal,18,I10,17.88,1,0,0,2.6,0,Medihelp,0
+467,Pharmacy,Western Cape,73,S01,21.95,2,0,0,5.2,0,Discovery,0
+468,Hospital,Northern Cape,26,M54,46.82,6,0,0,3.4,0,Discovery,0
+469,Pharmacy,Eastern Cape,12,K21,35.83,6,0,0,7.5,0,Medihelp,0
+470,GP,Gauteng,8,M54,43.88,7,0,0,3.5,0,Discovery,0
+471,GP,North West,16,E11,147.22,7,0,0,6.1,0,Medihelp,0
+472,Hospital,Eastern Cape,94,N39,23.2,3,0,1,1.3,0,None,1
+473,Pharmacy,North West,43,M54,190.67,7,0,0,3.0,0,None,1
+474,Hospital,North West,44,I10,37.74,5,0,0,3.8,0,GEMS,0
+475,Lab,Northern Cape,87,I10,27.77,6,0,0,7.2,0,Bonitas,0
+476,Pharmacy,Mpumalanga,41,J18,60.22,5,0,0,1.5,1,Medihelp,0
+477,Hospital,Eastern Cape,50,J18,189.45,6,0,0,3.2,0,Bonitas,0
+478,GP,Western Cape,82,J18,40.29,2,0,0,3.1,0,None,0
+479,GP,Limpopo,57,A09,43.56,5,0,0,1.2,0,Momentum,0
+480,Pharmacy,Eastern Cape,57,K21,45.65,1,0,0,2.8,0,Medihelp,0
+481,GP,Limpopo,29,S01,148.39,5,0,0,0.1,1,None,0
+482,GP,North West,4,R51,48.55,2,0,0,1.8,1,GEMS,0
+483,Lab,KwaZulu-Natal,7,K21,90.67,4,0,0,3.3,0,Momentum,0
+484,Pharmacy,Gauteng,36,J18,72.19,4,0,1,3.3,0,Medihelp,1
+485,GP,Free State,46,R51,61.43,1,0,0,3.4,1,Discovery,0
+486,Pharmacy,KwaZulu-Natal,88,A09,46.79,4,1,0,4.6,1,Momentum,0
+487,GP,Limpopo,44,R51,263.25,7,0,0,1.8,0,Fedhealth,0
+488,GP,KwaZulu-Natal,4,I10,468.38,5,0,0,8.5,0,Fedhealth,0
+489,Hospital,Gauteng,62,S01,35.74,2,0,0,3.9,0,Fedhealth,0
+490,Pharmacy,Northern Cape,85,R51,31.34,6,0,0,7.2,1,Momentum,0
+491,GP,Free State,46,A09,68.26,1,1,0,0.2,1,Bonitas,0
+492,GP,Western Cape,24,J18,13.51,4,0,0,1.9,0,Medihelp,0
+493,GP,Western Cape,49,J18,68.62,5,0,0,5.7,0,Discovery,0
+494,Lab,Northern Cape,92,S01,270.39,6,0,0,3.4,1,Discovery,0
+495,Hospital,Gauteng,44,K21,43.62,6,0,0,1.3,1,None,1
+496,Specialist,KwaZulu-Natal,29,M54,141.34,5,0,0,0.6,0,Momentum,0
+497,GP,Mpumalanga,47,N39,185.56,3,0,0,5.8,0,Fedhealth,0
+498,Hospital,Gauteng,50,S01,36.3,3,0,1,5.6,0,GEMS,0
+499,Hospital,Western Cape,93,K21,75.16,7,0,0,4.6,0,None,0
+500,Pharmacy,Limpopo,54,S01,85.0,2,0,0,2.8,0,Discovery,0
+501,GP,Northern Cape,54,E11,110.5,7,0,0,1.2,0,GEMS,0
+502,Lab,Northern Cape,45,I10,116.29,7,0,0,3.9,1,None,0
+503,Specialist,North West,30,I10,145.56,1,0,0,0.7,1,GEMS,0
+504,GP,KwaZulu-Natal,33,K21,38.37,4,0,1,2.1,0,Discovery,0
+505,GP,Western Cape,91,N39,74.94,4,0,0,7.2,1,Bonitas,0
+506,Specialist,Gauteng,73,I10,187.26,5,0,0,0.6,0,Discovery,0
+507,Lab,Northern Cape,67,K21,201.98,4,0,0,5.7,0,None,0
+508,Hospital,Free State,32,S01,77.66,7,0,0,7.7,1,Discovery,0
+509,Hospital,KwaZulu-Natal,55,L02,45.73,2,0,0,6.0,0,Medihelp,0
+510,GP,Free State,57,R51,136.93,3,0,0,5.0,1,Discovery,0
+511,GP,KwaZulu-Natal,56,L02,96.56,5,0,0,2.8,0,Medihelp,0
+512,Specialist,Northern Cape,16,L02,95.11,1,0,0,2.4,0,None,0
+513,Hospital,Gauteng,10,R51,114.19,5,0,0,1.6,0,Fedhealth,0
+514,Pharmacy,Gauteng,70,L02,34.1,7,0,0,4.1,0,Bonitas,0
+515,GP,KwaZulu-Natal,80,N39,120.04,4,0,0,3.0,0,None,0
+516,GP,Limpopo,91,R51,73.92,2,0,0,2.3,1,GEMS,0
+517,Specialist,Western Cape,16,I10,147.51,7,0,0,3.9,0,None,0
+518,Lab,Gauteng,9,L02,67.3,1,0,0,4.2,0,Discovery,1
+519,Specialist,North West,25,L02,99.81,5,0,0,2.4,0,Bonitas,0
+520,GP,Northern Cape,5,E11,91.37,4,0,0,8.0,1,None,0
+521,GP,Gauteng,80,A09,45.27,5,0,0,5.8,0,GEMS,1
+522,GP,KwaZulu-Natal,15,M54,35.29,1,0,0,6.2,0,None,0
+523,Specialist,Free State,89,E11,116.69,7,0,0,3.7,1,None,1
+524,Pharmacy,Mpumalanga,3,K21,36.42,4,0,0,5.3,1,Bonitas,0
+525,Lab,Eastern Cape,61,J18,52.44,3,0,0,1.8,1,GEMS,0
+526,Specialist,Limpopo,83,E11,51.34,6,0,0,5.7,0,GEMS,0
+527,GP,Gauteng,63,R51,85.78,1,0,0,3.5,0,Bonitas,0
+528,Hospital,Eastern Cape,55,E11,106.47,3,1,0,1.4,1,Momentum,0
+529,Pharmacy,North West,74,R51,22.31,3,0,0,3.9,1,Medihelp,0
+530,GP,Free State,22,L02,39.93,4,1,0,3.3,1,GEMS,0
+531,Pharmacy,North West,32,A09,38.64,5,0,0,9.8,0,GEMS,0
+532,Pharmacy,Gauteng,30,M54,56.55,7,0,0,5.1,1,GEMS,0
+533,Specialist,Northern Cape,6,A09,16.45,5,0,0,7.9,0,GEMS,0
+534,Hospital,Eastern Cape,85,R51,146.71,2,0,0,6.8,0,Bonitas,0
+535,Hospital,Northern Cape,4,M54,69.21,1,0,0,4.1,0,GEMS,1
+536,Hospital,North West,36,S01,60.39,1,0,0,2.9,1,Fedhealth,0
+537,GP,North West,0,J18,112.54,7,0,0,0.4,0,Discovery,1
+538,GP,Western Cape,69,E11,95.31,4,0,0,1.8,0,None,0
+539,GP,KwaZulu-Natal,44,E11,94.59,4,1,0,5.7,1,GEMS,0
+540,Pharmacy,Northern Cape,46,E11,65.62,2,0,0,3.2,0,Bonitas,0
+541,Specialist,KwaZulu-Natal,67,N39,71.39,2,0,0,4.9,0,None,0
+542,Specialist,North West,93,J18,119.8,3,0,0,1.1,1,GEMS,1
+543,Pharmacy,Free State,29,I10,96.28,6,0,0,5.1,1,Bonitas,1
+544,GP,Mpumalanga,80,K21,222.43,2,0,0,6.7,0,GEMS,0
+545,Hospital,Eastern Cape,59,A09,73.18,5,0,0,0.4,1,Discovery,0
+546,Specialist,North West,23,L02,104.62,3,0,0,4.9,0,GEMS,0
+547,Specialist,Eastern Cape,30,I10,60.87,6,0,0,7.4,1,Fedhealth,0
+548,GP,Free State,27,L02,83.21,2,0,1,8.2,1,GEMS,1
+549,Lab,Gauteng,44,M54,86.31,6,1,0,2.7,0,GEMS,0
+550,Pharmacy,North West,3,L02,48.62,5,0,0,5.9,1,None,0
+551,GP,Mpumalanga,60,N39,42.2,5,0,0,7.6,0,None,1
+552,Lab,Free State,38,M54,103.92,3,1,0,5.0,0,Bonitas,0
+553,Pharmacy,Limpopo,82,J18,91.19,3,0,0,7.2,1,Bonitas,0
+554,GP,Gauteng,23,R51,185.33,5,0,0,3.9,0,GEMS,0
+555,GP,North West,70,M54,66.55,4,0,0,5.0,0,Fedhealth,0
+556,GP,Northern Cape,45,M54,33.07,7,0,0,2.4,0,Bonitas,0
+557,Hospital,Free State,52,I10,66.88,3,0,0,3.6,0,None,0
+558,Hospital,Mpumalanga,47,S01,113.69,7,0,0,5.1,1,Fedhealth,1
+559,GP,Eastern Cape,8,L02,15.03,1,0,0,2.3,1,Bonitas,0
+560,Specialist,Limpopo,21,R51,66.06,4,0,0,3.4,0,Discovery,0
+561,GP,Western Cape,1,J18,105.77,1,0,1,5.9,0,Fedhealth,0
+562,GP,Eastern Cape,90,J18,78.19,6,0,0,9.1,0,Discovery,0
+563,Specialist,Free State,15,K21,51.62,6,0,0,1.1,0,Discovery,0
+564,GP,Northern Cape,4,I10,28.59,6,0,0,8.9,0,Bonitas,0
+565,Specialist,Northern Cape,11,J18,65.79,2,0,0,3.4,0,None,1
+566,Lab,North West,51,S01,28.16,3,0,0,6.4,0,Fedhealth,0
+567,GP,Eastern Cape,25,R51,106.27,3,0,0,6.9,0,Momentum,0
+568,GP,Limpopo,14,N39,69.25,5,0,0,7.9,1,Discovery,0
+569,GP,Mpumalanga,66,I10,188.92,7,0,1,2.2,1,None,1
+570,Specialist,Gauteng,72,K21,16.9,3,0,0,3.4,1,Discovery,0
+571,Hospital,Gauteng,58,A09,52.29,7,0,0,3.9,0,Discovery,0
+572,Hospital,Eastern Cape,91,R51,110.85,6,0,0,3.1,1,Bonitas,0
+573,Specialist,KwaZulu-Natal,38,M54,147.63,1,1,0,7.3,1,Bonitas,1
+574,Specialist,Eastern Cape,62,M54,114.04,4,0,0,3.8,1,Discovery,0
+575,GP,Northern Cape,24,J18,34.04,2,0,0,0.0,0,None,0
+576,Specialist,Western Cape,40,E11,47.37,7,1,0,2.4,0,GEMS,0
+577,Hospital,Eastern Cape,27,E11,13.87,7,0,0,0.1,0,Bonitas,1
+578,GP,Mpumalanga,20,M54,68.49,4,0,0,3.4,0,Bonitas,0
+579,Pharmacy,Western Cape,92,I10,149.77,1,0,0,5.7,1,Bonitas,0
+580,Hospital,North West,88,S01,66.67,2,0,1,2.4,0,Medihelp,0
+581,GP,Eastern Cape,93,M54,99.34,7,0,0,3.0,0,Fedhealth,0
+582,Specialist,Northern Cape,60,L02,97.5,5,0,0,3.3,0,None,0
+583,Lab,Gauteng,56,J18,53.15,3,0,0,4.4,0,Bonitas,0
+584,GP,Mpumalanga,10,I10,12.09,3,0,0,5.3,1,Medihelp,0
+585,GP,Gauteng,18,A09,169.6,5,0,0,6.0,0,Medihelp,0
+586,Specialist,Northern Cape,74,I10,89.77,1,0,0,9.6,0,Bonitas,0
+587,Hospital,Gauteng,88,I10,27.64,7,0,0,4.3,0,None,0
+588,GP,KwaZulu-Natal,0,K21,86.01,5,0,0,5.8,0,GEMS,1
+589,Lab,Mpumalanga,31,M54,76.32,7,0,0,0.0,1,Medihelp,1
+590,Hospital,Gauteng,84,N39,166.1,6,0,0,3.1,1,Momentum,0
+591,Pharmacy,Free State,76,A09,92.32,7,0,0,3.3,0,Medihelp,0
+592,GP,Limpopo,33,E11,92.55,1,0,0,1.5,1,Fedhealth,0
+593,Pharmacy,KwaZulu-Natal,16,N39,76.28,2,0,0,2.7,0,Medihelp,0
+594,Specialist,Limpopo,54,N39,38.71,4,0,0,3.7,0,Bonitas,0
+595,GP,Eastern Cape,18,N39,106.25,4,0,0,2.7,1,None,0
+596,Lab,Limpopo,73,J18,65.17,5,1,0,10.5,0,GEMS,1
+597,GP,Limpopo,41,N39,34.05,3,0,0,5.3,0,Discovery,0
+598,Lab,Eastern Cape,58,N39,41.83,5,0,0,9.0,0,None,0
+599,Specialist,Gauteng,72,A09,29.95,3,0,1,7.7,1,None,1
+600,Lab,KwaZulu-Natal,74,L02,139.3,5,0,0,2.4,1,Momentum,0
+601,Specialist,Mpumalanga,37,S01,265.07,5,0,0,4.1,0,Medihelp,0
+602,Pharmacy,Western Cape,30,A09,148.93,7,1,0,2.9,0,GEMS,0
+603,GP,Eastern Cape,65,A09,86.33,4,0,0,3.6,0,Momentum,0
+604,Specialist,Limpopo,87,M54,63.37,6,0,0,1.6,1,None,1
+605,Hospital,Free State,68,M54,54.12,3,1,0,2.9,0,None,0
+606,Pharmacy,Limpopo,49,J18,33.26,6,0,0,4.9,1,Fedhealth,0
+607,GP,Free State,29,R51,259.2,6,0,0,4.8,1,None,0
+608,Specialist,Northern Cape,34,J18,32.17,6,0,0,4.6,0,Medihelp,0
+609,Specialist,Western Cape,58,L02,36.61,4,0,0,3.9,0,Medihelp,1
+610,GP,Eastern Cape,16,N39,57.86,6,0,0,6.2,0,Momentum,0
+611,Specialist,Gauteng,94,L02,61.3,7,0,0,3.4,0,Medihelp,1
+612,Pharmacy,Mpumalanga,65,R51,101.11,3,0,0,7.5,0,None,0
+613,GP,Gauteng,79,L02,41.41,2,1,0,0.6,0,Medihelp,1
+614,Specialist,Limpopo,20,A09,16.49,6,0,0,5.6,0,Discovery,0
+615,Lab,Northern Cape,93,L02,56.42,6,0,0,5.2,0,Momentum,0
+616,GP,Western Cape,51,N39,59.14,2,0,0,2.3,1,Bonitas,0
+617,Hospital,Gauteng,64,E11,55.88,6,1,0,3.1,1,None,0
+618,Hospital,KwaZulu-Natal,13,E11,55.36,2,0,0,5.2,1,Bonitas,0
+619,Pharmacy,Limpopo,15,R51,51.9,1,0,0,6.3,0,Fedhealth,0
+620,Hospital,Mpumalanga,54,I10,26.25,4,0,0,0.4,0,Discovery,1
+621,Hospital,North West,8,A09,184.63,4,0,0,5.6,0,Momentum,0
+622,GP,Eastern Cape,7,L02,177.46,2,0,0,2.9,0,Momentum,0
+623,Specialist,North West,72,L02,176.2,5,0,0,6.8,0,Discovery,0
+624,Pharmacy,Mpumalanga,33,R51,28.93,4,0,0,0.6,0,Discovery,0
+625,GP,North West,32,R51,88.01,3,0,0,10.1,0,Fedhealth,0
+626,GP,Free State,85,J18,49.35,4,0,0,1.8,0,Bonitas,0
+627,Pharmacy,Mpumalanga,93,M54,47.5,4,0,0,7.6,0,GEMS,0
+628,Hospital,Eastern Cape,6,J18,34.63,3,1,0,3.8,0,Momentum,0
+629,Specialist,Gauteng,81,L02,399.7,2,0,0,2.0,0,GEMS,0
+630,Lab,KwaZulu-Natal,20,E11,55.74,7,0,0,4.7,1,Discovery,0
+631,Pharmacy,Northern Cape,4,J18,34.79,7,0,0,6.6,0,Momentum,0
+632,Lab,Eastern Cape,70,R51,73.08,2,0,0,0.1,0,Bonitas,0
+633,Lab,Free State,11,M54,113.19,3,0,0,5.8,0,Momentum,0
+634,Specialist,KwaZulu-Natal,58,I10,60.09,7,0,0,4.0,0,GEMS,1
+635,Pharmacy,Limpopo,80,M54,78.71,4,1,0,5.4,1,Momentum,0
+636,Hospital,Eastern Cape,57,K21,133.77,6,0,0,4.0,0,Discovery,0
+637,Pharmacy,Free State,87,M54,34.01,4,0,0,2.6,1,Discovery,0
+638,Pharmacy,Mpumalanga,36,S01,75.13,2,0,0,1.2,0,Discovery,0
+639,GP,Mpumalanga,82,M54,42.42,6,0,0,5.7,0,Bonitas,1
+640,GP,Northern Cape,44,I10,38.58,1,0,0,5.7,1,None,0
+641,GP,Western Cape,79,I10,226.15,2,0,0,5.7,1,None,0
+642,Pharmacy,Eastern Cape,24,M54,62.32,3,0,0,5.1,0,None,0
+643,Pharmacy,North West,26,E11,31.55,6,0,0,6.4,1,Medihelp,0
+644,Specialist,Eastern Cape,50,N39,61.36,1,1,0,7.5,0,Bonitas,1
+645,Hospital,KwaZulu-Natal,41,M54,28.45,7,0,0,0.7,0,Discovery,0
+646,Pharmacy,Limpopo,70,I10,56.98,1,0,0,1.9,0,Fedhealth,0
+647,GP,KwaZulu-Natal,41,I10,41.26,3,0,0,8.3,1,Momentum,0
+648,GP,Western Cape,59,L02,94.87,6,1,0,0.6,0,Momentum,0
+649,Specialist,Northern Cape,71,J18,257.44,5,0,0,1.3,1,GEMS,0
+650,Lab,KwaZulu-Natal,78,E11,58.7,2,1,0,3.3,0,Momentum,0
+651,Pharmacy,Gauteng,57,S01,42.36,4,0,0,0.1,0,None,0
+652,Specialist,Northern Cape,79,N39,70.71,7,0,0,3.0,1,GEMS,0
+653,GP,Free State,71,K21,188.43,6,0,0,1.6,0,Momentum,0
+654,Hospital,Mpumalanga,80,E11,95.23,2,0,0,3.4,0,Fedhealth,0
+655,Pharmacy,Western Cape,21,L02,60.11,3,0,0,4.7,0,GEMS,0
+656,Hospital,Gauteng,57,K21,15.62,4,1,0,3.1,1,Discovery,0
+657,Specialist,Limpopo,10,M54,63.96,5,0,1,3.0,0,Medihelp,0
+658,GP,Free State,5,M54,114.25,7,0,0,4.6,0,None,1
+659,Lab,Limpopo,21,L02,129.68,3,0,0,6.6,0,Momentum,0
+660,GP,Western Cape,77,I10,166.07,2,0,0,8.0,1,GEMS,0
+661,GP,Mpumalanga,91,E11,41.38,7,0,0,3.5,0,Medihelp,1
+662,Pharmacy,Gauteng,11,N39,50.03,1,0,0,8.6,1,GEMS,0
+663,Lab,North West,26,R51,60.99,3,0,0,6.2,1,Bonitas,0
+664,Hospital,Mpumalanga,0,J18,109.02,3,0,0,0.9,0,Bonitas,0
+665,Hospital,Mpumalanga,63,L02,55.18,2,1,1,0.8,0,None,1
+666,GP,Limpopo,73,K21,95.8,5,0,0,2.6,0,Momentum,0
+667,GP,Free State,79,N39,50.69,2,1,1,7.6,0,Discovery,1
+668,GP,Northern Cape,38,R51,40.48,2,0,0,2.7,0,Fedhealth,1
+669,Hospital,KwaZulu-Natal,59,L02,144.26,5,0,1,0.7,1,GEMS,1
+670,GP,Northern Cape,69,E11,82.56,5,0,0,3.4,0,Momentum,0
+671,Pharmacy,Free State,53,N39,111.89,3,0,0,1.0,0,Bonitas,0
+672,GP,North West,24,J18,57.42,1,0,0,1.4,0,Bonitas,0
+673,Specialist,KwaZulu-Natal,19,E11,116.48,2,0,0,2.5,0,GEMS,1
+674,Specialist,Mpumalanga,35,S01,31.53,1,0,0,4.4,0,GEMS,1
+675,Hospital,Eastern Cape,22,K21,35.25,5,0,0,6.6,1,GEMS,1
+676,GP,Free State,79,R51,128.29,5,0,0,5.7,0,None,0
+677,Pharmacy,Eastern Cape,0,J18,63.16,2,0,0,1.1,0,Medihelp,0
+678,Specialist,Northern Cape,93,J18,55.83,3,1,0,3.1,1,Fedhealth,0
+679,Hospital,Mpumalanga,26,E11,34.85,7,0,1,4.2,0,GEMS,1
+680,Hospital,Limpopo,51,L02,116.51,2,0,0,3.3,1,None,0
+681,GP,Limpopo,1,L02,244.84,3,0,0,3.3,0,GEMS,0
+682,Hospital,Mpumalanga,20,J18,101.51,4,0,1,0.3,1,Momentum,0
+683,Hospital,Free State,8,N39,48.45,3,1,0,1.1,0,Discovery,1
+684,Pharmacy,KwaZulu-Natal,87,R51,175.14,2,1,0,3.0,0,Medihelp,1
+685,Pharmacy,KwaZulu-Natal,47,I10,85.32,2,1,0,3.7,0,Fedhealth,0
+686,GP,Mpumalanga,38,N39,49.0,3,1,0,5.6,0,Medihelp,1
+687,GP,Gauteng,41,M54,162.03,1,1,0,0.6,1,None,0
+688,GP,Eastern Cape,70,M54,58.47,3,0,0,5.7,0,GEMS,0
+689,Lab,North West,93,K21,24.17,4,1,0,5.5,0,Discovery,1
+690,GP,Eastern Cape,44,M54,53.12,4,0,0,2.6,0,GEMS,0
+691,Hospital,Gauteng,1,A09,96.28,1,0,0,6.5,0,Bonitas,1
+692,Hospital,Free State,75,I10,40.14,4,0,0,5.9,0,None,0
+693,Hospital,Gauteng,76,L02,17.89,2,0,0,3.2,0,GEMS,0
+694,GP,Northern Cape,66,K21,185.62,1,0,0,2.9,0,Momentum,0
+695,GP,North West,42,I10,539.46,1,0,0,6.7,0,Momentum,0
+696,Specialist,Mpumalanga,17,A09,47.56,1,0,0,4.6,1,None,0
+697,GP,Free State,38,S01,42.69,6,0,0,6.6,0,Discovery,1
+698,GP,Eastern Cape,5,K21,25.84,3,0,0,2.0,0,GEMS,1
+699,GP,Mpumalanga,41,I10,37.34,3,0,0,4.2,0,Momentum,1
+700,Hospital,KwaZulu-Natal,51,S01,22.77,1,0,0,0.1,1,Momentum,0
+701,Specialist,North West,26,S01,26.61,7,1,0,3.9,0,GEMS,1
+702,GP,Free State,78,M54,66.45,4,0,0,5.8,0,Medihelp,0
+703,GP,Free State,14,S01,21.97,6,1,0,8.3,0,Discovery,0
+704,GP,Gauteng,18,I10,23.73,6,0,0,1.7,0,None,0
+705,Specialist,North West,61,M54,76.69,2,0,0,2.7,0,Medihelp,0
+706,GP,Mpumalanga,63,A09,43.06,2,0,0,3.8,1,Momentum,0
+707,Hospital,Gauteng,50,N39,85.16,3,0,0,1.6,0,None,0
+708,GP,Eastern Cape,46,N39,52.22,5,1,0,6.4,0,None,0
+709,Lab,Eastern Cape,56,A09,58.26,1,0,0,3.8,1,GEMS,0
+710,GP,Northern Cape,19,L02,114.54,5,1,1,4.3,0,None,0
+711,Lab,Western Cape,19,S01,45.18,2,0,0,5.6,0,Fedhealth,1
+712,Pharmacy,Eastern Cape,81,A09,109.03,7,0,0,3.8,0,GEMS,1
+713,Hospital,KwaZulu-Natal,63,A09,49.45,3,0,0,2.0,1,Fedhealth,0
+714,Lab,Free State,37,J18,37.35,3,0,0,3.8,0,Medihelp,0
+715,GP,Mpumalanga,37,K21,31.28,3,1,0,1.9,0,Bonitas,0
+716,GP,Free State,64,J18,20.8,3,0,0,4.3,0,GEMS,0
+717,GP,Free State,75,L02,27.84,3,0,0,6.5,0,Bonitas,0
+718,GP,Eastern Cape,4,S01,19.17,1,0,0,1.1,0,Discovery,0
+719,GP,Northern Cape,63,N39,33.07,6,0,0,0.2,1,Fedhealth,1
+720,Hospital,Limpopo,26,I10,117.86,5,0,0,4.1,0,None,0
+721,GP,Limpopo,19,L02,65.96,7,0,1,2.1,1,Fedhealth,0
+722,Specialist,Limpopo,59,A09,50.57,6,0,0,4.1,0,Medihelp,0
+723,GP,Limpopo,39,S01,40.89,2,1,0,4.8,1,None,0
+724,Hospital,Gauteng,82,E11,62.67,2,0,0,1.4,1,GEMS,0
+725,Lab,Limpopo,78,I10,67.76,6,0,0,5.7,0,Momentum,1
+726,Specialist,Eastern Cape,5,A09,30.4,3,0,0,1.1,0,Discovery,0
+727,Specialist,Western Cape,72,S01,91.77,3,0,0,3.9,1,Medihelp,0
+728,Specialist,Limpopo,35,A09,52.82,6,0,0,2.4,0,Bonitas,0
+729,Pharmacy,Gauteng,86,L02,81.66,3,0,0,2.6,0,GEMS,0
+730,GP,Gauteng,73,K21,64.87,6,0,0,8.2,1,Momentum,1
+731,Lab,Free State,64,L02,24.58,7,0,0,4.8,0,None,0
+732,Specialist,Limpopo,10,K21,164.91,4,0,0,6.3,0,Discovery,0
+733,GP,Western Cape,48,I10,65.81,2,0,0,4.4,1,GEMS,0
+734,Lab,North West,83,J18,51.29,3,0,0,5.6,0,Momentum,0
+735,Lab,Eastern Cape,27,L02,99.75,5,1,1,5.0,0,Bonitas,0
+736,Hospital,Eastern Cape,21,S01,29.51,4,0,0,4.6,0,Medihelp,0
+737,GP,Free State,83,M54,22.04,1,0,0,6.8,0,Medihelp,0
+738,Hospital,Eastern Cape,46,E11,97.95,7,0,0,4.4,1,Fedhealth,0
+739,GP,Free State,79,A09,148.03,4,1,0,9.7,1,GEMS,1
+740,Specialist,KwaZulu-Natal,65,S01,81.07,4,1,0,6.4,0,None,0
+741,GP,North West,24,N39,116.62,7,0,0,1.2,1,Medihelp,0
+742,Specialist,Limpopo,90,L02,27.34,4,0,1,3.6,0,Fedhealth,0
+743,Hospital,North West,66,I10,51.59,5,0,0,5.0,0,Medihelp,0
+744,GP,Free State,86,N39,41.85,7,0,0,4.1,0,Discovery,1
+745,Lab,Mpumalanga,31,J18,136.2,2,0,0,5.7,0,GEMS,0
+746,GP,Mpumalanga,16,M54,93.75,7,0,0,6.0,0,None,0
+747,GP,Limpopo,39,N39,136.54,3,0,0,0.6,0,Bonitas,0
+748,Hospital,Eastern Cape,83,K21,43.05,5,0,0,7.2,0,GEMS,0
+749,Pharmacy,Limpopo,29,J18,30.05,5,0,0,2.8,0,GEMS,0
+750,Lab,Northern Cape,58,I10,168.21,7,0,1,2.5,1,Momentum,0
+751,Pharmacy,Eastern Cape,27,N39,67.57,6,0,0,2.5,1,Bonitas,0
+752,GP,Limpopo,46,I10,139.8,3,0,0,6.0,1,Bonitas,0
+753,Lab,Limpopo,22,J18,63.39,6,0,0,3.3,0,Fedhealth,1
+754,Lab,KwaZulu-Natal,82,S01,310.3,6,0,0,2.3,0,Fedhealth,1
+755,GP,Eastern Cape,56,J18,151.32,7,0,0,2.9,0,Discovery,0
+756,Hospital,KwaZulu-Natal,88,A09,59.31,4,1,0,0.5,0,Momentum,1
+757,Hospital,KwaZulu-Natal,87,I10,67.3,6,0,1,1.9,0,Medihelp,0
+758,Specialist,Eastern Cape,0,E11,67.47,1,0,0,0.9,0,Medihelp,0
+759,Lab,Eastern Cape,91,K21,29.95,4,0,0,3.3,0,Bonitas,0
+760,GP,Limpopo,28,E11,47.35,4,0,0,5.7,1,GEMS,0
+761,Hospital,Eastern Cape,49,A09,44.89,6,0,0,5.4,0,Discovery,0
+762,GP,Limpopo,63,M54,78.07,6,0,0,7.1,0,GEMS,0
+763,Specialist,Western Cape,80,S01,37.5,2,0,0,6.6,0,Momentum,0
+764,Pharmacy,Eastern Cape,74,A09,59.73,4,0,0,2.7,0,Medihelp,0
+765,GP,Western Cape,36,I10,51.34,1,0,0,4.0,0,Bonitas,0
+766,Specialist,North West,60,L02,69.96,5,0,0,3.9,0,Discovery,0
+767,Lab,Northern Cape,6,I10,185.4,7,0,0,1.4,1,Momentum,0
+768,Pharmacy,Mpumalanga,89,A09,142.83,6,0,0,1.0,0,GEMS,0
+769,Hospital,Limpopo,86,L02,26.51,4,0,0,3.6,0,Bonitas,0
+770,GP,North West,63,L02,63.98,5,0,0,3.6,0,Bonitas,0
+771,Specialist,Eastern Cape,17,I10,53.67,6,0,0,5.3,0,None,0
+772,Pharmacy,Western Cape,28,L02,42.19,2,0,1,5.2,0,GEMS,0
+773,Pharmacy,Eastern Cape,59,R51,299.45,7,0,0,0.4,0,Discovery,0
+774,GP,Free State,53,M54,45.88,6,0,0,5.3,0,Discovery,0
+775,Hospital,Northern Cape,71,R51,48.16,1,0,0,4.4,1,Discovery,0
+776,GP,Free State,20,S01,226.54,3,0,0,5.6,0,Discovery,0
+777,GP,Northern Cape,20,R51,130.73,3,0,0,6.7,0,Momentum,0
+778,Specialist,Northern Cape,57,J18,48.64,6,0,0,3.6,0,Discovery,0
+779,GP,North West,48,L02,112.98,2,0,0,7.1,0,Discovery,0
+780,GP,Free State,35,A09,56.11,1,0,0,1.8,0,Discovery,1
+781,Hospital,Western Cape,16,J18,58.78,6,0,0,1.6,0,None,0
+782,Specialist,Free State,79,J18,37.75,5,0,1,5.1,1,Momentum,0
+783,Pharmacy,Gauteng,52,M54,12.08,2,1,0,3.1,0,Medihelp,0
+784,Hospital,North West,14,S01,24.47,4,0,0,4.7,0,Bonitas,0
+785,Hospital,Western Cape,78,I10,30.62,5,1,0,9.0,0,Fedhealth,0
+786,GP,Mpumalanga,39,A09,88.96,6,0,0,5.0,1,GEMS,0
+787,GP,Western Cape,80,K21,73.86,4,0,0,4.5,0,None,0
+788,Hospital,Free State,50,K21,141.91,4,0,0,1.8,0,Bonitas,0
+789,GP,Mpumalanga,64,S01,28.57,7,1,0,0.2,0,Momentum,0
+790,Pharmacy,Limpopo,12,A09,231.73,5,0,0,3.8,0,GEMS,1
+791,Specialist,Free State,37,R51,217.21,7,0,0,6.7,0,Discovery,0
+792,GP,Limpopo,73,K21,68.01,4,0,0,3.2,0,Momentum,0
+793,Hospital,Western Cape,25,R51,41.04,7,0,0,5.0,0,None,1
+794,Lab,Gauteng,75,K21,42.55,3,0,0,7.6,1,None,0
+795,GP,Gauteng,82,S01,76.21,7,0,0,7.5,0,Medihelp,0
+796,GP,North West,14,A09,247.81,5,0,0,5.1,0,Fedhealth,0
+797,Pharmacy,KwaZulu-Natal,4,R51,62.08,2,1,0,4.4,0,Medihelp,0
+798,GP,KwaZulu-Natal,1,I10,21.92,3,1,0,0.2,0,Discovery,1
+799,GP,Northern Cape,77,M54,250.03,2,1,0,2.4,0,Momentum,0
+800,GP,Limpopo,92,E11,50.13,1,1,0,3.3,1,Momentum,1
+801,Specialist,Eastern Cape,64,L02,183.55,2,0,0,1.9,0,Discovery,0
+802,Hospital,Eastern Cape,76,S01,102.81,5,1,0,4.6,1,Discovery,1
+803,Specialist,Mpumalanga,59,M54,59.8,2,0,0,8.8,0,Fedhealth,0
+804,Lab,Limpopo,55,E11,130.45,1,1,0,7.8,1,Medihelp,0
+805,Pharmacy,Western Cape,77,R51,39.67,4,0,1,4.6,0,Discovery,0
+806,Lab,Northern Cape,37,S01,54.12,5,0,1,5.9,0,Discovery,0
+807,Specialist,Western Cape,56,I10,45.76,6,0,0,2.2,0,Medihelp,1
+808,GP,North West,50,S01,57.65,3,0,0,7.7,0,Discovery,1
+809,Lab,Eastern Cape,40,R51,97.34,3,1,0,0.1,0,GEMS,0
+810,GP,Gauteng,78,M54,96.84,2,0,1,6.3,0,Fedhealth,0
+811,Pharmacy,Gauteng,69,K21,22.33,3,0,0,5.2,1,Fedhealth,0
+812,GP,Northern Cape,92,N39,45.6,7,0,1,2.1,1,None,1
+813,Pharmacy,Eastern Cape,82,S01,51.46,1,0,0,3.5,1,Medihelp,0
+814,Lab,Gauteng,51,S01,100.0,6,0,0,1.2,0,None,0
+815,Specialist,KwaZulu-Natal,0,J18,24.89,7,0,0,1.3,1,Bonitas,0
+816,GP,KwaZulu-Natal,84,N39,108.78,3,0,0,0.0,0,Fedhealth,0
+817,GP,Mpumalanga,17,A09,30.15,7,0,1,5.9,0,Momentum,1
+818,Specialist,Limpopo,26,A09,78.94,2,1,0,7.0,0,Momentum,0
+819,GP,North West,91,I10,144.74,3,0,0,1.4,0,Bonitas,0
+820,Hospital,Mpumalanga,71,L02,28.11,7,0,0,8.6,0,Fedhealth,0
+821,Specialist,Gauteng,94,J18,78.58,4,1,0,4.0,0,None,0
+822,GP,KwaZulu-Natal,75,N39,58.26,4,1,0,4.7,0,Discovery,0
+823,Specialist,Northern Cape,41,N39,33.47,3,1,0,0.3,1,GEMS,1
+824,Specialist,Eastern Cape,5,I10,28.14,5,0,0,7.3,1,Bonitas,0
+825,GP,KwaZulu-Natal,89,R51,40.43,6,0,0,4.5,0,Discovery,1
+826,Hospital,Free State,79,I10,37.62,3,0,0,6.8,0,GEMS,0
+827,Pharmacy,North West,93,I10,57.45,4,0,0,7.1,1,Momentum,0
+828,GP,Gauteng,82,I10,49.21,4,0,0,7.3,0,GEMS,0
+829,GP,Western Cape,81,J18,89.24,1,0,1,2.4,1,Bonitas,1
+830,Pharmacy,Mpumalanga,23,K21,116.84,2,0,0,3.5,1,Fedhealth,0
+831,GP,Gauteng,44,N39,22.75,1,1,0,2.5,0,Momentum,1
+832,GP,Free State,83,I10,55.67,5,1,0,6.2,0,Fedhealth,1
+833,Hospital,North West,70,J18,34.12,2,0,0,4.8,1,Discovery,0
+834,GP,Limpopo,6,J18,31.04,3,0,0,6.7,1,Fedhealth,0
+835,GP,KwaZulu-Natal,15,I10,22.12,3,0,0,6.8,0,GEMS,0
+836,Lab,Mpumalanga,57,J18,21.01,5,0,0,0.3,0,Bonitas,0
+837,GP,KwaZulu-Natal,56,L02,46.13,6,0,0,7.4,0,Discovery,1
+838,Lab,Free State,41,I10,87.34,4,1,0,6.4,0,Bonitas,0
+839,GP,Mpumalanga,13,E11,87.13,6,0,0,3.1,1,GEMS,0
+840,Pharmacy,Western Cape,55,L02,31.75,3,0,0,4.9,1,Discovery,0
+841,Specialist,Eastern Cape,11,K21,29.58,1,0,0,3.7,0,None,0
+842,GP,Western Cape,92,R51,78.44,4,0,0,5.5,0,None,1
+843,Hospital,Mpumalanga,14,M54,49.04,3,0,0,3.1,1,Bonitas,0
+844,Pharmacy,KwaZulu-Natal,7,A09,123.67,4,0,0,5.2,0,Momentum,0
+845,GP,Northern Cape,57,I10,30.49,6,1,0,4.2,0,None,0
+846,Hospital,Limpopo,52,N39,18.07,2,0,0,2.9,0,Bonitas,0
+847,Specialist,Gauteng,8,L02,101.86,3,1,0,4.5,0,Momentum,0
+848,Pharmacy,North West,45,M54,17.67,3,0,0,10.8,1,GEMS,0
+849,Hospital,Mpumalanga,91,E11,24.11,4,1,0,2.3,1,Medihelp,0
+850,GP,Gauteng,90,A09,41.53,2,0,0,3.4,0,Fedhealth,0
+851,GP,KwaZulu-Natal,6,R51,54.34,1,0,0,2.3,0,None,0
+852,Specialist,KwaZulu-Natal,43,R51,101.08,2,0,0,2.6,0,Discovery,0
+853,Lab,KwaZulu-Natal,13,R51,32.62,1,0,0,6.0,0,Fedhealth,0
+854,GP,Mpumalanga,74,R51,166.87,7,0,0,5.8,1,GEMS,0
+855,Hospital,Limpopo,91,S01,22.96,7,1,0,4.0,0,Momentum,0
+856,GP,Western Cape,5,A09,51.14,5,0,0,6.6,1,None,0
+857,Hospital,Free State,34,S01,118.62,6,1,0,6.0,0,Momentum,0
+858,Hospital,Limpopo,69,E11,123.1,2,0,0,3.6,0,Momentum,0
+859,Hospital,Western Cape,60,L02,8.38,1,0,1,0.2,0,Bonitas,0
+860,Lab,Gauteng,23,E11,441.59,4,0,0,6.1,0,Fedhealth,0
+861,GP,Eastern Cape,72,N39,52.95,1,1,0,4.4,0,None,1
+862,GP,Eastern Cape,1,S01,80.62,5,0,0,4.1,0,Momentum,0
+863,Lab,Eastern Cape,77,J18,52.52,1,0,0,2.8,0,Medihelp,0
+864,GP,Gauteng,50,I10,295.73,6,1,0,5.9,1,GEMS,0
+865,Hospital,KwaZulu-Natal,30,A09,163.59,7,0,0,4.9,0,Momentum,0
+866,Hospital,Mpumalanga,93,J18,290.06,2,0,0,3.4,0,None,0
+867,Hospital,Eastern Cape,26,L02,92.4,1,0,0,0.9,0,Fedhealth,0
+868,GP,Western Cape,30,R51,125.63,2,0,0,6.7,0,Momentum,0
+869,GP,North West,69,I10,31.93,5,0,0,5.5,0,Momentum,0
+870,Hospital,Gauteng,42,I10,55.13,1,1,1,4.6,0,Discovery,1
+871,GP,Northern Cape,81,R51,125.7,1,1,0,2.6,0,Momentum,0
+872,Hospital,Free State,51,R51,82.9,5,0,1,3.9,0,Fedhealth,0
+873,Specialist,Western Cape,13,J18,71.44,6,0,0,3.4,0,GEMS,0
+874,Specialist,Eastern Cape,58,K21,38.55,1,0,0,2.5,0,Discovery,0
+875,GP,KwaZulu-Natal,19,I10,150.0,2,0,0,5.9,1,Discovery,0
+876,Lab,Mpumalanga,51,J18,148.52,6,0,0,5.8,1,Momentum,1
+877,Specialist,Limpopo,74,E11,137.6,3,0,0,5.1,1,Momentum,0
+878,Hospital,Northern Cape,39,E11,81.39,6,0,0,6.6,0,Medihelp,0
+879,Lab,Eastern Cape,67,S01,66.81,7,0,0,1.4,1,None,1
+880,Hospital,KwaZulu-Natal,43,L02,145.73,3,0,0,2.9,1,None,0
+881,Lab,Mpumalanga,5,S01,127.82,7,1,0,4.2,1,Fedhealth,0
+882,GP,Limpopo,86,J18,35.51,2,0,0,2.4,0,GEMS,0
+883,Pharmacy,Free State,56,I10,82.79,7,0,0,5.8,0,None,0
+884,GP,Mpumalanga,57,L02,105.16,1,0,0,2.7,1,Fedhealth,1
+885,Pharmacy,Free State,71,K21,41.42,2,0,0,7.2,1,Bonitas,0
+886,Pharmacy,Northern Cape,29,L02,124.87,5,0,0,1.7,0,GEMS,0
+887,GP,Eastern Cape,51,A09,109.64,2,0,0,9.3,0,Bonitas,0
+888,Specialist,Gauteng,10,S01,49.57,3,0,0,9.1,0,Fedhealth,0
+889,Hospital,Free State,46,S01,25.66,7,0,1,3.8,0,Momentum,1
+890,GP,Gauteng,4,E11,100.0,6,1,0,6.9,1,Discovery,0
+891,Pharmacy,Gauteng,2,R51,262.45,7,0,0,3.0,0,Medihelp,0
+892,GP,Gauteng,14,L02,79.33,4,0,0,6.5,0,Momentum,0
+893,Lab,Gauteng,1,I10,103.94,5,0,0,3.6,1,GEMS,0
+894,GP,North West,1,L02,29.34,1,0,0,0.8,0,GEMS,0
+895,Hospital,Western Cape,71,N39,64.16,7,0,0,4.8,0,Discovery,0
+896,GP,Northern Cape,53,R51,61.36,6,1,0,3.3,1,GEMS,1
+897,GP,Mpumalanga,45,K21,35.67,2,0,0,4.7,0,Fedhealth,0
+898,Specialist,KwaZulu-Natal,93,A09,90.26,5,0,0,7.3,0,None,1
+899,Specialist,Northern Cape,40,N39,87.87,3,0,0,4.1,1,GEMS,0
+900,GP,Eastern Cape,68,K21,54.0,7,0,0,6.5,1,Momentum,0
+901,Pharmacy,Mpumalanga,29,J18,65.75,1,0,0,2.9,1,GEMS,0
+902,GP,KwaZulu-Natal,43,E11,279.19,2,0,0,3.2,0,Medihelp,0
+903,Pharmacy,Free State,9,N39,42.97,7,0,0,6.6,0,None,0
+904,Specialist,Eastern Cape,87,J18,30.05,6,0,0,2.2,1,GEMS,0
+905,Specialist,Limpopo,82,E11,29.55,2,0,0,4.0,0,None,0
+906,GP,Northern Cape,29,N39,78.98,1,0,0,3.0,0,Bonitas,0
+907,Hospital,Free State,88,L02,11.17,6,0,0,7.4,0,Discovery,0
+908,Specialist,Gauteng,74,E11,46.41,4,0,0,2.7,0,Momentum,0
+909,GP,Free State,48,E11,33.68,4,0,0,5.3,0,Medihelp,0
+910,GP,Free State,34,N39,63.74,5,0,0,6.3,0,Momentum,0
+911,GP,Northern Cape,64,L02,63.92,7,0,0,0.3,0,Fedhealth,0
+912,GP,North West,16,L02,84.45,2,0,0,3.7,1,Discovery,0
+913,GP,Free State,30,J18,102.07,5,0,0,2.9,0,Fedhealth,0
+914,GP,Free State,69,R51,147.54,1,0,0,6.4,0,GEMS,0
+915,Hospital,Western Cape,76,S01,51.79,6,0,0,5.7,0,Fedhealth,0
+916,GP,Northern Cape,51,J18,41.61,5,0,0,3.4,0,GEMS,0
+917,GP,Eastern Cape,25,I10,120.5,7,0,0,1.4,1,Bonitas,0
+918,GP,Mpumalanga,4,S01,20.77,2,0,0,6.6,1,Fedhealth,0
+919,Hospital,Limpopo,13,K21,112.73,7,0,0,3.8,1,Medihelp,0
+920,GP,Free State,50,A09,73.33,4,1,0,0.0,1,Discovery,1
+921,Hospital,Free State,14,I10,90.85,4,0,0,0.2,1,Bonitas,0
+922,Hospital,Mpumalanga,11,S01,85.65,1,1,0,5.1,0,None,0
+923,Hospital,Western Cape,45,K21,72.99,3,0,0,0.8,0,Momentum,0
+924,GP,Northern Cape,63,E11,75.1,5,0,0,8.6,0,Fedhealth,0
+925,Specialist,Western Cape,71,M54,30.49,1,0,0,1.7,0,Momentum,0
+926,GP,Northern Cape,58,J18,42.05,4,1,0,4.0,0,Bonitas,0
+927,Lab,Eastern Cape,94,K21,230.2,7,0,0,4.4,0,Momentum,1
+928,Pharmacy,Limpopo,25,E11,106.25,2,0,0,2.2,0,Medihelp,0
+929,Specialist,Gauteng,28,I10,139.39,2,0,0,1.6,0,Bonitas,0
+930,Lab,Free State,3,E11,52.1,6,0,0,4.5,0,Discovery,1
+931,Specialist,Limpopo,49,S01,70.13,3,0,0,2.1,0,Discovery,0
+932,GP,Northern Cape,91,N39,95.92,3,0,0,4.3,1,None,0
+933,GP,Northern Cape,24,I10,154.29,4,1,0,3.7,0,Discovery,1
+934,Specialist,Northern Cape,39,I10,59.62,3,0,1,4.7,1,Discovery,0
+935,Pharmacy,KwaZulu-Natal,31,E11,92.65,3,0,0,7.9,1,Bonitas,0
+936,Pharmacy,Eastern Cape,74,I10,109.11,2,0,0,2.6,0,Bonitas,0
+937,Hospital,North West,36,A09,127.65,6,0,0,2.8,0,GEMS,0
+938,Specialist,North West,9,I10,57.61,5,0,0,0.2,0,Bonitas,0
+939,Hospital,Western Cape,37,J18,162.72,7,0,0,3.5,1,Fedhealth,0
+940,Pharmacy,North West,60,R51,24.51,2,0,0,5.0,0,GEMS,0
+941,Specialist,Mpumalanga,26,S01,30.09,6,0,0,2.8,0,Bonitas,0
+942,Specialist,Northern Cape,80,N39,92.88,2,1,0,5.0,0,Bonitas,0
+943,Hospital,Free State,6,I10,91.18,4,0,0,3.6,0,None,1
+944,Pharmacy,Western Cape,72,N39,56.28,6,0,1,0.7,1,Bonitas,1
+945,Pharmacy,Free State,8,I10,48.68,6,0,0,4.8,0,Discovery,0
+946,GP,Western Cape,58,K21,49.13,4,0,0,3.5,0,Medihelp,0
+947,GP,Free State,35,M54,35.36,6,0,0,4.3,0,Discovery,0
+948,Pharmacy,Northern Cape,29,A09,64.29,7,0,0,2.6,1,GEMS,0
+949,Pharmacy,Mpumalanga,94,I10,22.32,5,0,0,2.4,1,None,0
+950,Specialist,Mpumalanga,18,N39,146.53,1,1,0,4.4,0,Medihelp,0
+951,Hospital,Gauteng,40,R51,86.67,3,0,0,3.4,0,None,0
+952,Lab,Northern Cape,54,M54,164.1,6,0,0,8.3,0,Medihelp,1
+953,Lab,Limpopo,86,M54,74.26,3,1,0,6.0,0,None,0
+954,Pharmacy,Mpumalanga,83,N39,64.64,2,0,0,5.4,1,Medihelp,0
+955,GP,Western Cape,5,J18,72.43,2,0,0,3.6,0,None,0
+956,Hospital,Gauteng,87,M54,40.66,6,1,0,1.1,0,GEMS,0
+957,GP,Eastern Cape,21,A09,27.78,6,0,0,2.0,0,GEMS,0
+958,Pharmacy,Northern Cape,69,R51,33.3,6,0,0,2.4,0,Discovery,1
+959,GP,Northern Cape,23,K21,49.23,7,0,0,3.3,0,Fedhealth,0
+960,Hospital,KwaZulu-Natal,61,R51,35.75,7,0,1,3.9,0,None,0
+961,Hospital,Gauteng,41,S01,170.53,5,1,0,5.6,0,Momentum,0
+962,Pharmacy,Western Cape,21,R51,40.49,6,0,0,4.7,1,Fedhealth,0
+963,Hospital,Northern Cape,81,L02,87.39,7,0,0,6.9,0,Discovery,0
+964,GP,Northern Cape,15,J18,99.87,3,1,0,3.2,0,Medihelp,0
+965,Hospital,Gauteng,12,E11,157.75,2,0,0,4.6,0,Momentum,0
+966,Specialist,Northern Cape,36,A09,106.91,2,0,0,4.9,0,Fedhealth,0
+967,GP,Gauteng,51,N39,58.76,7,1,0,4.6,0,None,1
+968,Lab,Eastern Cape,23,R51,218.99,6,1,0,7.2,0,GEMS,1
+969,Hospital,Free State,82,S01,27.77,4,0,0,6.0,0,None,0
+970,Hospital,North West,83,J18,34.36,7,0,0,0.7,0,GEMS,1
+971,Specialist,Free State,90,K21,77.38,1,0,0,3.7,0,Bonitas,0
+972,Pharmacy,Free State,16,N39,70.45,6,0,0,4.0,0,GEMS,0
+973,Pharmacy,Eastern Cape,15,J18,117.54,5,0,0,9.4,1,Fedhealth,0
+974,Hospital,Northern Cape,0,S01,74.23,1,0,0,3.2,0,Discovery,0
+975,Lab,North West,84,A09,85.9,1,0,0,1.5,0,Momentum,0
+976,Specialist,Northern Cape,90,S01,133.24,6,0,1,5.1,0,Bonitas,0
+977,Hospital,Mpumalanga,0,E11,73.21,5,0,0,5.2,0,None,0
+978,Pharmacy,Mpumalanga,29,K21,106.76,7,0,1,3.8,1,GEMS,1
+979,Specialist,Free State,83,A09,39.09,3,1,0,3.4,0,GEMS,1
+980,Specialist,Gauteng,23,N39,40.94,6,0,0,6.4,0,None,0
+981,Lab,Limpopo,45,S01,122.92,2,0,0,1.9,0,Momentum,0
+982,GP,Limpopo,1,S01,72.21,5,0,0,3.1,0,Momentum,0
+983,GP,Eastern Cape,14,A09,74.69,2,0,0,2.7,0,None,0
+984,Specialist,Western Cape,28,M54,40.83,7,0,0,6.7,0,Fedhealth,0
+985,GP,Gauteng,61,I10,49.84,7,0,0,4.7,0,GEMS,0
+986,Pharmacy,KwaZulu-Natal,12,M54,81.09,7,0,0,1.3,0,Medihelp,0
+987,GP,Northern Cape,82,M54,53.73,6,0,0,1.6,1,GEMS,0
+988,GP,Gauteng,64,I10,36.29,7,0,0,8.7,0,Fedhealth,1
+989,Pharmacy,Free State,44,E11,36.58,6,0,0,6.7,0,Bonitas,0
+990,GP,Limpopo,46,E11,42.47,4,0,0,6.1,0,Discovery,0
+991,Hospital,Northern Cape,15,J18,52.33,1,1,0,4.0,1,GEMS,1
+992,Pharmacy,Gauteng,2,J18,54.67,4,1,0,7.8,0,Fedhealth,0
+993,Pharmacy,Free State,69,S01,198.88,7,1,0,1.2,1,Medihelp,1
+994,Pharmacy,Gauteng,94,A09,126.69,1,0,0,5.9,0,Medihelp,0
+995,GP,Western Cape,4,L02,81.67,7,0,0,2.9,0,Fedhealth,1
+996,GP,Western Cape,25,L02,244.33,7,0,0,3.4,1,Bonitas,1
+997,GP,Free State,91,J18,61.19,3,0,1,5.8,1,Medihelp,0
+998,GP,Eastern Cape,14,M54,92.54,5,0,0,3.6,0,Medihelp,0
+999,Specialist,Limpopo,72,A09,83.51,3,0,1,2.9,0,GEMS,0
+1000,Specialist,Free State,54,N39,92.35,1,0,0,2.8,0,GEMS,0

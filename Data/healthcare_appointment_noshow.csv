@@ -1,0 +1,1001 @@
+appointment_id,patient_age,gender,province,has_medical_aid,sms_reminder_sent,days_wait_time,appointment_type,specialty,distance_km,previous_no_show_count,booking_channel,booking_date,appointment_date,no_show
+1,93,Female,Free State,0,0,23,Follow-up,Obstetrics & Gynaecology,15.2,0,Walk-in,2025-05-29,2025-08-02,0
+2,21,Male,Eastern Cape,0,1,3,Follow-up,ENT,7.3,0,Call Centre,2025-05-08,2025-08-24,0
+3,71,Male,Limpopo,1,0,8,Follow-up,Paediatrics,0.0,0,Walk-in,2025-08-18,2025-08-20,0
+4,61,Female,Western Cape,1,0,1,Telehealth,General Medicine,18.9,0,Call Centre,2025-06-17,2025-08-05,1
+5,76,Female,North West,1,0,34,Follow-up,Ophthalmology,12.6,0,Call Centre,2025-06-28,2025-08-07,0
+6,36,Male,Eastern Cape,1,0,37,New,Psychiatry,16.1,0,Online,2025-08-07,2025-08-24,1
+7,24,Female,North West,1,0,44,Follow-up,Obstetrics & Gynaecology,16.4,0,App,2025-04-29,2025-07-29,1
+8,32,Male,KwaZulu-Natal,0,0,14,New,Neurology,8.3,0,Call Centre,2025-06-03,2025-08-12,1
+9,91,Female,Free State,1,1,41,Follow-up,Paediatrics,29.2,0,Walk-in,2025-04-09,2025-08-07,0
+10,59,Male,KwaZulu-Natal,1,0,2,Follow-up,Psychiatry,6.3,2,Walk-in,2025-07-11,2025-08-05,0
+11,90,Male,Mpumalanga,1,0,30,Follow-up,ENT,25.7,1,Walk-in,2025-08-19,2025-08-07,0
+12,75,Female,KwaZulu-Natal,1,0,51,Procedure,Psychiatry,16.2,1,Walk-in,2025-05-07,2025-08-20,0
+13,82,Female,North West,1,0,40,Follow-up,Psychiatry,1.2,1,Walk-in,2025-04-30,2025-08-21,1
+14,5,Male,Northern Cape,0,1,56,Follow-up,Psychiatry,4.9,0,Walk-in,2025-07-19,2025-08-05,0
+15,16,Male,Western Cape,0,1,41,New,Neurology,5.1,1,Online,2025-06-13,2025-08-03,0
+16,11,Female,KwaZulu-Natal,1,0,52,New,Paediatrics,5.7,0,Walk-in,2025-06-25,2025-08-04,0
+17,35,Female,Mpumalanga,1,0,55,Follow-up,Psychiatry,5.7,0,Call Centre,2025-05-26,2025-08-15,1
+18,75,Male,Free State,1,1,86,Follow-up,Surgery,4.0,0,Walk-in,2025-06-19,2025-07-31,0
+19,42,Female,Mpumalanga,1,0,75,Follow-up,Cardiology,21.7,0,Walk-in,2025-06-25,2025-08-20,1
+20,87,Male,Western Cape,0,1,71,Follow-up,Orthopaedics,22.7,0,Online,2025-08-03,2025-08-06,0
+21,81,Female,Eastern Cape,1,1,52,Procedure,General Medicine,5.2,0,Walk-in,2025-04-12,2025-08-21,0
+22,10,Male,Gauteng,1,0,84,Follow-up,Surgery,6.7,0,Online,2025-07-23,2025-08-04,0
+23,82,Male,Free State,1,1,84,Procedure,Obstetrics & Gynaecology,18.3,1,Call Centre,2025-04-11,2025-07-30,1
+24,8,Male,North West,0,1,31,Follow-up,ENT,1.2,0,Walk-in,2025-08-07,2025-08-23,1
+25,26,Female,Gauteng,1,1,80,Follow-up,Orthopaedics,2.0,0,Online,2025-04-04,2025-08-02,1
+26,3,Male,Mpumalanga,1,0,53,New,Ophthalmology,9.2,0,Online,2025-06-21,2025-08-10,0
+27,59,Male,Mpumalanga,1,0,36,New,Paediatrics,8.2,1,Walk-in,2025-07-18,2025-07-29,0
+28,88,Male,Mpumalanga,0,0,87,Follow-up,Orthopaedics,4.1,1,Walk-in,2025-08-13,2025-08-05,0
+29,3,Male,Gauteng,0,0,7,New,Obstetrics & Gynaecology,5.0,1,Online,2025-08-05,2025-08-02,1
+30,38,Female,KwaZulu-Natal,1,0,81,New,Obstetrics & Gynaecology,7.0,0,Call Centre,2025-04-16,2025-08-09,1
+31,2,Male,Western Cape,0,0,10,Follow-up,Surgery,4.9,0,Call Centre,2025-05-08,2025-08-18,1
+32,17,Female,Free State,1,0,53,Follow-up,General Medicine,5.5,0,Walk-in,2025-07-07,2025-08-17,1
+33,73,Male,Western Cape,1,0,59,Follow-up,Surgery,8.9,0,Call Centre,2025-04-13,2025-08-20,0
+34,36,Male,Free State,1,0,9,New,Psychiatry,15.5,0,Walk-in,2025-05-05,2025-08-22,0
+35,86,Female,Free State,0,0,89,Follow-up,Ophthalmology,14.5,0,Call Centre,2025-07-15,2025-08-17,0
+36,88,Female,Eastern Cape,0,1,69,New,ENT,6.6,0,Online,2025-08-20,2025-08-12,0
+37,73,Male,Mpumalanga,1,0,80,New,General Medicine,8.8,0,Call Centre,2025-05-21,2025-07-29,1
+38,2,Male,Limpopo,1,0,86,New,Paediatrics,25.4,1,Walk-in,2025-07-08,2025-08-24,1
+39,85,Female,Western Cape,0,1,41,New,Paediatrics,21.9,0,Online,2025-05-21,2025-08-26,0
+40,34,Female,Eastern Cape,0,0,36,Follow-up,Cardiology,17.5,0,Walk-in,2025-04-29,2025-08-15,0
+41,27,Other,Mpumalanga,1,0,79,Procedure,General Medicine,5.7,2,Call Centre,2025-05-30,2025-08-21,1
+42,37,Female,Northern Cape,0,1,75,New,General Medicine,13.1,1,Online,2025-07-29,2025-08-11,1
+43,71,Male,Northern Cape,1,1,57,Follow-up,Paediatrics,5.2,0,Call Centre,2025-04-11,2025-08-05,0
+44,22,Female,KwaZulu-Natal,1,0,84,New,Orthopaedics,2.4,0,Call Centre,2025-04-02,2025-08-15,0
+45,68,Female,Gauteng,1,1,58,New,Paediatrics,8.4,0,Call Centre,2025-07-28,2025-08-18,0
+46,14,Female,Northern Cape,1,1,23,Follow-up,Orthopaedics,22.5,0,Call Centre,2025-04-10,2025-08-15,0
+47,23,Female,North West,1,0,27,Follow-up,Obstetrics & Gynaecology,20.9,0,Online,2025-06-22,2025-08-18,1
+48,44,Female,Mpumalanga,0,0,36,Follow-up,Obstetrics & Gynaecology,5.8,0,Online,2025-05-03,2025-08-21,0
+49,89,Female,Limpopo,1,0,20,Telehealth,ENT,12.8,0,Walk-in,2025-08-23,2025-08-18,1
+50,65,Male,Mpumalanga,1,0,32,New,Psychiatry,7.8,0,App,2025-06-12,2025-07-30,1
+51,79,Female,Northern Cape,1,0,1,Follow-up,Ophthalmology,9.6,0,Call Centre,2025-08-16,2025-08-12,0
+52,78,Male,Limpopo,1,1,82,New,ENT,22.0,0,Walk-in,2025-06-30,2025-08-25,1
+53,61,Male,KwaZulu-Natal,1,0,27,Follow-up,General Medicine,11.4,0,Online,2025-06-24,2025-08-24,0
+54,85,Male,KwaZulu-Natal,0,0,14,Follow-up,Surgery,5.6,0,Online,2025-07-07,2025-07-31,0
+55,55,Male,Eastern Cape,1,0,0,Follow-up,Orthopaedics,13.4,1,Call Centre,2025-07-16,2025-08-24,1
+56,71,Female,North West,0,0,27,New,ENT,30.2,0,Online,2025-06-06,2025-08-24,0
+57,85,Female,Northern Cape,0,0,49,Telehealth,Obstetrics & Gynaecology,5.0,0,Call Centre,2025-05-27,2025-08-12,1
+58,50,Male,North West,0,0,34,Telehealth,Surgery,27.5,0,Walk-in,2025-06-26,2025-08-19,1
+59,12,Female,Western Cape,0,0,27,Follow-up,Psychiatry,18.2,0,Walk-in,2025-05-09,2025-08-22,0
+60,79,Male,Eastern Cape,0,1,8,New,Ophthalmology,23.8,0,Online,2025-07-09,2025-08-18,0
+61,15,Male,Eastern Cape,0,0,23,Procedure,Surgery,20.8,1,Call Centre,2025-05-08,2025-08-03,1
+62,17,Female,Western Cape,1,0,62,Follow-up,ENT,13.8,0,Call Centre,2025-07-20,2025-07-31,0
+63,34,Female,North West,0,0,3,New,Paediatrics,5.9,0,Call Centre,2025-06-09,2025-08-24,0
+64,35,Male,KwaZulu-Natal,1,0,55,Procedure,Cardiology,13.8,0,Call Centre,2025-08-11,2025-08-05,1
+65,39,Female,Western Cape,0,0,40,New,Surgery,14.3,0,Call Centre,2025-07-16,2025-07-30,0
+66,78,Male,Mpumalanga,1,0,66,Follow-up,ENT,21.7,0,App,2025-07-10,2025-08-16,0
+67,55,Other,Gauteng,1,1,47,Procedure,Neurology,10.5,0,Call Centre,2025-08-23,2025-08-18,1
+68,59,Male,Limpopo,1,0,85,Procedure,Psychiatry,2.3,1,Call Centre,2025-04-21,2025-08-16,1
+69,5,Male,KwaZulu-Natal,1,0,57,New,Neurology,14.4,1,Walk-in,2025-06-22,2025-07-31,0
+70,30,Female,KwaZulu-Natal,1,0,38,Follow-up,Ophthalmology,15.3,0,Online,2025-05-08,2025-08-03,1
+71,4,Female,Free State,1,1,24,New,Ophthalmology,3.3,1,Online,2025-08-04,2025-08-02,1
+72,15,Male,KwaZulu-Natal,0,0,59,Follow-up,Surgery,15.6,1,Online,2025-07-30,2025-08-09,0
+73,35,Female,Eastern Cape,1,1,85,Follow-up,Surgery,18.8,1,Call Centre,2025-04-07,2025-07-30,0
+74,74,Male,KwaZulu-Natal,0,0,46,New,Orthopaedics,10.1,1,Online,2025-04-18,2025-08-09,1
+75,55,Female,Mpumalanga,0,0,60,Telehealth,Paediatrics,26.3,0,Walk-in,2025-07-15,2025-08-06,0
+76,66,Male,KwaZulu-Natal,0,1,83,Procedure,ENT,28.2,0,Walk-in,2025-06-24,2025-08-04,0
+77,60,Female,Eastern Cape,1,1,26,New,Ophthalmology,13.2,0,App,2025-04-30,2025-08-27,0
+78,24,Female,Western Cape,1,0,41,Follow-up,Ophthalmology,20.4,0,Online,2025-04-24,2025-08-24,1
+79,92,Male,Western Cape,1,0,51,Follow-up,Ophthalmology,5.0,1,Online,2025-07-28,2025-08-15,0
+80,22,Female,Northern Cape,1,0,47,Procedure,Ophthalmology,22.7,0,Call Centre,2025-04-02,2025-08-20,1
+81,44,Other,Gauteng,0,0,31,New,Obstetrics & Gynaecology,26.7,0,Walk-in,2025-08-18,2025-08-06,1
+82,32,Female,Gauteng,1,1,23,Procedure,Obstetrics & Gynaecology,1.8,0,App,2025-08-17,2025-08-14,0
+83,83,Male,Gauteng,1,0,2,Follow-up,Obstetrics & Gynaecology,18.2,0,Walk-in,2025-06-07,2025-08-12,0
+84,51,Female,KwaZulu-Natal,1,0,26,New,Psychiatry,6.7,1,Call Centre,2025-08-04,2025-08-26,0
+85,85,Female,Western Cape,1,1,72,Procedure,Cardiology,4.1,0,Online,2025-07-20,2025-08-20,0
+86,3,Female,KwaZulu-Natal,1,0,39,Follow-up,General Medicine,6.8,1,Call Centre,2025-05-01,2025-08-15,1
+87,70,Female,Free State,1,0,22,Follow-up,Obstetrics & Gynaecology,2.7,0,Online,2025-06-13,2025-07-29,0
+88,32,Male,Northern Cape,0,1,6,Follow-up,Orthopaedics,9.6,0,Online,2025-07-09,2025-08-27,0
+89,2,Female,Western Cape,0,0,80,Procedure,Paediatrics,9.0,1,Walk-in,2025-08-21,2025-08-16,0
+90,88,Female,Gauteng,0,0,36,New,Cardiology,18.2,0,Walk-in,2025-05-20,2025-08-11,0
+91,59,Male,Limpopo,0,0,6,New,Ophthalmology,3.1,2,Call Centre,2025-06-08,2025-08-21,1
+92,91,Female,KwaZulu-Natal,1,0,76,Follow-up,General Medicine,18.2,1,Online,2025-06-21,2025-08-12,0
+93,73,Female,Mpumalanga,1,0,81,New,General Medicine,4.1,1,Walk-in,2025-07-22,2025-08-14,1
+94,77,Female,Limpopo,1,0,21,New,Psychiatry,0.8,0,Walk-in,2025-06-06,2025-08-18,1
+95,14,Male,Mpumalanga,1,1,77,Follow-up,Orthopaedics,10.0,0,Online,2025-07-05,2025-08-25,0
+96,51,Female,Free State,1,1,81,Telehealth,General Medicine,19.5,0,Call Centre,2025-05-30,2025-07-31,1
+97,11,Male,Gauteng,0,1,16,Follow-up,Neurology,7.2,0,Walk-in,2025-07-28,2025-08-16,0
+98,78,Female,KwaZulu-Natal,0,0,18,Follow-up,ENT,17.1,0,Online,2025-05-20,2025-08-20,1
+99,80,Female,KwaZulu-Natal,1,1,38,Follow-up,Ophthalmology,14.8,0,App,2025-05-27,2025-08-12,1
+100,10,Female,Mpumalanga,1,0,35,Follow-up,Neurology,43.3,0,Call Centre,2025-05-31,2025-08-03,1
+101,84,Male,KwaZulu-Natal,1,0,14,New,General Medicine,8.9,1,Call Centre,2025-04-27,2025-08-04,0
+102,80,Female,Free State,0,1,62,Follow-up,General Medicine,10.3,0,Walk-in,2025-05-02,2025-08-27,0
+103,58,Female,Eastern Cape,1,0,28,Procedure,General Medicine,23.1,1,Online,2025-07-12,2025-08-11,0
+104,34,Male,Eastern Cape,0,0,59,Follow-up,Psychiatry,11.5,2,Walk-in,2025-04-04,2025-08-22,1
+105,80,Female,Mpumalanga,1,1,55,Follow-up,Neurology,14.5,1,App,2025-08-25,2025-07-31,0
+106,78,Female,Gauteng,1,0,39,New,Obstetrics & Gynaecology,5.6,0,Call Centre,2025-08-10,2025-08-27,1
+107,53,Female,Mpumalanga,0,0,15,New,Obstetrics & Gynaecology,10.8,0,Call Centre,2025-07-01,2025-08-04,0
+108,28,Male,North West,0,0,32,Follow-up,Obstetrics & Gynaecology,4.9,0,Call Centre,2025-06-18,2025-08-13,0
+109,18,Male,KwaZulu-Natal,0,1,88,Telehealth,Paediatrics,7.2,0,Online,2025-06-08,2025-08-15,0
+110,26,Female,KwaZulu-Natal,0,0,15,New,Orthopaedics,14.6,0,Call Centre,2025-04-04,2025-07-29,1
+111,7,Male,Eastern Cape,1,0,29,Follow-up,Neurology,11.5,0,Walk-in,2025-07-07,2025-08-22,0
+112,45,Male,Limpopo,0,0,65,Follow-up,ENT,19.7,2,Walk-in,2025-07-16,2025-08-07,1
+113,45,Female,Mpumalanga,1,0,43,Follow-up,Obstetrics & Gynaecology,21.5,0,Online,2025-06-22,2025-08-15,1
+114,71,Male,Gauteng,0,1,37,Procedure,Ophthalmology,10.2,0,Call Centre,2025-05-31,2025-08-06,0
+115,35,Female,Eastern Cape,1,0,50,Follow-up,Neurology,15.0,0,Online,2025-04-15,2025-08-24,1
+116,52,Female,Mpumalanga,1,0,59,Follow-up,Orthopaedics,8.3,2,Walk-in,2025-05-09,2025-08-27,0
+117,21,Female,Western Cape,1,0,17,Follow-up,General Medicine,15.1,0,App,2025-06-06,2025-08-05,0
+118,28,Female,Gauteng,1,1,4,Follow-up,Surgery,22.5,1,Online,2025-06-10,2025-08-18,0
+119,44,Male,Gauteng,0,0,39,New,Psychiatry,2.9,0,Walk-in,2025-06-04,2025-08-03,0
+120,80,Male,Limpopo,1,0,5,New,Obstetrics & Gynaecology,19.6,0,App,2025-08-07,2025-08-24,0
+121,56,Female,Free State,0,0,75,Follow-up,Ophthalmology,7.5,2,Call Centre,2025-04-28,2025-08-15,1
+122,10,Male,Gauteng,0,0,11,Follow-up,Orthopaedics,6.2,0,Online,2025-07-31,2025-08-24,1
+123,23,Female,KwaZulu-Natal,0,1,11,Follow-up,Obstetrics & Gynaecology,26.2,1,Walk-in,2025-07-27,2025-08-12,0
+124,48,Female,Mpumalanga,1,1,72,New,Ophthalmology,11.7,0,Walk-in,2025-07-05,2025-08-19,0
+125,52,Male,Northern Cape,1,1,21,Procedure,Psychiatry,20.7,0,Call Centre,2025-04-27,2025-08-24,1
+126,15,Female,Northern Cape,1,1,48,Follow-up,Ophthalmology,7.5,0,Walk-in,2025-06-02,2025-08-02,0
+127,55,Male,Limpopo,1,1,49,Follow-up,Psychiatry,5.9,1,Call Centre,2025-07-19,2025-08-08,0
+128,43,Male,KwaZulu-Natal,0,0,79,Follow-up,Orthopaedics,19.1,0,Walk-in,2025-06-19,2025-08-20,0
+129,50,Female,Gauteng,1,1,3,Procedure,Paediatrics,13.2,0,Call Centre,2025-08-04,2025-08-01,0
+130,6,Female,KwaZulu-Natal,1,0,49,New,Obstetrics & Gynaecology,10.2,0,Online,2025-04-04,2025-08-24,0
+131,33,Female,Western Cape,1,0,2,Follow-up,Obstetrics & Gynaecology,18.0,0,Walk-in,2025-06-15,2025-08-19,0
+132,62,Male,Free State,1,0,15,Follow-up,Orthopaedics,3.7,1,Online,2025-04-07,2025-08-17,1
+133,55,Male,North West,0,1,13,Follow-up,Paediatrics,24.2,2,Online,2025-05-22,2025-08-04,1
+134,39,Male,Free State,0,0,63,New,Paediatrics,9.9,0,Call Centre,2025-06-17,2025-08-23,1
+135,12,Male,Gauteng,1,1,40,Follow-up,Obstetrics & Gynaecology,3.8,0,Call Centre,2025-08-01,2025-08-19,0
+136,31,Male,KwaZulu-Natal,0,0,67,Follow-up,General Medicine,4.5,0,Walk-in,2025-05-31,2025-08-20,1
+137,74,Female,Free State,0,0,58,New,Psychiatry,11.2,0,App,2025-04-19,2025-07-29,1
+138,53,Female,Mpumalanga,1,0,1,Follow-up,Cardiology,7.7,0,Walk-in,2025-08-07,2025-08-02,0
+139,34,Male,Free State,1,0,9,New,Obstetrics & Gynaecology,17.3,0,Online,2025-04-29,2025-08-24,0
+140,41,Male,Free State,1,0,74,Follow-up,General Medicine,11.5,0,Online,2025-07-20,2025-08-08,0
+141,10,Female,Mpumalanga,1,0,89,New,Obstetrics & Gynaecology,8.4,0,App,2025-07-27,2025-08-27,0
+142,52,Female,North West,1,1,25,Follow-up,General Medicine,15.5,0,Walk-in,2025-06-04,2025-08-08,0
+143,75,Female,North West,0,0,3,Procedure,Obstetrics & Gynaecology,6.7,0,Walk-in,2025-08-19,2025-07-31,1
+144,57,Male,Mpumalanga,1,0,89,Follow-up,Orthopaedics,16.9,0,Online,2025-07-09,2025-08-15,1
+145,78,Male,KwaZulu-Natal,1,0,27,Follow-up,Cardiology,15.3,0,Online,2025-08-27,2025-08-04,0
+146,3,Female,Western Cape,0,0,1,Procedure,Neurology,14.9,0,Online,2025-08-24,2025-07-31,0
+147,57,Female,Gauteng,0,0,65,Procedure,Neurology,8.4,1,Walk-in,2025-08-24,2025-07-31,1
+148,33,Female,Limpopo,1,0,15,Follow-up,ENT,5.7,0,Walk-in,2025-05-30,2025-08-23,0
+149,7,Female,Northern Cape,1,0,56,Procedure,Psychiatry,20.1,0,Walk-in,2025-08-13,2025-08-06,0
+150,4,Male,KwaZulu-Natal,0,0,22,Follow-up,Orthopaedics,18.1,0,Online,2025-05-11,2025-08-08,0
+151,39,Female,Free State,1,1,22,New,Cardiology,1.9,0,Walk-in,2025-07-27,2025-07-29,0
+152,48,Female,Northern Cape,1,1,76,Follow-up,General Medicine,7.7,0,Call Centre,2025-06-26,2025-08-07,0
+153,74,Male,Northern Cape,1,0,20,Follow-up,Psychiatry,25.4,0,Call Centre,2025-05-12,2025-08-18,0
+154,79,Female,Mpumalanga,1,0,24,Follow-up,Cardiology,21.8,0,Online,2025-05-12,2025-08-12,0
+155,16,Male,Eastern Cape,1,0,57,New,Paediatrics,0.3,0,Walk-in,2025-08-14,2025-08-20,0
+156,38,Male,Western Cape,1,0,36,New,Psychiatry,12.1,0,Walk-in,2025-08-05,2025-08-16,0
+157,4,Male,Western Cape,1,1,48,Follow-up,Orthopaedics,16.2,0,Call Centre,2025-05-09,2025-08-03,0
+158,4,Male,Eastern Cape,0,0,76,Telehealth,ENT,21.9,1,Walk-in,2025-06-24,2025-08-25,1
+159,27,Male,Gauteng,0,0,14,Follow-up,Orthopaedics,13.3,0,Call Centre,2025-07-18,2025-08-02,0
+160,86,Female,Eastern Cape,0,0,27,Follow-up,General Medicine,16.8,0,Walk-in,2025-08-02,2025-08-24,0
+161,86,Female,Limpopo,1,1,66,New,Neurology,21.3,0,Online,2025-07-11,2025-08-11,1
+162,17,Male,Limpopo,1,1,86,Follow-up,Ophthalmology,22.7,0,Walk-in,2025-04-06,2025-08-01,1
+163,70,Male,Mpumalanga,1,1,3,Follow-up,Surgery,10.2,0,App,2025-07-27,2025-08-07,0
+164,54,Other,Free State,0,0,46,Follow-up,Ophthalmology,12.5,0,Call Centre,2025-04-12,2025-08-08,1
+165,8,Male,Northern Cape,0,0,49,Follow-up,Surgery,4.4,0,Call Centre,2025-06-07,2025-08-06,0
+166,53,Male,Western Cape,1,0,59,Procedure,Orthopaedics,9.3,0,Call Centre,2025-05-11,2025-08-06,1
+167,5,Male,Western Cape,1,0,61,Follow-up,Cardiology,7.9,0,Call Centre,2025-08-25,2025-08-15,1
+168,69,Female,Eastern Cape,1,0,66,Follow-up,General Medicine,10.1,0,Call Centre,2025-06-27,2025-08-02,0
+169,47,Male,Eastern Cape,1,0,71,Follow-up,Obstetrics & Gynaecology,11.1,0,Online,2025-06-10,2025-08-22,0
+170,74,Female,Eastern Cape,1,0,42,Follow-up,Neurology,20.1,0,Walk-in,2025-08-18,2025-08-25,1
+171,40,Male,Gauteng,0,1,88,Follow-up,Psychiatry,15.5,0,App,2025-03-31,2025-08-14,1
+172,7,Male,Eastern Cape,1,0,57,New,ENT,0.8,0,Call Centre,2025-04-08,2025-08-21,0
+173,12,Male,Free State,1,0,51,New,General Medicine,17.5,0,Online,2025-04-14,2025-08-25,1
+174,94,Female,Northern Cape,1,0,75,Procedure,Orthopaedics,6.5,1,App,2025-04-27,2025-08-22,0
+175,25,Female,KwaZulu-Natal,0,0,68,Follow-up,Paediatrics,1.1,1,Call Centre,2025-05-18,2025-07-30,1
+176,28,Male,KwaZulu-Natal,1,0,45,Follow-up,Paediatrics,0.6,0,Walk-in,2025-04-07,2025-08-15,1
+177,43,Male,Free State,1,0,24,Telehealth,General Medicine,13.7,0,Online,2025-05-10,2025-08-14,1
+178,77,Female,Limpopo,0,0,24,Follow-up,Surgery,22.6,1,Walk-in,2025-04-07,2025-08-13,1
+179,47,Female,KwaZulu-Natal,1,0,34,Telehealth,Paediatrics,9.9,0,Walk-in,2025-06-19,2025-08-02,0
+180,49,Male,Gauteng,1,0,60,Procedure,Orthopaedics,21.4,0,Call Centre,2025-07-05,2025-08-12,0
+181,86,Female,North West,0,0,14,Procedure,ENT,12.9,0,Online,2025-06-13,2025-08-27,0
+182,54,Male,Gauteng,1,0,89,Follow-up,Obstetrics & Gynaecology,9.6,1,Online,2025-04-03,2025-08-13,0
+183,18,Male,Western Cape,1,0,73,Follow-up,Psychiatry,18.1,0,Call Centre,2025-07-19,2025-07-29,0
+184,27,Male,KwaZulu-Natal,1,0,87,New,Ophthalmology,6.6,0,App,2025-08-01,2025-08-04,0
+185,72,Female,Limpopo,1,1,34,New,Cardiology,3.9,0,Walk-in,2025-06-15,2025-08-21,0
+186,6,Male,Eastern Cape,0,0,28,Follow-up,Ophthalmology,18.2,0,Walk-in,2025-07-16,2025-07-31,1
+187,75,Female,Eastern Cape,0,0,37,New,Surgery,13.3,0,Online,2025-07-13,2025-08-19,1
+188,93,Female,Northern Cape,0,1,68,Follow-up,Paediatrics,11.3,0,Walk-in,2025-04-08,2025-08-13,0
+189,69,Female,Limpopo,0,1,23,Follow-up,Obstetrics & Gynaecology,13.0,0,Call Centre,2025-06-25,2025-08-14,0
+190,71,Male,Western Cape,1,1,18,Procedure,Psychiatry,3.5,0,Walk-in,2025-05-22,2025-08-09,0
+191,22,Male,Mpumalanga,1,0,45,Follow-up,ENT,29.7,0,Online,2025-04-24,2025-07-31,0
+192,59,Female,KwaZulu-Natal,0,0,48,Follow-up,Neurology,13.7,0,Online,2025-07-01,2025-08-04,0
+193,47,Female,Northern Cape,1,0,43,Follow-up,General Medicine,13.6,1,App,2025-07-30,2025-08-10,0
+194,68,Female,Limpopo,1,0,72,Follow-up,Cardiology,11.1,0,Call Centre,2025-08-01,2025-08-19,0
+195,32,Male,North West,0,1,25,Follow-up,Neurology,4.2,0,Call Centre,2025-06-22,2025-08-27,0
+196,83,Male,Gauteng,1,0,24,Follow-up,Cardiology,5.3,1,Walk-in,2025-05-06,2025-08-16,0
+197,1,Female,Western Cape,1,1,34,Follow-up,Ophthalmology,0.2,0,Walk-in,2025-06-11,2025-08-18,0
+198,54,Male,Limpopo,1,0,35,Procedure,Paediatrics,1.2,0,Call Centre,2025-05-30,2025-08-21,0
+199,46,Female,KwaZulu-Natal,0,0,13,Procedure,ENT,3.4,0,Online,2025-04-19,2025-08-14,0
+200,41,Male,Gauteng,1,1,55,Follow-up,Obstetrics & Gynaecology,5.6,0,Call Centre,2025-07-17,2025-08-02,0
+201,41,Male,Limpopo,1,1,5,Follow-up,Cardiology,12.2,0,Call Centre,2025-08-15,2025-07-29,0
+202,8,Male,Free State,1,1,31,Follow-up,Cardiology,2.2,0,App,2025-07-30,2025-08-27,0
+203,32,Male,Northern Cape,0,1,25,New,Psychiatry,19.0,0,Walk-in,2025-08-19,2025-08-13,1
+204,30,Male,Limpopo,1,0,14,New,Orthopaedics,15.0,0,App,2025-07-27,2025-08-06,0
+205,46,Female,Free State,0,0,48,Telehealth,Cardiology,9.7,0,Call Centre,2025-03-31,2025-08-27,1
+206,92,Male,Gauteng,1,1,55,Follow-up,General Medicine,33.6,0,Call Centre,2025-06-03,2025-08-15,0
+207,52,Male,Gauteng,0,0,36,New,ENT,9.6,0,Online,2025-07-01,2025-08-08,1
+208,89,Female,Gauteng,0,0,52,New,ENT,20.0,0,Online,2025-07-02,2025-08-05,0
+209,61,Male,Mpumalanga,1,0,57,Procedure,Neurology,14.1,0,Walk-in,2025-04-12,2025-08-26,0
+210,13,Male,Limpopo,0,0,82,New,General Medicine,26.4,1,Call Centre,2025-08-03,2025-08-25,0
+211,89,Female,Free State,1,0,77,Follow-up,Obstetrics & Gynaecology,22.8,1,Online,2025-06-13,2025-08-24,0
+212,40,Female,Eastern Cape,0,1,35,New,Surgery,9.0,0,Call Centre,2025-05-05,2025-08-12,0
+213,61,Male,North West,0,0,10,Procedure,Orthopaedics,9.4,0,Online,2025-04-19,2025-08-06,1
+214,44,Male,North West,1,0,26,Follow-up,Surgery,1.4,0,Call Centre,2025-06-06,2025-07-30,0
+215,62,Female,Free State,1,1,1,Follow-up,Neurology,13.2,0,Online,2025-08-15,2025-08-16,1
+216,44,Male,Eastern Cape,0,0,21,Follow-up,ENT,18.5,0,Walk-in,2025-04-15,2025-08-03,0
+217,48,Female,Western Cape,1,1,65,Follow-up,General Medicine,11.4,0,Walk-in,2025-08-06,2025-08-24,0
+218,74,Female,Mpumalanga,0,0,83,Follow-up,Surgery,26.0,0,Online,2025-06-05,2025-08-06,0
+219,59,Female,Free State,1,1,16,Telehealth,Obstetrics & Gynaecology,13.5,0,Call Centre,2025-05-13,2025-08-16,0
+220,57,Male,KwaZulu-Natal,1,0,3,New,Obstetrics & Gynaecology,24.5,0,Online,2025-08-05,2025-08-21,0
+221,11,Male,Northern Cape,0,0,13,New,Paediatrics,10.4,0,Call Centre,2025-08-14,2025-08-08,0
+222,25,Female,Northern Cape,1,1,6,New,Cardiology,0.4,1,Walk-in,2025-05-26,2025-08-06,0
+223,61,Male,North West,0,1,78,Procedure,Cardiology,5.8,1,Walk-in,2025-06-02,2025-08-25,1
+224,46,Male,Gauteng,0,0,15,Procedure,Obstetrics & Gynaecology,11.7,1,Online,2025-05-09,2025-08-23,1
+225,54,Female,KwaZulu-Natal,1,1,65,New,General Medicine,4.5,0,Call Centre,2025-07-07,2025-08-16,1
+226,34,Male,Western Cape,1,0,18,Follow-up,Neurology,4.6,0,Walk-in,2025-06-06,2025-08-16,1
+227,84,Male,Eastern Cape,1,1,0,Follow-up,Paediatrics,8.0,2,Walk-in,2025-07-18,2025-08-01,0
+228,7,Female,Western Cape,1,0,30,Follow-up,Psychiatry,22.1,0,Call Centre,2025-08-22,2025-08-02,1
+229,62,Male,North West,1,0,3,Follow-up,Obstetrics & Gynaecology,15.9,1,Call Centre,2025-03-30,2025-08-08,1
+230,57,Male,Gauteng,1,0,57,Follow-up,General Medicine,14.8,0,Walk-in,2025-04-12,2025-08-05,0
+231,93,Male,Eastern Cape,0,0,55,New,Ophthalmology,13.7,3,Call Centre,2025-05-21,2025-08-06,1
+232,76,Female,Free State,1,0,52,New,ENT,6.5,0,Walk-in,2025-06-04,2025-08-21,1
+233,5,Male,Eastern Cape,1,0,88,Follow-up,Surgery,19.9,1,Online,2025-06-29,2025-08-06,1
+234,76,Female,North West,1,0,85,Telehealth,General Medicine,5.4,1,Online,2025-07-29,2025-08-16,1
+235,93,Female,Western Cape,1,0,42,Follow-up,Ophthalmology,8.8,0,Walk-in,2025-06-19,2025-08-26,0
+236,35,Female,Northern Cape,0,0,73,New,Cardiology,10.0,0,Walk-in,2025-08-23,2025-08-14,0
+237,84,Male,Western Cape,1,1,48,New,Ophthalmology,13.3,0,Call Centre,2025-06-10,2025-08-05,0
+238,37,Female,Western Cape,0,0,59,New,Obstetrics & Gynaecology,3.2,0,Walk-in,2025-07-16,2025-08-12,1
+239,60,Male,Western Cape,1,1,15,Follow-up,Orthopaedics,3.9,0,App,2025-06-12,2025-08-04,0
+240,65,Female,North West,1,1,72,New,Psychiatry,17.9,0,Call Centre,2025-08-22,2025-08-21,0
+241,16,Male,KwaZulu-Natal,1,0,80,Follow-up,Surgery,7.9,0,Walk-in,2025-08-26,2025-08-24,0
+242,30,Male,North West,1,1,59,New,Cardiology,18.9,0,Online,2025-08-11,2025-08-08,0
+243,73,Female,Mpumalanga,1,0,46,Follow-up,Ophthalmology,25.1,0,Walk-in,2025-06-01,2025-07-31,1
+244,42,Male,Eastern Cape,1,0,14,New,Orthopaedics,4.0,0,Walk-in,2025-08-16,2025-08-23,1
+245,61,Male,Mpumalanga,1,0,62,Follow-up,Cardiology,14.1,0,Call Centre,2025-06-11,2025-08-14,0
+246,74,Male,North West,1,0,27,New,Obstetrics & Gynaecology,14.5,0,Walk-in,2025-08-21,2025-08-19,1
+247,77,Female,Limpopo,1,1,19,Follow-up,Ophthalmology,19.4,0,Call Centre,2025-06-16,2025-08-23,0
+248,48,Male,Limpopo,0,0,62,Procedure,General Medicine,6.7,0,Online,2025-06-11,2025-08-26,0
+249,62,Male,KwaZulu-Natal,0,0,32,Procedure,Cardiology,12.6,0,Walk-in,2025-08-03,2025-08-23,0
+250,84,Male,Free State,1,1,35,Follow-up,General Medicine,19.3,0,Online,2025-07-06,2025-07-30,0
+251,93,Female,Western Cape,1,0,12,Follow-up,Ophthalmology,16.4,0,Call Centre,2025-06-07,2025-08-25,1
+252,64,Male,Free State,1,0,61,New,Obstetrics & Gynaecology,27.6,2,Walk-in,2025-06-08,2025-08-18,1
+253,57,Male,Free State,0,0,67,Follow-up,Psychiatry,3.3,0,Walk-in,2025-04-16,2025-08-20,1
+254,68,Male,Mpumalanga,1,1,22,Follow-up,Neurology,14.1,1,Call Centre,2025-06-13,2025-08-02,0
+255,46,Male,Eastern Cape,1,1,71,Follow-up,Psychiatry,11.1,0,Walk-in,2025-08-25,2025-08-18,0
+256,28,Female,Limpopo,0,0,12,New,Ophthalmology,9.9,0,Call Centre,2025-07-24,2025-07-30,0
+257,77,Female,Northern Cape,1,0,87,Follow-up,Ophthalmology,17.9,1,Call Centre,2025-07-12,2025-08-26,1
+258,3,Female,Eastern Cape,1,0,39,Follow-up,Paediatrics,13.2,0,Call Centre,2025-05-27,2025-08-14,1
+259,37,Male,Limpopo,1,0,29,New,Ophthalmology,1.3,0,Call Centre,2025-04-19,2025-08-01,0
+260,48,Female,Northern Cape,0,1,24,Follow-up,Neurology,21.5,1,App,2025-06-30,2025-08-24,0
+261,19,Male,Gauteng,0,0,72,Follow-up,Orthopaedics,17.9,0,Call Centre,2025-05-24,2025-08-07,0
+262,92,Other,North West,0,0,25,Procedure,General Medicine,26.7,0,Online,2025-08-10,2025-08-16,0
+263,83,Male,Gauteng,0,1,23,New,Obstetrics & Gynaecology,19.3,1,Walk-in,2025-04-24,2025-08-08,0
+264,17,Female,Eastern Cape,0,1,38,Follow-up,Surgery,9.9,1,Walk-in,2025-06-12,2025-07-30,1
+265,82,Male,KwaZulu-Natal,1,0,88,Follow-up,Ophthalmology,9.9,0,Walk-in,2025-06-23,2025-08-14,1
+266,82,Male,Eastern Cape,0,0,78,New,Psychiatry,22.4,0,App,2025-08-08,2025-08-12,0
+267,87,Female,Mpumalanga,1,0,60,Follow-up,Paediatrics,4.3,1,Online,2025-08-10,2025-08-23,1
+268,40,Female,Northern Cape,1,0,48,Telehealth,Paediatrics,3.0,0,App,2025-06-17,2025-08-02,1
+269,50,Other,Northern Cape,0,0,40,New,Psychiatry,14.2,0,Online,2025-04-28,2025-08-12,1
+270,73,Female,Gauteng,1,0,69,Telehealth,ENT,2.9,0,Call Centre,2025-06-23,2025-08-01,0
+271,29,Male,Gauteng,1,1,19,Procedure,Ophthalmology,15.5,0,App,2025-05-21,2025-07-30,0
+272,51,Male,Northern Cape,1,1,43,Follow-up,General Medicine,16.7,0,App,2025-08-02,2025-08-24,1
+273,42,Other,Eastern Cape,0,0,15,New,Paediatrics,9.5,0,Call Centre,2025-03-30,2025-07-30,0
+274,29,Female,KwaZulu-Natal,1,0,20,Procedure,Orthopaedics,26.1,0,App,2025-08-23,2025-08-25,1
+275,66,Female,Northern Cape,0,1,14,New,Obstetrics & Gynaecology,23.3,0,Online,2025-06-09,2025-08-27,0
+276,17,Male,Free State,1,1,38,Follow-up,General Medicine,4.2,1,App,2025-05-14,2025-07-29,0
+277,31,Female,Limpopo,0,1,41,Follow-up,Orthopaedics,18.6,0,App,2025-08-17,2025-08-24,1
+278,92,Female,Gauteng,1,0,60,Follow-up,Paediatrics,21.8,0,Online,2025-04-03,2025-08-19,0
+279,52,Male,Gauteng,0,0,3,New,Ophthalmology,12.8,0,Online,2025-04-10,2025-08-27,1
+280,39,Male,Mpumalanga,0,1,23,New,Surgery,7.7,0,Call Centre,2025-04-20,2025-08-12,0
+281,60,Male,North West,1,0,2,Telehealth,General Medicine,0.9,0,Call Centre,2025-03-31,2025-08-05,0
+282,94,Female,North West,1,0,0,New,Psychiatry,6.4,1,Call Centre,2025-07-26,2025-08-25,0
+283,51,Male,Mpumalanga,1,0,12,Procedure,Ophthalmology,1.1,0,Call Centre,2025-08-04,2025-08-04,0
+284,84,Male,Northern Cape,0,1,53,Follow-up,Paediatrics,21.1,0,Walk-in,2025-04-01,2025-08-22,1
+285,16,Male,Gauteng,1,0,81,Follow-up,Obstetrics & Gynaecology,9.4,0,Online,2025-07-13,2025-08-15,0
+286,14,Female,Western Cape,1,1,39,Procedure,Obstetrics & Gynaecology,17.2,0,Walk-in,2025-08-10,2025-08-11,0
+287,90,Male,KwaZulu-Natal,0,0,10,New,Orthopaedics,24.6,0,Online,2025-04-17,2025-08-13,0
+288,84,Male,Free State,1,1,41,New,Neurology,14.1,0,Online,2025-08-20,2025-08-02,1
+289,42,Female,Eastern Cape,1,0,3,Follow-up,ENT,23.8,0,Online,2025-06-04,2025-08-07,0
+290,51,Female,Eastern Cape,0,0,24,New,Obstetrics & Gynaecology,8.5,1,Walk-in,2025-05-09,2025-07-29,1
+291,24,Male,North West,1,1,35,Procedure,General Medicine,15.9,1,Call Centre,2025-07-02,2025-08-16,0
+292,82,Female,North West,1,1,63,Follow-up,Ophthalmology,14.1,0,Call Centre,2025-08-23,2025-07-30,0
+293,43,Female,Mpumalanga,1,1,43,New,General Medicine,5.0,0,Walk-in,2025-08-15,2025-08-20,1
+294,73,Male,Gauteng,0,0,39,Follow-up,Cardiology,8.9,0,Online,2025-06-06,2025-08-01,0
+295,19,Male,Eastern Cape,1,0,44,Follow-up,Surgery,26.2,0,Walk-in,2025-05-30,2025-08-12,0
+296,84,Female,Gauteng,0,0,7,New,Ophthalmology,8.6,0,Online,2025-06-20,2025-08-25,0
+297,61,Male,Free State,1,0,84,Follow-up,Neurology,4.6,0,Call Centre,2025-07-27,2025-07-31,1
+298,94,Male,KwaZulu-Natal,0,1,34,Follow-up,Neurology,8.5,0,Call Centre,2025-05-18,2025-07-31,0
+299,63,Female,KwaZulu-Natal,1,0,43,New,Obstetrics & Gynaecology,4.5,0,Online,2025-04-20,2025-08-24,1
+300,26,Female,Eastern Cape,1,0,17,New,Neurology,16.6,0,Call Centre,2025-06-20,2025-08-21,0
+301,35,Female,Western Cape,0,0,46,Follow-up,ENT,18.1,0,Walk-in,2025-04-07,2025-08-13,1
+302,67,Male,Mpumalanga,1,0,24,Procedure,Psychiatry,15.6,0,Online,2025-06-17,2025-08-17,1
+303,56,Female,Eastern Cape,1,1,40,Follow-up,Obstetrics & Gynaecology,7.9,1,Call Centre,2025-05-09,2025-08-12,0
+304,40,Male,Free State,0,0,4,Telehealth,Ophthalmology,12.6,0,Walk-in,2025-06-24,2025-08-06,0
+305,29,Female,Western Cape,1,0,63,New,Surgery,8.8,0,Online,2025-08-11,2025-08-14,1
+306,6,Female,Limpopo,1,1,61,Follow-up,Psychiatry,2.5,0,Online,2025-06-09,2025-08-05,0
+307,52,Female,Northern Cape,0,0,71,Follow-up,Paediatrics,10.9,1,Call Centre,2025-04-21,2025-08-15,1
+308,1,Male,North West,1,0,86,Follow-up,Neurology,38.4,0,Online,2025-08-25,2025-08-19,0
+309,52,Female,North West,1,0,2,Follow-up,Ophthalmology,1.7,1,Call Centre,2025-04-23,2025-08-03,0
+310,24,Female,Western Cape,0,0,36,New,Ophthalmology,6.5,1,Walk-in,2025-04-22,2025-08-10,1
+311,34,Female,Eastern Cape,1,0,40,Follow-up,Neurology,26.2,0,Walk-in,2025-06-19,2025-08-25,1
+312,7,Male,North West,0,0,19,Follow-up,Psychiatry,16.5,1,Call Centre,2025-07-07,2025-08-08,1
+313,75,Female,Gauteng,1,0,66,New,General Medicine,15.0,1,Call Centre,2025-04-28,2025-08-06,1
+314,11,Male,North West,1,0,86,Follow-up,Psychiatry,8.4,0,Call Centre,2025-08-25,2025-08-23,1
+315,36,Female,KwaZulu-Natal,0,0,39,New,General Medicine,14.3,0,Walk-in,2025-05-26,2025-08-06,0
+316,20,Female,North West,1,0,84,Follow-up,Obstetrics & Gynaecology,12.5,0,Call Centre,2025-07-12,2025-08-01,1
+317,63,Male,Limpopo,1,1,76,New,ENT,25.1,0,Online,2025-06-14,2025-08-04,0
+318,80,Male,Mpumalanga,0,0,7,New,Orthopaedics,21.2,0,Call Centre,2025-05-29,2025-08-26,0
+319,63,Male,Western Cape,1,1,4,New,Ophthalmology,18.0,2,Online,2025-06-03,2025-08-06,0
+320,69,Female,Gauteng,1,0,24,Follow-up,ENT,5.2,0,Online,2025-08-22,2025-08-03,0
+321,88,Male,Limpopo,1,0,38,Follow-up,General Medicine,14.3,0,Walk-in,2025-05-25,2025-08-07,1
+322,30,Female,KwaZulu-Natal,1,0,36,Follow-up,Psychiatry,5.8,0,Walk-in,2025-06-28,2025-08-11,0
+323,30,Female,Eastern Cape,0,1,4,Follow-up,Obstetrics & Gynaecology,24.3,1,Call Centre,2025-07-16,2025-08-12,1
+324,84,Male,Northern Cape,0,0,7,Follow-up,Neurology,4.9,0,App,2025-07-03,2025-07-30,0
+325,22,Male,KwaZulu-Natal,1,0,3,New,Paediatrics,10.7,0,Online,2025-05-06,2025-08-04,1
+326,61,Female,Western Cape,1,1,40,New,Neurology,1.1,1,App,2025-04-02,2025-08-08,0
+327,21,Male,Western Cape,1,1,59,Procedure,Neurology,7.0,1,Walk-in,2025-07-12,2025-08-04,0
+328,37,Male,Western Cape,0,0,53,Follow-up,ENT,6.9,0,Online,2025-07-28,2025-08-15,0
+329,27,Male,Limpopo,1,1,21,New,Paediatrics,10.5,0,Walk-in,2025-05-18,2025-08-08,0
+330,35,Female,Western Cape,1,1,77,Telehealth,Psychiatry,3.0,0,Online,2025-06-25,2025-08-17,0
+331,38,Female,Mpumalanga,0,0,18,New,Surgery,24.2,0,Call Centre,2025-05-30,2025-08-20,0
+332,60,Male,Mpumalanga,0,0,76,New,Ophthalmology,10.1,0,Walk-in,2025-05-29,2025-08-03,1
+333,70,Male,Mpumalanga,1,0,67,Telehealth,ENT,6.7,0,Online,2025-07-13,2025-08-07,1
+334,32,Male,Western Cape,0,0,32,Telehealth,Psychiatry,19.7,1,Online,2025-05-10,2025-08-23,0
+335,80,Female,Mpumalanga,0,1,21,Follow-up,Obstetrics & Gynaecology,33.6,1,Walk-in,2025-05-25,2025-08-26,0
+336,92,Male,North West,1,0,64,New,Obstetrics & Gynaecology,8.0,0,Online,2025-08-04,2025-08-03,1
+337,80,Female,North West,1,0,10,Follow-up,Ophthalmology,9.5,1,Call Centre,2025-05-31,2025-08-01,0
+338,27,Male,Western Cape,1,1,15,New,Psychiatry,4.6,0,Walk-in,2025-07-22,2025-08-24,0
+339,3,Female,Free State,1,0,67,Procedure,ENT,18.6,0,Walk-in,2025-07-30,2025-08-25,1
+340,49,Female,Limpopo,1,1,43,Follow-up,Paediatrics,21.6,1,Call Centre,2025-05-13,2025-08-26,0
+341,85,Female,Northern Cape,1,1,87,Procedure,Obstetrics & Gynaecology,11.5,1,Online,2025-04-20,2025-08-25,0
+342,30,Male,Limpopo,0,1,8,New,Psychiatry,7.6,0,Call Centre,2025-04-10,2025-08-12,0
+343,22,Female,Limpopo,0,1,71,Follow-up,Paediatrics,17.3,1,Call Centre,2025-04-17,2025-08-08,1
+344,19,Male,Limpopo,0,0,77,New,Psychiatry,19.4,0,Walk-in,2025-05-29,2025-08-19,0
+345,31,Male,Northern Cape,0,0,78,Follow-up,Surgery,27.5,0,Online,2025-07-03,2025-08-22,1
+346,20,Male,Mpumalanga,0,0,61,Follow-up,Cardiology,6.2,0,Walk-in,2025-06-11,2025-08-02,1
+347,19,Female,Gauteng,0,0,85,Telehealth,Ophthalmology,20.5,0,Online,2025-06-18,2025-08-13,0
+348,2,Female,Gauteng,0,0,14,Follow-up,Orthopaedics,13.1,0,Walk-in,2025-07-23,2025-08-23,1
+349,40,Female,Eastern Cape,0,0,5,New,Obstetrics & Gynaecology,5.3,0,Online,2025-06-15,2025-07-30,0
+350,39,Female,Western Cape,1,1,0,Procedure,Psychiatry,27.2,0,Call Centre,2025-07-30,2025-08-19,0
+351,91,Male,KwaZulu-Natal,0,1,19,Telehealth,ENT,15.0,0,Online,2025-06-09,2025-08-04,0
+352,72,Female,Mpumalanga,1,0,35,Procedure,Psychiatry,18.1,0,Walk-in,2025-05-18,2025-08-22,0
+353,54,Female,Mpumalanga,0,0,1,New,ENT,21.5,0,Walk-in,2025-07-26,2025-08-25,1
+354,27,Female,KwaZulu-Natal,1,0,69,New,General Medicine,18.0,1,Call Centre,2025-05-27,2025-08-05,1
+355,79,Male,Western Cape,1,1,1,Follow-up,Surgery,2.3,0,App,2025-05-08,2025-08-15,0
+356,12,Female,Gauteng,1,0,2,Follow-up,Neurology,18.7,1,Online,2025-04-27,2025-08-02,0
+357,78,Female,Northern Cape,1,0,6,Procedure,Psychiatry,17.0,0,Online,2025-04-09,2025-08-06,0
+358,71,Female,KwaZulu-Natal,1,0,83,New,Paediatrics,4.7,0,Call Centre,2025-04-16,2025-07-31,1
+359,17,Male,Northern Cape,0,0,63,Follow-up,Orthopaedics,28.7,1,Call Centre,2025-08-20,2025-08-13,1
+360,90,Female,Eastern Cape,1,1,40,Follow-up,Neurology,8.2,0,Call Centre,2025-05-02,2025-08-17,0
+361,84,Female,Limpopo,1,0,53,Procedure,Surgery,22.0,0,Walk-in,2025-08-19,2025-07-29,0
+362,10,Male,Mpumalanga,1,0,40,Procedure,General Medicine,8.6,0,Online,2025-03-30,2025-08-12,1
+363,19,Male,Limpopo,0,1,4,Follow-up,Paediatrics,6.7,0,Walk-in,2025-08-07,2025-08-13,0
+364,82,Male,Gauteng,1,1,88,New,Surgery,11.2,0,Call Centre,2025-04-21,2025-08-04,1
+365,30,Female,Limpopo,1,1,81,Follow-up,Cardiology,33.2,1,Walk-in,2025-07-13,2025-07-31,1
+366,30,Male,Limpopo,1,0,62,New,General Medicine,32.1,0,Online,2025-06-27,2025-08-22,0
+367,25,Male,Free State,1,0,0,New,Obstetrics & Gynaecology,6.7,0,Call Centre,2025-08-26,2025-08-14,1
+368,88,Female,KwaZulu-Natal,0,0,24,New,Cardiology,24.5,0,App,2025-05-16,2025-08-17,0
+369,74,Female,KwaZulu-Natal,0,0,80,Follow-up,Cardiology,12.2,0,Call Centre,2025-06-14,2025-08-02,0
+370,66,Male,Mpumalanga,1,0,45,Follow-up,Neurology,32.2,0,Online,2025-05-19,2025-08-08,0
+371,35,Male,North West,0,0,14,Follow-up,Ophthalmology,23.5,0,Walk-in,2025-06-01,2025-08-18,1
+372,51,Female,KwaZulu-Natal,0,0,68,Procedure,Obstetrics & Gynaecology,14.8,1,Call Centre,2025-04-22,2025-08-12,0
+373,71,Female,KwaZulu-Natal,0,1,16,Procedure,General Medicine,12.8,0,Online,2025-06-06,2025-08-16,0
+374,71,Male,Mpumalanga,0,0,20,Procedure,Neurology,18.1,2,Walk-in,2025-08-23,2025-08-21,1
+375,27,Female,Mpumalanga,1,1,52,Procedure,Obstetrics & Gynaecology,16.8,0,Online,2025-05-27,2025-08-21,1
+376,10,Male,Northern Cape,0,0,54,New,Surgery,1.0,0,Online,2025-07-20,2025-08-01,0
+377,43,Female,Limpopo,1,0,86,Follow-up,Orthopaedics,14.1,1,Call Centre,2025-04-22,2025-08-04,0
+378,55,Male,Mpumalanga,1,0,9,New,General Medicine,5.5,0,Online,2025-06-23,2025-08-10,0
+379,71,Male,Gauteng,1,1,80,Follow-up,Neurology,6.7,1,Online,2025-07-14,2025-08-13,0
+380,6,Male,Mpumalanga,0,0,56,Follow-up,Orthopaedics,23.1,0,Online,2025-06-14,2025-08-01,1
+381,6,Male,Western Cape,1,1,64,Follow-up,General Medicine,14.0,0,Walk-in,2025-05-19,2025-08-22,0
+382,77,Female,Mpumalanga,1,0,36,Follow-up,Cardiology,7.5,0,Call Centre,2025-04-09,2025-07-29,1
+383,48,Female,KwaZulu-Natal,1,1,6,New,Orthopaedics,0.1,0,Call Centre,2025-05-27,2025-08-09,0
+384,77,Female,Northern Cape,1,0,75,Follow-up,Orthopaedics,4.2,0,App,2025-05-01,2025-08-20,1
+385,2,Male,Free State,1,1,39,Follow-up,Paediatrics,11.4,0,App,2025-07-27,2025-08-08,1
+386,83,Male,Mpumalanga,1,0,49,New,General Medicine,28.9,1,Walk-in,2025-05-11,2025-08-13,1
+387,51,Male,North West,0,1,0,New,Obstetrics & Gynaecology,1.5,0,Call Centre,2025-07-16,2025-07-29,0
+388,61,Male,Western Cape,0,0,19,New,Ophthalmology,14.9,0,Online,2025-04-14,2025-08-24,0
+389,19,Female,Gauteng,1,0,30,Follow-up,Surgery,16.1,0,Online,2025-06-15,2025-08-10,0
+390,2,Male,Mpumalanga,0,1,67,Follow-up,ENT,24.2,0,Online,2025-04-11,2025-08-15,0
+391,51,Female,Limpopo,0,0,89,New,Neurology,13.2,0,Call Centre,2025-07-20,2025-08-06,1
+392,26,Female,Limpopo,1,0,11,New,Orthopaedics,16.1,0,Call Centre,2025-08-02,2025-08-06,1
+393,70,Male,Western Cape,0,1,21,Follow-up,Psychiatry,23.8,0,Walk-in,2025-06-17,2025-08-27,1
+394,20,Female,KwaZulu-Natal,1,0,0,Telehealth,Orthopaedics,4.2,0,Call Centre,2025-05-18,2025-07-31,1
+395,23,Male,Eastern Cape,1,0,0,Follow-up,Cardiology,19.9,1,Online,2025-08-02,2025-08-20,1
+396,54,Male,KwaZulu-Natal,0,0,2,Follow-up,General Medicine,1.9,0,Walk-in,2025-07-27,2025-08-09,0
+397,15,Female,Western Cape,0,1,75,Follow-up,Cardiology,12.6,0,Online,2025-07-13,2025-08-11,0
+398,6,Male,KwaZulu-Natal,0,0,20,Follow-up,Ophthalmology,9.6,1,Call Centre,2025-04-15,2025-08-18,0
+399,92,Male,Limpopo,0,0,12,Telehealth,Surgery,4.8,0,Walk-in,2025-07-24,2025-08-27,0
+400,35,Female,Northern Cape,0,1,60,Follow-up,Paediatrics,21.7,2,Walk-in,2025-08-06,2025-08-27,0
+401,75,Male,Eastern Cape,0,1,12,Follow-up,General Medicine,22.3,0,Call Centre,2025-03-31,2025-08-07,1
+402,8,Female,Limpopo,1,1,81,Follow-up,Cardiology,22.7,1,Walk-in,2025-04-28,2025-08-23,0
+403,57,Female,Gauteng,0,1,32,Follow-up,Paediatrics,15.8,0,Walk-in,2025-08-25,2025-08-27,0
+404,50,Male,Limpopo,1,0,5,Follow-up,ENT,0.3,0,Online,2025-07-13,2025-08-07,0
+405,49,Female,KwaZulu-Natal,1,0,24,Follow-up,ENT,8.7,0,Call Centre,2025-08-20,2025-08-05,1
+406,88,Female,Northern Cape,1,0,22,Follow-up,General Medicine,22.1,0,Online,2025-08-24,2025-08-07,1
+407,21,Male,Eastern Cape,1,1,87,New,Surgery,21.9,0,App,2025-08-13,2025-08-03,0
+408,36,Male,Mpumalanga,0,1,25,New,Psychiatry,24.0,0,Online,2025-07-15,2025-08-08,0
+409,71,Female,Eastern Cape,1,1,3,New,Orthopaedics,15.1,0,Online,2025-04-30,2025-08-15,0
+410,69,Male,Limpopo,0,0,34,New,Obstetrics & Gynaecology,10.2,0,Call Centre,2025-06-13,2025-08-19,0
+411,58,Female,Mpumalanga,0,0,74,Follow-up,Surgery,7.7,0,Walk-in,2025-05-08,2025-08-12,1
+412,63,Female,Western Cape,1,0,24,Procedure,Surgery,20.6,1,Online,2025-06-02,2025-07-31,0
+413,93,Female,Limpopo,0,0,19,Follow-up,Psychiatry,11.0,1,Walk-in,2025-08-10,2025-08-20,1
+414,16,Female,North West,0,1,0,Follow-up,Cardiology,0.5,0,Walk-in,2025-07-07,2025-08-14,1
+415,6,Female,Limpopo,1,0,67,New,Paediatrics,19.6,0,App,2025-07-05,2025-07-30,1
+416,78,Female,Western Cape,1,0,22,New,General Medicine,26.2,1,Walk-in,2025-07-17,2025-08-11,1
+417,52,Female,Eastern Cape,0,1,21,Follow-up,Obstetrics & Gynaecology,20.7,0,App,2025-05-27,2025-07-30,1
+418,2,Female,Gauteng,0,0,61,Follow-up,Paediatrics,18.7,0,Walk-in,2025-04-09,2025-08-24,0
+419,89,Male,Mpumalanga,1,0,0,Follow-up,Orthopaedics,21.3,1,Online,2025-07-27,2025-08-21,0
+420,77,Female,North West,1,0,58,Procedure,Obstetrics & Gynaecology,15.3,0,Online,2025-06-06,2025-08-11,1
+421,18,Female,Western Cape,0,1,67,Follow-up,ENT,29.2,2,Online,2025-06-08,2025-07-31,0
+422,81,Female,Free State,1,1,18,New,Surgery,4.1,0,Call Centre,2025-06-23,2025-08-04,1
+423,92,Male,North West,1,0,29,Follow-up,Orthopaedics,5.0,0,Call Centre,2025-06-07,2025-08-12,0
+424,76,Male,North West,0,0,0,Follow-up,Ophthalmology,7.3,1,Walk-in,2025-06-11,2025-08-14,1
+425,35,Female,Free State,1,0,47,Follow-up,ENT,8.4,1,App,2025-07-05,2025-08-12,1
+426,86,Female,North West,1,0,18,Follow-up,Orthopaedics,27.0,2,Walk-in,2025-06-16,2025-08-01,0
+427,39,Male,Limpopo,0,0,51,Follow-up,Cardiology,17.4,0,Call Centre,2025-08-14,2025-08-26,1
+428,1,Female,Free State,1,0,84,New,Ophthalmology,5.2,0,Call Centre,2025-04-14,2025-08-04,0
+429,37,Other,Eastern Cape,0,0,21,Follow-up,General Medicine,6.7,0,Walk-in,2025-07-24,2025-08-13,0
+430,21,Female,Free State,1,1,49,New,Paediatrics,36.9,0,Walk-in,2025-04-04,2025-08-17,0
+431,1,Female,Eastern Cape,1,0,65,Follow-up,Orthopaedics,15.5,0,App,2025-06-11,2025-08-15,0
+432,4,Male,Gauteng,0,0,5,Procedure,ENT,7.7,2,Walk-in,2025-07-07,2025-08-24,0
+433,58,Female,KwaZulu-Natal,1,0,63,Telehealth,Cardiology,4.2,0,Walk-in,2025-06-17,2025-08-04,0
+434,1,Female,North West,1,0,20,Follow-up,Cardiology,4.8,0,Walk-in,2025-04-14,2025-08-27,0
+435,13,Female,Mpumalanga,0,0,18,Telehealth,ENT,0.8,1,Online,2025-06-23,2025-08-13,1
+436,46,Male,Mpumalanga,0,0,36,Follow-up,Orthopaedics,13.0,2,Walk-in,2025-06-08,2025-08-16,0
+437,47,Male,KwaZulu-Natal,0,1,62,New,Obstetrics & Gynaecology,23.1,0,Call Centre,2025-06-12,2025-08-07,0
+438,81,Female,Northern Cape,1,1,28,Follow-up,Neurology,18.2,1,Call Centre,2025-05-02,2025-08-19,0
+439,76,Male,Limpopo,1,1,59,New,Neurology,23.7,0,Online,2025-06-16,2025-08-21,1
+440,7,Female,North West,1,0,33,New,ENT,17.7,0,Call Centre,2025-08-01,2025-08-25,1
+441,51,Female,North West,1,1,0,Follow-up,Cardiology,0.3,1,Call Centre,2025-04-02,2025-08-12,1
+442,3,Female,KwaZulu-Natal,1,0,47,New,Paediatrics,16.2,0,Call Centre,2025-07-21,2025-08-24,0
+443,50,Female,Eastern Cape,0,1,88,New,Cardiology,16.7,1,App,2025-04-10,2025-08-02,1
+444,26,Male,Limpopo,0,0,20,New,Psychiatry,10.8,0,Call Centre,2025-06-03,2025-08-05,0
+445,31,Female,Western Cape,1,0,33,Telehealth,Cardiology,8.9,0,Online,2025-05-19,2025-08-14,0
+446,62,Female,Mpumalanga,1,0,25,Procedure,ENT,10.5,0,Walk-in,2025-05-17,2025-08-06,1
+447,26,Female,Western Cape,1,1,35,Telehealth,Orthopaedics,3.5,0,Walk-in,2025-07-28,2025-08-15,0
+448,67,Female,Free State,1,1,22,Procedure,Obstetrics & Gynaecology,1.3,1,Online,2025-07-19,2025-07-30,0
+449,55,Female,Eastern Cape,1,1,80,Follow-up,Surgery,37.4,1,Walk-in,2025-06-16,2025-08-08,1
+450,28,Female,Northern Cape,1,0,46,Follow-up,Obstetrics & Gynaecology,0.5,0,Walk-in,2025-04-12,2025-08-09,0
+451,44,Male,Western Cape,0,0,75,Follow-up,Paediatrics,5.7,1,Call Centre,2025-04-20,2025-08-01,0
+452,81,Female,Mpumalanga,1,1,43,Telehealth,Paediatrics,4.8,0,Walk-in,2025-06-07,2025-08-26,0
+453,38,Female,Mpumalanga,1,0,19,Follow-up,Orthopaedics,16.6,2,App,2025-07-27,2025-08-18,0
+454,30,Male,Mpumalanga,1,1,26,Follow-up,Obstetrics & Gynaecology,17.6,0,App,2025-06-01,2025-07-31,0
+455,66,Female,Gauteng,1,0,60,Follow-up,ENT,1.8,0,Online,2025-05-18,2025-08-03,1
+456,8,Female,North West,1,0,36,Follow-up,Neurology,13.0,2,App,2025-05-31,2025-08-09,0
+457,14,Female,Western Cape,1,1,83,Follow-up,Cardiology,6.6,0,App,2025-05-31,2025-08-13,0
+458,62,Female,Free State,0,0,51,New,Ophthalmology,13.9,1,Online,2025-07-27,2025-08-21,1
+459,75,Female,Western Cape,1,1,74,Follow-up,Psychiatry,9.1,3,Walk-in,2025-07-05,2025-08-13,1
+460,63,Male,Free State,1,0,61,New,ENT,5.1,0,Walk-in,2025-05-24,2025-08-11,1
+461,79,Male,Mpumalanga,0,1,65,Procedure,Obstetrics & Gynaecology,5.5,0,App,2025-05-06,2025-08-04,1
+462,66,Female,Limpopo,0,0,23,New,Ophthalmology,10.0,0,Online,2025-08-04,2025-08-12,0
+463,40,Female,Free State,1,1,79,Follow-up,Neurology,9.8,0,Online,2025-07-29,2025-08-11,0
+464,13,Female,Eastern Cape,0,0,11,Procedure,ENT,11.2,0,Call Centre,2025-05-23,2025-07-31,0
+465,17,Male,North West,1,0,15,New,General Medicine,2.1,0,Call Centre,2025-07-04,2025-08-12,1
+466,15,Male,North West,1,0,35,Follow-up,Ophthalmology,8.6,0,Call Centre,2025-06-25,2025-08-10,0
+467,33,Female,Gauteng,0,1,1,New,ENT,9.4,0,Call Centre,2025-07-26,2025-08-11,1
+468,16,Male,Western Cape,1,0,88,New,Neurology,6.5,1,App,2025-07-13,2025-08-24,1
+469,13,Female,KwaZulu-Natal,1,0,61,Follow-up,Ophthalmology,4.3,0,Call Centre,2025-07-26,2025-08-26,0
+470,86,Female,Gauteng,1,1,63,Follow-up,Orthopaedics,4.0,0,Walk-in,2025-07-29,2025-08-11,0
+471,23,Female,KwaZulu-Natal,1,0,28,New,Cardiology,13.8,0,Call Centre,2025-06-10,2025-08-11,1
+472,36,Male,North West,1,0,73,New,Cardiology,24.5,1,Call Centre,2025-05-28,2025-08-26,1
+473,43,Female,Eastern Cape,0,0,86,Follow-up,Cardiology,12.5,0,Call Centre,2025-05-24,2025-08-06,0
+474,50,Female,Mpumalanga,0,1,30,New,Paediatrics,23.6,0,App,2025-07-29,2025-08-26,0
+475,74,Male,Mpumalanga,0,0,82,Follow-up,Surgery,9.8,1,Online,2025-05-14,2025-07-30,1
+476,81,Male,Free State,1,0,14,New,Neurology,15.7,0,Online,2025-05-18,2025-08-13,0
+477,94,Male,Gauteng,1,1,54,Follow-up,Cardiology,12.7,0,App,2025-04-10,2025-07-30,1
+478,13,Male,Eastern Cape,1,1,32,Follow-up,Obstetrics & Gynaecology,36.1,0,App,2025-06-22,2025-07-31,1
+479,30,Female,Mpumalanga,1,0,80,Procedure,Surgery,10.5,0,Walk-in,2025-04-07,2025-07-31,1
+480,57,Female,Free State,0,1,51,New,Psychiatry,19.8,1,Call Centre,2025-08-18,2025-08-12,0
+481,30,Other,Western Cape,0,1,19,Follow-up,Surgery,14.0,1,Call Centre,2025-06-03,2025-08-17,1
+482,71,Female,North West,1,0,72,Follow-up,Ophthalmology,23.3,0,Call Centre,2025-06-28,2025-07-30,0
+483,10,Female,Western Cape,1,1,37,New,Obstetrics & Gynaecology,18.3,1,Call Centre,2025-08-05,2025-08-26,1
+484,66,Male,North West,1,0,2,Procedure,ENT,15.4,0,Walk-in,2025-08-17,2025-08-20,0
+485,94,Female,Western Cape,0,0,53,New,Obstetrics & Gynaecology,0.6,2,Call Centre,2025-08-12,2025-08-07,0
+486,83,Female,Free State,1,0,65,New,Paediatrics,1.5,0,Online,2025-07-10,2025-07-29,1
+487,39,Female,Eastern Cape,1,0,17,Telehealth,Cardiology,5.8,0,Online,2025-05-10,2025-08-04,0
+488,37,Female,Gauteng,1,0,86,New,Psychiatry,9.1,0,Call Centre,2025-06-09,2025-08-16,1
+489,3,Female,North West,0,1,82,Follow-up,Cardiology,13.1,0,Online,2025-04-08,2025-08-14,0
+490,89,Female,KwaZulu-Natal,1,0,6,New,General Medicine,5.9,0,Online,2025-04-16,2025-07-31,0
+491,34,Female,Eastern Cape,1,0,34,Follow-up,Psychiatry,7.8,0,Call Centre,2025-04-05,2025-08-14,0
+492,86,Male,Eastern Cape,1,0,83,New,General Medicine,22.3,0,Online,2025-05-01,2025-08-04,0
+493,38,Female,Free State,0,1,83,Follow-up,ENT,16.5,1,Call Centre,2025-07-17,2025-08-16,0
+494,14,Female,KwaZulu-Natal,0,0,82,Follow-up,Psychiatry,12.6,0,Call Centre,2025-08-18,2025-08-26,1
+495,64,Male,Northern Cape,1,0,79,Follow-up,Cardiology,24.5,1,Walk-in,2025-07-10,2025-08-14,0
+496,39,Male,Eastern Cape,0,0,84,Follow-up,Paediatrics,4.0,0,Walk-in,2025-08-19,2025-08-05,0
+497,54,Female,Eastern Cape,1,1,59,Follow-up,ENT,10.7,0,Call Centre,2025-08-26,2025-08-03,1
+498,2,Male,Limpopo,0,0,23,New,Psychiatry,13.6,1,Walk-in,2025-06-21,2025-08-16,1
+499,43,Male,North West,0,1,38,Follow-up,Orthopaedics,7.8,0,App,2025-07-07,2025-08-04,0
+500,53,Female,Mpumalanga,1,0,11,New,Paediatrics,4.0,1,Online,2025-04-11,2025-07-30,0
+501,3,Female,Eastern Cape,1,0,52,New,Cardiology,20.7,1,Online,2025-07-22,2025-08-19,1
+502,41,Female,Eastern Cape,1,0,63,New,General Medicine,14.8,1,Online,2025-08-06,2025-07-30,1
+503,8,Male,Free State,1,1,3,New,Neurology,18.2,2,Online,2025-08-23,2025-08-20,0
+504,90,Male,Free State,0,0,4,Follow-up,General Medicine,3.8,0,Call Centre,2025-04-20,2025-08-08,0
+505,75,Male,Gauteng,1,0,15,Follow-up,Cardiology,20.3,1,App,2025-04-17,2025-08-12,1
+506,63,Male,North West,0,0,26,Procedure,Surgery,5.8,0,Online,2025-05-21,2025-08-18,0
+507,65,Male,Free State,1,0,3,New,Ophthalmology,14.5,1,Call Centre,2025-04-03,2025-08-21,0
+508,79,Female,KwaZulu-Natal,0,0,71,New,Obstetrics & Gynaecology,31.8,0,Walk-in,2025-05-17,2025-08-13,1
+509,4,Female,KwaZulu-Natal,0,1,47,New,Cardiology,20.5,0,Walk-in,2025-05-05,2025-08-03,0
+510,68,Male,Eastern Cape,0,0,7,Follow-up,Orthopaedics,15.4,0,Call Centre,2025-08-24,2025-08-19,1
+511,92,Male,Mpumalanga,0,0,80,New,Cardiology,25.5,0,Call Centre,2025-06-02,2025-08-24,1
+512,10,Female,Free State,1,0,45,Follow-up,Orthopaedics,6.3,0,Call Centre,2025-07-13,2025-08-05,1
+513,75,Female,Gauteng,1,0,43,Procedure,General Medicine,16.9,0,Online,2025-06-06,2025-08-22,1
+514,50,Male,Free State,1,0,66,Follow-up,Surgery,3.7,0,Call Centre,2025-07-09,2025-07-31,1
+515,23,Female,Free State,1,0,51,New,Psychiatry,8.4,1,Call Centre,2025-08-02,2025-08-16,1
+516,61,Male,Limpopo,0,1,33,Follow-up,Cardiology,27.9,0,Call Centre,2025-06-18,2025-08-13,0
+517,47,Male,Mpumalanga,0,0,61,Procedure,Ophthalmology,14.7,0,Online,2025-07-27,2025-08-09,0
+518,3,Male,Free State,0,1,20,Telehealth,ENT,26.1,0,App,2025-05-09,2025-08-02,1
+519,17,Female,Western Cape,0,0,23,Follow-up,Orthopaedics,11.0,0,Walk-in,2025-05-03,2025-08-06,1
+520,22,Male,Western Cape,1,0,43,Follow-up,Ophthalmology,24.2,0,Call Centre,2025-05-23,2025-08-04,0
+521,91,Male,Eastern Cape,1,1,40,Follow-up,ENT,12.5,0,Walk-in,2025-08-02,2025-08-26,1
+522,16,Male,Gauteng,0,1,28,New,Psychiatry,13.3,0,Online,2025-06-01,2025-07-31,0
+523,80,Female,Mpumalanga,0,0,5,Follow-up,Obstetrics & Gynaecology,12.2,0,Online,2025-07-08,2025-08-09,0
+524,3,Male,Gauteng,0,0,55,New,Cardiology,15.6,0,Online,2025-06-02,2025-08-04,0
+525,52,Male,KwaZulu-Natal,0,0,13,Follow-up,Orthopaedics,9.4,1,Call Centre,2025-08-02,2025-08-08,0
+526,33,Male,Mpumalanga,0,0,49,New,General Medicine,1.9,0,Call Centre,2025-04-26,2025-08-08,0
+527,42,Male,Limpopo,1,0,77,New,ENT,11.6,2,Call Centre,2025-07-28,2025-08-26,1
+528,2,Female,Mpumalanga,0,1,51,New,Orthopaedics,13.3,0,App,2025-04-24,2025-08-13,0
+529,39,Male,Free State,1,0,87,New,Surgery,28.3,0,Walk-in,2025-07-14,2025-08-01,1
+530,46,Male,North West,0,0,76,Follow-up,Obstetrics & Gynaecology,10.6,0,Online,2025-07-28,2025-08-02,1
+531,48,Female,Limpopo,0,0,0,New,Orthopaedics,28.2,0,Online,2025-05-09,2025-08-16,0
+532,27,Male,Eastern Cape,1,0,11,New,ENT,22.5,0,Online,2025-06-28,2025-07-30,0
+533,15,Male,Gauteng,1,0,23,New,Neurology,18.9,1,Call Centre,2025-07-14,2025-08-27,1
+534,7,Male,Western Cape,0,0,36,Follow-up,Psychiatry,13.5,0,Call Centre,2025-06-29,2025-08-05,1
+535,57,Female,Limpopo,1,1,83,New,Obstetrics & Gynaecology,1.8,0,App,2025-07-07,2025-08-14,0
+536,42,Female,Eastern Cape,0,0,69,Telehealth,Obstetrics & Gynaecology,31.5,0,App,2025-07-07,2025-08-24,0
+537,9,Female,KwaZulu-Natal,0,1,75,Telehealth,Neurology,24.3,0,Walk-in,2025-06-13,2025-08-06,0
+538,6,Female,Mpumalanga,1,0,84,New,Psychiatry,14.5,1,Online,2025-06-27,2025-08-04,1
+539,57,Female,Mpumalanga,1,1,2,Follow-up,Surgery,14.9,1,Call Centre,2025-06-22,2025-08-17,0
+540,76,Female,Western Cape,0,1,26,Follow-up,General Medicine,10.9,1,Call Centre,2025-06-10,2025-08-21,0
+541,30,Female,North West,0,1,52,Follow-up,Obstetrics & Gynaecology,17.9,0,Walk-in,2025-07-10,2025-08-15,0
+542,55,Male,Gauteng,1,1,16,Follow-up,Surgery,11.6,0,Online,2025-06-01,2025-08-14,0
+543,84,Male,Mpumalanga,0,0,14,Follow-up,Obstetrics & Gynaecology,15.1,0,Online,2025-05-05,2025-08-21,1
+544,84,Female,Gauteng,0,1,38,Follow-up,General Medicine,16.4,0,Walk-in,2025-07-15,2025-08-06,0
+545,54,Other,KwaZulu-Natal,1,1,3,Procedure,Neurology,36.3,1,Call Centre,2025-07-23,2025-08-17,1
+546,27,Male,KwaZulu-Natal,1,0,16,Telehealth,General Medicine,2.9,0,Call Centre,2025-08-06,2025-08-08,0
+547,84,Female,Western Cape,0,0,10,Procedure,Ophthalmology,13.6,0,App,2025-04-20,2025-08-08,0
+548,59,Female,Free State,1,0,11,Follow-up,Cardiology,24.3,0,Call Centre,2025-08-21,2025-08-03,1
+549,7,Male,Eastern Cape,1,0,31,Procedure,Cardiology,20.3,0,Online,2025-08-12,2025-08-17,0
+550,40,Male,Limpopo,1,0,26,Follow-up,Neurology,18.8,0,Online,2025-05-26,2025-08-07,1
+551,94,Female,Western Cape,1,0,43,New,General Medicine,42.1,1,Online,2025-07-15,2025-08-19,1
+552,72,Male,Eastern Cape,1,0,42,New,Obstetrics & Gynaecology,22.9,0,App,2025-05-10,2025-08-01,0
+553,2,Female,Mpumalanga,0,1,48,Follow-up,ENT,5.8,1,Walk-in,2025-06-24,2025-07-31,0
+554,14,Female,Gauteng,0,0,72,Telehealth,Paediatrics,4.6,0,Online,2025-06-16,2025-08-03,1
+555,10,Female,KwaZulu-Natal,1,1,42,Follow-up,Surgery,11.6,0,Call Centre,2025-06-18,2025-08-24,0
+556,50,Male,Gauteng,1,0,2,New,Obstetrics & Gynaecology,7.6,0,Walk-in,2025-06-15,2025-08-26,0
+557,18,Female,Western Cape,1,0,28,Follow-up,Surgery,12.8,0,Walk-in,2025-08-03,2025-08-26,0
+558,18,Male,Northern Cape,1,0,84,Procedure,Neurology,15.4,0,Call Centre,2025-06-07,2025-08-03,0
+559,16,Male,Free State,1,0,34,Follow-up,General Medicine,14.7,0,App,2025-06-18,2025-08-19,0
+560,52,Female,Eastern Cape,1,0,47,New,Obstetrics & Gynaecology,12.6,0,Online,2025-07-02,2025-08-09,1
+561,69,Male,Eastern Cape,1,0,73,New,Cardiology,4.4,0,Call Centre,2025-07-09,2025-08-13,0
+562,52,Male,North West,1,0,86,New,Neurology,19.2,0,Call Centre,2025-06-14,2025-08-07,0
+563,31,Male,KwaZulu-Natal,0,0,38,New,Ophthalmology,28.4,1,Call Centre,2025-04-12,2025-08-07,1
+564,84,Female,Eastern Cape,1,0,88,Follow-up,Obstetrics & Gynaecology,8.0,1,Walk-in,2025-03-31,2025-08-10,0
+565,23,Male,Western Cape,1,0,23,New,Orthopaedics,8.0,2,Online,2025-07-18,2025-08-12,0
+566,42,Female,Limpopo,1,0,19,Telehealth,Cardiology,11.1,0,Walk-in,2025-07-12,2025-08-26,1
+567,81,Female,Northern Cape,1,0,14,Procedure,Surgery,29.2,0,Call Centre,2025-04-08,2025-08-02,0
+568,62,Female,Eastern Cape,0,0,84,Follow-up,ENT,12.5,0,Call Centre,2025-04-19,2025-08-16,0
+569,77,Female,Limpopo,1,0,75,Follow-up,General Medicine,10.4,0,Call Centre,2025-06-11,2025-07-30,0
+570,50,Male,Eastern Cape,1,0,17,Follow-up,Surgery,29.9,0,Walk-in,2025-07-06,2025-08-27,0
+571,77,Male,Western Cape,1,0,59,New,General Medicine,18.9,0,Call Centre,2025-08-12,2025-08-26,0
+572,81,Male,Limpopo,1,0,86,Follow-up,Psychiatry,0.9,1,Call Centre,2025-05-01,2025-08-14,0
+573,15,Male,Mpumalanga,0,0,40,New,Neurology,6.9,1,Call Centre,2025-07-31,2025-08-01,1
+574,90,Female,Eastern Cape,1,0,68,Procedure,Surgery,4.0,0,Walk-in,2025-04-20,2025-08-21,0
+575,44,Male,Mpumalanga,1,0,89,Follow-up,Cardiology,9.9,1,Walk-in,2025-06-28,2025-08-11,0
+576,92,Male,North West,1,0,74,Follow-up,Orthopaedics,26.9,1,Online,2025-07-04,2025-08-13,1
+577,42,Female,KwaZulu-Natal,1,1,10,Procedure,ENT,6.7,0,Online,2025-08-10,2025-08-11,0
+578,45,Female,Western Cape,1,1,55,Follow-up,Obstetrics & Gynaecology,8.6,0,Online,2025-07-10,2025-08-19,0
+579,94,Female,Free State,0,0,17,Follow-up,Paediatrics,13.1,0,Call Centre,2025-05-18,2025-08-15,0
+580,35,Female,Western Cape,1,1,11,Follow-up,Neurology,11.3,0,Call Centre,2025-07-17,2025-08-26,0
+581,22,Female,Free State,0,0,15,Follow-up,Paediatrics,4.0,0,Walk-in,2025-08-21,2025-08-01,0
+582,74,Female,Limpopo,1,0,26,New,Cardiology,23.9,1,Call Centre,2025-04-18,2025-08-13,0
+583,75,Male,North West,0,1,16,Follow-up,Psychiatry,10.4,0,Walk-in,2025-06-30,2025-08-08,0
+584,38,Other,Limpopo,0,1,84,Follow-up,Obstetrics & Gynaecology,9.1,0,Call Centre,2025-07-10,2025-08-17,0
+585,70,Female,Eastern Cape,1,0,30,New,Obstetrics & Gynaecology,15.5,0,Call Centre,2025-06-29,2025-08-09,0
+586,64,Male,KwaZulu-Natal,1,0,34,Follow-up,Obstetrics & Gynaecology,9.2,1,Call Centre,2025-08-22,2025-08-14,1
+587,7,Male,Western Cape,1,0,26,Follow-up,General Medicine,6.5,3,Online,2025-04-02,2025-08-01,0
+588,44,Female,Gauteng,1,0,86,New,ENT,2.7,0,Call Centre,2025-07-28,2025-08-24,0
+589,76,Female,Western Cape,1,0,31,Procedure,Surgery,33.9,1,Call Centre,2025-05-04,2025-08-01,1
+590,7,Male,Western Cape,1,0,16,Follow-up,ENT,19.9,0,Call Centre,2025-03-31,2025-07-29,0
+591,66,Male,Free State,1,1,10,Follow-up,Surgery,8.2,0,Online,2025-06-04,2025-08-17,0
+592,60,Female,Northern Cape,1,0,0,New,Neurology,24.7,0,Online,2025-07-12,2025-08-12,1
+593,1,Female,Gauteng,1,1,81,New,General Medicine,17.2,1,Call Centre,2025-07-15,2025-08-05,1
+594,62,Male,Eastern Cape,1,0,48,Follow-up,ENT,12.4,0,Online,2025-07-03,2025-08-02,1
+595,87,Male,Mpumalanga,1,0,40,Follow-up,General Medicine,1.7,0,Walk-in,2025-03-30,2025-07-29,1
+596,89,Female,KwaZulu-Natal,0,0,19,Follow-up,Orthopaedics,3.7,1,Online,2025-07-16,2025-08-26,0
+597,18,Male,North West,1,0,70,New,Neurology,21.7,0,Online,2025-07-05,2025-08-26,1
+598,7,Female,KwaZulu-Natal,0,0,36,Follow-up,ENT,19.5,0,Online,2025-06-21,2025-08-19,0
+599,54,Male,North West,0,0,15,Procedure,General Medicine,1.7,0,Online,2025-07-06,2025-08-06,1
+600,67,Male,Western Cape,0,0,38,New,Cardiology,7.9,0,Call Centre,2025-07-19,2025-08-01,0
+601,93,Male,Free State,1,0,44,New,Ophthalmology,18.8,0,Walk-in,2025-06-03,2025-08-05,1
+602,10,Male,Eastern Cape,0,0,63,Procedure,Surgery,23.1,0,Call Centre,2025-04-13,2025-08-07,0
+603,61,Male,Northern Cape,1,0,46,Follow-up,Obstetrics & Gynaecology,17.1,0,App,2025-05-25,2025-07-30,0
+604,59,Male,KwaZulu-Natal,1,0,22,New,Ophthalmology,7.4,0,Call Centre,2025-04-12,2025-08-07,0
+605,59,Female,Free State,1,0,31,Follow-up,Paediatrics,14.4,0,Walk-in,2025-08-18,2025-08-24,0
+606,69,Male,Northern Cape,1,0,48,Follow-up,General Medicine,9.9,2,Call Centre,2025-04-12,2025-08-20,0
+607,63,Female,Limpopo,1,1,80,Follow-up,Paediatrics,15.8,0,Call Centre,2025-07-23,2025-08-05,0
+608,8,Male,Western Cape,1,0,18,Follow-up,Orthopaedics,26.8,0,Walk-in,2025-07-16,2025-08-02,1
+609,78,Female,Gauteng,1,0,77,Procedure,Cardiology,4.2,1,Walk-in,2025-05-13,2025-08-10,0
+610,55,Male,Gauteng,1,0,66,New,Surgery,14.8,0,Walk-in,2025-03-30,2025-08-13,1
+611,6,Male,Mpumalanga,1,0,38,Procedure,Orthopaedics,11.0,1,Call Centre,2025-04-18,2025-08-26,0
+612,1,Female,Western Cape,1,0,88,Follow-up,Psychiatry,9.4,0,Online,2025-04-10,2025-08-06,0
+613,56,Female,Mpumalanga,0,0,59,New,Neurology,10.6,0,Call Centre,2025-04-26,2025-07-31,0
+614,75,Female,Gauteng,1,1,10,Follow-up,Orthopaedics,25.1,0,Walk-in,2025-07-10,2025-08-17,1
+615,88,Female,Eastern Cape,0,0,48,Follow-up,Ophthalmology,17.8,1,Walk-in,2025-04-09,2025-08-11,1
+616,10,Female,Eastern Cape,0,0,14,New,Surgery,7.2,0,Walk-in,2025-04-26,2025-08-21,0
+617,23,Male,Free State,1,0,82,Follow-up,Ophthalmology,18.5,0,Call Centre,2025-06-21,2025-08-20,1
+618,16,Female,Gauteng,1,0,60,New,Surgery,6.4,0,Online,2025-05-18,2025-07-29,1
+619,16,Female,Mpumalanga,1,0,42,Follow-up,Obstetrics & Gynaecology,5.9,0,Call Centre,2025-05-30,2025-08-18,1
+620,56,Other,Western Cape,1,1,14,Follow-up,ENT,11.0,0,Call Centre,2025-08-19,2025-08-04,0
+621,6,Female,Western Cape,1,1,78,New,Surgery,17.0,0,Walk-in,2025-08-18,2025-08-25,0
+622,30,Male,North West,0,1,78,Telehealth,Ophthalmology,9.2,0,Call Centre,2025-04-25,2025-08-15,0
+623,63,Male,Northern Cape,1,0,72,Follow-up,Paediatrics,22.0,0,Call Centre,2025-05-05,2025-08-05,1
+624,1,Female,Limpopo,0,1,4,New,Orthopaedics,15.9,0,Online,2025-06-24,2025-08-11,0
+625,51,Female,Gauteng,0,0,82,New,Orthopaedics,14.6,0,App,2025-05-08,2025-08-15,0
+626,89,Female,Gauteng,1,1,87,Follow-up,Surgery,7.5,0,Walk-in,2025-06-17,2025-08-01,0
+627,46,Female,Mpumalanga,0,1,28,New,Psychiatry,17.2,0,Call Centre,2025-06-15,2025-08-09,1
+628,21,Male,North West,0,0,61,Follow-up,Surgery,27.5,0,Call Centre,2025-07-05,2025-07-30,1
+629,38,Male,KwaZulu-Natal,1,0,59,Follow-up,General Medicine,8.2,0,Walk-in,2025-05-31,2025-08-06,0
+630,69,Male,Northern Cape,0,0,68,Follow-up,Paediatrics,10.5,0,Walk-in,2025-05-25,2025-08-19,1
+631,63,Female,Eastern Cape,0,1,21,Procedure,Obstetrics & Gynaecology,25.5,0,Call Centre,2025-05-17,2025-08-07,0
+632,50,Female,Eastern Cape,0,0,12,Follow-up,Obstetrics & Gynaecology,0.5,0,Online,2025-06-28,2025-07-30,1
+633,12,Male,KwaZulu-Natal,0,1,49,Follow-up,Ophthalmology,13.3,0,Call Centre,2025-04-14,2025-08-12,1
+634,69,Female,North West,0,0,46,Follow-up,Cardiology,5.2,0,Call Centre,2025-04-22,2025-07-29,0
+635,73,Male,Northern Cape,1,0,28,Follow-up,ENT,9.3,1,Call Centre,2025-06-24,2025-08-23,1
+636,44,Male,Gauteng,0,0,79,Follow-up,Ophthalmology,5.7,2,Online,2025-08-23,2025-08-19,1
+637,52,Female,Western Cape,1,1,16,Follow-up,General Medicine,21.8,1,Call Centre,2025-04-30,2025-07-31,1
+638,9,Male,Gauteng,0,0,19,Follow-up,Cardiology,13.5,0,Call Centre,2025-05-05,2025-08-19,0
+639,65,Female,Eastern Cape,1,0,77,Follow-up,ENT,2.4,0,Call Centre,2025-05-11,2025-08-22,1
+640,10,Female,Mpumalanga,1,0,5,Procedure,Orthopaedics,16.2,1,Online,2025-07-16,2025-08-07,0
+641,46,Female,Mpumalanga,1,0,21,New,Ophthalmology,14.1,0,Walk-in,2025-08-02,2025-08-18,0
+642,58,Male,Limpopo,1,0,8,Follow-up,Obstetrics & Gynaecology,5.1,1,Call Centre,2025-08-17,2025-08-10,0
+643,37,Female,Free State,1,0,31,Follow-up,Cardiology,31.7,0,Online,2025-04-20,2025-08-17,0
+644,52,Female,Eastern Cape,0,1,87,Follow-up,Cardiology,17.2,0,Call Centre,2025-08-07,2025-08-04,0
+645,81,Female,North West,1,1,32,New,Paediatrics,24.9,0,Walk-in,2025-05-05,2025-07-31,1
+646,13,Female,Mpumalanga,1,0,76,Follow-up,Surgery,10.4,0,Walk-in,2025-04-22,2025-08-04,1
+647,6,Male,Gauteng,0,1,69,Follow-up,General Medicine,4.3,1,Walk-in,2025-06-13,2025-08-13,0
+648,58,Male,Limpopo,0,1,48,Follow-up,ENT,11.2,1,Call Centre,2025-06-16,2025-08-21,1
+649,48,Female,Western Cape,0,0,29,Follow-up,ENT,1.9,0,Online,2025-06-02,2025-08-14,1
+650,32,Female,Eastern Cape,1,0,15,Procedure,Obstetrics & Gynaecology,25.5,0,Walk-in,2025-05-14,2025-08-20,1
+651,11,Male,Free State,0,0,64,Follow-up,Surgery,6.9,0,App,2025-04-17,2025-08-09,1
+652,81,Male,North West,0,0,81,Follow-up,Obstetrics & Gynaecology,22.4,0,Online,2025-08-19,2025-08-13,1
+653,5,Female,Limpopo,1,0,85,New,Neurology,0.3,0,App,2025-05-01,2025-08-09,0
+654,6,Male,Western Cape,1,1,89,New,General Medicine,5.4,0,Walk-in,2025-07-09,2025-08-10,0
+655,74,Male,Free State,0,1,13,Follow-up,Surgery,6.8,0,Call Centre,2025-08-18,2025-08-11,0
+656,94,Male,Free State,0,0,55,Follow-up,Cardiology,14.3,0,Online,2025-05-07,2025-08-25,0
+657,21,Male,Limpopo,1,0,36,Follow-up,Neurology,1.5,0,Online,2025-08-18,2025-08-25,0
+658,42,Female,Gauteng,1,0,48,Follow-up,Obstetrics & Gynaecology,4.1,0,Online,2025-06-11,2025-08-21,0
+659,81,Male,North West,1,1,77,Follow-up,Neurology,9.7,0,Call Centre,2025-07-23,2025-07-31,0
+660,27,Male,KwaZulu-Natal,1,0,89,Follow-up,Orthopaedics,1.4,0,Walk-in,2025-07-03,2025-08-18,0
+661,3,Male,Free State,0,0,49,New,Ophthalmology,5.6,0,Online,2025-05-02,2025-08-03,0
+662,60,Male,Mpumalanga,0,0,35,Telehealth,Cardiology,12.3,0,Online,2025-07-22,2025-07-31,0
+663,93,Female,KwaZulu-Natal,1,0,51,New,Surgery,1.3,0,Call Centre,2025-07-11,2025-08-11,1
+664,66,Male,Limpopo,1,0,22,Follow-up,Orthopaedics,24.1,1,Online,2025-03-31,2025-08-13,1
+665,93,Female,Free State,1,1,65,New,Cardiology,24.4,0,Walk-in,2025-06-02,2025-08-20,1
+666,49,Male,Mpumalanga,1,0,70,New,Obstetrics & Gynaecology,6.2,0,Call Centre,2025-06-28,2025-08-11,0
+667,34,Male,KwaZulu-Natal,1,1,44,Procedure,Obstetrics & Gynaecology,18.0,0,App,2025-06-14,2025-08-25,0
+668,37,Male,Western Cape,0,0,85,New,Surgery,12.7,0,Walk-in,2025-05-03,2025-08-24,0
+669,42,Male,Eastern Cape,0,0,27,New,Surgery,22.7,0,Online,2025-05-05,2025-08-01,0
+670,65,Female,KwaZulu-Natal,0,0,19,Follow-up,ENT,7.4,0,Online,2025-05-21,2025-08-20,0
+671,60,Male,Eastern Cape,0,1,48,Follow-up,Orthopaedics,17.1,0,Call Centre,2025-07-11,2025-08-15,1
+672,90,Female,Mpumalanga,0,1,56,Follow-up,Surgery,15.1,0,Online,2025-07-22,2025-08-27,0
+673,1,Male,Free State,1,0,81,Follow-up,ENT,14.6,0,Online,2025-08-23,2025-07-31,0
+674,59,Male,Eastern Cape,0,1,87,Follow-up,Orthopaedics,5.8,0,Online,2025-05-20,2025-08-10,0
+675,4,Male,Limpopo,0,0,58,Follow-up,Obstetrics & Gynaecology,23.9,1,Walk-in,2025-08-11,2025-08-17,1
+676,14,Female,Mpumalanga,0,0,25,New,Neurology,7.9,0,Call Centre,2025-05-30,2025-08-07,0
+677,18,Male,Free State,1,0,18,Procedure,Neurology,7.9,1,Online,2025-05-12,2025-08-22,1
+678,34,Male,Mpumalanga,1,1,12,Follow-up,Psychiatry,4.8,0,Walk-in,2025-08-08,2025-08-12,0
+679,1,Male,KwaZulu-Natal,1,0,73,Follow-up,Orthopaedics,5.4,0,Walk-in,2025-05-17,2025-08-07,0
+680,53,Male,Mpumalanga,1,0,61,Procedure,Orthopaedics,9.6,1,Walk-in,2025-05-23,2025-07-30,0
+681,22,Female,KwaZulu-Natal,1,0,13,Procedure,ENT,16.5,0,Walk-in,2025-04-06,2025-08-09,0
+682,80,Female,Limpopo,0,0,72,Follow-up,Ophthalmology,19.8,1,Online,2025-08-21,2025-08-02,0
+683,61,Female,North West,0,0,10,Follow-up,Neurology,13.3,1,Online,2025-05-26,2025-08-05,0
+684,22,Female,Limpopo,0,0,66,Follow-up,Obstetrics & Gynaecology,26.2,0,Online,2025-06-23,2025-07-31,0
+685,50,Female,KwaZulu-Natal,1,0,11,Follow-up,ENT,13.2,1,Online,2025-08-16,2025-08-11,1
+686,16,Male,Free State,0,1,34,Procedure,Surgery,6.0,2,Online,2025-07-19,2025-08-10,1
+687,28,Female,Northern Cape,0,0,38,New,Orthopaedics,0.5,0,Call Centre,2025-08-27,2025-08-17,1
+688,92,Male,North West,1,0,31,Follow-up,General Medicine,19.0,0,Online,2025-07-01,2025-08-14,0
+689,86,Male,Limpopo,1,0,13,Procedure,ENT,8.7,0,Walk-in,2025-04-19,2025-08-16,1
+690,70,Female,Northern Cape,1,0,64,New,Cardiology,8.1,0,Walk-in,2025-08-20,2025-08-03,0
+691,89,Female,Western Cape,0,1,26,Telehealth,Paediatrics,2.4,1,Walk-in,2025-05-30,2025-07-29,0
+692,42,Female,Northern Cape,1,0,59,Telehealth,Neurology,8.0,2,Walk-in,2025-06-14,2025-08-08,0
+693,66,Female,Limpopo,1,1,42,Follow-up,Obstetrics & Gynaecology,8.1,1,Call Centre,2025-06-04,2025-08-04,1
+694,71,Male,Northern Cape,0,1,64,Follow-up,Cardiology,16.9,1,Call Centre,2025-08-23,2025-08-03,1
+695,81,Male,Eastern Cape,1,1,54,New,Psychiatry,9.6,0,Call Centre,2025-08-02,2025-08-21,1
+696,35,Male,Free State,1,0,87,Telehealth,Obstetrics & Gynaecology,24.8,0,Walk-in,2025-06-04,2025-08-11,1
+697,20,Female,Western Cape,0,0,80,Telehealth,Surgery,5.5,0,Call Centre,2025-06-16,2025-08-23,0
+698,2,Female,KwaZulu-Natal,0,0,34,New,Cardiology,14.0,0,Call Centre,2025-04-05,2025-08-06,0
+699,7,Male,Gauteng,1,1,31,Follow-up,General Medicine,4.6,0,Call Centre,2025-05-19,2025-08-14,0
+700,49,Male,Eastern Cape,0,0,18,Follow-up,Ophthalmology,18.6,0,Call Centre,2025-06-23,2025-08-01,0
+701,83,Female,Western Cape,1,0,38,New,Neurology,2.2,0,Online,2025-05-01,2025-08-04,0
+702,76,Female,Western Cape,0,0,19,New,Orthopaedics,17.7,0,Online,2025-07-12,2025-08-02,1
+703,9,Female,Gauteng,1,0,27,New,Ophthalmology,6.4,1,App,2025-05-28,2025-08-15,0
+704,27,Male,Western Cape,1,1,2,Follow-up,Neurology,1.7,0,Walk-in,2025-08-01,2025-08-04,1
+705,78,Female,Eastern Cape,1,0,31,New,Neurology,20.4,2,Online,2025-07-19,2025-07-30,0
+706,2,Female,Limpopo,0,0,85,Procedure,Surgery,27.6,0,Walk-in,2025-08-27,2025-08-16,0
+707,85,Male,Mpumalanga,0,0,57,Follow-up,Psychiatry,15.2,0,Walk-in,2025-04-11,2025-08-14,1
+708,68,Female,Mpumalanga,0,0,53,Follow-up,Psychiatry,1.1,0,Walk-in,2025-08-10,2025-08-03,0
+709,60,Male,Mpumalanga,0,1,41,New,Surgery,30.3,0,Call Centre,2025-05-29,2025-08-19,1
+710,85,Male,Eastern Cape,0,1,14,Procedure,Surgery,13.4,0,Online,2025-07-12,2025-08-24,0
+711,86,Male,Free State,1,0,82,Follow-up,Neurology,1.7,0,Online,2025-08-07,2025-08-06,0
+712,49,Female,KwaZulu-Natal,0,0,61,Follow-up,Cardiology,26.8,1,Online,2025-04-21,2025-08-09,0
+713,2,Female,Gauteng,1,0,30,Follow-up,Orthopaedics,17.9,0,Walk-in,2025-08-14,2025-08-27,1
+714,17,Male,North West,1,1,60,Follow-up,Paediatrics,13.1,0,App,2025-08-08,2025-07-30,0
+715,83,Female,Mpumalanga,1,1,25,Follow-up,Psychiatry,7.2,0,App,2025-04-29,2025-08-15,0
+716,88,Male,Northern Cape,1,1,68,New,Obstetrics & Gynaecology,33.0,0,Walk-in,2025-04-28,2025-08-22,0
+717,20,Female,Eastern Cape,0,0,56,Follow-up,Paediatrics,14.6,0,Online,2025-07-07,2025-08-27,0
+718,76,Female,Free State,1,1,19,New,Ophthalmology,8.9,0,Call Centre,2025-06-21,2025-08-03,0
+719,89,Male,Free State,1,1,65,Follow-up,Neurology,26.6,1,Call Centre,2025-07-22,2025-08-01,0
+720,87,Male,Mpumalanga,1,0,20,Follow-up,Ophthalmology,2.8,0,Call Centre,2025-06-07,2025-08-06,0
+721,32,Female,Northern Cape,1,0,59,New,Cardiology,1.1,1,Online,2025-07-10,2025-08-11,1
+722,51,Male,North West,1,1,62,New,Psychiatry,2.3,0,Call Centre,2025-07-20,2025-08-01,0
+723,88,Female,Mpumalanga,0,0,50,Follow-up,Cardiology,8.2,0,Call Centre,2025-04-12,2025-07-30,1
+724,42,Female,Gauteng,0,0,83,Procedure,Neurology,12.3,0,Call Centre,2025-04-13,2025-08-25,1
+725,63,Female,Limpopo,1,0,38,Follow-up,Paediatrics,18.4,0,Call Centre,2025-05-28,2025-08-11,1
+726,89,Female,Northern Cape,1,0,10,Follow-up,Ophthalmology,0.5,0,Walk-in,2025-04-09,2025-08-26,0
+727,61,Male,Mpumalanga,1,0,56,New,Paediatrics,15.0,0,Call Centre,2025-08-10,2025-08-06,0
+728,62,Male,Gauteng,0,0,2,Procedure,Cardiology,6.0,0,Walk-in,2025-04-10,2025-08-21,0
+729,3,Female,Northern Cape,1,1,36,Follow-up,ENT,10.9,1,Call Centre,2025-06-17,2025-08-27,1
+730,89,Male,KwaZulu-Natal,1,1,83,Follow-up,Obstetrics & Gynaecology,24.1,1,Call Centre,2025-08-23,2025-08-02,1
+731,92,Male,Northern Cape,0,1,24,New,Ophthalmology,16.9,1,Online,2025-08-21,2025-08-07,0
+732,76,Female,Eastern Cape,0,0,20,Follow-up,Psychiatry,17.8,0,App,2025-04-07,2025-08-06,0
+733,26,Female,Northern Cape,0,0,79,New,Surgery,5.8,0,Walk-in,2025-04-04,2025-08-13,0
+734,48,Male,North West,1,0,41,Follow-up,Cardiology,31.3,0,Call Centre,2025-07-21,2025-08-24,1
+735,8,Other,Mpumalanga,1,0,0,Procedure,Cardiology,18.7,0,App,2025-08-02,2025-08-22,0
+736,5,Female,Eastern Cape,0,0,22,Follow-up,Ophthalmology,7.8,1,Walk-in,2025-06-30,2025-08-07,0
+737,11,Male,Northern Cape,0,1,23,Telehealth,Obstetrics & Gynaecology,23.4,0,Online,2025-07-07,2025-08-15,0
+738,42,Male,Eastern Cape,1,0,46,Follow-up,Surgery,17.7,0,Walk-in,2025-04-01,2025-07-30,0
+739,91,Female,Gauteng,1,0,88,Procedure,General Medicine,0.6,0,Call Centre,2025-04-05,2025-08-01,0
+740,41,Female,Limpopo,1,0,6,Follow-up,Paediatrics,14.0,1,Online,2025-05-13,2025-08-05,0
+741,19,Male,Eastern Cape,1,0,37,Follow-up,Ophthalmology,2.3,0,Online,2025-06-27,2025-08-15,0
+742,48,Male,KwaZulu-Natal,0,1,46,Follow-up,Obstetrics & Gynaecology,8.4,0,Walk-in,2025-06-30,2025-08-08,0
+743,53,Male,Free State,1,1,34,Procedure,Orthopaedics,7.7,0,Call Centre,2025-08-26,2025-08-27,0
+744,55,Female,KwaZulu-Natal,0,0,77,Follow-up,ENT,23.3,0,Online,2025-08-03,2025-08-26,0
+745,61,Male,Northern Cape,1,0,61,Follow-up,General Medicine,26.7,0,Call Centre,2025-08-09,2025-08-22,0
+746,32,Male,Limpopo,0,0,72,Follow-up,Obstetrics & Gynaecology,6.9,0,Online,2025-08-03,2025-07-29,1
+747,46,Female,KwaZulu-Natal,1,1,2,Telehealth,Obstetrics & Gynaecology,9.1,0,Walk-in,2025-08-24,2025-07-30,0
+748,92,Female,Free State,0,0,19,Follow-up,Cardiology,26.0,2,Walk-in,2025-08-25,2025-08-02,0
+749,36,Female,North West,1,0,43,Follow-up,Surgery,18.7,0,Call Centre,2025-05-14,2025-07-30,0
+750,18,Male,North West,0,0,31,Procedure,Obstetrics & Gynaecology,16.9,0,Walk-in,2025-04-12,2025-08-17,0
+751,74,Male,Limpopo,1,0,25,Procedure,Orthopaedics,13.4,0,Call Centre,2025-05-07,2025-08-10,0
+752,18,Male,Free State,1,0,47,Follow-up,Neurology,19.2,0,Walk-in,2025-08-01,2025-08-15,0
+753,12,Female,Free State,0,0,4,Procedure,Obstetrics & Gynaecology,11.7,0,Call Centre,2025-05-08,2025-08-07,0
+754,72,Female,Gauteng,1,0,58,Follow-up,ENT,27.3,0,App,2025-05-30,2025-08-16,0
+755,46,Male,Western Cape,1,0,60,Follow-up,Psychiatry,10.8,0,App,2025-04-21,2025-08-08,0
+756,55,Male,Eastern Cape,1,1,48,Procedure,Paediatrics,10.6,0,Online,2025-07-15,2025-08-21,0
+757,38,Female,Limpopo,1,0,29,New,Surgery,8.6,0,App,2025-07-07,2025-08-08,0
+758,78,Female,Mpumalanga,1,0,16,Follow-up,Orthopaedics,22.6,1,Call Centre,2025-06-24,2025-08-21,1
+759,2,Male,Gauteng,1,1,69,Follow-up,Surgery,2.4,2,App,2025-08-17,2025-08-01,0
+760,9,Female,North West,1,1,57,Follow-up,Obstetrics & Gynaecology,11.7,0,Call Centre,2025-06-21,2025-08-04,1
+761,5,Female,Gauteng,0,0,62,New,Ophthalmology,10.2,0,Walk-in,2025-04-29,2025-08-21,0
+762,19,Female,Northern Cape,0,0,60,Telehealth,General Medicine,8.6,0,Call Centre,2025-06-12,2025-08-26,0
+763,71,Female,Eastern Cape,1,0,62,Follow-up,Psychiatry,16.5,0,App,2025-08-13,2025-08-17,0
+764,39,Female,Mpumalanga,0,1,14,Procedure,ENT,18.5,0,Walk-in,2025-07-02,2025-08-27,0
+765,42,Female,Limpopo,1,1,0,Follow-up,Psychiatry,3.7,2,Walk-in,2025-06-15,2025-08-07,1
+766,17,Female,Northern Cape,0,0,12,New,Orthopaedics,39.2,0,App,2025-06-25,2025-07-30,1
+767,63,Male,Western Cape,1,0,47,Follow-up,Paediatrics,10.0,1,Walk-in,2025-08-17,2025-08-15,0
+768,90,Male,Mpumalanga,1,0,33,New,Orthopaedics,4.9,0,Walk-in,2025-04-29,2025-08-16,0
+769,46,Female,Free State,1,0,29,Follow-up,ENT,27.8,0,Call Centre,2025-04-25,2025-08-15,1
+770,91,Female,Mpumalanga,1,0,18,Procedure,Ophthalmology,19.3,1,Online,2025-04-02,2025-08-21,1
+771,92,Female,Gauteng,1,0,63,Follow-up,ENT,16.1,1,App,2025-07-29,2025-08-16,1
+772,20,Male,Northern Cape,0,0,65,Follow-up,Surgery,7.6,0,App,2025-08-18,2025-08-11,1
+773,70,Female,Gauteng,0,0,56,Procedure,Surgery,12.5,0,Call Centre,2025-07-05,2025-08-01,0
+774,8,Male,Free State,0,0,43,Follow-up,Ophthalmology,9.7,0,Call Centre,2025-04-21,2025-08-20,0
+775,19,Female,North West,1,0,11,Follow-up,Obstetrics & Gynaecology,9.3,0,Walk-in,2025-07-01,2025-08-25,0
+776,32,Male,Gauteng,0,0,39,New,Cardiology,36.6,0,Call Centre,2025-04-01,2025-08-21,1
+777,19,Male,Mpumalanga,0,0,23,Procedure,Neurology,2.5,0,Call Centre,2025-04-07,2025-08-09,1
+778,24,Male,Western Cape,1,1,10,Follow-up,Ophthalmology,13.8,0,Walk-in,2025-04-03,2025-08-08,0
+779,24,Female,Mpumalanga,1,0,65,Follow-up,ENT,4.8,0,Online,2025-04-18,2025-08-20,0
+780,56,Male,Mpumalanga,0,1,0,Follow-up,Neurology,6.8,0,App,2025-06-13,2025-08-14,0
+781,81,Male,Northern Cape,0,0,57,Telehealth,Obstetrics & Gynaecology,0.7,0,Call Centre,2025-05-31,2025-08-14,1
+782,18,Male,Limpopo,1,1,27,Follow-up,Neurology,16.3,0,Call Centre,2025-05-22,2025-08-26,1
+783,12,Male,Eastern Cape,1,1,67,Follow-up,General Medicine,14.2,0,Call Centre,2025-06-08,2025-08-22,0
+784,41,Female,Mpumalanga,0,0,58,New,Paediatrics,1.0,0,Walk-in,2025-06-19,2025-08-12,0
+785,87,Male,Mpumalanga,1,0,70,Follow-up,Orthopaedics,12.9,0,Walk-in,2025-08-16,2025-08-02,1
+786,48,Male,Eastern Cape,1,0,21,Follow-up,Neurology,13.2,0,Walk-in,2025-04-23,2025-08-19,0
+787,82,Female,Western Cape,1,1,89,Procedure,ENT,13.7,0,App,2025-06-10,2025-08-02,0
+788,64,Female,Northern Cape,1,0,28,Follow-up,Surgery,20.5,0,Walk-in,2025-04-05,2025-08-03,0
+789,16,Female,North West,1,0,88,New,Psychiatry,27.7,1,Walk-in,2025-04-21,2025-08-07,1
+790,80,Female,Free State,1,0,73,Procedure,Neurology,5.9,0,Online,2025-08-14,2025-08-13,0
+791,23,Female,Free State,0,1,83,Follow-up,Surgery,8.9,0,Online,2025-05-01,2025-08-09,0
+792,86,Male,Gauteng,0,0,77,Follow-up,Obstetrics & Gynaecology,10.3,0,Walk-in,2025-08-26,2025-08-13,0
+793,39,Other,Northern Cape,1,0,68,Procedure,Obstetrics & Gynaecology,1.0,0,Online,2025-08-24,2025-08-06,0
+794,33,Female,North West,1,0,44,New,Cardiology,1.9,0,Walk-in,2025-06-23,2025-08-16,0
+795,24,Female,Free State,1,0,69,Follow-up,Ophthalmology,17.6,0,Online,2025-05-30,2025-08-19,1
+796,61,Female,Limpopo,0,0,85,Follow-up,Orthopaedics,31.2,1,Call Centre,2025-06-29,2025-08-12,1
+797,55,Female,North West,1,0,16,New,Obstetrics & Gynaecology,1.6,0,Call Centre,2025-05-23,2025-08-22,0
+798,61,Male,Limpopo,0,1,78,Follow-up,Orthopaedics,34.9,0,Online,2025-04-23,2025-08-08,1
+799,84,Male,Eastern Cape,1,1,38,New,Obstetrics & Gynaecology,6.3,0,Walk-in,2025-06-29,2025-07-31,0
+800,40,Female,KwaZulu-Natal,0,1,39,Telehealth,Ophthalmology,24.1,0,Online,2025-06-06,2025-08-01,1
+801,58,Female,Mpumalanga,1,0,27,Follow-up,Cardiology,16.3,0,Online,2025-06-15,2025-08-13,0
+802,72,Male,Western Cape,1,1,1,Procedure,Neurology,13.9,1,Call Centre,2025-07-04,2025-08-15,0
+803,74,Female,Mpumalanga,0,0,81,New,Orthopaedics,7.7,0,Walk-in,2025-08-02,2025-08-07,0
+804,1,Female,Gauteng,0,0,26,Follow-up,Obstetrics & Gynaecology,12.2,0,Online,2025-04-29,2025-08-05,0
+805,85,Male,Free State,1,1,20,New,Obstetrics & Gynaecology,4.9,1,Online,2025-06-22,2025-08-18,0
+806,25,Female,Northern Cape,1,1,86,New,Obstetrics & Gynaecology,21.5,1,Online,2025-05-04,2025-08-14,1
+807,53,Female,Gauteng,0,0,6,Follow-up,ENT,23.2,0,Online,2025-06-22,2025-07-30,1
+808,61,Male,North West,0,1,60,Follow-up,Obstetrics & Gynaecology,5.5,0,Online,2025-08-22,2025-08-25,1
+809,46,Female,Northern Cape,0,1,51,New,Obstetrics & Gynaecology,4.4,1,Online,2025-05-06,2025-07-29,0
+810,74,Male,Northern Cape,1,0,47,New,Psychiatry,8.7,1,Call Centre,2025-08-18,2025-08-16,1
+811,60,Male,North West,0,0,18,Telehealth,Orthopaedics,31.9,0,Call Centre,2025-07-21,2025-08-03,0
+812,51,Male,Eastern Cape,0,1,72,Procedure,Neurology,14.3,0,Walk-in,2025-04-26,2025-08-27,0
+813,73,Female,Mpumalanga,1,0,11,Follow-up,Obstetrics & Gynaecology,23.5,0,Call Centre,2025-06-12,2025-08-04,0
+814,84,Male,Gauteng,1,0,70,New,Psychiatry,2.7,0,Call Centre,2025-05-18,2025-08-07,0
+815,48,Male,Mpumalanga,0,1,1,Follow-up,Obstetrics & Gynaecology,7.1,0,App,2025-08-16,2025-08-12,0
+816,84,Female,Limpopo,1,0,16,Follow-up,Surgery,8.9,0,Online,2025-07-13,2025-08-18,0
+817,40,Male,Free State,1,0,74,Follow-up,General Medicine,0.3,1,Online,2025-07-10,2025-08-19,0
+818,7,Female,Gauteng,1,0,75,New,Surgery,13.7,1,Walk-in,2025-05-29,2025-08-10,1
+819,75,Female,North West,0,0,2,Follow-up,Cardiology,3.8,1,Walk-in,2025-04-26,2025-08-27,1
+820,85,Other,Gauteng,1,1,20,Follow-up,Neurology,21.5,0,Call Centre,2025-06-17,2025-08-18,1
+821,19,Female,Gauteng,0,0,77,Follow-up,Paediatrics,12.9,0,App,2025-05-18,2025-08-21,1
+822,15,Male,KwaZulu-Natal,0,0,78,Follow-up,Paediatrics,26.8,0,Call Centre,2025-07-16,2025-08-18,1
+823,70,Male,North West,0,1,50,Procedure,ENT,4.8,0,Walk-in,2025-06-29,2025-08-16,0
+824,61,Female,North West,1,1,9,Telehealth,Ophthalmology,6.7,1,Call Centre,2025-05-19,2025-08-17,0
+825,56,Female,Mpumalanga,1,0,54,New,General Medicine,7.9,0,Call Centre,2025-06-03,2025-08-19,1
+826,10,Male,Free State,1,1,35,New,Paediatrics,16.6,1,Call Centre,2025-04-24,2025-07-29,0
+827,46,Female,North West,0,0,50,New,Paediatrics,7.8,0,Walk-in,2025-08-17,2025-08-23,0
+828,80,Female,Western Cape,1,0,73,New,Ophthalmology,29.2,0,Online,2025-07-24,2025-08-01,1
+829,75,Female,North West,1,0,16,New,Neurology,10.2,0,Walk-in,2025-08-05,2025-08-24,0
+830,57,Female,Western Cape,0,0,88,Follow-up,Cardiology,2.9,0,Online,2025-04-01,2025-08-08,0
+831,35,Other,Free State,1,0,60,Follow-up,ENT,10.4,1,App,2025-07-31,2025-07-31,1
+832,72,Female,Eastern Cape,0,0,74,Follow-up,Neurology,8.7,0,Online,2025-05-04,2025-08-15,0
+833,92,Female,Gauteng,1,0,12,Follow-up,Obstetrics & Gynaecology,21.3,1,Online,2025-05-25,2025-08-20,1
+834,3,Male,Free State,0,0,64,Follow-up,Obstetrics & Gynaecology,7.9,0,Walk-in,2025-07-01,2025-08-12,1
+835,66,Female,Mpumalanga,1,0,84,New,General Medicine,3.2,0,Online,2025-07-06,2025-08-27,0
+836,53,Female,Gauteng,1,0,79,New,Psychiatry,13.8,0,Walk-in,2025-07-31,2025-08-11,0
+837,78,Female,Western Cape,1,0,86,Follow-up,General Medicine,5.5,0,Call Centre,2025-07-17,2025-08-13,0
+838,52,Female,Northern Cape,0,0,73,Follow-up,Paediatrics,0.5,1,Call Centre,2025-06-04,2025-08-04,1
+839,93,Male,Free State,1,0,47,New,Neurology,12.2,0,Call Centre,2025-05-27,2025-08-13,0
+840,53,Female,Mpumalanga,0,0,85,Follow-up,General Medicine,10.7,0,Walk-in,2025-04-26,2025-08-10,1
+841,54,Female,Western Cape,1,0,69,Follow-up,Orthopaedics,9.8,0,Online,2025-07-12,2025-08-02,0
+842,47,Male,Mpumalanga,1,0,46,Procedure,ENT,14.6,0,Online,2025-05-05,2025-08-22,0
+843,3,Male,Mpumalanga,0,1,9,Follow-up,Psychiatry,6.2,0,App,2025-08-18,2025-08-26,0
+844,65,Female,Mpumalanga,0,1,56,Procedure,Psychiatry,13.2,0,Walk-in,2025-08-05,2025-08-23,0
+845,15,Male,Free State,1,1,79,Procedure,Obstetrics & Gynaecology,6.1,0,Online,2025-08-23,2025-08-09,0
+846,84,Male,Northern Cape,1,0,12,Procedure,Surgery,20.2,0,Call Centre,2025-06-07,2025-08-21,1
+847,86,Male,Western Cape,0,0,60,Follow-up,Orthopaedics,11.8,0,Online,2025-05-01,2025-08-19,0
+848,34,Female,Eastern Cape,0,0,57,Follow-up,Psychiatry,29.5,0,Online,2025-08-22,2025-08-26,0
+849,50,Female,Western Cape,0,1,83,Follow-up,Neurology,7.1,0,Online,2025-04-25,2025-08-21,0
+850,33,Male,North West,1,0,67,Follow-up,Neurology,15.6,0,Walk-in,2025-07-12,2025-07-30,0
+851,73,Female,Gauteng,1,0,83,Follow-up,Ophthalmology,23.3,0,Walk-in,2025-07-31,2025-07-30,1
+852,3,Female,Northern Cape,1,0,85,New,Ophthalmology,17.4,0,Call Centre,2025-08-15,2025-08-04,1
+853,2,Male,Free State,1,1,28,Telehealth,Neurology,13.4,1,Online,2025-08-03,2025-08-14,1
+854,4,Male,KwaZulu-Natal,1,0,15,Procedure,General Medicine,15.4,0,Online,2025-08-21,2025-08-02,0
+855,16,Female,Eastern Cape,1,0,62,Follow-up,Neurology,17.1,0,Walk-in,2025-06-09,2025-08-04,0
+856,54,Male,Gauteng,0,1,46,New,Orthopaedics,15.0,0,Call Centre,2025-06-23,2025-08-05,1
+857,33,Female,KwaZulu-Natal,1,0,42,Follow-up,Obstetrics & Gynaecology,11.9,0,Call Centre,2025-07-23,2025-07-29,0
+858,9,Male,North West,0,0,22,Follow-up,Surgery,19.4,0,Walk-in,2025-08-26,2025-08-13,1
+859,57,Male,Western Cape,0,0,29,Procedure,Paediatrics,11.2,0,Online,2025-05-07,2025-08-16,0
+860,40,Female,Western Cape,1,0,56,Follow-up,Psychiatry,2.2,0,Call Centre,2025-07-21,2025-08-08,1
+861,52,Male,Northern Cape,0,0,29,New,ENT,32.6,0,Online,2025-08-14,2025-08-24,0
+862,82,Female,Free State,1,0,66,Procedure,Surgery,20.8,0,Walk-in,2025-04-07,2025-08-02,0
+863,16,Male,Free State,1,0,55,Follow-up,Obstetrics & Gynaecology,2.9,0,Call Centre,2025-06-04,2025-08-15,1
+864,8,Male,Gauteng,1,1,23,Telehealth,Ophthalmology,9.6,0,Online,2025-04-10,2025-07-30,0
+865,87,Male,Limpopo,0,0,76,Follow-up,Neurology,6.3,0,Walk-in,2025-05-05,2025-08-19,1
+866,60,Male,North West,0,0,75,Procedure,General Medicine,7.0,0,Online,2025-05-23,2025-08-16,1
+867,36,Male,Limpopo,0,0,7,Follow-up,Ophthalmology,20.7,0,Call Centre,2025-06-03,2025-08-18,1
+868,3,Male,Mpumalanga,1,1,87,Follow-up,Obstetrics & Gynaecology,8.7,1,Call Centre,2025-05-18,2025-08-19,1
+869,15,Female,Eastern Cape,1,0,43,Follow-up,ENT,31.2,0,Call Centre,2025-06-07,2025-08-07,0
+870,82,Female,Western Cape,1,0,79,New,Paediatrics,5.7,0,Call Centre,2025-07-15,2025-08-05,0
+871,23,Male,Gauteng,1,0,33,Procedure,ENT,11.7,0,Online,2025-04-20,2025-08-21,1
+872,3,Female,Limpopo,1,0,34,New,General Medicine,1.3,0,Call Centre,2025-05-27,2025-08-03,1
+873,30,Male,Northern Cape,1,0,49,Procedure,Orthopaedics,15.3,0,App,2025-05-15,2025-08-16,1
+874,45,Male,Free State,1,1,16,Procedure,Ophthalmology,16.5,0,Online,2025-04-25,2025-08-12,0
+875,17,Female,Western Cape,0,0,1,Follow-up,Cardiology,21.0,0,Walk-in,2025-06-16,2025-08-13,0
+876,58,Male,Gauteng,1,1,89,New,Neurology,0.3,0,App,2025-06-17,2025-08-21,0
+877,58,Female,KwaZulu-Natal,1,0,53,Follow-up,Obstetrics & Gynaecology,16.3,0,Call Centre,2025-04-17,2025-08-20,0
+878,57,Male,Eastern Cape,0,1,43,Follow-up,ENT,3.3,1,Call Centre,2025-06-11,2025-08-21,1
+879,7,Female,Mpumalanga,0,0,80,Follow-up,Orthopaedics,13.0,1,Online,2025-07-01,2025-08-17,1
+880,39,Female,Northern Cape,0,0,48,Follow-up,Surgery,7.6,1,Call Centre,2025-04-25,2025-08-24,0
+881,78,Male,North West,1,0,1,New,Psychiatry,0.6,0,App,2025-08-17,2025-07-31,1
+882,58,Male,Northern Cape,0,0,71,Follow-up,Obstetrics & Gynaecology,19.2,0,App,2025-03-30,2025-08-10,1
+883,56,Female,Mpumalanga,1,1,69,New,Psychiatry,9.4,0,App,2025-08-01,2025-08-09,0
+884,15,Female,North West,1,0,8,Procedure,General Medicine,20.6,0,App,2025-07-03,2025-08-21,1
+885,44,Male,North West,1,0,0,Follow-up,Psychiatry,21.3,0,Walk-in,2025-04-24,2025-07-29,1
+886,12,Male,Gauteng,0,0,68,New,Ophthalmology,25.1,0,Online,2025-06-30,2025-08-01,1
+887,8,Male,Northern Cape,0,1,8,New,Psychiatry,6.9,0,Call Centre,2025-05-11,2025-08-01,0
+888,80,Female,Western Cape,0,0,13,Follow-up,Cardiology,2.7,0,Online,2025-07-19,2025-08-15,0
+889,41,Female,Mpumalanga,0,1,26,New,Surgery,24.0,0,Call Centre,2025-04-04,2025-08-19,0
+890,34,Male,Free State,1,1,8,Follow-up,ENT,13.0,0,Online,2025-06-28,2025-07-30,0
+891,46,Male,Eastern Cape,0,1,35,Follow-up,Cardiology,25.5,0,App,2025-04-28,2025-07-29,0
+892,88,Female,Gauteng,1,0,83,Follow-up,General Medicine,0.2,1,Call Centre,2025-05-14,2025-08-01,1
+893,29,Female,Gauteng,0,0,78,New,Cardiology,18.9,1,Call Centre,2025-08-05,2025-08-10,1
+894,16,Female,KwaZulu-Natal,1,0,2,Follow-up,General Medicine,12.4,1,Walk-in,2025-07-23,2025-07-29,1
+895,5,Male,Gauteng,1,1,22,Follow-up,Cardiology,11.6,1,Online,2025-07-21,2025-08-21,0
+896,5,Female,North West,1,1,72,Follow-up,Obstetrics & Gynaecology,8.8,1,Online,2025-06-17,2025-08-08,1
+897,30,Female,KwaZulu-Natal,1,0,29,Procedure,Cardiology,0.9,0,Online,2025-07-03,2025-08-12,1
+898,50,Male,Western Cape,0,1,18,Procedure,Cardiology,18.6,0,Online,2025-06-13,2025-08-05,0
+899,5,Other,Limpopo,1,0,66,New,General Medicine,8.1,0,Call Centre,2025-05-13,2025-07-31,1
+900,13,Female,Eastern Cape,1,0,49,Follow-up,ENT,14.1,0,Online,2025-04-01,2025-08-23,1
+901,49,Female,Eastern Cape,1,0,47,Follow-up,Psychiatry,31.3,1,Walk-in,2025-06-27,2025-08-21,1
+902,89,Female,Western Cape,1,1,2,Procedure,Paediatrics,6.6,0,Call Centre,2025-08-05,2025-08-22,0
+903,50,Male,Western Cape,1,1,65,Follow-up,Paediatrics,9.0,0,Walk-in,2025-04-01,2025-07-30,0
+904,14,Male,Limpopo,1,1,26,Follow-up,Surgery,10.4,0,Online,2025-04-30,2025-08-26,1
+905,46,Male,Free State,1,1,86,Follow-up,Ophthalmology,8.1,0,App,2025-04-06,2025-07-31,0
+906,90,Female,Northern Cape,1,0,39,New,Paediatrics,8.4,1,Online,2025-06-24,2025-08-21,1
+907,82,Male,Eastern Cape,0,1,17,Follow-up,General Medicine,19.0,0,App,2025-05-12,2025-08-07,0
+908,84,Female,Free State,1,0,26,Follow-up,Paediatrics,25.2,0,Call Centre,2025-06-09,2025-08-19,1
+909,34,Male,Gauteng,1,1,10,New,Surgery,13.3,0,App,2025-04-17,2025-08-15,0
+910,71,Female,Western Cape,1,1,38,New,Ophthalmology,19.4,0,Call Centre,2025-06-25,2025-07-30,1
+911,47,Female,KwaZulu-Natal,1,0,18,New,Neurology,10.3,0,Walk-in,2025-07-18,2025-08-01,1
+912,60,Female,Free State,0,0,88,Follow-up,Surgery,10.0,0,Call Centre,2025-05-22,2025-08-11,1
+913,74,Female,Free State,1,0,6,New,General Medicine,8.0,1,Online,2025-05-31,2025-08-11,0
+914,79,Other,Eastern Cape,1,1,56,Follow-up,Neurology,4.4,0,Call Centre,2025-05-14,2025-08-13,0
+915,81,Male,KwaZulu-Natal,1,0,1,New,Cardiology,24.4,0,Call Centre,2025-04-07,2025-08-10,1
+916,11,Male,Northern Cape,0,0,37,New,Neurology,7.0,0,Walk-in,2025-07-05,2025-08-04,0
+917,91,Male,Gauteng,1,1,4,Follow-up,Paediatrics,18.1,0,Call Centre,2025-06-12,2025-08-13,0
+918,85,Female,Limpopo,1,0,77,Follow-up,Surgery,3.6,0,Call Centre,2025-07-17,2025-08-17,1
+919,50,Male,Mpumalanga,1,0,81,Follow-up,Psychiatry,12.5,0,Walk-in,2025-08-03,2025-08-03,0
+920,4,Female,Eastern Cape,1,0,35,Follow-up,Neurology,12.0,0,Call Centre,2025-06-22,2025-08-01,1
+921,41,Male,KwaZulu-Natal,1,0,67,Follow-up,Cardiology,3.7,1,Call Centre,2025-05-08,2025-08-01,1
+922,59,Female,North West,1,1,87,New,Cardiology,8.5,1,Call Centre,2025-06-16,2025-08-16,0
+923,60,Female,Northern Cape,1,0,76,Follow-up,General Medicine,1.3,0,Call Centre,2025-03-31,2025-08-05,0
+924,81,Female,Gauteng,0,0,84,Procedure,General Medicine,12.2,0,Walk-in,2025-05-08,2025-08-11,0
+925,62,Female,Northern Cape,0,0,56,Follow-up,Neurology,5.6,0,Online,2025-04-13,2025-08-16,0
+926,84,Male,Mpumalanga,0,0,19,Follow-up,Obstetrics & Gynaecology,11.4,0,Walk-in,2025-08-05,2025-08-21,0
+927,25,Male,Gauteng,1,1,4,Follow-up,Cardiology,18.5,0,Call Centre,2025-08-13,2025-07-30,0
+928,87,Female,Mpumalanga,1,1,23,New,Surgery,11.9,0,Walk-in,2025-04-23,2025-08-04,1
+929,79,Male,Free State,1,0,29,New,Obstetrics & Gynaecology,5.0,0,Walk-in,2025-08-14,2025-08-21,0
+930,33,Female,Mpumalanga,1,0,27,Procedure,Cardiology,5.5,0,Walk-in,2025-07-07,2025-07-30,0
+931,19,Female,Northern Cape,1,0,52,Follow-up,Obstetrics & Gynaecology,24.1,0,Call Centre,2025-06-05,2025-07-31,1
+932,57,Female,North West,1,0,50,Follow-up,Psychiatry,13.6,1,Call Centre,2025-07-23,2025-08-07,0
+933,15,Male,Limpopo,0,0,6,New,Neurology,20.4,1,Call Centre,2025-04-05,2025-07-31,1
+934,41,Female,Western Cape,1,1,41,New,ENT,21.4,0,Call Centre,2025-08-24,2025-08-05,1
+935,69,Male,North West,0,0,34,Procedure,Surgery,7.5,0,Call Centre,2025-04-19,2025-08-18,1
+936,80,Male,Eastern Cape,0,0,33,Follow-up,General Medicine,2.0,0,Walk-in,2025-08-09,2025-08-12,0
+937,60,Male,North West,0,0,72,New,Ophthalmology,18.5,1,Walk-in,2025-07-01,2025-08-17,0
+938,22,Male,Mpumalanga,0,0,75,Follow-up,Psychiatry,3.4,0,App,2025-08-21,2025-08-12,1
+939,43,Male,Eastern Cape,0,1,53,Follow-up,Paediatrics,6.1,0,Walk-in,2025-07-23,2025-08-26,0
+940,32,Male,North West,1,0,28,Follow-up,Cardiology,13.0,0,Walk-in,2025-06-13,2025-08-03,0
+941,13,Female,Western Cape,0,0,9,New,General Medicine,9.5,2,Walk-in,2025-04-02,2025-08-26,1
+942,38,Male,Northern Cape,1,0,26,New,Cardiology,11.1,0,Call Centre,2025-05-18,2025-08-10,0
+943,26,Female,Limpopo,0,1,82,Follow-up,Orthopaedics,0.3,1,Walk-in,2025-06-13,2025-08-23,1
+944,81,Male,Mpumalanga,0,0,12,Follow-up,Surgery,22.1,1,Walk-in,2025-06-21,2025-08-14,0
+945,5,Male,Gauteng,1,1,41,Follow-up,Ophthalmology,11.2,0,Online,2025-06-23,2025-08-20,1
+946,49,Female,KwaZulu-Natal,1,0,36,Follow-up,Neurology,19.3,0,Online,2025-07-12,2025-08-22,1
+947,91,Female,Free State,1,1,60,Follow-up,Cardiology,3.9,0,Call Centre,2025-03-30,2025-07-31,0
+948,5,Male,Mpumalanga,1,1,78,Follow-up,General Medicine,0.9,0,Call Centre,2025-04-16,2025-08-19,0
+949,71,Male,Gauteng,1,0,20,New,ENT,19.2,0,Walk-in,2025-08-10,2025-08-22,0
+950,48,Male,Northern Cape,1,1,2,Follow-up,Cardiology,25.0,0,Walk-in,2025-08-06,2025-08-07,0
+951,18,Male,Free State,1,0,7,Follow-up,Cardiology,3.3,0,Call Centre,2025-06-21,2025-08-11,0
+952,6,Female,KwaZulu-Natal,1,0,69,Procedure,ENT,22.2,0,Walk-in,2025-05-22,2025-08-20,1
+953,66,Female,Mpumalanga,0,0,82,Follow-up,Ophthalmology,2.2,0,Call Centre,2025-08-19,2025-08-25,0
+954,77,Male,North West,1,0,16,New,Surgery,4.4,0,Walk-in,2025-06-14,2025-08-16,0
+955,42,Female,KwaZulu-Natal,0,0,9,Follow-up,Cardiology,17.9,0,Call Centre,2025-08-11,2025-08-15,1
+956,52,Male,Mpumalanga,1,1,12,Procedure,Cardiology,2.5,1,Walk-in,2025-07-08,2025-08-10,0
+957,11,Female,Mpumalanga,1,1,11,Follow-up,Neurology,0.1,0,Online,2025-08-04,2025-08-05,0
+958,26,Female,Eastern Cape,0,0,65,New,ENT,0.1,0,App,2025-04-25,2025-08-17,1
+959,21,Female,Northern Cape,0,1,73,Follow-up,Surgery,8.5,0,App,2025-08-13,2025-08-26,0
+960,66,Female,Gauteng,0,0,84,Procedure,Surgery,5.0,1,Walk-in,2025-04-19,2025-08-14,1
+961,40,Female,Gauteng,1,0,22,Follow-up,Orthopaedics,17.9,0,Walk-in,2025-07-07,2025-08-27,0
+962,56,Male,Free State,0,1,64,New,Ophthalmology,16.8,0,Walk-in,2025-07-05,2025-08-01,0
+963,51,Female,KwaZulu-Natal,0,0,51,Follow-up,Orthopaedics,16.8,0,Call Centre,2025-07-01,2025-08-13,0
+964,20,Male,Northern Cape,1,0,60,Procedure,Psychiatry,24.1,0,Call Centre,2025-07-14,2025-07-30,1
+965,81,Male,Free State,1,1,25,New,Paediatrics,21.7,0,Call Centre,2025-05-02,2025-08-10,0
+966,80,Female,Mpumalanga,0,0,14,Follow-up,Ophthalmology,2.9,0,Online,2025-06-12,2025-08-06,1
+967,57,Male,Gauteng,0,0,21,Follow-up,Psychiatry,18.7,0,Walk-in,2025-07-09,2025-08-10,0
+968,5,Female,Western Cape,0,0,88,Follow-up,Paediatrics,23.1,0,Call Centre,2025-08-06,2025-08-11,1
+969,14,Female,Eastern Cape,0,0,64,Follow-up,General Medicine,20.1,0,Online,2025-07-07,2025-08-27,0
+970,24,Female,Northern Cape,0,1,25,Follow-up,Ophthalmology,20.9,0,Walk-in,2025-07-28,2025-08-14,0
+971,68,Female,Free State,1,0,20,Telehealth,ENT,10.5,0,Online,2025-06-18,2025-08-08,0
+972,52,Male,Free State,1,0,23,New,Psychiatry,5.5,0,Walk-in,2025-05-30,2025-08-04,0
+973,48,Other,Northern Cape,1,0,15,Procedure,Cardiology,9.7,0,Call Centre,2025-07-28,2025-08-06,0
+974,88,Male,North West,1,0,31,Follow-up,Orthopaedics,5.0,1,Call Centre,2025-05-18,2025-08-12,1
+975,47,Female,Western Cape,0,0,15,New,Paediatrics,22.0,0,Online,2025-04-18,2025-08-24,1
+976,60,Female,Mpumalanga,0,0,76,Follow-up,Psychiatry,13.9,0,Call Centre,2025-05-23,2025-08-06,0
+977,73,Female,Gauteng,1,0,41,Follow-up,Obstetrics & Gynaecology,20.2,1,Walk-in,2025-06-22,2025-08-22,1
+978,3,Female,Northern Cape,0,0,31,New,Ophthalmology,2.5,0,Walk-in,2025-04-13,2025-08-03,0
+979,9,Female,KwaZulu-Natal,1,0,49,Follow-up,Orthopaedics,7.5,1,App,2025-06-06,2025-08-12,1
+980,82,Male,Western Cape,1,1,40,Telehealth,Surgery,1.7,0,Walk-in,2025-07-03,2025-08-08,0
+981,83,Male,Eastern Cape,1,1,23,Follow-up,Orthopaedics,4.3,0,Walk-in,2025-08-02,2025-08-22,0
+982,24,Male,Eastern Cape,0,1,12,Procedure,Psychiatry,15.0,1,Call Centre,2025-06-29,2025-08-13,0
+983,4,Female,KwaZulu-Natal,0,0,74,New,ENT,1.4,1,App,2025-04-22,2025-08-02,1
+984,9,Female,Western Cape,1,0,78,Follow-up,General Medicine,8.3,1,Walk-in,2025-04-23,2025-08-27,1
+985,1,Female,Free State,1,1,9,Follow-up,Paediatrics,2.3,0,Call Centre,2025-06-17,2025-08-21,0
+986,35,Female,Eastern Cape,0,0,41,Follow-up,Orthopaedics,7.9,0,Walk-in,2025-05-30,2025-08-05,0
+987,74,Female,Free State,1,0,40,Follow-up,General Medicine,17.9,0,Walk-in,2025-07-01,2025-08-17,1
+988,12,Male,North West,0,1,2,New,Cardiology,2.4,0,Call Centre,2025-06-26,2025-08-27,0
+989,18,Male,Western Cape,0,1,54,Procedure,Surgery,7.5,0,Walk-in,2025-04-30,2025-08-20,0
+990,78,Male,Northern Cape,1,1,15,Follow-up,Neurology,17.3,0,Online,2025-04-19,2025-08-14,0
+991,10,Female,Gauteng,1,1,43,Procedure,Cardiology,18.8,0,Walk-in,2025-04-15,2025-08-23,0
+992,74,Male,North West,1,0,80,Follow-up,Obstetrics & Gynaecology,8.1,1,Walk-in,2025-05-06,2025-08-15,0
+993,18,Female,Free State,1,0,88,New,Surgery,15.0,0,Walk-in,2025-08-26,2025-08-13,0
+994,24,Female,Western Cape,0,1,29,Follow-up,Obstetrics & Gynaecology,20.2,0,Online,2025-04-10,2025-08-19,1
+995,1,Male,North West,1,0,36,Follow-up,ENT,1.4,1,Walk-in,2025-07-11,2025-08-20,1
+996,94,Male,Free State,0,1,59,Follow-up,Paediatrics,4.9,1,Walk-in,2025-07-06,2025-08-09,1
+997,79,Male,KwaZulu-Natal,1,0,76,Follow-up,Cardiology,8.3,1,Call Centre,2025-04-25,2025-08-11,0
+998,72,Male,Mpumalanga,1,0,23,Follow-up,ENT,16.5,0,Call Centre,2025-05-03,2025-08-09,0
+999,82,Female,Eastern Cape,0,1,25,Follow-up,Ophthalmology,13.9,1,App,2025-05-29,2025-07-29,1
+1000,16,Male,Limpopo,1,0,57,Follow-up,Neurology,12.6,1,Online,2025-06-07,2025-08-10,1

@@ -1,0 +1,1001 @@
+patient_id,age,gender,province,facility_type,visit_type,hr_bpm,temp_c,resp_rate,systolic_bp,diastolic_bp,o2_sat,icd10_code,pain_score,arrival_via_ambulance,has_medical_aid,medical_scheme,admission_time,triage_priority
+1,51,Male,Limpopo,Public,Emergency,67,36.6,20,115,59,95,M54,2,0,0,GEMS,2025-06-26 00:00:00,Green
+2,92,Female,Eastern Cape,Public,Outpatient,97,37.7,17,113,65,99,J18,5,0,1,Discovery,2025-05-18 00:00:00,Green
+3,14,Female,KwaZulu-Natal,Private,Outpatient,87,37.1,18,90,90,93,R51,8,0,1,Discovery,2025-02-15 00:00:00,Green
+4,71,Male,KwaZulu-Natal,Private,Inpatient,79,37.7,20,160,81,97,N39,9,0,0,GEMS,2025-04-28 00:00:00,Green
+5,60,Female,Northern Cape,Public,Emergency,70,36.6,17,99,76,95,K21,8,0,0,Momentum,2025-04-30 00:00:00,Green
+6,20,Female,Limpopo,Public,Outpatient,71,37.5,18,126,72,94,A09,7,0,0,Bonitas,2025-04-17 00:00:00,Green
+7,82,Female,Northern Cape,Public,Outpatient,113,37.9,17,143,84,100,E11,6,0,0,Bonitas,2025-08-17 00:00:00,Green
+8,86,Female,Free State,Public,Inpatient,82,37.7,22,133,68,97,K21,2,1,1,Bonitas,2025-05-11 00:00:00,Yellow
+9,74,Male,Western Cape,Public,Outpatient,94,36.0,20,124,82,98,S01,4,0,0,GEMS,2025-05-16 00:00:00,Green
+10,74,Female,North West,Public,Outpatient,70,36.6,19,91,69,99,K21,4,0,0,Discovery,2025-05-09 00:00:00,Green
+11,87,Female,Free State,Private,Inpatient,70,36.6,13,109,67,92,J18,4,0,1,GEMS,2025-03-09 00:00:00,Green
+12,23,Male,Western Cape,Private,Inpatient,98,37.1,16,129,70,100,E11,3,0,0,GEMS,2025-06-20 00:00:00,Green
+13,2,Female,Eastern Cape,Public,Outpatient,62,37.3,22,109,73,88,E11,6,0,1,Fedhealth,2025-05-18 00:00:00,Yellow
+14,21,Male,Northern Cape,Private,Outpatient,76,36.2,18,129,77,94,J18,4,0,0,Discovery,2025-08-26 00:00:00,Green
+15,52,Male,Eastern Cape,Public,Inpatient,83,36.8,21,139,81,95,M54,4,1,1,Fedhealth,2025-03-13 00:00:00,Yellow
+16,1,Female,Eastern Cape,Public,Telehealth,84,35.4,25,144,34,98,J18,3,0,1,Medihelp,2025-07-22 00:00:00,Green
+17,87,Female,Western Cape,Public,Inpatient,79,37.8,22,100,68,97,M54,5,1,0,Discovery,2025-05-02 00:00:00,Yellow
+18,29,Male,Limpopo,Private,Outpatient,88,36.4,18,169,73,95,N39,8,0,1,Discovery,2025-07-10 00:00:00,Green
+19,37,Female,Western Cape,Private,Emergency,92,36.8,16,140,96,96,L02,4,0,0,Discovery,2025-06-14 00:00:00,Green
+20,1,Male,Mpumalanga,Private,Outpatient,93,36.6,8,125,65,93,M54,5,0,1,Bonitas,2025-03-17 00:00:00,Green
+21,63,Male,KwaZulu-Natal,Public,Inpatient,67,37.6,17,147,80,92,K21,9,0,1,Bonitas,2025-06-14 00:00:00,Green
+22,59,Male,KwaZulu-Natal,Private,Outpatient,78,34.8,17,172,96,98,M54,8,0,0,Fedhealth,2025-02-08 00:00:00,Green
+23,20,Male,Free State,Public,Outpatient,100,36.8,20,96,62,98,L02,6,0,1,Fedhealth,2025-02-11 00:00:00,Green
+24,32,Male,KwaZulu-Natal,Private,Inpatient,95,36.7,17,120,83,100,S01,6,0,0,Discovery,2025-07-25 00:00:00,Green
+25,75,Female,Western Cape,Public,Outpatient,61,36.5,17,77,68,94,A09,3,0,1,Fedhealth,2025-07-01 00:00:00,Yellow
+26,57,Female,Northern Cape,Public,Inpatient,87,38.0,11,129,72,98,J18,3,0,0,Bonitas,2025-05-09 00:00:00,Green
+27,21,Male,Western Cape,Public,Outpatient,52,36.2,14,132,68,95,A09,5,0,1,GEMS,2025-03-16 00:00:00,Green
+28,88,Female,Western Cape,Private,Outpatient,83,37.3,20,124,69,100,J18,5,0,0,GEMS,2025-05-24 00:00:00,Green
+29,48,Female,North West,Public,Outpatient,110,37.0,25,112,111,99,N39,2,0,1,GEMS,2025-06-29 00:00:00,Green
+30,90,Male,Northern Cape,Private,Inpatient,68,37.7,18,84,88,97,R51,6,0,1,Fedhealth,2025-04-10 00:00:00,Yellow
+31,58,Female,Mpumalanga,Public,Emergency,69,36.3,19,132,91,95,K21,4,0,1,Medihelp,2025-07-27 00:00:00,Green
+32,41,Other,KwaZulu-Natal,Private,Emergency,93,36.3,22,154,84,99,K21,7,0,0,Bonitas,2025-04-18 00:00:00,Green
+33,91,Male,Northern Cape,Private,Telehealth,59,37.6,15,113,59,98,S01,4,1,1,Medihelp,2025-05-14 00:00:00,Yellow
+34,59,Male,KwaZulu-Natal,Private,Emergency,73,37.1,19,134,83,94,R51,4,1,0,Fedhealth,2025-07-26 00:00:00,Yellow
+35,79,Female,Free State,Public,Outpatient,91,35.7,15,94,91,92,R51,2,0,0,Momentum,2025-07-16 00:00:00,Green
+36,14,Female,Northern Cape,Public,Outpatient,72,36.4,21,134,68,95,J18,2,1,0,None,2025-05-08 00:00:00,Yellow
+37,61,Male,KwaZulu-Natal,Public,Outpatient,78,37.1,19,117,90,100,K21,8,0,0,None,2025-05-13 00:00:00,Green
+38,61,Female,Mpumalanga,Private,Outpatient,93,37.4,19,110,86,99,K21,5,1,1,Discovery,2025-08-19 00:00:00,Yellow
+39,46,Female,Gauteng,Public,Emergency,88,36.3,15,110,100,93,R51,5,0,0,None,2025-03-02 00:00:00,Green
+40,61,Female,Eastern Cape,Public,Outpatient,86,34.8,21,117,73,92,J18,9,0,1,None,2025-05-06 00:00:00,Green
+41,50,Female,Eastern Cape,Public,Outpatient,77,37.2,26,133,65,100,M54,1,0,0,Bonitas,2025-04-25 00:00:00,Green
+42,54,Female,Mpumalanga,Public,Outpatient,88,35.9,14,99,74,93,M54,6,0,0,GEMS,2025-08-08 00:00:00,Green
+43,63,Male,North West,Private,Emergency,80,35.4,17,117,95,98,L02,1,0,1,Medihelp,2025-03-14 00:00:00,Green
+44,2,Male,Gauteng,Public,Outpatient,89,34.8,19,124,56,94,I10,3,1,0,Momentum,2025-03-30 00:00:00,Yellow
+45,50,Female,Free State,Private,Emergency,75,37.4,21,103,53,100,E11,2,0,0,Momentum,2025-07-18 00:00:00,Green
+46,6,Female,Mpumalanga,Public,Outpatient,79,36.9,16,161,79,94,N39,7,0,0,Bonitas,2025-07-15 00:00:00,Green
+47,20,Male,Eastern Cape,Public,Emergency,67,36.6,7,108,73,99,J18,0,0,1,Bonitas,2025-04-25 00:00:00,Green
+48,72,Female,Eastern Cape,Public,Emergency,81,37.8,23,112,78,97,M54,4,1,1,None,2025-07-24 00:00:00,Yellow
+49,38,Female,Eastern Cape,Public,Inpatient,70,37.2,21,105,89,97,S01,2,1,0,Momentum,2025-03-30 00:00:00,Yellow
+50,17,Male,Limpopo,Public,Outpatient,65,37.9,11,161,71,90,E11,2,0,0,Discovery,2025-07-01 00:00:00,Yellow
+51,3,Female,Mpumalanga,Private,Inpatient,86,35.8,16,136,56,89,E11,3,1,1,Discovery,2025-07-11 00:00:00,Red
+52,88,Female,Western Cape,Public,Telehealth,85,36.8,24,106,103,95,E11,8,1,1,Medihelp,2025-07-01 00:00:00,Yellow
+53,59,Female,Free State,Private,Outpatient,94,35.7,24,147,66,97,R51,4,0,0,Discovery,2025-05-19 00:00:00,Green
+54,13,Female,Eastern Cape,Public,Emergency,76,36.6,22,129,65,93,L02,9,1,1,Momentum,2025-07-02 00:00:00,Yellow
+55,8,Male,KwaZulu-Natal,Public,Outpatient,88,36.6,17,130,91,93,S01,9,0,0,None,2025-03-14 00:00:00,Green
+56,89,Female,Mpumalanga,Private,Inpatient,90,37.2,18,118,73,98,I10,10,0,0,Momentum,2025-03-25 00:00:00,Green
+57,52,Male,Limpopo,Public,Outpatient,89,36.8,17,110,77,98,S01,4,0,0,Fedhealth,2025-06-25 00:00:00,Green
+58,1,Male,Mpumalanga,Public,Emergency,70,37.2,23,132,84,96,S01,5,0,1,Momentum,2025-06-27 00:00:00,Green
+59,83,Female,Free State,Public,Outpatient,84,37.3,14,114,91,98,J18,5,0,0,None,2025-06-06 00:00:00,Green
+60,91,Male,Limpopo,Public,Inpatient,87,38.3,15,161,74,92,L02,4,0,1,Discovery,2025-05-07 00:00:00,Green
+61,59,Male,Free State,Private,Inpatient,82,36.6,22,100,96,95,A09,6,1,1,GEMS,2025-05-08 00:00:00,Yellow
+62,70,Female,Mpumalanga,Public,Emergency,51,36.1,18,156,52,100,L02,2,1,0,Medihelp,2025-06-27 00:00:00,Yellow
+63,43,Male,Western Cape,Private,Outpatient,84,37.0,24,123,87,96,A09,0,0,1,Fedhealth,2025-05-26 00:00:00,Green
+64,7,Male,Free State,Private,Emergency,115,36.2,15,131,68,96,I10,6,0,0,Discovery,2025-06-04 00:00:00,Green
+65,46,Female,Limpopo,Public,Emergency,77,37.8,18,142,94,100,J18,4,0,0,Medihelp,2025-08-02 00:00:00,Green
+66,34,Female,Limpopo,Private,Inpatient,71,36.6,14,112,80,92,R51,2,0,0,Discovery,2025-03-02 00:00:00,Green
+67,77,Male,Free State,Public,Emergency,88,36.4,18,142,70,98,E11,2,1,0,Fedhealth,2025-04-29 00:00:00,Yellow
+68,80,Female,Mpumalanga,Private,Outpatient,87,36.5,12,71,86,100,J18,8,0,0,Momentum,2025-07-09 00:00:00,Yellow
+69,35,Female,North West,Public,Emergency,100,37.3,16,111,89,95,R51,6,1,0,None,2025-05-05 00:00:00,Yellow
+70,49,Female,Mpumalanga,Private,Inpatient,63,36.7,12,107,86,99,J18,1,1,0,GEMS,2025-07-23 00:00:00,Yellow
+71,3,Female,Free State,Public,Inpatient,93,36.4,21,100,66,93,R51,2,0,0,Fedhealth,2025-03-27 00:00:00,Green
+72,1,Other,Gauteng,Public,Outpatient,91,38.0,21,121,72,94,J18,4,0,1,None,2025-07-26 00:00:00,Green
+73,5,Female,Free State,Private,Inpatient,80,36.2,11,133,78,97,L02,6,0,0,Momentum,2025-04-27 00:00:00,Green
+74,53,Female,Western Cape,Private,Emergency,87,36.8,23,139,78,98,L02,3,0,0,Fedhealth,2025-05-20 00:00:00,Green
+75,3,Female,Free State,Public,Outpatient,97,37.3,28,130,87,99,L02,4,0,1,Bonitas,2025-06-21 00:00:00,Green
+76,53,Male,Free State,Public,Outpatient,95,35.7,18,112,54,100,E11,5,1,1,GEMS,2025-06-16 00:00:00,Yellow
+77,92,Male,Western Cape,Private,Emergency,65,37.1,15,132,82,96,N39,5,0,1,Discovery,2025-04-14 00:00:00,Green
+78,62,Female,Free State,Private,Outpatient,94,36.1,29,127,75,100,K21,0,0,0,Discovery,2025-02-15 00:00:00,Green
+79,17,Female,Eastern Cape,Private,Inpatient,81,37.4,13,144,68,95,A09,5,0,1,GEMS,2025-08-05 00:00:00,Green
+80,89,Female,Gauteng,Private,Emergency,83,36.1,18,141,69,99,L02,0,0,0,Bonitas,2025-06-19 00:00:00,Green
+81,43,Male,KwaZulu-Natal,Private,Outpatient,83,37.3,19,126,75,97,N39,4,0,1,None,2025-07-04 00:00:00,Green
+82,33,Female,Gauteng,Private,Emergency,80,37.6,23,107,35,97,A09,3,1,1,Momentum,2025-03-10 00:00:00,Yellow
+83,73,Male,Free State,Public,Emergency,100,37.4,19,112,70,97,J18,2,0,1,Discovery,2025-05-10 00:00:00,Green
+84,61,Male,Eastern Cape,Public,Inpatient,81,37.0,16,114,67,91,I10,7,0,0,None,2025-04-01 00:00:00,Yellow
+85,13,Female,Mpumalanga,Private,Outpatient,65,36.6,14,119,84,93,R51,2,0,1,Bonitas,2025-03-31 00:00:00,Green
+86,94,Female,Free State,Private,Outpatient,76,36.4,17,130,68,96,N39,3,0,1,None,2025-08-19 00:00:00,Green
+87,47,Female,Eastern Cape,Public,Inpatient,85,37.8,14,139,75,91,S01,7,0,1,Discovery,2025-03-19 00:00:00,Yellow
+88,14,Female,Western Cape,Public,Emergency,100,36.3,18,124,97,98,M54,3,1,1,Medihelp,2025-02-22 00:00:00,Yellow
+89,71,Male,Eastern Cape,Private,Outpatient,91,36.1,16,125,90,99,N39,3,0,1,Momentum,2025-03-27 00:00:00,Green
+90,77,Female,Western Cape,Public,Outpatient,69,37.3,12,128,89,97,L02,4,0,1,Medihelp,2025-04-21 00:00:00,Green
+91,86,Male,North West,Public,Outpatient,119,36.2,23,115,72,93,L02,6,1,1,GEMS,2025-05-12 00:00:00,Yellow
+92,61,Female,KwaZulu-Natal,Public,Telehealth,86,36.1,16,106,85,100,N39,8,0,1,None,2025-04-17 00:00:00,Green
+93,39,Female,Northern Cape,Public,Inpatient,101,35.8,13,90,75,100,R51,2,0,0,Momentum,2025-03-12 00:00:00,Green
+94,84,Female,Eastern Cape,Public,Outpatient,80,36.5,17,111,76,96,A09,2,0,1,Bonitas,2025-02-18 00:00:00,Green
+95,79,Female,Limpopo,Public,Inpatient,90,36.7,18,134,83,98,J18,4,0,0,Momentum,2025-03-31 00:00:00,Green
+96,81,Female,Free State,Public,Emergency,95,37.0,11,111,71,97,M54,5,0,1,Momentum,2025-06-21 00:00:00,Green
+97,52,Female,Gauteng,Private,Emergency,100,37.5,19,120,96,98,J18,3,1,0,Bonitas,2025-03-05 00:00:00,Yellow
+98,23,Male,Northern Cape,Public,Emergency,98,37.2,14,134,76,96,E11,6,1,1,GEMS,2025-06-23 00:00:00,Yellow
+99,25,Male,Gauteng,Private,Outpatient,95,36.7,25,135,85,96,R51,2,0,1,Momentum,2025-04-06 00:00:00,Green
+100,88,Male,North West,Private,Outpatient,77,36.7,20,103,95,99,L02,0,0,0,GEMS,2025-07-06 00:00:00,Green
+101,59,Male,Northern Cape,Public,Outpatient,73,37.2,16,145,90,100,E11,6,1,1,GEMS,2025-04-22 00:00:00,Yellow
+102,40,Female,Northern Cape,Private,Inpatient,87,37.7,15,148,61,92,J18,6,0,1,GEMS,2025-06-24 00:00:00,Green
+103,28,Female,Gauteng,Public,Outpatient,96,36.9,18,102,83,96,J18,7,0,0,Discovery,2025-06-25 00:00:00,Green
+104,14,Male,Western Cape,Private,Outpatient,79,36.5,20,109,88,92,M54,0,0,0,Fedhealth,2025-06-21 00:00:00,Green
+105,44,Male,Gauteng,Public,Emergency,98,36.1,18,149,89,100,K21,3,0,1,GEMS,2025-02-18 00:00:00,Green
+106,64,Male,Western Cape,Private,Emergency,104,35.8,17,122,65,94,J18,4,0,0,Bonitas,2025-06-27 00:00:00,Green
+107,88,Female,North West,Private,Outpatient,68,37.3,18,81,70,92,A09,9,0,1,Fedhealth,2025-06-08 00:00:00,Yellow
+108,70,Female,Free State,Public,Outpatient,69,37.2,16,97,90,98,A09,4,0,1,GEMS,2025-06-18 00:00:00,Green
+109,8,Male,Mpumalanga,Public,Inpatient,80,37.2,17,120,69,100,N39,1,0,1,Bonitas,2025-05-06 00:00:00,Green
+110,87,Female,Western Cape,Private,Emergency,87,36.7,10,102,74,98,M54,5,0,1,Bonitas,2025-03-08 00:00:00,Green
+111,0,Female,North West,Private,Emergency,74,37.8,22,117,97,97,M54,8,0,1,Medihelp,2025-07-07 00:00:00,Green
+112,7,Male,Limpopo,Public,Outpatient,102,36.5,19,126,77,97,L02,7,0,1,Medihelp,2025-05-04 00:00:00,Green
+113,87,Female,North West,Private,Emergency,88,37.5,15,154,69,100,J18,6,1,1,Momentum,2025-04-25 00:00:00,Yellow
+114,62,Female,Gauteng,Public,Emergency,83,36.8,26,119,67,93,K21,5,1,1,GEMS,2025-04-23 00:00:00,Yellow
+115,10,Male,Gauteng,Private,Inpatient,60,36.4,18,146,82,96,S01,0,0,0,GEMS,2025-06-24 00:00:00,Green
+116,80,Male,Mpumalanga,Public,Emergency,62,37.2,14,154,62,95,E11,5,0,0,Fedhealth,2025-04-20 00:00:00,Green
+117,7,Male,North West,Private,Outpatient,86,37.1,21,154,75,92,M54,5,0,1,Bonitas,2025-03-04 00:00:00,Green
+118,34,Male,KwaZulu-Natal,Public,Outpatient,50,37.0,20,131,82,95,N39,4,1,1,GEMS,2025-08-06 00:00:00,Yellow
+119,34,Female,Free State,Public,Emergency,97,36.9,20,86,94,99,N39,6,0,0,Momentum,2025-03-24 00:00:00,Yellow
+120,32,Female,Gauteng,Public,Outpatient,80,36.8,16,134,86,98,J18,4,0,0,None,2025-03-18 00:00:00,Green
+121,4,Male,Mpumalanga,Public,Inpatient,131,38.5,20,146,69,98,J18,4,0,1,None,2025-06-13 00:00:00,Green
+122,40,Male,Free State,Public,Outpatient,117,37.6,17,123,92,96,S01,7,0,0,None,2025-03-29 00:00:00,Yellow
+123,27,Male,North West,Public,Inpatient,79,37.3,20,160,74,98,I10,3,0,0,Discovery,2025-05-26 00:00:00,Green
+124,6,Male,North West,Private,Emergency,80,36.9,10,142,63,94,I10,5,0,0,Bonitas,2025-03-23 00:00:00,Green
+125,72,Female,Northern Cape,Public,Inpatient,97,37.5,16,136,76,95,J18,7,1,1,None,2025-03-11 00:00:00,Yellow
+126,71,Male,Mpumalanga,Public,Emergency,108,37.2,25,147,95,97,R51,2,0,1,Discovery,2025-06-18 00:00:00,Green
+127,11,Male,Gauteng,Public,Outpatient,57,36.8,15,132,80,97,A09,2,0,0,None,2025-05-14 00:00:00,Green
+128,33,Male,KwaZulu-Natal,Public,Outpatient,55,36.6,16,75,78,97,A09,8,0,0,Momentum,2025-07-09 00:00:00,Yellow
+129,32,Female,North West,Public,Inpatient,73,36.7,16,115,98,96,S01,3,1,1,Medihelp,2025-05-18 00:00:00,Yellow
+130,47,Male,KwaZulu-Natal,Public,Outpatient,91,34.6,13,149,61,95,S01,6,0,1,Momentum,2025-02-10 00:00:00,Green
+131,22,Female,North West,Public,Emergency,89,36.9,9,109,63,100,L02,0,0,1,Discovery,2025-02-21 00:00:00,Green
+132,61,Male,Gauteng,Public,Emergency,98,36.5,17,121,59,99,K21,0,0,0,Bonitas,2025-05-07 00:00:00,Green
+133,87,Female,Free State,Public,Inpatient,64,37.9,19,104,82,97,N39,5,0,0,Fedhealth,2025-07-29 00:00:00,Green
+134,36,Female,Eastern Cape,Public,Outpatient,47,36.8,18,161,80,95,A09,4,0,1,GEMS,2025-08-16 00:00:00,Green
+135,43,Male,Free State,Public,Inpatient,95,36.0,17,159,97,95,R51,5,0,0,Momentum,2025-03-04 00:00:00,Green
+136,85,Male,North West,Public,Emergency,70,36.8,18,107,81,96,J18,9,0,1,Bonitas,2025-06-07 00:00:00,Green
+137,90,Female,Eastern Cape,Private,Outpatient,52,36.1,22,128,73,97,M54,1,0,0,GEMS,2025-07-13 00:00:00,Green
+138,34,Female,Eastern Cape,Public,Emergency,84,37.1,17,111,78,90,R51,5,0,0,Medihelp,2025-03-10 00:00:00,Yellow
+139,64,Male,KwaZulu-Natal,Private,Telehealth,94,37.0,16,137,79,91,L02,8,0,0,Medihelp,2025-04-20 00:00:00,Yellow
+140,46,Female,Mpumalanga,Public,Outpatient,80,37.5,17,135,58,94,R51,2,0,1,GEMS,2025-05-23 00:00:00,Green
+141,77,Female,KwaZulu-Natal,Private,Inpatient,75,36.2,20,141,111,97,M54,3,0,0,Medihelp,2025-06-09 00:00:00,Green
+142,2,Female,KwaZulu-Natal,Private,Outpatient,80,36.8,24,132,84,95,E11,0,0,0,Bonitas,2025-07-05 00:00:00,Green
+143,0,Male,Free State,Public,Outpatient,76,35.8,15,184,81,100,I10,10,0,0,Momentum,2025-07-24 00:00:00,Green
+144,4,Female,Free State,Private,Outpatient,62,37.3,18,104,85,92,E11,0,0,0,Bonitas,2025-07-07 00:00:00,Green
+145,89,Male,Limpopo,Public,Outpatient,71,37.2,19,91,87,94,N39,6,1,0,Bonitas,2025-03-20 00:00:00,Yellow
+146,13,Female,North West,Public,Inpatient,90,37.1,14,117,76,100,N39,1,0,0,GEMS,2025-06-05 00:00:00,Green
+147,26,Male,Limpopo,Private,Inpatient,87,36.8,18,94,70,96,A09,2,0,0,Fedhealth,2025-06-17 00:00:00,Green
+148,8,Male,Gauteng,Private,Inpatient,85,37.1,12,95,85,99,M54,7,0,1,Fedhealth,2025-03-02 00:00:00,Green
+149,78,Male,North West,Public,Inpatient,67,37.9,11,105,83,100,N39,3,0,1,Momentum,2025-08-02 00:00:00,Green
+150,14,Female,North West,Public,Outpatient,79,36.6,19,107,68,94,S01,6,0,0,GEMS,2025-02-19 00:00:00,Green
+151,89,Male,Northern Cape,Public,Outpatient,49,36.9,16,106,95,96,A09,8,0,0,Fedhealth,2025-06-28 00:00:00,Green
+152,41,Male,Northern Cape,Public,Telehealth,85,36.0,19,135,82,95,L02,5,0,1,Medihelp,2025-03-27 00:00:00,Green
+153,76,Male,Western Cape,Private,Emergency,103,36.2,18,115,87,90,A09,7,0,0,Fedhealth,2025-07-22 00:00:00,Yellow
+154,50,Female,Western Cape,Public,Inpatient,60,36.9,14,121,95,95,E11,5,0,0,Medihelp,2025-03-23 00:00:00,Green
+155,62,Female,KwaZulu-Natal,Public,Inpatient,73,37.6,18,143,78,99,J18,5,0,1,Momentum,2025-05-25 00:00:00,Green
+156,51,Male,Gauteng,Public,Outpatient,87,36.6,13,110,82,98,S01,3,0,1,Bonitas,2025-08-17 00:00:00,Green
+157,3,Female,Eastern Cape,Public,Telehealth,101,36.6,24,120,88,98,S01,9,0,1,Bonitas,2025-02-28 00:00:00,Green
+158,93,Female,Eastern Cape,Public,Outpatient,75,36.5,13,132,69,95,K21,6,0,0,Fedhealth,2025-07-18 00:00:00,Green
+159,22,Female,Northern Cape,Private,Outpatient,72,36.4,17,86,79,94,S01,6,0,1,Medihelp,2025-04-17 00:00:00,Yellow
+160,14,Male,Northern Cape,Private,Emergency,52,37.0,14,77,80,100,S01,6,0,0,Discovery,2025-06-23 00:00:00,Yellow
+161,42,Male,Northern Cape,Private,Outpatient,84,35.8,20,132,67,95,E11,3,0,1,None,2025-04-09 00:00:00,Green
+162,28,Male,Mpumalanga,Public,Outpatient,113,37.7,17,135,106,97,R51,7,0,0,Discovery,2025-02-18 00:00:00,Yellow
+163,35,Male,Western Cape,Private,Outpatient,86,36.3,16,166,61,96,S01,8,0,0,None,2025-03-28 00:00:00,Green
+164,12,Male,Free State,Private,Inpatient,82,37.3,21,128,62,100,J18,1,0,1,Discovery,2025-03-09 00:00:00,Green
+165,31,Female,Eastern Cape,Private,Inpatient,87,35.9,18,141,94,99,I10,6,0,1,Bonitas,2025-04-08 00:00:00,Green
+166,70,Male,North West,Public,Emergency,82,37.3,20,121,87,92,E11,5,0,1,GEMS,2025-06-20 00:00:00,Green
+167,58,Male,Western Cape,Public,Outpatient,70,37.3,14,131,66,92,E11,3,1,1,Bonitas,2025-06-30 00:00:00,Yellow
+168,85,Female,Limpopo,Public,Inpatient,94,37.1,12,158,85,98,R51,2,1,1,None,2025-02-25 00:00:00,Yellow
+169,27,Male,Free State,Public,Emergency,85,36.1,18,83,96,96,K21,7,0,1,GEMS,2025-03-01 00:00:00,Yellow
+170,65,Female,Western Cape,Public,Emergency,82,37.0,17,133,78,95,R51,5,1,1,Medihelp,2025-06-23 00:00:00,Yellow
+171,41,Female,Gauteng,Public,Emergency,67,36.0,21,168,109,99,A09,4,0,1,Fedhealth,2025-06-21 00:00:00,Green
+172,44,Male,North West,Public,Outpatient,102,36.6,18,131,57,97,I10,6,0,0,Discovery,2025-08-16 00:00:00,Green
+173,61,Female,Western Cape,Private,Emergency,92,37.5,19,158,86,96,N39,4,1,0,Medihelp,2025-06-21 00:00:00,Yellow
+174,56,Female,Mpumalanga,Public,Telehealth,74,37.4,12,112,92,98,L02,3,1,1,Medihelp,2025-03-10 00:00:00,Yellow
+175,5,Female,Northern Cape,Public,Outpatient,97,36.8,26,124,89,95,N39,5,1,1,Fedhealth,2025-06-16 00:00:00,Yellow
+176,27,Female,Northern Cape,Private,Outpatient,75,36.1,17,126,76,100,K21,4,0,0,Medihelp,2025-08-22 00:00:00,Green
+177,27,Female,North West,Private,Emergency,70,37.3,21,81,75,94,K21,0,0,0,Fedhealth,2025-08-13 00:00:00,Yellow
+178,43,Female,Northern Cape,Private,Outpatient,71,36.8,15,102,83,98,S01,3,0,1,Momentum,2025-07-17 00:00:00,Green
+179,83,Male,Western Cape,Private,Outpatient,55,35.2,19,103,88,100,R51,1,0,1,Fedhealth,2025-07-28 00:00:00,Green
+180,29,Male,Limpopo,Public,Inpatient,89,37.3,13,141,85,92,A09,0,0,1,None,2025-02-28 00:00:00,Green
+181,61,Male,Eastern Cape,Private,Inpatient,55,36.8,20,142,90,95,S01,6,1,0,Discovery,2025-08-22 00:00:00,Yellow
+182,74,Female,Eastern Cape,Public,Outpatient,64,37.6,17,131,66,99,M54,3,0,1,GEMS,2025-07-26 00:00:00,Green
+183,91,Male,Free State,Public,Inpatient,51,36.0,18,141,75,99,A09,7,0,0,GEMS,2025-03-24 00:00:00,Green
+184,88,Female,KwaZulu-Natal,Public,Inpatient,81,34.6,21,122,67,95,K21,0,0,0,Discovery,2025-08-07 00:00:00,Green
+185,61,Female,Gauteng,Public,Inpatient,80,37.0,13,149,73,94,K21,4,0,0,GEMS,2025-04-26 00:00:00,Green
+186,0,Female,North West,Public,Emergency,77,37.0,15,125,90,99,E11,3,0,1,Fedhealth,2025-02-27 00:00:00,Green
+187,26,Female,Free State,Private,Emergency,66,35.6,20,126,79,100,M54,1,1,1,None,2025-02-25 00:00:00,Yellow
+188,61,Female,KwaZulu-Natal,Private,Emergency,64,36.1,26,120,109,93,S01,5,0,1,Momentum,2025-05-26 00:00:00,Green
+189,76,Female,Mpumalanga,Public,Outpatient,89,38.7,17,139,80,92,K21,1,0,0,None,2025-04-01 00:00:00,Green
+190,2,Male,Mpumalanga,Public,Outpatient,74,36.6,20,117,79,97,M54,5,1,1,GEMS,2025-05-20 00:00:00,Yellow
+191,69,Female,Gauteng,Private,Outpatient,87,37.3,18,145,79,98,I10,6,1,1,Momentum,2025-07-04 00:00:00,Yellow
+192,71,Male,Northern Cape,Private,Inpatient,69,36.3,26,102,70,95,L02,5,1,1,Discovery,2025-02-23 00:00:00,Yellow
+193,26,Male,Western Cape,Public,Inpatient,85,35.3,11,103,77,98,R51,5,1,1,Momentum,2025-06-25 00:00:00,Yellow
+194,8,Female,Free State,Private,Inpatient,102,36.7,18,139,92,94,K21,7,0,0,Medihelp,2025-06-03 00:00:00,Green
+195,61,Female,Free State,Public,Outpatient,91,36.6,11,123,79,90,I10,4,1,1,Bonitas,2025-03-07 00:00:00,Red
+196,36,Male,North West,Public,Outpatient,76,36.5,8,116,68,95,A09,2,0,1,Medihelp,2025-08-06 00:00:00,Green
+197,50,Female,North West,Private,Outpatient,86,36.7,19,143,67,96,R51,3,0,1,Discovery,2025-06-29 00:00:00,Green
+198,43,Female,Mpumalanga,Public,Emergency,78,37.0,19,113,73,95,M54,3,0,1,GEMS,2025-05-16 00:00:00,Green
+199,23,Female,Mpumalanga,Public,Emergency,82,36.7,17,121,79,93,R51,2,0,0,GEMS,2025-04-11 00:00:00,Green
+200,78,Female,Limpopo,Private,Outpatient,77,35.9,18,153,92,91,N39,6,0,1,Momentum,2025-07-12 00:00:00,Yellow
+201,58,Female,Limpopo,Private,Outpatient,80,37.1,30,156,62,94,E11,6,0,1,Fedhealth,2025-03-22 00:00:00,Green
+202,31,Other,Northern Cape,Public,Inpatient,85,35.4,17,156,74,99,M54,0,0,0,None,2025-06-12 00:00:00,Green
+203,87,Female,Limpopo,Public,Emergency,67,35.4,20,119,80,100,I10,2,0,1,Bonitas,2025-08-10 00:00:00,Green
+204,51,Female,Western Cape,Public,Inpatient,67,37.3,15,150,56,100,K21,2,1,0,Fedhealth,2025-08-06 00:00:00,Yellow
+205,61,Female,Western Cape,Private,Outpatient,61,37.2,19,106,68,94,M54,5,0,0,Discovery,2025-02-25 00:00:00,Green
+206,57,Female,Free State,Public,Outpatient,58,36.8,17,107,70,93,J18,7,0,1,None,2025-04-05 00:00:00,Green
+207,51,Male,Eastern Cape,Public,Outpatient,64,35.8,16,78,68,97,N39,6,1,1,GEMS,2025-07-21 00:00:00,Red
+208,11,Male,Western Cape,Private,Outpatient,84,36.3,25,158,80,98,I10,3,0,0,Momentum,2025-08-03 00:00:00,Green
+209,38,Male,KwaZulu-Natal,Public,Outpatient,69,36.6,23,108,76,97,A09,4,0,0,None,2025-07-27 00:00:00,Green
+210,1,Male,Mpumalanga,Public,Outpatient,90,35.7,19,122,71,90,J18,1,0,0,GEMS,2025-04-07 00:00:00,Yellow
+211,2,Female,North West,Public,Emergency,83,36.3,9,107,83,93,M54,1,0,0,Fedhealth,2025-08-15 00:00:00,Green
+212,55,Female,Limpopo,Private,Emergency,52,37.3,17,139,99,96,E11,7,1,0,Fedhealth,2025-02-23 00:00:00,Yellow
+213,80,Female,Free State,Public,Outpatient,92,37.8,29,117,98,97,J18,8,1,0,Bonitas,2025-03-03 00:00:00,Yellow
+214,58,Male,Gauteng,Public,Inpatient,94,36.5,17,99,55,98,R51,3,0,0,Bonitas,2025-08-17 00:00:00,Green
+215,1,Female,North West,Private,Outpatient,67,37.3,22,134,85,96,M54,5,0,1,Momentum,2025-08-15 00:00:00,Green
+216,1,Female,KwaZulu-Natal,Public,Inpatient,88,35.5,24,96,76,97,I10,6,0,1,None,2025-05-23 00:00:00,Green
+217,91,Female,Limpopo,Public,Outpatient,69,37.3,19,108,80,96,M54,0,0,1,Bonitas,2025-03-03 00:00:00,Green
+218,53,Female,KwaZulu-Natal,Public,Inpatient,83,36.2,15,83,73,98,E11,2,0,1,Fedhealth,2025-05-19 00:00:00,Yellow
+219,86,Female,Mpumalanga,Public,Inpatient,63,37.0,8,97,79,97,L02,9,0,0,None,2025-07-21 00:00:00,Green
+220,0,Male,Mpumalanga,Public,Outpatient,55,36.6,21,129,80,96,R51,2,0,1,Fedhealth,2025-08-27 00:00:00,Green
+221,18,Female,Northern Cape,Public,Outpatient,76,37.7,15,86,71,95,K21,4,0,1,Discovery,2025-07-20 00:00:00,Yellow
+222,1,Male,Free State,Public,Inpatient,80,36.2,19,95,67,96,M54,3,0,1,Fedhealth,2025-08-01 00:00:00,Green
+223,52,Male,North West,Public,Outpatient,76,37.2,13,125,73,97,E11,0,0,0,Momentum,2025-07-23 00:00:00,Green
+224,43,Female,North West,Private,Outpatient,64,36.6,17,114,81,97,J18,5,1,0,Medihelp,2025-03-21 00:00:00,Yellow
+225,89,Male,Gauteng,Private,Emergency,76,36.7,18,165,85,97,J18,4,0,1,Discovery,2025-03-12 00:00:00,Green
+226,31,Female,Free State,Private,Inpatient,86,36.7,19,162,88,100,I10,5,0,0,Discovery,2025-04-07 00:00:00,Green
+227,69,Male,KwaZulu-Natal,Private,Inpatient,81,36.2,14,108,72,97,R51,4,0,1,Momentum,2025-07-28 00:00:00,Green
+228,31,Female,Gauteng,Public,Emergency,85,36.8,23,136,81,94,J18,3,0,0,None,2025-04-23 00:00:00,Green
+229,67,Male,Eastern Cape,Private,Outpatient,72,36.8,16,140,90,99,K21,3,0,0,None,2025-08-22 00:00:00,Green
+230,54,Female,North West,Public,Outpatient,100,37.0,11,113,92,92,L02,3,0,1,Momentum,2025-05-31 00:00:00,Green
+231,74,Female,KwaZulu-Natal,Private,Emergency,64,36.9,18,95,77,93,L02,2,0,1,Bonitas,2025-03-01 00:00:00,Green
+232,55,Male,Western Cape,Private,Telehealth,89,37.4,18,125,75,97,I10,2,0,0,Discovery,2025-03-31 00:00:00,Green
+233,16,Female,Northern Cape,Private,Emergency,100,37.4,19,122,80,98,M54,2,1,1,Bonitas,2025-07-28 00:00:00,Yellow
+234,37,Other,Free State,Private,Emergency,89,36.1,23,116,64,92,J18,6,1,0,Fedhealth,2025-05-20 00:00:00,Yellow
+235,23,Male,Mpumalanga,Public,Outpatient,79,37.4,17,134,76,95,E11,5,0,1,Discovery,2025-06-16 00:00:00,Green
+236,68,Male,Western Cape,Public,Inpatient,74,36.0,18,110,87,94,A09,5,1,1,Discovery,2025-07-13 00:00:00,Yellow
+237,69,Female,Northern Cape,Public,Emergency,98,37.2,14,102,86,95,L02,9,0,1,GEMS,2025-02-14 00:00:00,Green
+238,85,Female,Northern Cape,Public,Outpatient,61,37.2,21,127,75,99,S01,2,1,0,Medihelp,2025-05-23 00:00:00,Yellow
+239,10,Female,Eastern Cape,Public,Outpatient,67,35.5,19,133,81,98,I10,7,0,0,None,2025-03-10 00:00:00,Green
+240,15,Female,Eastern Cape,Private,Emergency,76,36.9,16,101,68,96,M54,4,0,1,Discovery,2025-08-27 00:00:00,Green
+241,72,Male,Limpopo,Private,Emergency,101,36.5,10,144,86,94,N39,5,0,0,None,2025-03-09 00:00:00,Green
+242,58,Male,Limpopo,Public,Outpatient,88,36.3,24,90,77,92,I10,6,1,1,Fedhealth,2025-07-02 00:00:00,Yellow
+243,69,Female,Gauteng,Private,Outpatient,67,37.7,13,113,75,100,E11,3,0,1,None,2025-08-19 00:00:00,Green
+244,79,Male,Northern Cape,Private,Inpatient,77,36.3,16,120,74,98,A09,2,0,0,Bonitas,2025-08-23 00:00:00,Green
+245,92,Male,Western Cape,Private,Inpatient,73,36.2,19,112,77,94,S01,2,1,1,Bonitas,2025-06-10 00:00:00,Yellow
+246,2,Female,Free State,Private,Telehealth,71,36.9,13,114,73,98,L02,0,1,0,GEMS,2025-05-06 00:00:00,Yellow
+247,19,Female,Northern Cape,Public,Outpatient,97,37.3,12,162,86,96,R51,6,0,1,Medihelp,2025-08-19 00:00:00,Green
+248,58,Female,Eastern Cape,Private,Telehealth,61,36.7,10,108,73,95,S01,6,0,1,Fedhealth,2025-03-08 00:00:00,Green
+249,35,Female,KwaZulu-Natal,Private,Outpatient,106,37.6,21,174,97,97,L02,8,0,1,Bonitas,2025-08-04 00:00:00,Green
+250,18,Female,Mpumalanga,Public,Outpatient,94,37.2,16,134,96,94,N39,6,0,0,Momentum,2025-03-11 00:00:00,Green
+251,89,Female,Limpopo,Public,Emergency,98,35.3,30,127,67,95,N39,6,0,1,Fedhealth,2025-03-31 00:00:00,Green
+252,66,Female,North West,Private,Emergency,75,36.4,14,135,79,96,L02,4,0,1,None,2025-05-17 00:00:00,Green
+253,18,Male,KwaZulu-Natal,Public,Outpatient,80,36.4,14,176,70,95,R51,6,0,0,Fedhealth,2025-06-29 00:00:00,Green
+254,19,Male,Free State,Private,Outpatient,61,37.1,16,105,74,98,I10,7,0,0,Medihelp,2025-06-03 00:00:00,Green
+255,70,Female,Eastern Cape,Private,Emergency,74,35.0,19,103,102,100,R51,5,0,0,Bonitas,2025-03-16 00:00:00,Green
+256,51,Female,Eastern Cape,Public,Outpatient,89,38.6,16,110,74,94,J18,3,0,1,Fedhealth,2025-05-04 00:00:00,Green
+257,32,Male,Eastern Cape,Public,Outpatient,101,37.2,20,126,82,91,L02,4,0,1,None,2025-03-14 00:00:00,Yellow
+258,39,Male,North West,Private,Outpatient,65,36.9,14,90,84,90,L02,6,0,1,GEMS,2025-06-05 00:00:00,Yellow
+259,38,Male,Limpopo,Public,Outpatient,77,37.6,12,125,66,96,R51,3,0,1,GEMS,2025-05-30 00:00:00,Green
+260,81,Male,KwaZulu-Natal,Public,Inpatient,80,38.4,11,159,68,94,K21,7,0,1,Bonitas,2025-05-31 00:00:00,Green
+261,0,Female,Free State,Public,Inpatient,61,37.4,9,128,64,97,K21,9,0,0,GEMS,2025-02-28 00:00:00,Green
+262,10,Male,Limpopo,Public,Outpatient,91,37.5,16,119,67,96,E11,7,0,0,Momentum,2025-04-30 00:00:00,Green
+263,91,Female,Free State,Private,Outpatient,71,36.9,17,113,44,91,K21,6,0,0,Medihelp,2025-03-25 00:00:00,Yellow
+264,56,Female,Limpopo,Public,Outpatient,79,36.7,15,143,85,91,N39,5,0,1,GEMS,2025-04-07 00:00:00,Yellow
+265,88,Female,North West,Private,Inpatient,75,36.5,23,108,103,97,J18,3,0,1,GEMS,2025-02-21 00:00:00,Green
+266,49,Female,Mpumalanga,Public,Outpatient,70,36.2,23,162,80,96,L02,2,0,1,Momentum,2025-02-21 00:00:00,Green
+267,22,Male,Free State,Public,Emergency,82,36.3,17,164,61,95,S01,2,1,0,Medihelp,2025-08-22 00:00:00,Yellow
+268,30,Female,Limpopo,Private,Emergency,79,35.9,11,130,70,91,N39,6,0,1,Fedhealth,2025-07-07 00:00:00,Yellow
+269,93,Male,Eastern Cape,Private,Outpatient,76,36.7,16,125,72,97,E11,4,0,1,Medihelp,2025-04-10 00:00:00,Green
+270,41,Male,Northern Cape,Public,Outpatient,71,35.6,16,146,66,100,A09,4,0,1,Discovery,2025-08-09 00:00:00,Green
+271,6,Female,Eastern Cape,Public,Inpatient,87,36.9,15,147,88,97,J18,6,1,1,Bonitas,2025-06-14 00:00:00,Yellow
+272,15,Male,Gauteng,Public,Emergency,107,36.8,15,109,88,93,K21,2,0,0,Bonitas,2025-04-20 00:00:00,Green
+273,89,Male,Mpumalanga,Public,Outpatient,84,36.9,15,114,64,96,M54,3,0,1,Discovery,2025-07-04 00:00:00,Green
+274,59,Female,Mpumalanga,Private,Inpatient,97,36.4,16,99,87,92,I10,5,0,1,Momentum,2025-08-13 00:00:00,Green
+275,1,Male,Eastern Cape,Public,Inpatient,61,39.0,15,133,96,99,S01,4,0,1,Discovery,2025-02-17 00:00:00,Green
+276,0,Female,KwaZulu-Natal,Public,Outpatient,84,37.8,19,138,101,96,L02,4,0,0,Fedhealth,2025-05-20 00:00:00,Green
+277,47,Male,North West,Public,Outpatient,66,35.9,19,98,112,91,A09,2,0,0,Fedhealth,2025-06-20 00:00:00,Yellow
+278,11,Female,Free State,Private,Outpatient,60,37.0,14,116,67,95,I10,4,1,0,Bonitas,2025-04-07 00:00:00,Yellow
+279,68,Female,Mpumalanga,Private,Inpatient,71,36.4,23,98,112,97,R51,9,1,1,Fedhealth,2025-07-16 00:00:00,Yellow
+280,36,Female,Eastern Cape,Public,Emergency,100,36.1,14,107,74,95,R51,3,0,1,Bonitas,2025-08-11 00:00:00,Green
+281,31,Female,Eastern Cape,Private,Inpatient,96,35.9,12,136,71,95,J18,2,1,0,Discovery,2025-05-22 00:00:00,Yellow
+282,8,Male,North West,Public,Outpatient,86,37.1,20,110,82,92,J18,7,0,1,Discovery,2025-05-04 00:00:00,Green
+283,18,Female,North West,Public,Outpatient,59,36.3,15,119,71,98,J18,6,0,1,GEMS,2025-03-29 00:00:00,Green
+284,47,Male,Western Cape,Private,Emergency,79,37.5,19,92,83,94,N39,5,0,0,GEMS,2025-06-15 00:00:00,Green
+285,79,Female,Western Cape,Private,Outpatient,87,37.5,8,129,62,90,N39,1,0,1,Discovery,2025-05-04 00:00:00,Yellow
+286,2,Male,KwaZulu-Natal,Private,Outpatient,85,37.8,24,124,75,95,R51,2,0,1,Bonitas,2025-07-29 00:00:00,Green
+287,19,Female,KwaZulu-Natal,Public,Emergency,54,36.2,21,110,93,99,J18,1,0,0,Discovery,2025-06-22 00:00:00,Green
+288,23,Male,Gauteng,Public,Outpatient,69,37.1,12,121,77,95,S01,6,1,0,Discovery,2025-07-08 00:00:00,Yellow
+289,53,Female,KwaZulu-Natal,Private,Telehealth,81,37.2,12,129,80,100,E11,7,0,1,None,2025-06-29 00:00:00,Green
+290,32,Female,Limpopo,Public,Outpatient,90,36.5,25,109,84,97,J18,6,0,0,Momentum,2025-08-25 00:00:00,Green
+291,23,Female,North West,Public,Inpatient,49,36.3,15,95,92,97,L02,9,0,1,Discovery,2025-05-16 00:00:00,Green
+292,74,Male,Limpopo,Public,Emergency,80,37.9,15,161,58,96,S01,3,0,1,Fedhealth,2025-08-23 00:00:00,Green
+293,71,Female,Free State,Private,Outpatient,84,37.0,9,112,85,96,L02,4,0,0,Bonitas,2025-07-31 00:00:00,Green
+294,35,Male,Eastern Cape,Public,Emergency,95,37.2,17,123,75,95,M54,5,0,0,Momentum,2025-05-12 00:00:00,Green
+295,37,Male,KwaZulu-Natal,Public,Outpatient,92,36.2,17,145,80,95,R51,4,0,1,GEMS,2025-04-11 00:00:00,Green
+296,83,Male,Eastern Cape,Private,Inpatient,91,35.9,21,196,91,98,J18,6,0,1,Medihelp,2025-02-09 00:00:00,Green
+297,88,Male,Mpumalanga,Public,Outpatient,70,36.4,12,100,64,93,K21,3,0,1,Bonitas,2025-05-19 00:00:00,Green
+298,24,Female,Gauteng,Public,Emergency,53,36.7,12,134,66,93,I10,1,0,0,Fedhealth,2025-02-09 00:00:00,Green
+299,92,Female,Mpumalanga,Public,Outpatient,76,36.1,20,111,55,93,J18,0,1,1,Bonitas,2025-06-13 00:00:00,Yellow
+300,17,Male,Gauteng,Public,Outpatient,97,36.8,22,114,71,100,E11,6,0,0,GEMS,2025-08-13 00:00:00,Green
+301,81,Male,Western Cape,Public,Outpatient,103,35.6,12,111,94,98,M54,3,0,1,Fedhealth,2025-06-06 00:00:00,Green
+302,65,Male,Eastern Cape,Public,Inpatient,93,36.0,22,102,77,97,J18,2,0,1,Fedhealth,2025-07-11 00:00:00,Green
+303,53,Male,Gauteng,Private,Inpatient,88,37.3,18,124,62,93,I10,3,0,0,Medihelp,2025-04-23 00:00:00,Green
+304,34,Female,Northern Cape,Public,Outpatient,88,37.2,22,96,72,98,I10,9,0,1,Bonitas,2025-07-13 00:00:00,Green
+305,79,Male,Limpopo,Private,Outpatient,74,36.5,18,144,60,96,N39,2,0,0,None,2025-07-31 00:00:00,Green
+306,60,Male,Gauteng,Public,Outpatient,80,36.1,8,126,64,97,E11,6,0,1,Medihelp,2025-08-21 00:00:00,Green
+307,40,Male,Gauteng,Public,Emergency,107,36.1,17,133,83,93,E11,6,0,0,None,2025-02-10 00:00:00,Green
+308,32,Female,Limpopo,Public,Outpatient,68,36.5,22,116,64,96,S01,8,0,1,Medihelp,2025-05-26 00:00:00,Green
+309,67,Female,Eastern Cape,Public,Outpatient,106,37.3,14,118,91,95,K21,4,0,0,Bonitas,2025-06-07 00:00:00,Green
+310,32,Female,Eastern Cape,Private,Outpatient,77,37.4,16,131,77,94,E11,1,0,1,Discovery,2025-06-01 00:00:00,Green
+311,13,Female,Limpopo,Public,Outpatient,102,36.5,17,102,79,98,M54,7,1,1,Discovery,2025-04-16 00:00:00,Yellow
+312,20,Female,Mpumalanga,Public,Emergency,61,36.0,6,118,75,91,K21,4,1,1,GEMS,2025-02-23 00:00:00,Red
+313,47,Male,Northern Cape,Private,Outpatient,91,37.0,25,108,87,98,N39,8,0,1,Medihelp,2025-06-21 00:00:00,Green
+314,19,Female,Free State,Private,Emergency,71,36.2,14,107,87,98,E11,7,0,1,Momentum,2025-07-04 00:00:00,Green
+315,7,Female,Northern Cape,Private,Emergency,61,36.4,20,83,82,93,N39,7,1,0,Medihelp,2025-02-14 00:00:00,Red
+316,6,Female,Eastern Cape,Public,Inpatient,85,37.7,18,152,85,94,I10,10,0,0,Medihelp,2025-03-04 00:00:00,Green
+317,66,Female,Western Cape,Private,Emergency,97,37.4,23,111,75,95,J18,5,1,1,Medihelp,2025-05-02 00:00:00,Yellow
+318,16,Female,KwaZulu-Natal,Public,Outpatient,69,36.9,20,148,85,97,E11,8,0,0,None,2025-03-02 00:00:00,Green
+319,32,Female,Gauteng,Public,Emergency,60,35.9,17,146,74,96,I10,3,1,0,GEMS,2025-02-22 00:00:00,Yellow
+320,47,Other,Limpopo,Public,Inpatient,81,36.9,14,99,78,97,J18,6,1,0,Discovery,2025-04-16 00:00:00,Yellow
+321,75,Female,Limpopo,Public,Outpatient,81,37.5,21,103,75,100,J18,3,0,1,GEMS,2025-05-12 00:00:00,Green
+322,58,Female,Gauteng,Public,Emergency,90,36.5,11,176,73,94,I10,6,0,0,GEMS,2025-07-08 00:00:00,Green
+323,85,Female,KwaZulu-Natal,Public,Outpatient,96,37.7,21,160,70,91,L02,5,0,0,GEMS,2025-07-21 00:00:00,Yellow
+324,21,Male,Free State,Private,Inpatient,81,37.7,14,124,84,98,K21,0,0,0,Discovery,2025-04-11 00:00:00,Green
+325,29,Female,KwaZulu-Natal,Public,Telehealth,110,38.0,23,130,94,100,L02,3,0,1,Discovery,2025-03-01 00:00:00,Green
+326,37,Male,KwaZulu-Natal,Public,Emergency,85,37.0,19,112,92,97,R51,5,0,1,Medihelp,2025-05-27 00:00:00,Green
+327,50,Female,KwaZulu-Natal,Public,Inpatient,77,37.2,21,134,63,93,A09,0,0,1,GEMS,2025-08-08 00:00:00,Green
+328,53,Other,Free State,Private,Inpatient,58,37.8,18,111,93,96,J18,4,0,1,Momentum,2025-08-18 00:00:00,Green
+329,7,Female,Free State,Public,Inpatient,78,37.1,11,84,74,93,S01,7,1,0,None,2025-08-02 00:00:00,Red
+330,26,Male,Eastern Cape,Public,Outpatient,77,36.4,15,99,85,98,K21,8,0,0,None,2025-07-11 00:00:00,Green
+331,26,Male,Gauteng,Private,Outpatient,96,36.5,21,125,67,92,J18,3,0,0,Discovery,2025-05-29 00:00:00,Green
+332,20,Male,Free State,Private,Outpatient,89,37.0,19,102,80,95,M54,8,0,1,Bonitas,2025-05-06 00:00:00,Green
+333,29,Female,Free State,Public,Inpatient,64,35.9,23,124,82,93,S01,8,0,1,Bonitas,2025-08-14 00:00:00,Green
+334,27,Male,Eastern Cape,Private,Outpatient,85,36.7,20,104,60,96,R51,0,0,0,Bonitas,2025-05-20 00:00:00,Green
+335,63,Male,Limpopo,Private,Outpatient,92,37.6,14,109,85,95,R51,5,1,1,Fedhealth,2025-02-22 00:00:00,Yellow
+336,68,Male,Eastern Cape,Private,Outpatient,105,35.3,15,142,94,97,M54,5,0,1,Medihelp,2025-08-16 00:00:00,Green
+337,60,Female,Mpumalanga,Public,Inpatient,95,37.9,18,130,76,96,I10,8,0,1,Bonitas,2025-05-04 00:00:00,Green
+338,47,Female,Mpumalanga,Private,Inpatient,93,37.6,9,125,94,93,K21,5,0,1,Medihelp,2025-04-27 00:00:00,Green
+339,18,Male,Western Cape,Public,Emergency,83,36.5,25,143,76,98,N39,8,0,1,Bonitas,2025-08-05 00:00:00,Green
+340,3,Male,KwaZulu-Natal,Public,Inpatient,88,37.2,20,135,88,96,K21,3,1,1,Momentum,2025-06-04 00:00:00,Yellow
+341,34,Female,Gauteng,Public,Outpatient,101,36.8,23,154,51,93,S01,1,0,1,Medihelp,2025-06-17 00:00:00,Green
+342,63,Female,North West,Public,Inpatient,62,37.7,12,116,107,100,L02,3,0,1,Bonitas,2025-03-14 00:00:00,Green
+343,48,Female,Northern Cape,Public,Outpatient,77,37.5,23,116,96,97,N39,8,0,1,None,2025-04-28 00:00:00,Green
+344,16,Male,Eastern Cape,Private,Outpatient,70,35.8,27,99,75,96,R51,7,1,1,Discovery,2025-04-13 00:00:00,Yellow
+345,43,Female,Limpopo,Public,Inpatient,88,37.2,13,116,54,100,R51,10,0,1,Medihelp,2025-05-25 00:00:00,Green
+346,91,Female,Northern Cape,Public,Outpatient,100,36.7,21,144,81,100,I10,1,1,0,None,2025-08-03 00:00:00,Yellow
+347,29,Female,Limpopo,Public,Inpatient,73,36.9,18,151,61,96,A09,7,0,1,None,2025-08-11 00:00:00,Green
+348,92,Female,Northern Cape,Public,Outpatient,46,36.3,12,144,83,97,K21,6,0,0,None,2025-03-11 00:00:00,Green
+349,45,Male,Eastern Cape,Private,Outpatient,76,38.0,20,89,83,93,I10,4,0,1,Fedhealth,2025-07-30 00:00:00,Yellow
+350,5,Male,North West,Public,Outpatient,96,37.5,21,147,67,96,S01,6,0,1,Discovery,2025-02-21 00:00:00,Green
+351,36,Female,Northern Cape,Public,Outpatient,90,36.3,16,88,91,95,N39,5,0,1,Discovery,2025-06-22 00:00:00,Yellow
+352,23,Female,Eastern Cape,Public,Outpatient,88,35.9,23,143,88,97,M54,6,0,1,GEMS,2025-06-04 00:00:00,Green
+353,92,Female,Free State,Public,Emergency,78,36.5,11,118,90,97,J18,6,0,1,Fedhealth,2025-07-02 00:00:00,Green
+354,45,Female,North West,Public,Outpatient,63,37.1,12,139,78,98,L02,7,1,0,None,2025-06-17 00:00:00,Yellow
+355,52,Female,Limpopo,Private,Emergency,90,37.0,19,98,61,97,S01,5,0,1,Discovery,2025-08-14 00:00:00,Green
+356,94,Female,Mpumalanga,Private,Telehealth,69,37.7,18,148,90,92,J18,9,0,1,Discovery,2025-07-20 00:00:00,Green
+357,59,Male,KwaZulu-Natal,Public,Telehealth,115,37.4,15,96,75,93,K21,4,0,0,None,2025-04-06 00:00:00,Green
+358,62,Female,Mpumalanga,Private,Outpatient,91,37.5,21,112,61,94,M54,9,0,1,None,2025-08-10 00:00:00,Green
+359,84,Male,North West,Private,Inpatient,73,37.0,20,105,94,95,R51,2,0,0,Bonitas,2025-06-14 00:00:00,Green
+360,31,Male,Limpopo,Private,Outpatient,73,35.8,21,90,103,99,I10,2,0,1,Bonitas,2025-05-18 00:00:00,Green
+361,86,Other,Northern Cape,Public,Outpatient,81,36.7,18,127,78,93,N39,2,0,0,Medihelp,2025-08-08 00:00:00,Green
+362,32,Male,Limpopo,Public,Inpatient,78,37.5,20,161,104,95,I10,7,0,1,Medihelp,2025-05-03 00:00:00,Green
+363,66,Male,Northern Cape,Public,Inpatient,99,36.8,16,178,79,99,N39,2,0,0,Medihelp,2025-03-07 00:00:00,Green
+364,17,Male,Eastern Cape,Private,Outpatient,85,37.2,26,127,73,95,A09,8,1,1,Bonitas,2025-05-03 00:00:00,Yellow
+365,24,Female,North West,Private,Inpatient,71,36.6,15,147,70,97,A09,3,0,0,None,2025-03-08 00:00:00,Green
+366,94,Male,Eastern Cape,Public,Outpatient,110,36.1,26,130,98,96,I10,5,0,0,Medihelp,2025-08-24 00:00:00,Green
+367,53,Male,Western Cape,Public,Telehealth,83,36.7,18,135,69,97,N39,6,0,1,Discovery,2025-06-05 00:00:00,Green
+368,57,Male,Northern Cape,Private,Emergency,94,37.0,12,118,87,95,N39,2,0,0,Bonitas,2025-04-02 00:00:00,Green
+369,66,Male,Free State,Private,Outpatient,73,36.3,23,129,71,98,J18,1,0,1,Medihelp,2025-04-11 00:00:00,Green
+370,45,Male,Eastern Cape,Private,Outpatient,87,36.6,19,136,72,91,I10,5,0,0,Discovery,2025-05-06 00:00:00,Yellow
+371,23,Male,Western Cape,Private,Outpatient,87,36.1,21,113,90,95,E11,4,1,0,Medihelp,2025-06-24 00:00:00,Yellow
+372,31,Female,Gauteng,Public,Emergency,54,37.6,23,123,73,97,K21,6,1,1,Momentum,2025-04-04 00:00:00,Yellow
+373,46,Male,Mpumalanga,Public,Inpatient,112,36.6,19,124,73,98,R51,1,0,1,None,2025-03-14 00:00:00,Green
+374,85,Male,Limpopo,Private,Emergency,101,37.8,16,142,92,100,A09,4,0,1,None,2025-07-15 00:00:00,Green
+375,22,Male,Western Cape,Public,Outpatient,76,37.9,22,104,97,95,E11,4,0,1,Medihelp,2025-05-02 00:00:00,Green
+376,65,Male,North West,Public,Emergency,65,36.7,18,124,86,100,A09,0,0,0,Momentum,2025-05-20 00:00:00,Green
+377,26,Female,Eastern Cape,Private,Outpatient,87,36.1,21,163,70,94,M54,7,0,0,Medihelp,2025-08-10 00:00:00,Green
+378,1,Female,North West,Public,Outpatient,83,35.3,9,148,72,100,A09,3,1,0,GEMS,2025-03-06 00:00:00,Yellow
+379,89,Male,Mpumalanga,Private,Outpatient,87,35.8,20,152,79,98,S01,8,0,1,GEMS,2025-03-22 00:00:00,Green
+380,16,Male,Free State,Public,Emergency,85,35.8,15,125,82,93,A09,3,0,1,None,2025-04-22 00:00:00,Green
+381,32,Male,North West,Private,Emergency,90,37.8,25,131,66,97,J18,3,1,0,Fedhealth,2025-03-14 00:00:00,Yellow
+382,8,Female,Northern Cape,Public,Outpatient,104,36.9,20,145,87,96,E11,1,0,0,GEMS,2025-07-21 00:00:00,Green
+383,42,Female,Free State,Public,Inpatient,91,37.1,19,156,79,98,M54,7,0,0,GEMS,2025-03-06 00:00:00,Green
+384,47,Female,Free State,Private,Inpatient,66,35.2,20,86,57,95,N39,6,0,1,Medihelp,2025-02-11 00:00:00,Yellow
+385,38,Male,Western Cape,Public,Emergency,102,36.0,14,99,67,95,N39,8,0,1,Bonitas,2025-04-14 00:00:00,Green
+386,92,Female,Free State,Private,Outpatient,107,37.4,24,151,72,100,M54,4,0,0,Bonitas,2025-05-16 00:00:00,Green
+387,41,Male,KwaZulu-Natal,Private,Emergency,129,37.0,26,119,77,96,L02,4,0,1,Momentum,2025-02-16 00:00:00,Green
+388,25,Male,Mpumalanga,Public,Emergency,65,36.7,20,112,101,98,I10,0,0,0,Bonitas,2025-08-15 00:00:00,Green
+389,49,Male,Free State,Public,Outpatient,86,37.2,24,100,81,95,L02,3,1,1,Discovery,2025-07-04 00:00:00,Yellow
+390,24,Male,North West,Public,Outpatient,51,37.9,16,114,68,100,E11,5,0,1,Fedhealth,2025-06-01 00:00:00,Green
+391,23,Female,Gauteng,Public,Emergency,90,36.6,15,97,81,94,A09,5,0,0,GEMS,2025-06-04 00:00:00,Green
+392,12,Female,KwaZulu-Natal,Private,Emergency,74,36.8,18,167,74,94,N39,9,0,1,Fedhealth,2025-05-11 00:00:00,Green
+393,59,Male,KwaZulu-Natal,Private,Emergency,111,36.9,20,125,82,100,J18,0,0,1,Discovery,2025-07-16 00:00:00,Green
+394,6,Female,Northern Cape,Private,Inpatient,70,38.5,16,124,85,95,L02,5,0,0,GEMS,2025-04-18 00:00:00,Green
+395,56,Other,Free State,Private,Telehealth,57,35.3,20,137,93,100,A09,4,1,1,Momentum,2025-06-18 00:00:00,Yellow
+396,35,Female,Northern Cape,Public,Emergency,75,37.3,19,144,78,99,R51,5,1,1,Discovery,2025-02-21 00:00:00,Yellow
+397,44,Female,Northern Cape,Private,Emergency,52,36.7,14,144,98,96,I10,5,0,1,Discovery,2025-08-16 00:00:00,Green
+398,19,Female,Gauteng,Private,Inpatient,93,37.2,20,146,89,91,M54,4,1,0,Fedhealth,2025-06-30 00:00:00,Red
+399,64,Other,Western Cape,Private,Inpatient,51,36.3,21,112,70,96,A09,2,0,0,Medihelp,2025-02-27 00:00:00,Green
+400,7,Female,Free State,Private,Outpatient,82,36.8,19,119,105,96,I10,1,0,1,Fedhealth,2025-07-15 00:00:00,Green
+401,15,Male,Eastern Cape,Public,Emergency,51,37.3,23,140,82,100,I10,4,0,1,None,2025-08-12 00:00:00,Green
+402,13,Male,Northern Cape,Private,Emergency,77,39.0,13,114,68,100,N39,1,1,0,Fedhealth,2025-04-16 00:00:00,Yellow
+403,75,Female,Mpumalanga,Public,Outpatient,107,37.4,20,125,98,94,N39,4,0,1,Bonitas,2025-08-14 00:00:00,Green
+404,86,Male,Limpopo,Public,Outpatient,87,36.2,13,133,103,98,E11,4,0,0,Discovery,2025-05-05 00:00:00,Green
+405,14,Female,Mpumalanga,Public,Emergency,69,36.5,14,141,78,98,R51,0,0,0,Fedhealth,2025-05-08 00:00:00,Green
+406,91,Male,Gauteng,Private,Outpatient,82,36.5,15,89,72,99,M54,9,0,1,Discovery,2025-04-27 00:00:00,Yellow
+407,65,Male,Gauteng,Private,Emergency,82,35.5,14,139,76,97,I10,5,0,0,None,2025-07-01 00:00:00,Green
+408,31,Male,North West,Private,Inpatient,89,36.6,16,120,87,90,E11,0,0,0,Bonitas,2025-03-22 00:00:00,Yellow
+409,86,Male,Western Cape,Private,Outpatient,61,37.3,17,139,93,96,S01,5,0,1,Discovery,2025-03-12 00:00:00,Green
+410,62,Female,Northern Cape,Public,Emergency,91,35.9,21,141,85,93,L02,4,0,0,Fedhealth,2025-04-30 00:00:00,Green
+411,85,Female,Mpumalanga,Private,Outpatient,41,37.5,17,157,79,95,K21,1,0,1,Discovery,2025-07-24 00:00:00,Green
+412,50,Female,Limpopo,Public,Outpatient,73,37.1,12,152,96,99,I10,5,1,1,GEMS,2025-08-18 00:00:00,Yellow
+413,24,Female,Gauteng,Public,Telehealth,75,36.3,23,152,74,97,E11,2,0,1,None,2025-06-08 00:00:00,Green
+414,57,Male,Gauteng,Public,Outpatient,91,36.7,15,154,90,99,R51,5,0,0,Bonitas,2025-03-23 00:00:00,Green
+415,62,Female,Western Cape,Private,Outpatient,82,37.9,18,131,75,97,N39,3,0,0,Medihelp,2025-07-15 00:00:00,Green
+416,61,Female,Limpopo,Private,Inpatient,61,37.3,20,126,83,92,I10,2,0,1,Discovery,2025-02-26 00:00:00,Green
+417,21,Female,Limpopo,Public,Outpatient,67,36.8,19,142,77,88,I10,4,1,1,Fedhealth,2025-06-18 00:00:00,Red
+418,57,Male,Western Cape,Public,Inpatient,85,36.6,22,140,77,96,A09,0,0,1,Bonitas,2025-08-10 00:00:00,Green
+419,57,Female,Gauteng,Private,Outpatient,81,36.9,20,119,73,95,R51,4,0,0,Fedhealth,2025-06-06 00:00:00,Green
+420,85,Female,Free State,Public,Outpatient,73,36.4,15,133,94,93,M54,6,1,1,Fedhealth,2025-06-10 00:00:00,Yellow
+421,48,Other,Free State,Private,Emergency,75,35.3,27,124,69,91,N39,8,1,0,Discovery,2025-06-03 00:00:00,Red
+422,51,Female,Western Cape,Private,Outpatient,92,38.2,19,108,69,94,I10,7,0,1,Fedhealth,2025-03-14 00:00:00,Green
+423,41,Male,Limpopo,Public,Inpatient,74,36.9,17,151,103,95,L02,8,0,1,Discovery,2025-07-17 00:00:00,Green
+424,69,Female,Northern Cape,Public,Inpatient,81,37.1,22,126,90,98,N39,3,0,0,Medihelp,2025-02-27 00:00:00,Green
+425,14,Female,Western Cape,Private,Emergency,115,36.8,19,166,49,97,L02,2,0,1,GEMS,2025-04-26 00:00:00,Green
+426,53,Male,Western Cape,Private,Emergency,61,36.3,20,92,71,100,K21,7,1,0,Fedhealth,2025-07-29 00:00:00,Yellow
+427,59,Female,KwaZulu-Natal,Public,Inpatient,54,36.7,28,114,56,93,M54,3,0,1,Fedhealth,2025-08-08 00:00:00,Green
+428,7,Female,Mpumalanga,Private,Inpatient,94,35.7,17,126,67,99,K21,5,0,1,Fedhealth,2025-04-24 00:00:00,Green
+429,52,Male,Limpopo,Public,Emergency,72,38.4,17,148,40,96,I10,6,0,0,Momentum,2025-05-24 00:00:00,Green
+430,59,Male,North West,Public,Outpatient,77,35.9,18,133,76,98,A09,10,0,1,Momentum,2025-04-25 00:00:00,Green
+431,4,Male,North West,Private,Outpatient,70,36.1,22,131,64,95,M54,6,0,1,Bonitas,2025-07-17 00:00:00,Green
+432,67,Male,Limpopo,Private,Inpatient,78,36.5,12,102,79,99,A09,5,0,1,GEMS,2025-05-31 00:00:00,Green
+433,5,Male,KwaZulu-Natal,Public,Emergency,106,37.7,10,102,58,97,E11,2,0,0,GEMS,2025-06-02 00:00:00,Green
+434,93,Female,KwaZulu-Natal,Private,Emergency,94,36.8,16,131,79,94,S01,7,0,1,Momentum,2025-08-23 00:00:00,Green
+435,46,Male,Gauteng,Public,Inpatient,95,35.9,11,98,73,96,R51,6,0,0,Bonitas,2025-07-09 00:00:00,Green
+436,54,Male,Mpumalanga,Public,Emergency,61,37.7,16,114,96,95,E11,4,1,1,Momentum,2025-07-18 00:00:00,Yellow
+437,39,Female,Free State,Public,Outpatient,65,37.3,20,135,95,97,K21,3,1,1,Medihelp,2025-05-26 00:00:00,Yellow
+438,51,Female,Eastern Cape,Private,Outpatient,39,37.2,14,105,87,92,L02,3,0,0,Bonitas,2025-03-14 00:00:00,Green
+439,15,Male,Eastern Cape,Public,Outpatient,70,37.3,12,157,74,96,K21,5,0,0,GEMS,2025-07-02 00:00:00,Green
+440,12,Male,Eastern Cape,Public,Outpatient,96,38.5,18,149,102,97,M54,1,0,1,GEMS,2025-02-24 00:00:00,Green
+441,29,Male,Limpopo,Public,Outpatient,90,38.3,21,94,59,96,M54,8,0,1,Momentum,2025-03-16 00:00:00,Green
+442,18,Female,North West,Private,Emergency,79,36.3,11,106,61,100,K21,7,1,1,Medihelp,2025-04-15 00:00:00,Yellow
+443,16,Male,North West,Private,Outpatient,82,37.9,21,79,77,98,I10,4,0,0,Momentum,2025-04-17 00:00:00,Yellow
+444,62,Female,Free State,Private,Inpatient,72,37.1,21,109,105,96,K21,3,0,1,None,2025-07-08 00:00:00,Green
+445,18,Female,Limpopo,Public,Inpatient,85,37.1,22,140,76,97,M54,4,1,0,Discovery,2025-05-14 00:00:00,Yellow
+446,91,Male,Eastern Cape,Private,Emergency,93,35.6,23,117,76,97,M54,5,0,1,Discovery,2025-04-14 00:00:00,Green
+447,57,Female,Northern Cape,Public,Emergency,58,36.7,27,134,61,97,N39,4,0,1,Medihelp,2025-02-25 00:00:00,Green
+448,54,Other,North West,Private,Outpatient,86,36.2,17,95,89,91,J18,7,1,1,Fedhealth,2025-02-08 00:00:00,Red
+449,89,Male,Gauteng,Private,Outpatient,96,37.4,18,141,89,95,A09,1,0,0,Fedhealth,2025-08-17 00:00:00,Green
+450,89,Female,Western Cape,Public,Outpatient,76,37.5,16,114,87,92,E11,3,0,1,Discovery,2025-03-31 00:00:00,Green
+451,61,Female,Northern Cape,Private,Outpatient,93,35.3,18,125,70,100,K21,6,0,1,Discovery,2025-05-22 00:00:00,Green
+452,22,Female,North West,Public,Emergency,124,36.8,24,123,70,96,N39,5,0,1,Fedhealth,2025-05-21 00:00:00,Green
+453,8,Female,KwaZulu-Natal,Public,Emergency,80,37.6,13,100,62,95,I10,3,0,0,Bonitas,2025-04-11 00:00:00,Green
+454,11,Female,North West,Public,Outpatient,88,36.7,15,102,79,99,M54,6,0,1,Fedhealth,2025-02-21 00:00:00,Green
+455,0,Female,Gauteng,Public,Outpatient,71,37.3,24,144,65,97,K21,3,0,1,Momentum,2025-05-24 00:00:00,Green
+456,57,Female,Eastern Cape,Public,Emergency,85,37.0,22,133,64,93,M54,4,0,0,Bonitas,2025-05-14 00:00:00,Green
+457,0,Female,KwaZulu-Natal,Private,Outpatient,89,37.0,17,146,73,96,L02,7,0,0,Momentum,2025-04-07 00:00:00,Green
+458,33,Female,Limpopo,Public,Outpatient,85,36.6,21,131,72,95,N39,7,0,0,Discovery,2025-03-15 00:00:00,Green
+459,47,Female,Mpumalanga,Private,Inpatient,67,35.9,19,128,72,91,K21,5,1,0,Bonitas,2025-08-27 00:00:00,Red
+460,88,Male,Eastern Cape,Public,Inpatient,85,36.0,24,90,84,94,L02,2,0,0,Momentum,2025-07-13 00:00:00,Green
+461,0,Male,Mpumalanga,Public,Outpatient,104,37.3,18,120,79,95,S01,4,0,1,Momentum,2025-06-01 00:00:00,Green
+462,15,Male,Northern Cape,Private,Emergency,89,36.8,22,124,75,96,N39,5,0,1,Bonitas,2025-03-10 00:00:00,Green
+463,60,Male,Western Cape,Public,Outpatient,96,36.7,29,164,80,92,K21,8,1,1,Medihelp,2025-08-06 00:00:00,Yellow
+464,63,Male,KwaZulu-Natal,Public,Emergency,78,36.5,20,139,66,99,K21,0,0,0,None,2025-08-25 00:00:00,Green
+465,62,Female,Free State,Private,Outpatient,93,36.6,18,156,79,96,R51,2,0,1,Fedhealth,2025-04-08 00:00:00,Green
+466,68,Male,KwaZulu-Natal,Public,Inpatient,86,37.5,21,137,80,96,N39,7,0,1,GEMS,2025-04-20 00:00:00,Green
+467,21,Female,North West,Public,Outpatient,68,36.6,17,111,60,97,N39,8,0,0,Momentum,2025-06-28 00:00:00,Green
+468,92,Male,North West,Public,Inpatient,87,35.9,28,127,90,94,M54,4,0,0,Fedhealth,2025-03-21 00:00:00,Green
+469,66,Female,North West,Private,Outpatient,67,37.3,19,130,67,97,K21,8,0,1,None,2025-07-21 00:00:00,Green
+470,75,Female,Northern Cape,Private,Emergency,73,36.7,17,106,79,95,A09,3,1,1,GEMS,2025-07-13 00:00:00,Yellow
+471,25,Male,Eastern Cape,Private,Inpatient,85,36.8,15,117,92,93,A09,1,0,1,Fedhealth,2025-03-11 00:00:00,Green
+472,15,Female,Free State,Private,Outpatient,86,37.9,22,121,89,98,A09,6,1,1,Discovery,2025-04-16 00:00:00,Yellow
+473,50,Male,Free State,Public,Outpatient,64,36.8,21,157,78,100,S01,8,1,0,GEMS,2025-07-18 00:00:00,Yellow
+474,85,Female,North West,Public,Outpatient,98,37.0,16,83,74,98,K21,8,1,1,None,2025-03-28 00:00:00,Red
+475,56,Male,Mpumalanga,Private,Emergency,91,36.0,20,149,89,99,K21,2,1,0,Fedhealth,2025-04-11 00:00:00,Yellow
+476,28,Female,Northern Cape,Public,Telehealth,71,36.6,12,106,86,94,L02,5,1,0,Momentum,2025-05-10 00:00:00,Yellow
+477,77,Male,North West,Public,Emergency,59,37.2,19,98,71,91,R51,7,0,0,GEMS,2025-07-18 00:00:00,Yellow
+478,91,Female,Western Cape,Public,Telehealth,80,35.7,20,149,68,100,N39,5,0,0,Discovery,2025-02-10 00:00:00,Green
+479,68,Female,Eastern Cape,Public,Telehealth,75,36.9,25,140,53,100,M54,8,0,1,Bonitas,2025-07-02 00:00:00,Green
+480,46,Male,Limpopo,Private,Inpatient,84,36.9,15,150,80,100,R51,3,1,1,Momentum,2025-03-07 00:00:00,Yellow
+481,93,Male,Western Cape,Public,Outpatient,77,36.8,13,141,77,95,L02,4,0,1,Discovery,2025-04-27 00:00:00,Green
+482,61,Male,Mpumalanga,Public,Outpatient,52,37.5,14,166,92,93,K21,5,0,0,Discovery,2025-06-03 00:00:00,Green
+483,68,Male,KwaZulu-Natal,Public,Inpatient,76,37.0,13,136,82,93,E11,7,0,1,GEMS,2025-03-05 00:00:00,Green
+484,75,Female,KwaZulu-Natal,Private,Outpatient,77,37.8,23,122,94,91,N39,4,1,1,Fedhealth,2025-06-26 00:00:00,Red
+485,15,Male,Western Cape,Public,Outpatient,92,36.1,24,132,70,96,S01,7,0,1,Bonitas,2025-07-20 00:00:00,Green
+486,89,Male,North West,Public,Outpatient,72,36.9,19,150,92,100,A09,9,0,1,Momentum,2025-04-12 00:00:00,Green
+487,89,Male,Limpopo,Private,Outpatient,107,36.9,23,109,72,96,S01,3,0,1,Momentum,2025-02-11 00:00:00,Green
+488,47,Female,Gauteng,Private,Outpatient,53,36.1,19,112,87,97,K21,4,0,0,Fedhealth,2025-02-16 00:00:00,Green
+489,84,Male,Gauteng,Public,Outpatient,102,37.5,18,119,60,100,L02,7,0,1,Bonitas,2025-02-22 00:00:00,Green
+490,38,Male,Mpumalanga,Public,Outpatient,79,38.4,17,83,81,95,E11,9,0,1,GEMS,2025-03-17 00:00:00,Yellow
+491,32,Male,North West,Public,Inpatient,95,36.8,17,128,54,100,I10,6,0,1,Momentum,2025-08-01 00:00:00,Green
+492,93,Male,Free State,Public,Emergency,83,37.2,12,87,75,100,A09,3,1,1,Bonitas,2025-02-08 00:00:00,Red
+493,22,Female,Free State,Public,Inpatient,99,36.9,19,126,83,96,M54,5,0,0,GEMS,2025-02-26 00:00:00,Green
+494,9,Male,Eastern Cape,Public,Outpatient,76,36.3,18,142,72,94,K21,7,0,1,GEMS,2025-02-11 00:00:00,Green
+495,68,Male,Limpopo,Public,Inpatient,66,35.5,21,115,65,98,J18,2,0,1,None,2025-06-08 00:00:00,Green
+496,33,Female,Limpopo,Public,Outpatient,103,36.3,18,159,88,95,E11,2,0,1,Momentum,2025-02-28 00:00:00,Green
+497,51,Female,KwaZulu-Natal,Private,Inpatient,80,35.8,17,96,77,93,E11,4,0,0,Fedhealth,2025-05-13 00:00:00,Green
+498,94,Male,Northern Cape,Private,Emergency,85,38.0,15,149,72,100,N39,6,0,1,Medihelp,2025-02-21 00:00:00,Green
+499,9,Female,Mpumalanga,Private,Inpatient,101,36.7,18,139,79,100,S01,1,1,0,Momentum,2025-02-20 00:00:00,Yellow
+500,18,Female,Gauteng,Public,Emergency,67,36.6,21,91,110,96,A09,3,0,1,None,2025-07-23 00:00:00,Green
+501,57,Male,Mpumalanga,Public,Inpatient,91,37.4,13,179,92,92,K21,5,0,1,Discovery,2025-06-04 00:00:00,Green
+502,0,Female,Free State,Private,Telehealth,73,36.0,18,124,92,92,J18,7,1,0,Discovery,2025-03-26 00:00:00,Yellow
+503,68,Female,Free State,Public,Outpatient,80,36.3,19,107,83,96,A09,5,1,0,GEMS,2025-03-12 00:00:00,Yellow
+504,3,Male,Western Cape,Public,Emergency,83,36.8,15,97,80,95,L02,5,0,0,Medihelp,2025-07-31 00:00:00,Green
+505,15,Male,Eastern Cape,Public,Inpatient,59,37.5,16,121,49,95,J18,7,0,1,None,2025-08-12 00:00:00,Green
+506,23,Male,Limpopo,Private,Outpatient,70,37.2,19,122,70,99,R51,8,1,1,Momentum,2025-07-24 00:00:00,Yellow
+507,79,Female,Mpumalanga,Private,Inpatient,102,37.0,13,127,72,98,R51,8,1,1,Discovery,2025-03-17 00:00:00,Yellow
+508,1,Other,Free State,Public,Emergency,95,36.9,19,119,56,100,E11,0,1,0,Discovery,2025-02-25 00:00:00,Yellow
+509,91,Female,Northern Cape,Public,Emergency,81,37.1,14,138,64,93,L02,5,0,1,Momentum,2025-05-21 00:00:00,Green
+510,31,Male,KwaZulu-Natal,Private,Telehealth,86,36.9,22,117,54,95,R51,7,0,1,None,2025-04-03 00:00:00,Green
+511,90,Female,Gauteng,Public,Outpatient,78,36.1,27,86,78,98,E11,9,0,0,Bonitas,2025-02-24 00:00:00,Yellow
+512,83,Female,Eastern Cape,Private,Inpatient,102,36.8,15,122,88,97,S01,6,0,1,GEMS,2025-04-28 00:00:00,Green
+513,23,Male,Northern Cape,Private,Outpatient,79,36.0,20,78,91,100,K21,2,1,0,Momentum,2025-03-20 00:00:00,Red
+514,11,Male,Eastern Cape,Private,Outpatient,85,36.9,15,132,83,97,E11,3,1,1,Bonitas,2025-08-05 00:00:00,Yellow
+515,49,Female,Western Cape,Public,Outpatient,99,36.5,22,105,66,100,K21,3,0,0,GEMS,2025-05-01 00:00:00,Green
+516,34,Male,Free State,Public,Outpatient,70,38.6,13,128,55,98,L02,5,0,0,Medihelp,2025-06-26 00:00:00,Green
+517,32,Female,KwaZulu-Natal,Public,Outpatient,105,36.8,20,151,57,99,N39,3,0,1,Fedhealth,2025-06-19 00:00:00,Green
+518,32,Male,Northern Cape,Private,Outpatient,59,35.8,15,106,63,95,A09,0,0,1,GEMS,2025-03-31 00:00:00,Green
+519,60,Male,Eastern Cape,Private,Outpatient,106,36.7,17,146,67,96,E11,2,0,0,Medihelp,2025-02-14 00:00:00,Green
+520,50,Male,Limpopo,Public,Outpatient,76,37.2,14,116,76,99,E11,3,0,1,Fedhealth,2025-06-09 00:00:00,Green
+521,42,Male,Western Cape,Public,Inpatient,78,38.0,21,160,66,100,K21,1,0,1,Discovery,2025-06-30 00:00:00,Green
+522,11,Female,Limpopo,Private,Emergency,54,36.4,15,118,82,98,R51,1,0,0,Discovery,2025-03-28 00:00:00,Green
+523,66,Male,KwaZulu-Natal,Private,Outpatient,75,35.7,20,108,75,96,R51,10,0,1,Discovery,2025-08-11 00:00:00,Green
+524,64,Female,Northern Cape,Private,Emergency,66,37.4,17,139,78,100,E11,4,1,1,GEMS,2025-07-20 00:00:00,Yellow
+525,32,Female,Western Cape,Public,Outpatient,73,35.8,18,116,92,89,R51,4,0,1,Bonitas,2025-06-12 00:00:00,Yellow
+526,39,Female,Northern Cape,Public,Inpatient,80,36.5,19,108,64,92,R51,6,1,0,Fedhealth,2025-05-28 00:00:00,Yellow
+527,73,Male,Free State,Private,Emergency,96,36.6,15,115,83,98,E11,7,0,1,Discovery,2025-03-14 00:00:00,Green
+528,42,Female,North West,Private,Emergency,85,36.8,19,124,78,96,S01,10,0,1,None,2025-08-04 00:00:00,Green
+529,43,Female,Western Cape,Public,Emergency,87,37.3,24,152,74,98,S01,9,0,1,Momentum,2025-03-15 00:00:00,Green
+530,28,Male,Limpopo,Public,Outpatient,66,36.3,15,86,89,96,I10,6,0,0,Fedhealth,2025-06-01 00:00:00,Yellow
+531,12,Male,KwaZulu-Natal,Public,Inpatient,69,36.6,23,125,89,98,S01,1,0,1,Fedhealth,2025-02-24 00:00:00,Green
+532,11,Female,Free State,Public,Emergency,109,36.8,24,137,67,94,I10,2,0,0,Bonitas,2025-07-15 00:00:00,Green
+533,94,Female,North West,Public,Inpatient,71,36.9,15,129,76,98,L02,3,0,1,Medihelp,2025-07-23 00:00:00,Green
+534,45,Male,Gauteng,Private,Outpatient,107,36.9,12,151,81,99,M54,6,0,1,Bonitas,2025-05-21 00:00:00,Green
+535,1,Female,Free State,Public,Outpatient,78,37.1,19,124,75,100,A09,5,0,0,Discovery,2025-06-19 00:00:00,Green
+536,34,Female,KwaZulu-Natal,Private,Inpatient,82,37.4,16,121,85,100,M54,1,0,0,Momentum,2025-04-28 00:00:00,Green
+537,86,Female,Eastern Cape,Public,Outpatient,98,37.1,25,137,81,97,R51,0,0,1,Momentum,2025-04-26 00:00:00,Green
+538,80,Female,Western Cape,Private,Outpatient,101,37.1,18,127,100,97,J18,5,0,1,None,2025-06-09 00:00:00,Green
+539,89,Female,Northern Cape,Private,Emergency,80,35.7,15,117,60,91,R51,5,0,0,None,2025-07-14 00:00:00,Yellow
+540,7,Male,KwaZulu-Natal,Public,Emergency,76,36.8,13,135,77,94,E11,4,0,1,Discovery,2025-03-27 00:00:00,Green
+541,92,Male,Western Cape,Public,Outpatient,81,37.1,22,112,67,95,E11,6,1,1,Momentum,2025-04-11 00:00:00,Yellow
+542,25,Male,Northern Cape,Public,Emergency,87,37.3,16,113,85,99,A09,8,0,1,Bonitas,2025-03-01 00:00:00,Green
+543,73,Female,Mpumalanga,Public,Outpatient,95,36.3,18,114,59,94,N39,5,1,1,GEMS,2025-03-28 00:00:00,Yellow
+544,89,Female,Limpopo,Private,Outpatient,82,36.3,22,152,82,98,N39,2,0,0,Bonitas,2025-07-28 00:00:00,Green
+545,33,Male,Gauteng,Private,Outpatient,91,36.4,16,61,70,96,N39,9,0,1,GEMS,2025-06-04 00:00:00,Yellow
+546,6,Female,Free State,Public,Emergency,107,37.2,18,133,69,95,S01,4,0,0,Discovery,2025-07-14 00:00:00,Green
+547,67,Female,KwaZulu-Natal,Public,Outpatient,88,37.5,18,126,61,97,L02,5,0,0,Momentum,2025-05-05 00:00:00,Green
+548,57,Female,Gauteng,Public,Outpatient,87,36.5,21,91,72,95,R51,3,1,0,None,2025-06-22 00:00:00,Yellow
+549,74,Male,Eastern Cape,Private,Telehealth,59,37.4,20,131,91,95,E11,2,1,1,Fedhealth,2025-06-13 00:00:00,Yellow
+550,28,Female,Western Cape,Public,Emergency,43,36.9,17,135,78,91,J18,2,0,1,None,2025-07-19 00:00:00,Yellow
+551,35,Male,Western Cape,Public,Inpatient,88,36.7,18,137,86,95,J18,1,1,0,Medihelp,2025-03-07 00:00:00,Yellow
+552,88,Male,KwaZulu-Natal,Private,Outpatient,81,36.7,17,72,98,95,J18,0,0,1,Fedhealth,2025-02-27 00:00:00,Yellow
+553,20,Male,North West,Private,Outpatient,74,37.3,12,152,81,94,N39,4,0,1,GEMS,2025-07-18 00:00:00,Green
+554,35,Male,North West,Public,Outpatient,86,37.0,19,110,71,97,A09,7,0,1,Bonitas,2025-04-30 00:00:00,Green
+555,9,Male,Mpumalanga,Private,Emergency,81,38.4,26,139,84,98,N39,2,1,1,Bonitas,2025-06-08 00:00:00,Yellow
+556,72,Female,Limpopo,Public,Emergency,99,36.2,14,140,71,97,E11,10,0,0,None,2025-07-21 00:00:00,Green
+557,23,Male,Northern Cape,Public,Outpatient,83,37.2,15,107,72,99,R51,8,1,0,Bonitas,2025-05-20 00:00:00,Yellow
+558,63,Female,Eastern Cape,Private,Outpatient,71,36.4,15,138,60,98,R51,4,0,1,None,2025-03-17 00:00:00,Green
+559,48,Male,Gauteng,Private,Inpatient,97,36.2,21,117,89,95,A09,2,0,1,None,2025-03-09 00:00:00,Green
+560,35,Female,North West,Public,Outpatient,79,36.8,20,84,73,95,L02,1,0,0,Bonitas,2025-07-02 00:00:00,Yellow
+561,81,Female,Mpumalanga,Public,Emergency,90,36.9,17,148,80,97,S01,4,0,1,Medihelp,2025-06-23 00:00:00,Green
+562,23,Male,Mpumalanga,Public,Inpatient,75,38.8,14,109,66,98,J18,5,0,1,Discovery,2025-07-29 00:00:00,Green
+563,22,Male,KwaZulu-Natal,Public,Outpatient,72,36.7,18,108,83,100,R51,4,0,1,Bonitas,2025-08-18 00:00:00,Green
+564,61,Male,Eastern Cape,Public,Outpatient,83,36.0,12,117,69,100,A09,7,1,0,GEMS,2025-06-28 00:00:00,Yellow
+565,36,Female,Northern Cape,Public,Outpatient,82,37.0,19,130,76,94,J18,8,0,1,Momentum,2025-02-18 00:00:00,Green
+566,11,Female,Limpopo,Public,Inpatient,89,35.3,21,124,89,96,N39,6,0,1,None,2025-07-23 00:00:00,Green
+567,54,Male,Free State,Private,Inpatient,78,36.7,13,136,87,98,K21,6,1,0,Medihelp,2025-07-05 00:00:00,Yellow
+568,12,Female,KwaZulu-Natal,Private,Outpatient,54,36.8,12,98,78,99,M54,4,0,0,None,2025-05-23 00:00:00,Green
+569,22,Male,Northern Cape,Private,Outpatient,76,37.4,24,110,57,99,R51,4,0,1,GEMS,2025-02-16 00:00:00,Green
+570,88,Male,Free State,Public,Inpatient,94,37.5,16,123,114,96,L02,6,0,1,None,2025-08-24 00:00:00,Green
+571,29,Female,Free State,Private,Outpatient,78,36.4,23,163,99,92,A09,4,0,0,GEMS,2025-02-26 00:00:00,Green
+572,16,Male,Eastern Cape,Private,Emergency,78,36.7,17,123,87,93,S01,6,0,0,None,2025-07-05 00:00:00,Green
+573,61,Female,Eastern Cape,Private,Outpatient,97,36.3,17,147,69,97,L02,2,1,0,Bonitas,2025-05-09 00:00:00,Yellow
+574,83,Male,Gauteng,Private,Emergency,71,36.0,20,126,77,97,N39,3,0,0,Momentum,2025-05-29 00:00:00,Green
+575,88,Other,Mpumalanga,Private,Outpatient,59,37.0,14,115,71,93,R51,2,0,0,Bonitas,2025-05-31 00:00:00,Green
+576,85,Male,Northern Cape,Public,Outpatient,80,35.9,19,120,93,96,E11,3,0,1,None,2025-06-25 00:00:00,Green
+577,12,Male,KwaZulu-Natal,Public,Outpatient,75,36.5,16,122,81,98,N39,4,0,1,GEMS,2025-05-01 00:00:00,Green
+578,58,Female,Western Cape,Private,Emergency,68,36.1,13,137,69,93,S01,7,0,1,Discovery,2025-05-28 00:00:00,Green
+579,18,Male,KwaZulu-Natal,Private,Inpatient,79,37.2,19,152,72,99,N39,5,0,0,Medihelp,2025-03-31 00:00:00,Green
+580,48,Female,Gauteng,Private,Outpatient,89,38.1,17,132,91,95,A09,1,0,0,None,2025-03-28 00:00:00,Green
+581,11,Female,Limpopo,Public,Outpatient,82,35.9,17,149,97,100,L02,1,1,0,Discovery,2025-06-08 00:00:00,Yellow
+582,60,Female,Mpumalanga,Public,Outpatient,87,35.5,13,106,96,94,A09,3,0,0,None,2025-06-30 00:00:00,Green
+583,18,Female,Western Cape,Public,Outpatient,109,36.7,24,117,87,93,J18,7,0,0,Medihelp,2025-02-24 00:00:00,Green
+584,75,Female,North West,Private,Emergency,77,36.8,22,111,75,95,K21,8,0,0,Bonitas,2025-02-27 00:00:00,Green
+585,8,Female,Limpopo,Public,Emergency,86,37.0,22,131,39,96,L02,1,0,1,Bonitas,2025-07-15 00:00:00,Green
+586,70,Female,Eastern Cape,Public,Inpatient,74,36.5,17,118,82,95,K21,5,1,0,None,2025-03-01 00:00:00,Yellow
+587,27,Female,Free State,Public,Inpatient,69,36.7,11,140,78,95,A09,3,0,1,Medihelp,2025-06-13 00:00:00,Green
+588,77,Male,North West,Public,Outpatient,73,37.1,26,106,80,97,E11,4,0,0,Momentum,2025-04-06 00:00:00,Green
+589,94,Male,KwaZulu-Natal,Private,Emergency,75,37.5,18,126,79,95,R51,2,0,0,Momentum,2025-05-19 00:00:00,Green
+590,51,Female,KwaZulu-Natal,Private,Outpatient,87,35.4,15,139,62,96,S01,4,0,1,None,2025-04-25 00:00:00,Green
+591,82,Male,Eastern Cape,Private,Inpatient,117,36.5,20,84,85,91,N39,2,0,0,None,2025-08-12 00:00:00,Red
+592,15,Female,Gauteng,Public,Inpatient,71,36.9,23,167,86,97,N39,4,0,0,None,2025-07-04 00:00:00,Green
+593,68,Male,Northern Cape,Private,Emergency,76,36.2,18,119,86,96,K21,7,1,1,Bonitas,2025-02-20 00:00:00,Yellow
+594,11,Male,North West,Public,Emergency,81,38.0,23,84,89,100,S01,6,0,1,Bonitas,2025-05-25 00:00:00,Yellow
+595,24,Female,North West,Private,Inpatient,88,36.4,22,128,85,93,L02,9,0,0,Discovery,2025-06-10 00:00:00,Green
+596,51,Female,Limpopo,Public,Outpatient,86,36.8,14,126,73,91,R51,6,0,0,GEMS,2025-06-12 00:00:00,Yellow
+597,84,Male,Mpumalanga,Public,Outpatient,101,37.2,15,123,77,98,M54,5,0,1,Bonitas,2025-07-19 00:00:00,Green
+598,52,Female,Limpopo,Private,Emergency,46,36.4,22,145,79,97,K21,6,0,1,Medihelp,2025-08-07 00:00:00,Green
+599,22,Female,Northern Cape,Private,Outpatient,46,35.5,7,140,79,93,L02,3,0,1,Momentum,2025-06-23 00:00:00,Green
+600,15,Male,KwaZulu-Natal,Public,Inpatient,75,36.5,17,131,90,91,L02,0,0,0,Momentum,2025-04-14 00:00:00,Yellow
+601,56,Female,KwaZulu-Natal,Private,Telehealth,98,37.5,12,134,86,100,S01,6,1,1,None,2025-02-10 00:00:00,Yellow
+602,38,Male,KwaZulu-Natal,Public,Outpatient,59,36.6,16,123,103,100,S01,0,0,0,Discovery,2025-08-18 00:00:00,Green
+603,52,Male,KwaZulu-Natal,Public,Outpatient,37,36.2,17,161,104,89,I10,7,1,0,None,2025-02-24 00:00:00,Red
+604,41,Female,Northern Cape,Public,Emergency,91,37.4,17,95,79,95,N39,6,0,1,Momentum,2025-04-18 00:00:00,Green
+605,57,Male,Eastern Cape,Public,Outpatient,86,36.6,16,128,32,100,R51,2,0,0,Momentum,2025-07-16 00:00:00,Green
+606,38,Female,Mpumalanga,Public,Outpatient,66,36.4,14,126,93,95,J18,3,0,1,GEMS,2025-05-15 00:00:00,Green
+607,13,Female,Northern Cape,Public,Outpatient,67,36.9,27,141,72,95,K21,4,0,1,Fedhealth,2025-06-26 00:00:00,Green
+608,94,Male,Mpumalanga,Public,Outpatient,67,37.3,25,108,68,95,R51,2,0,1,Medihelp,2025-03-10 00:00:00,Green
+609,4,Female,Northern Cape,Private,Emergency,84,38.5,13,90,73,93,I10,6,0,0,GEMS,2025-02-14 00:00:00,Green
+610,34,Female,KwaZulu-Natal,Public,Emergency,73,37.4,24,128,73,91,I10,6,0,0,None,2025-06-07 00:00:00,Yellow
+611,86,Male,Eastern Cape,Private,Outpatient,89,37.6,16,131,85,99,R51,1,1,0,Fedhealth,2025-07-08 00:00:00,Yellow
+612,92,Female,North West,Public,Emergency,39,36.4,19,155,59,90,S01,2,0,0,Momentum,2025-07-03 00:00:00,Yellow
+613,74,Female,Limpopo,Private,Emergency,69,36.1,18,100,65,97,L02,4,0,1,Discovery,2025-03-10 00:00:00,Green
+614,17,Female,Free State,Public,Telehealth,65,36.8,15,148,82,99,M54,7,1,0,Discovery,2025-03-29 00:00:00,Yellow
+615,75,Female,Eastern Cape,Public,Outpatient,78,36.9,22,172,85,92,R51,6,0,0,Momentum,2025-07-25 00:00:00,Green
+616,8,Male,North West,Public,Outpatient,74,36.0,19,117,86,93,K21,0,0,0,Bonitas,2025-06-30 00:00:00,Green
+617,73,Female,Gauteng,Public,Inpatient,94,36.7,16,99,69,100,J18,4,0,0,Fedhealth,2025-04-20 00:00:00,Green
+618,57,Female,Northern Cape,Public,Telehealth,54,37.1,13,117,66,98,N39,6,0,1,Momentum,2025-04-20 00:00:00,Green
+619,16,Female,Gauteng,Private,Outpatient,83,37.1,14,125,72,94,I10,3,0,1,Discovery,2025-04-12 00:00:00,Green
+620,6,Female,North West,Private,Inpatient,90,37.2,11,136,81,100,E11,2,0,1,Discovery,2025-03-30 00:00:00,Green
+621,45,Female,Eastern Cape,Private,Outpatient,110,37.0,18,113,96,100,E11,3,1,1,Fedhealth,2025-04-07 00:00:00,Yellow
+622,12,Female,Northern Cape,Private,Outpatient,75,36.4,13,156,53,97,L02,4,0,1,Medihelp,2025-05-02 00:00:00,Green
+623,39,Female,Free State,Public,Outpatient,87,36.4,17,103,75,93,S01,2,0,0,Momentum,2025-04-22 00:00:00,Green
+624,41,Female,KwaZulu-Natal,Public,Outpatient,55,36.0,23,90,62,95,N39,6,0,0,GEMS,2025-08-11 00:00:00,Green
+625,8,Female,Northern Cape,Public,Outpatient,46,38.0,23,147,58,97,I10,2,0,1,None,2025-06-07 00:00:00,Green
+626,49,Female,Northern Cape,Public,Outpatient,95,36.8,18,80,90,95,E11,2,1,0,Momentum,2025-08-14 00:00:00,Red
+627,26,Female,Eastern Cape,Public,Emergency,82,36.6,18,121,85,99,E11,4,0,0,Medihelp,2025-06-08 00:00:00,Green
+628,65,Male,Eastern Cape,Public,Outpatient,100,36.1,26,187,83,91,M54,8,0,1,Fedhealth,2025-04-27 00:00:00,Yellow
+629,4,Male,North West,Public,Emergency,61,38.9,20,125,89,92,R51,6,0,0,Fedhealth,2025-08-12 00:00:00,Green
+630,28,Male,Western Cape,Public,Outpatient,90,36.0,17,103,72,97,A09,6,0,1,Discovery,2025-07-27 00:00:00,Green
+631,36,Female,Northern Cape,Private,Outpatient,110,36.5,12,124,73,95,N39,5,0,1,Medihelp,2025-08-05 00:00:00,Green
+632,37,Female,Limpopo,Private,Inpatient,88,37.1,20,124,104,94,A09,2,0,0,Fedhealth,2025-05-18 00:00:00,Green
+633,82,Female,Northern Cape,Public,Inpatient,86,37.2,21,128,75,91,J18,3,0,0,Bonitas,2025-03-19 00:00:00,Yellow
+634,7,Male,North West,Private,Inpatient,82,37.5,15,138,87,96,S01,2,0,1,Momentum,2025-05-22 00:00:00,Green
+635,64,Female,Mpumalanga,Private,Outpatient,58,38.1,19,104,78,96,R51,7,0,0,Discovery,2025-04-06 00:00:00,Green
+636,85,Male,Gauteng,Public,Inpatient,102,37.2,17,159,56,98,J18,5,0,0,GEMS,2025-03-19 00:00:00,Green
+637,16,Male,KwaZulu-Natal,Public,Outpatient,73,36.1,17,130,53,96,K21,0,0,1,Medihelp,2025-05-16 00:00:00,Green
+638,70,Female,Western Cape,Public,Emergency,90,36.6,8,140,71,96,I10,8,1,1,Discovery,2025-04-24 00:00:00,Yellow
+639,88,Female,Free State,Private,Emergency,59,37.0,17,112,91,100,A09,4,0,0,Fedhealth,2025-02-10 00:00:00,Green
+640,44,Male,Free State,Private,Outpatient,64,38.2,22,151,87,92,L02,6,1,0,None,2025-03-20 00:00:00,Yellow
+641,3,Male,Free State,Public,Outpatient,104,35.8,15,120,89,98,K21,7,0,1,Fedhealth,2025-06-21 00:00:00,Green
+642,35,Male,Eastern Cape,Public,Outpatient,77,37.6,18,131,66,91,N39,0,0,0,GEMS,2025-03-10 00:00:00,Yellow
+643,69,Male,Free State,Public,Inpatient,104,36.9,15,106,97,93,I10,6,0,0,GEMS,2025-06-25 00:00:00,Green
+644,30,Female,KwaZulu-Natal,Public,Emergency,81,37.4,19,105,66,92,E11,4,0,0,GEMS,2025-06-18 00:00:00,Green
+645,18,Male,Gauteng,Public,Emergency,54,36.7,17,139,81,98,A09,0,0,0,GEMS,2025-08-10 00:00:00,Green
+646,60,Female,Free State,Private,Telehealth,95,36.2,14,116,78,96,R51,2,0,1,GEMS,2025-02-13 00:00:00,Green
+647,53,Female,Northern Cape,Private,Emergency,73,37.3,23,108,76,96,R51,3,0,1,Bonitas,2025-05-07 00:00:00,Green
+648,38,Male,Northern Cape,Private,Outpatient,92,37.3,22,112,94,93,K21,7,0,0,Momentum,2025-04-25 00:00:00,Green
+649,90,Male,Eastern Cape,Private,Outpatient,82,37.5,16,139,70,95,K21,4,0,0,Medihelp,2025-04-23 00:00:00,Green
+650,73,Male,KwaZulu-Natal,Private,Outpatient,59,36.8,20,112,62,94,S01,5,0,0,Discovery,2025-06-28 00:00:00,Green
+651,89,Male,Gauteng,Public,Emergency,84,36.4,20,123,78,97,E11,4,0,1,GEMS,2025-06-14 00:00:00,Green
+652,18,Male,Western Cape,Private,Emergency,115,35.7,21,125,73,93,M54,7,0,0,Momentum,2025-05-13 00:00:00,Yellow
+653,38,Female,North West,Public,Emergency,89,37.4,11,87,119,100,A09,6,0,0,Fedhealth,2025-04-02 00:00:00,Yellow
+654,66,Male,Gauteng,Private,Outpatient,81,37.1,22,96,86,91,J18,5,0,1,Momentum,2025-04-11 00:00:00,Yellow
+655,44,Female,North West,Public,Outpatient,98,36.1,16,132,73,94,N39,2,0,0,GEMS,2025-03-07 00:00:00,Green
+656,12,Male,Mpumalanga,Private,Emergency,85,36.4,17,110,65,100,A09,5,0,1,None,2025-02-17 00:00:00,Green
+657,91,Female,North West,Public,Outpatient,85,36.5,29,146,55,95,A09,10,0,0,Discovery,2025-06-08 00:00:00,Green
+658,57,Female,Limpopo,Public,Inpatient,66,35.8,19,144,66,92,E11,6,0,0,GEMS,2025-05-14 00:00:00,Green
+659,19,Female,Northern Cape,Public,Emergency,86,36.2,16,139,79,97,A09,3,1,1,Momentum,2025-07-31 00:00:00,Yellow
+660,91,Female,KwaZulu-Natal,Public,Outpatient,98,36.0,9,161,95,95,S01,9,0,0,Fedhealth,2025-03-05 00:00:00,Green
+661,71,Female,Eastern Cape,Private,Outpatient,69,36.5,24,123,91,93,A09,3,1,0,Momentum,2025-03-18 00:00:00,Yellow
+662,60,Female,Limpopo,Private,Outpatient,103,36.3,13,138,81,93,L02,6,0,0,GEMS,2025-08-20 00:00:00,Green
+663,38,Female,North West,Public,Outpatient,81,35.7,14,113,74,100,L02,4,1,1,Medihelp,2025-05-29 00:00:00,Yellow
+664,0,Female,Free State,Public,Outpatient,69,38.2,17,174,81,95,I10,5,1,0,Momentum,2025-03-31 00:00:00,Yellow
+665,2,Male,KwaZulu-Natal,Public,Inpatient,97,37.7,24,165,72,90,N39,5,0,1,Medihelp,2025-04-29 00:00:00,Yellow
+666,76,Male,Limpopo,Public,Inpatient,78,36.3,21,125,99,100,L02,4,0,1,GEMS,2025-03-29 00:00:00,Green
+667,91,Female,Eastern Cape,Public,Outpatient,93,37.0,17,133,76,98,N39,4,0,1,Momentum,2025-06-23 00:00:00,Green
+668,61,Female,Northern Cape,Private,Inpatient,78,37.1,19,152,77,94,R51,1,0,1,Fedhealth,2025-05-25 00:00:00,Green
+669,62,Female,KwaZulu-Natal,Public,Outpatient,81,37.6,16,122,51,93,S01,2,1,0,Bonitas,2025-06-25 00:00:00,Yellow
+670,24,Female,Eastern Cape,Public,Outpatient,89,36.2,19,112,76,98,E11,5,1,0,Bonitas,2025-06-24 00:00:00,Yellow
+671,55,Other,Mpumalanga,Public,Outpatient,86,37.6,18,142,88,95,E11,3,0,0,Medihelp,2025-04-25 00:00:00,Green
+672,32,Male,Mpumalanga,Public,Emergency,52,36.4,22,127,65,90,L02,2,1,0,GEMS,2025-08-14 00:00:00,Red
+673,37,Male,Eastern Cape,Public,Inpatient,65,35.9,22,129,69,100,S01,10,1,0,Medihelp,2025-08-03 00:00:00,Yellow
+674,5,Male,Limpopo,Private,Outpatient,96,37.3,20,108,88,95,R51,10,0,0,GEMS,2025-05-20 00:00:00,Green
+675,57,Male,KwaZulu-Natal,Public,Outpatient,80,37.7,17,91,60,100,J18,6,0,1,GEMS,2025-05-15 00:00:00,Green
+676,43,Female,Limpopo,Public,Inpatient,74,38.6,21,130,91,100,S01,6,0,1,Bonitas,2025-04-19 00:00:00,Green
+677,44,Male,Western Cape,Public,Emergency,62,36.0,18,143,72,93,I10,2,0,0,Fedhealth,2025-04-17 00:00:00,Green
+678,31,Female,North West,Public,Outpatient,66,37.3,14,120,73,99,E11,2,0,0,Fedhealth,2025-06-24 00:00:00,Green
+679,44,Male,Western Cape,Public,Emergency,52,36.5,16,154,65,94,I10,4,0,0,Momentum,2025-02-27 00:00:00,Green
+680,60,Female,Mpumalanga,Private,Inpatient,80,37.3,18,111,83,90,E11,5,0,0,Medihelp,2025-08-09 00:00:00,Yellow
+681,46,Female,Northern Cape,Private,Inpatient,73,35.8,22,104,108,95,R51,6,0,0,Fedhealth,2025-05-14 00:00:00,Green
+682,20,Male,Gauteng,Public,Outpatient,68,35.9,17,124,87,97,A09,0,1,1,None,2025-07-05 00:00:00,Yellow
+683,79,Female,North West,Public,Outpatient,81,36.3,13,123,68,95,M54,10,0,0,Discovery,2025-04-12 00:00:00,Green
+684,84,Male,Mpumalanga,Public,Outpatient,87,36.9,18,140,92,95,S01,5,0,0,Momentum,2025-04-06 00:00:00,Green
+685,74,Male,Limpopo,Public,Inpatient,113,36.4,18,110,74,99,S01,1,1,0,Momentum,2025-05-16 00:00:00,Yellow
+686,35,Male,Limpopo,Private,Outpatient,59,37.3,19,152,94,96,A09,5,0,1,Bonitas,2025-03-07 00:00:00,Green
+687,18,Male,Limpopo,Private,Outpatient,99,37.5,22,164,88,93,J18,2,0,1,Medihelp,2025-03-24 00:00:00,Green
+688,19,Male,Northern Cape,Public,Inpatient,97,37.2,22,124,43,98,E11,2,0,1,None,2025-08-13 00:00:00,Green
+689,56,Female,Western Cape,Public,Outpatient,70,37.9,16,150,66,97,J18,2,0,0,Fedhealth,2025-07-11 00:00:00,Green
+690,17,Female,Gauteng,Public,Emergency,85,37.1,16,104,89,88,S01,4,1,0,Fedhealth,2025-04-11 00:00:00,Red
+691,46,Female,Limpopo,Private,Outpatient,75,35.9,14,147,80,97,L02,10,0,0,GEMS,2025-07-25 00:00:00,Green
+692,48,Male,North West,Private,Telehealth,85,37.8,21,146,66,97,L02,5,0,0,Momentum,2025-03-17 00:00:00,Green
+693,13,Female,KwaZulu-Natal,Public,Outpatient,105,36.4,24,142,70,96,K21,6,0,1,Medihelp,2025-03-23 00:00:00,Green
+694,14,Male,Gauteng,Public,Emergency,91,37.4,17,125,55,99,N39,7,1,0,Medihelp,2025-05-21 00:00:00,Yellow
+695,30,Male,Northern Cape,Private,Outpatient,90,37.9,17,66,77,94,L02,4,0,0,Medihelp,2025-02-08 00:00:00,Yellow
+696,0,Female,Gauteng,Public,Outpatient,76,37.1,24,112,105,97,L02,2,1,1,GEMS,2025-08-09 00:00:00,Yellow
+697,53,Male,KwaZulu-Natal,Public,Emergency,60,35.8,20,112,88,91,E11,1,0,0,Bonitas,2025-02-13 00:00:00,Yellow
+698,2,Female,North West,Public,Outpatient,79,36.2,20,105,104,97,K21,4,1,1,Fedhealth,2025-06-19 00:00:00,Yellow
+699,15,Female,KwaZulu-Natal,Private,Telehealth,100,37.7,13,127,89,100,E11,7,0,0,Medihelp,2025-05-05 00:00:00,Green
+700,86,Male,Eastern Cape,Public,Outpatient,59,36.7,21,117,90,93,S01,7,0,0,None,2025-03-20 00:00:00,Green
+701,56,Male,North West,Public,Outpatient,66,36.9,14,109,102,94,I10,5,0,0,None,2025-05-24 00:00:00,Green
+702,74,Male,Gauteng,Private,Outpatient,84,37.3,13,104,83,94,J18,5,1,1,GEMS,2025-06-14 00:00:00,Yellow
+703,11,Female,Limpopo,Public,Emergency,67,37.3,17,111,76,96,S01,4,0,0,Bonitas,2025-03-31 00:00:00,Green
+704,73,Male,Gauteng,Public,Inpatient,70,37.0,16,147,90,93,I10,3,1,0,GEMS,2025-07-23 00:00:00,Yellow
+705,15,Male,Gauteng,Public,Outpatient,76,36.7,17,112,95,97,R51,3,0,0,Discovery,2025-03-30 00:00:00,Green
+706,71,Male,North West,Public,Outpatient,62,36.6,12,115,72,99,R51,1,0,1,Momentum,2025-06-26 00:00:00,Green
+707,75,Female,Eastern Cape,Private,Outpatient,67,37.4,22,116,69,98,E11,9,0,1,Fedhealth,2025-03-27 00:00:00,Green
+708,23,Male,Gauteng,Public,Outpatient,93,37.2,23,132,80,91,M54,5,0,0,GEMS,2025-02-21 00:00:00,Yellow
+709,27,Male,Mpumalanga,Public,Outpatient,62,36.6,10,134,88,99,M54,3,0,0,GEMS,2025-05-27 00:00:00,Green
+710,7,Female,Free State,Public,Emergency,58,37.6,22,64,88,99,I10,9,0,1,Fedhealth,2025-08-23 00:00:00,Yellow
+711,91,Female,Free State,Private,Inpatient,73,36.7,15,145,61,98,L02,10,0,1,Momentum,2025-02-27 00:00:00,Green
+712,35,Male,Gauteng,Private,Inpatient,93,36.2,21,154,101,97,E11,10,1,1,Discovery,2025-03-15 00:00:00,Yellow
+713,89,Male,Limpopo,Public,Outpatient,79,36.3,18,104,70,97,I10,4,0,0,None,2025-02-19 00:00:00,Green
+714,7,Male,Northern Cape,Public,Telehealth,75,36.1,18,106,75,99,E11,5,0,0,None,2025-08-03 00:00:00,Green
+715,57,Female,Northern Cape,Private,Emergency,83,36.6,17,116,67,100,I10,6,1,1,Bonitas,2025-05-22 00:00:00,Yellow
+716,59,Male,North West,Public,Outpatient,56,37.7,23,110,110,93,R51,9,0,1,GEMS,2025-08-16 00:00:00,Green
+717,49,Female,Free State,Private,Outpatient,89,36.2,13,129,81,99,K21,5,0,1,Momentum,2025-03-31 00:00:00,Green
+718,27,Female,Gauteng,Private,Outpatient,88,36.9,20,86,68,96,E11,2,0,0,Bonitas,2025-04-13 00:00:00,Yellow
+719,91,Female,Northern Cape,Private,Outpatient,76,36.3,22,103,88,96,K21,3,0,1,None,2025-06-05 00:00:00,Green
+720,40,Male,Gauteng,Public,Outpatient,97,36.6,21,156,87,91,R51,7,0,1,Bonitas,2025-07-30 00:00:00,Yellow
+721,63,Female,North West,Public,Emergency,65,35.7,27,106,76,95,M54,6,0,1,Bonitas,2025-03-09 00:00:00,Green
+722,26,Female,Free State,Private,Outpatient,99,36.6,16,150,88,93,A09,4,1,0,Discovery,2025-05-11 00:00:00,Yellow
+723,62,Female,KwaZulu-Natal,Public,Emergency,84,36.7,22,132,68,95,J18,4,0,1,Discovery,2025-08-01 00:00:00,Green
+724,16,Male,Mpumalanga,Public,Inpatient,77,37.2,18,89,72,93,S01,4,0,1,Bonitas,2025-07-04 00:00:00,Yellow
+725,72,Other,Mpumalanga,Private,Emergency,82,37.0,23,138,54,95,J18,8,0,1,Medihelp,2025-04-17 00:00:00,Green
+726,32,Male,Northern Cape,Private,Emergency,80,36.0,18,123,62,95,J18,3,0,1,Fedhealth,2025-07-07 00:00:00,Green
+727,83,Male,Mpumalanga,Public,Outpatient,100,37.6,16,116,100,96,S01,1,0,1,None,2025-08-15 00:00:00,Green
+728,76,Male,KwaZulu-Natal,Public,Outpatient,66,36.9,23,130,98,91,R51,9,1,1,None,2025-07-17 00:00:00,Red
+729,91,Female,Gauteng,Public,Inpatient,71,36.9,16,134,79,92,R51,5,0,0,Discovery,2025-04-07 00:00:00,Green
+730,28,Male,North West,Private,Outpatient,98,36.8,12,139,98,97,M54,4,1,1,Medihelp,2025-06-10 00:00:00,Yellow
+731,12,Male,KwaZulu-Natal,Private,Outpatient,73,36.4,16,149,76,94,A09,6,0,1,Medihelp,2025-08-10 00:00:00,Green
+732,45,Male,North West,Public,Inpatient,96,37.0,20,133,75,99,N39,2,0,0,GEMS,2025-07-09 00:00:00,Green
+733,34,Male,North West,Public,Outpatient,107,37.1,24,97,79,97,J18,6,0,0,Fedhealth,2025-08-26 00:00:00,Green
+734,5,Female,Free State,Private,Emergency,76,35.6,18,116,77,98,L02,4,0,0,Bonitas,2025-06-02 00:00:00,Green
+735,81,Female,Gauteng,Public,Outpatient,92,36.4,23,184,75,100,J18,7,0,1,GEMS,2025-05-13 00:00:00,Green
+736,68,Male,Mpumalanga,Public,Inpatient,65,36.6,13,139,92,95,N39,1,1,0,GEMS,2025-04-09 00:00:00,Yellow
+737,46,Male,Free State,Private,Outpatient,93,37.0,16,172,80,94,E11,6,0,1,Medihelp,2025-02-13 00:00:00,Green
+738,24,Female,North West,Public,Outpatient,85,37.6,17,153,87,99,M54,4,0,1,Medihelp,2025-07-12 00:00:00,Green
+739,65,Male,Northern Cape,Private,Emergency,89,36.3,18,130,90,98,K21,3,1,1,Medihelp,2025-05-31 00:00:00,Yellow
+740,9,Male,Mpumalanga,Public,Emergency,72,36.5,18,131,83,95,K21,6,0,0,Bonitas,2025-03-03 00:00:00,Green
+741,55,Female,Mpumalanga,Public,Outpatient,57,36.4,21,124,66,100,N39,4,0,1,Bonitas,2025-08-16 00:00:00,Green
+742,29,Female,Gauteng,Private,Outpatient,90,36.2,16,90,62,95,J18,6,0,0,GEMS,2025-08-15 00:00:00,Green
+743,4,Male,Eastern Cape,Public,Emergency,51,36.6,19,125,80,96,K21,8,0,0,GEMS,2025-04-13 00:00:00,Green
+744,32,Female,Western Cape,Private,Inpatient,77,37.3,18,149,76,96,N39,6,1,1,Discovery,2025-06-30 00:00:00,Yellow
+745,64,Male,Western Cape,Public,Inpatient,96,36.1,14,113,79,93,S01,2,0,1,None,2025-03-08 00:00:00,Green
+746,17,Female,Western Cape,Public,Outpatient,85,37.1,18,133,78,96,R51,3,1,0,None,2025-02-11 00:00:00,Yellow
+747,48,Male,Eastern Cape,Public,Inpatient,111,35.6,17,142,109,100,I10,6,0,1,None,2025-07-16 00:00:00,Green
+748,10,Male,Gauteng,Public,Emergency,97,36.4,17,107,62,97,R51,6,0,0,Discovery,2025-06-15 00:00:00,Green
+749,84,Male,Eastern Cape,Public,Outpatient,72,36.6,18,116,54,96,J18,4,0,0,None,2025-08-05 00:00:00,Green
+750,25,Female,Western Cape,Public,Outpatient,82,38.0,18,105,82,96,N39,5,1,1,Medihelp,2025-06-10 00:00:00,Yellow
+751,62,Female,Free State,Public,Inpatient,81,36.6,16,109,73,97,E11,5,0,0,Bonitas,2025-03-08 00:00:00,Green
+752,88,Male,KwaZulu-Natal,Public,Inpatient,58,35.3,23,99,82,98,K21,5,0,1,Bonitas,2025-08-05 00:00:00,Green
+753,85,Male,North West,Private,Outpatient,68,35.4,13,107,85,98,K21,2,0,1,None,2025-05-19 00:00:00,Green
+754,58,Female,Eastern Cape,Private,Inpatient,74,36.8,15,153,93,95,K21,1,0,1,GEMS,2025-03-19 00:00:00,Green
+755,26,Male,Gauteng,Private,Emergency,51,37.2,29,107,60,97,N39,0,0,0,Fedhealth,2025-04-06 00:00:00,Green
+756,48,Male,Gauteng,Public,Inpatient,83,37.1,14,128,71,97,R51,5,0,0,Medihelp,2025-02-18 00:00:00,Green
+757,76,Female,KwaZulu-Natal,Public,Telehealth,78,36.9,13,115,83,93,E11,1,1,0,Discovery,2025-05-11 00:00:00,Yellow
+758,32,Male,Northern Cape,Private,Emergency,57,37.6,21,149,87,97,N39,10,0,1,Fedhealth,2025-03-02 00:00:00,Green
+759,0,Female,Mpumalanga,Public,Inpatient,88,36.4,10,151,104,90,J18,6,0,0,Bonitas,2025-05-09 00:00:00,Yellow
+760,20,Female,Western Cape,Public,Emergency,93,37.4,17,142,89,97,M54,2,0,0,None,2025-03-21 00:00:00,Green
+761,54,Male,Northern Cape,Private,Outpatient,85,35.7,27,131,77,98,J18,7,0,1,Discovery,2025-03-15 00:00:00,Green
+762,5,Male,Western Cape,Private,Outpatient,77,36.2,12,120,67,98,I10,7,1,1,Medihelp,2025-02-25 00:00:00,Yellow
+763,91,Male,KwaZulu-Natal,Public,Outpatient,91,35.5,10,101,71,95,M54,8,0,1,Bonitas,2025-02-12 00:00:00,Green
+764,80,Female,Western Cape,Public,Inpatient,92,36.6,12,164,71,97,J18,2,0,1,None,2025-08-11 00:00:00,Green
+765,68,Female,KwaZulu-Natal,Private,Outpatient,87,36.8,22,110,86,100,E11,6,0,0,Medihelp,2025-06-03 00:00:00,Green
+766,94,Female,Limpopo,Public,Outpatient,70,36.9,22,138,81,100,A09,8,1,0,GEMS,2025-07-20 00:00:00,Yellow
+767,4,Male,Northern Cape,Private,Inpatient,86,36.8,16,146,62,96,A09,8,1,0,Fedhealth,2025-07-18 00:00:00,Yellow
+768,2,Female,Northern Cape,Private,Telehealth,100,36.2,21,114,73,96,A09,1,0,0,Fedhealth,2025-07-11 00:00:00,Green
+769,52,Female,Mpumalanga,Private,Emergency,73,36.7,24,146,89,99,I10,4,0,1,Fedhealth,2025-03-25 00:00:00,Green
+770,22,Female,KwaZulu-Natal,Public,Telehealth,113,35.8,25,140,82,91,I10,2,0,0,Momentum,2025-06-12 00:00:00,Yellow
+771,52,Female,Eastern Cape,Public,Emergency,74,37.8,17,160,85,95,A09,9,0,1,None,2025-03-03 00:00:00,Green
+772,36,Female,Limpopo,Private,Inpatient,82,36.6,9,116,83,100,S01,6,0,0,Medihelp,2025-08-27 00:00:00,Green
+773,73,Female,Free State,Private,Outpatient,72,36.5,15,99,98,99,K21,7,0,0,Fedhealth,2025-05-03 00:00:00,Green
+774,73,Female,Western Cape,Private,Emergency,85,37.9,16,115,81,97,M54,6,0,1,None,2025-03-03 00:00:00,Green
+775,82,Male,Limpopo,Public,Outpatient,56,35.9,17,129,73,91,M54,5,0,0,GEMS,2025-08-09 00:00:00,Yellow
+776,16,Male,KwaZulu-Natal,Public,Outpatient,74,36.0,17,126,67,96,K21,2,0,1,Fedhealth,2025-06-30 00:00:00,Green
+777,84,Female,North West,Private,Outpatient,66,36.0,22,117,81,94,R51,3,0,1,Medihelp,2025-02-13 00:00:00,Green
+778,77,Male,Western Cape,Private,Emergency,84,36.8,23,87,49,97,S01,5,0,1,None,2025-05-13 00:00:00,Yellow
+779,72,Female,Gauteng,Private,Outpatient,97,37.1,17,134,76,94,A09,3,0,0,Fedhealth,2025-02-14 00:00:00,Green
+780,0,Other,Northern Cape,Private,Inpatient,92,37.3,22,164,76,93,K21,2,0,1,Medihelp,2025-03-12 00:00:00,Green
+781,50,Female,KwaZulu-Natal,Public,Outpatient,46,38.6,19,134,62,90,N39,4,0,0,Bonitas,2025-04-12 00:00:00,Yellow
+782,44,Male,Gauteng,Private,Emergency,113,35.2,18,137,67,100,M54,3,0,1,GEMS,2025-07-31 00:00:00,Green
+783,76,Male,Mpumalanga,Private,Outpatient,86,37.2,22,136,88,95,N39,5,0,0,None,2025-07-25 00:00:00,Green
+784,3,Male,Free State,Public,Emergency,70,36.4,18,133,81,96,K21,3,0,0,Medihelp,2025-07-20 00:00:00,Green
+785,61,Female,Free State,Private,Inpatient,84,36.4,26,144,79,96,K21,3,1,1,Medihelp,2025-04-24 00:00:00,Yellow
+786,64,Female,Gauteng,Public,Inpatient,85,36.4,12,133,82,93,J18,2,0,0,Momentum,2025-06-06 00:00:00,Green
+787,31,Female,Northern Cape,Public,Outpatient,72,36.2,16,119,79,92,J18,5,0,1,None,2025-05-14 00:00:00,Green
+788,33,Male,Mpumalanga,Private,Outpatient,85,38.0,17,109,93,93,E11,7,0,0,Bonitas,2025-02-25 00:00:00,Green
+789,91,Female,North West,Public,Inpatient,73,37.4,20,120,79,94,E11,6,0,1,None,2025-03-01 00:00:00,Green
+790,94,Female,Northern Cape,Public,Outpatient,76,36.8,23,131,61,97,I10,1,0,1,GEMS,2025-05-10 00:00:00,Green
+791,71,Male,Limpopo,Public,Inpatient,72,37.7,18,119,98,94,I10,7,0,0,Momentum,2025-04-29 00:00:00,Green
+792,38,Female,Free State,Public,Outpatient,61,35.7,12,131,82,100,A09,6,1,1,None,2025-05-13 00:00:00,Yellow
+793,25,Male,Limpopo,Public,Inpatient,84,35.9,21,134,71,99,J18,7,0,1,None,2025-04-19 00:00:00,Green
+794,33,Male,Western Cape,Public,Outpatient,91,35.3,21,142,63,98,A09,7,0,1,Fedhealth,2025-08-05 00:00:00,Green
+795,53,Female,Eastern Cape,Private,Outpatient,90,36.3,10,151,83,96,K21,3,0,0,Medihelp,2025-04-05 00:00:00,Green
+796,2,Male,KwaZulu-Natal,Public,Telehealth,94,36.9,18,127,77,100,A09,4,0,1,GEMS,2025-06-18 00:00:00,Green
+797,49,Female,Mpumalanga,Public,Outpatient,87,36.9,12,99,97,95,K21,9,0,0,Bonitas,2025-03-27 00:00:00,Green
+798,11,Female,Northern Cape,Public,Outpatient,74,36.9,15,118,74,96,M54,9,0,0,Momentum,2025-05-13 00:00:00,Green
+799,64,Female,Free State,Private,Emergency,95,35.8,14,126,68,97,J18,4,0,0,Medihelp,2025-04-04 00:00:00,Green
+800,53,Male,Limpopo,Public,Outpatient,62,37.4,21,88,89,98,E11,6,0,1,Discovery,2025-07-13 00:00:00,Yellow
+801,4,Female,Western Cape,Private,Outpatient,68,37.0,18,153,89,98,A09,6,0,1,GEMS,2025-06-19 00:00:00,Green
+802,93,Female,KwaZulu-Natal,Private,Emergency,68,37.3,13,128,80,95,J18,9,0,0,Momentum,2025-07-28 00:00:00,Green
+803,93,Female,KwaZulu-Natal,Private,Emergency,98,35.5,22,133,86,94,M54,5,0,1,Bonitas,2025-05-27 00:00:00,Green
+804,56,Male,Northern Cape,Public,Outpatient,96,37.0,12,152,78,98,N39,1,0,1,Momentum,2025-04-13 00:00:00,Green
+805,16,Male,Mpumalanga,Private,Inpatient,89,36.0,19,112,81,98,E11,3,1,0,Momentum,2025-05-02 00:00:00,Yellow
+806,46,Female,North West,Public,Outpatient,98,36.5,15,136,92,95,S01,10,0,1,Momentum,2025-03-18 00:00:00,Green
+807,22,Male,Northern Cape,Private,Emergency,69,37.2,17,123,86,91,L02,1,1,0,Fedhealth,2025-06-08 00:00:00,Red
+808,78,Female,Limpopo,Private,Outpatient,87,36.9,20,121,76,95,J18,5,0,0,Discovery,2025-06-29 00:00:00,Green
+809,84,Female,Eastern Cape,Public,Emergency,80,36.2,20,110,94,98,R51,10,1,0,Bonitas,2025-06-13 00:00:00,Yellow
+810,13,Female,Gauteng,Public,Outpatient,95,36.8,23,158,50,100,J18,3,0,1,Bonitas,2025-06-26 00:00:00,Green
+811,65,Female,North West,Public,Emergency,80,35.7,18,117,103,92,K21,0,1,1,Bonitas,2025-05-20 00:00:00,Yellow
+812,74,Female,Mpumalanga,Private,Emergency,76,37.6,19,139,58,95,S01,0,0,0,Medihelp,2025-03-01 00:00:00,Green
+813,50,Female,Western Cape,Public,Emergency,90,36.7,16,87,70,95,R51,3,0,0,GEMS,2025-07-11 00:00:00,Yellow
+814,37,Female,North West,Public,Outpatient,95,37.6,19,149,78,100,A09,0,0,1,Bonitas,2025-02-20 00:00:00,Green
+815,63,Female,Free State,Public,Emergency,72,36.4,20,146,76,96,M54,7,0,1,GEMS,2025-03-29 00:00:00,Green
+816,37,Male,Mpumalanga,Private,Outpatient,81,36.4,18,127,90,93,R51,5,0,1,Bonitas,2025-06-15 00:00:00,Green
+817,49,Male,Eastern Cape,Private,Outpatient,66,36.3,11,120,65,98,A09,0,0,1,Discovery,2025-07-01 00:00:00,Green
+818,81,Female,Free State,Private,Outpatient,45,37.4,19,133,81,95,A09,1,0,1,Medihelp,2025-02-17 00:00:00,Green
+819,29,Male,North West,Private,Outpatient,85,36.3,19,171,71,92,A09,8,0,1,Medihelp,2025-07-29 00:00:00,Green
+820,78,Male,Gauteng,Public,Inpatient,91,37.3,15,90,82,93,K21,5,0,1,Momentum,2025-03-24 00:00:00,Green
+821,90,Male,Gauteng,Public,Emergency,86,36.5,13,141,77,100,R51,8,0,0,Fedhealth,2025-08-18 00:00:00,Green
+822,50,Female,Eastern Cape,Private,Outpatient,53,35.4,24,107,79,97,I10,7,0,1,Medihelp,2025-07-20 00:00:00,Green
+823,62,Female,KwaZulu-Natal,Public,Emergency,77,36.4,20,125,71,96,M54,2,1,0,Medihelp,2025-07-04 00:00:00,Yellow
+824,51,Female,Western Cape,Public,Emergency,49,36.0,17,120,72,95,N39,7,1,0,Discovery,2025-07-31 00:00:00,Yellow
+825,37,Female,KwaZulu-Natal,Public,Outpatient,103,36.8,13,116,81,97,J18,6,1,0,Bonitas,2025-04-04 00:00:00,Yellow
+826,87,Female,Gauteng,Public,Outpatient,66,36.0,15,125,89,97,K21,0,1,1,None,2025-03-12 00:00:00,Yellow
+827,78,Male,Gauteng,Public,Inpatient,101,37.4,23,102,71,97,E11,1,0,1,Medihelp,2025-05-02 00:00:00,Green
+828,29,Female,Limpopo,Private,Outpatient,96,36.7,19,146,68,96,N39,10,1,1,Medihelp,2025-05-06 00:00:00,Yellow
+829,50,Male,Free State,Public,Telehealth,68,36.7,16,89,85,99,M54,2,0,0,None,2025-06-14 00:00:00,Yellow
+830,80,Female,North West,Public,Emergency,65,37.3,20,136,78,96,K21,6,0,1,Fedhealth,2025-06-24 00:00:00,Green
+831,4,Female,Western Cape,Public,Emergency,87,37.5,15,118,88,93,N39,4,1,0,GEMS,2025-06-08 00:00:00,Yellow
+832,28,Male,Eastern Cape,Private,Emergency,69,36.8,24,102,67,94,J18,5,0,1,Discovery,2025-05-20 00:00:00,Green
+833,3,Male,North West,Public,Emergency,84,36.3,23,129,57,90,A09,4,0,0,None,2025-05-20 00:00:00,Yellow
+834,9,Male,Limpopo,Private,Outpatient,75,35.6,16,94,72,100,S01,7,0,1,None,2025-07-13 00:00:00,Green
+835,55,Male,Gauteng,Private,Outpatient,55,36.3,15,126,69,99,A09,7,0,1,Fedhealth,2025-06-29 00:00:00,Green
+836,16,Male,Eastern Cape,Public,Emergency,49,36.4,8,97,77,94,M54,5,0,1,Medihelp,2025-04-13 00:00:00,Green
+837,73,Female,Gauteng,Private,Inpatient,85,36.9,12,134,70,95,J18,2,0,1,Medihelp,2025-03-08 00:00:00,Green
+838,16,Female,Western Cape,Private,Inpatient,74,36.6,13,107,87,94,N39,3,0,1,Discovery,2025-02-21 00:00:00,Green
+839,83,Female,Free State,Private,Outpatient,74,37.3,19,116,75,100,L02,1,0,0,Momentum,2025-03-25 00:00:00,Green
+840,87,Female,North West,Private,Emergency,92,36.4,17,131,80,92,S01,4,0,1,Momentum,2025-05-23 00:00:00,Green
+841,68,Female,North West,Public,Emergency,100,36.8,13,110,80,96,A09,0,0,1,None,2025-08-25 00:00:00,Green
+842,33,Female,KwaZulu-Natal,Public,Emergency,78,37.6,17,124,80,96,I10,5,1,1,Medihelp,2025-03-02 00:00:00,Yellow
+843,5,Male,Eastern Cape,Public,Emergency,77,37.0,20,95,78,98,N39,5,0,0,None,2025-04-14 00:00:00,Green
+844,52,Female,Limpopo,Public,Outpatient,90,36.8,20,138,84,96,A09,7,1,1,None,2025-05-06 00:00:00,Yellow
+845,65,Male,KwaZulu-Natal,Private,Emergency,62,36.4,10,160,68,91,N39,1,0,0,Medihelp,2025-02-11 00:00:00,Yellow
+846,76,Female,Western Cape,Public,Outpatient,85,36.4,17,181,95,95,S01,2,0,0,Fedhealth,2025-02-22 00:00:00,Green
+847,42,Female,Limpopo,Private,Telehealth,90,36.2,12,127,75,93,M54,8,0,1,GEMS,2025-05-04 00:00:00,Green
+848,74,Female,Free State,Private,Outpatient,92,36.4,22,141,62,96,E11,1,0,1,GEMS,2025-02-20 00:00:00,Green
+849,22,Male,Free State,Private,Inpatient,53,37.3,21,89,80,100,A09,10,0,0,Fedhealth,2025-07-01 00:00:00,Yellow
+850,54,Female,Free State,Private,Emergency,71,36.6,14,155,68,91,N39,2,0,1,None,2025-06-19 00:00:00,Yellow
+851,79,Female,Free State,Public,Outpatient,69,35.9,15,141,86,94,E11,2,0,0,Fedhealth,2025-05-27 00:00:00,Green
+852,94,Male,KwaZulu-Natal,Public,Outpatient,83,38.0,16,115,105,94,E11,7,0,1,Bonitas,2025-04-10 00:00:00,Green
+853,74,Male,Mpumalanga,Public,Emergency,89,37.0,9,150,69,95,I10,6,0,1,Medihelp,2025-04-13 00:00:00,Green
+854,15,Female,Limpopo,Public,Emergency,104,35.8,19,120,82,98,E11,9,1,1,Bonitas,2025-05-15 00:00:00,Yellow
+855,7,Male,Eastern Cape,Public,Outpatient,75,36.5,17,116,57,95,S01,0,0,1,Momentum,2025-07-10 00:00:00,Green
+856,3,Female,Western Cape,Public,Outpatient,75,36.9,22,135,83,97,J18,6,0,0,Medihelp,2025-06-06 00:00:00,Green
+857,3,Male,Northern Cape,Private,Outpatient,99,38.0,14,104,67,94,E11,4,0,0,Medihelp,2025-08-11 00:00:00,Green
+858,55,Male,Gauteng,Public,Outpatient,86,36.0,16,145,71,97,L02,2,0,1,Discovery,2025-07-05 00:00:00,Green
+859,24,Female,Eastern Cape,Public,Outpatient,101,37.5,12,104,65,98,N39,9,1,0,Medihelp,2025-05-08 00:00:00,Yellow
+860,66,Male,Gauteng,Private,Emergency,86,37.8,14,104,87,94,E11,5,1,1,Momentum,2025-03-09 00:00:00,Yellow
+861,66,Female,Limpopo,Public,Outpatient,65,36.4,13,107,90,98,R51,4,0,1,GEMS,2025-03-21 00:00:00,Green
+862,26,Male,Eastern Cape,Public,Emergency,62,36.6,22,140,78,96,J18,6,0,0,GEMS,2025-03-18 00:00:00,Green
+863,92,Male,Free State,Private,Emergency,59,36.1,15,113,68,99,K21,0,0,1,None,2025-07-10 00:00:00,Green
+864,31,Female,Free State,Private,Telehealth,92,36.7,18,98,97,95,J18,1,0,0,Medihelp,2025-02-27 00:00:00,Green
+865,49,Female,Northern Cape,Private,Outpatient,100,36.8,16,113,69,97,M54,4,0,0,GEMS,2025-04-06 00:00:00,Green
+866,60,Female,Gauteng,Public,Inpatient,110,37.3,13,124,52,96,K21,5,1,0,Bonitas,2025-06-04 00:00:00,Yellow
+867,50,Female,Western Cape,Private,Outpatient,95,37.6,17,101,84,96,I10,8,0,1,None,2025-08-16 00:00:00,Green
+868,18,Female,Limpopo,Private,Outpatient,99,36.3,20,102,65,97,J18,2,0,0,Medihelp,2025-04-24 00:00:00,Green
+869,20,Male,Free State,Public,Emergency,73,35.4,13,167,90,98,M54,2,0,0,Bonitas,2025-05-22 00:00:00,Green
+870,4,Male,Mpumalanga,Private,Emergency,65,36.8,21,108,73,92,J18,6,1,0,Fedhealth,2025-04-14 00:00:00,Yellow
+871,81,Female,KwaZulu-Natal,Private,Emergency,95,37.0,15,119,85,100,E11,4,0,0,Fedhealth,2025-04-01 00:00:00,Green
+872,91,Female,KwaZulu-Natal,Public,Inpatient,88,37.0,16,118,95,90,A09,0,0,0,Discovery,2025-07-11 00:00:00,Yellow
+873,41,Female,Western Cape,Public,Outpatient,84,36.6,20,117,63,94,A09,2,0,1,Medihelp,2025-04-14 00:00:00,Green
+874,60,Male,KwaZulu-Natal,Private,Outpatient,88,36.9,15,137,71,96,M54,4,0,1,Fedhealth,2025-07-31 00:00:00,Green
+875,21,Male,Gauteng,Private,Outpatient,87,37.9,18,144,77,97,J18,4,0,0,Fedhealth,2025-06-09 00:00:00,Green
+876,20,Female,Free State,Public,Inpatient,101,37.1,17,119,96,100,M54,5,0,1,GEMS,2025-08-18 00:00:00,Green
+877,69,Female,Free State,Private,Emergency,101,36.5,19,100,70,90,I10,1,0,1,Discovery,2025-07-07 00:00:00,Yellow
+878,0,Female,Mpumalanga,Public,Outpatient,90,36.4,8,150,71,94,A09,4,0,0,Discovery,2025-04-07 00:00:00,Green
+879,4,Female,Eastern Cape,Public,Outpatient,95,36.7,11,123,84,90,R51,7,0,0,GEMS,2025-04-18 00:00:00,Yellow
+880,11,Female,KwaZulu-Natal,Public,Inpatient,90,37.9,20,160,71,96,K21,0,0,1,Medihelp,2025-05-30 00:00:00,Green
+881,89,Male,Gauteng,Private,Telehealth,75,36.7,22,80,80,97,S01,4,0,1,Bonitas,2025-06-27 00:00:00,Yellow
+882,45,Male,North West,Private,Emergency,93,36.8,14,129,59,100,E11,0,0,0,None,2025-05-13 00:00:00,Green
+883,33,Male,KwaZulu-Natal,Public,Inpatient,61,36.5,17,163,105,96,R51,4,0,0,Medihelp,2025-04-18 00:00:00,Green
+884,48,Male,Western Cape,Public,Inpatient,98,37.6,19,118,62,99,R51,1,0,0,Bonitas,2025-07-18 00:00:00,Green
+885,77,Female,Eastern Cape,Public,Emergency,64,38.2,21,120,74,98,N39,5,0,0,Discovery,2025-02-08 00:00:00,Green
+886,89,Male,KwaZulu-Natal,Private,Outpatient,86,37.1,10,131,78,95,R51,9,1,1,Momentum,2025-05-21 00:00:00,Yellow
+887,44,Female,Gauteng,Private,Outpatient,69,36.9,14,114,101,92,K21,2,0,1,Medihelp,2025-07-04 00:00:00,Green
+888,26,Male,KwaZulu-Natal,Private,Telehealth,90,36.8,17,119,62,97,K21,2,0,1,Momentum,2025-07-31 00:00:00,Green
+889,72,Male,Western Cape,Private,Emergency,81,35.1,21,118,102,92,E11,3,0,0,Bonitas,2025-05-19 00:00:00,Green
+890,25,Male,North West,Private,Inpatient,58,37.3,28,112,87,100,M54,5,0,0,Medihelp,2025-07-12 00:00:00,Green
+891,46,Male,Limpopo,Public,Outpatient,88,36.9,17,150,83,96,L02,2,0,0,Momentum,2025-04-13 00:00:00,Green
+892,85,Female,Northern Cape,Public,Inpatient,73,37.1,12,134,66,100,L02,4,0,1,Momentum,2025-04-20 00:00:00,Green
+893,55,Male,North West,Public,Outpatient,95,36.3,20,130,85,95,J18,3,0,1,None,2025-02-14 00:00:00,Green
+894,93,Female,KwaZulu-Natal,Private,Outpatient,82,36.5,23,141,69,97,J18,3,0,0,Medihelp,2025-05-03 00:00:00,Green
+895,62,Male,Free State,Private,Inpatient,88,36.5,18,120,93,97,S01,5,1,0,Momentum,2025-05-12 00:00:00,Yellow
+896,47,Male,Mpumalanga,Public,Inpatient,68,37.5,14,110,66,96,K21,6,0,1,None,2025-03-05 00:00:00,Green
+897,60,Male,Free State,Private,Inpatient,73,36.5,22,113,77,95,J18,1,0,1,None,2025-06-20 00:00:00,Green
+898,80,Female,North West,Public,Emergency,75,38.3,21,125,71,97,N39,5,1,0,Medihelp,2025-07-31 00:00:00,Yellow
+899,25,Female,Free State,Public,Outpatient,95,37.1,14,104,66,93,J18,10,0,0,Momentum,2025-06-10 00:00:00,Green
+900,35,Male,Gauteng,Private,Emergency,107,35.9,20,115,87,92,I10,8,1,0,None,2025-08-14 00:00:00,Yellow
+901,0,Male,Free State,Private,Outpatient,70,36.7,22,115,84,100,I10,3,1,1,Discovery,2025-07-13 00:00:00,Yellow
+902,7,Female,Eastern Cape,Private,Outpatient,98,36.3,23,167,93,98,N39,5,1,1,Medihelp,2025-04-09 00:00:00,Yellow
+903,51,Male,Limpopo,Public,Outpatient,49,35.3,18,70,57,96,R51,4,0,1,Discovery,2025-08-12 00:00:00,Yellow
+904,78,Male,KwaZulu-Natal,Public,Outpatient,64,37.9,17,121,91,100,I10,6,0,1,GEMS,2025-03-13 00:00:00,Green
+905,46,Female,Free State,Private,Telehealth,68,37.3,23,160,108,95,L02,3,0,1,Fedhealth,2025-02-09 00:00:00,Green
+906,55,Female,Western Cape,Public,Emergency,62,37.2,13,127,73,100,L02,4,0,0,Discovery,2025-03-23 00:00:00,Green
+907,85,Male,Limpopo,Public,Outpatient,58,36.9,20,140,101,97,I10,3,0,0,Momentum,2025-06-08 00:00:00,Green
+908,13,Female,Limpopo,Private,Outpatient,88,35.8,13,127,75,93,J18,7,0,1,Bonitas,2025-02-16 00:00:00,Green
+909,89,Female,Free State,Public,Emergency,79,36.5,22,112,62,100,S01,5,0,0,GEMS,2025-07-01 00:00:00,Green
+910,27,Male,Limpopo,Private,Emergency,88,37.4,17,80,74,99,S01,5,0,1,Discovery,2025-07-11 00:00:00,Yellow
+911,86,Female,Mpumalanga,Private,Inpatient,92,36.1,23,129,91,96,L02,8,0,1,None,2025-07-10 00:00:00,Green
+912,77,Female,Free State,Public,Inpatient,86,35.0,20,109,68,98,I10,8,0,1,GEMS,2025-05-31 00:00:00,Green
+913,87,Male,Gauteng,Public,Inpatient,92,36.6,13,109,71,95,R51,7,0,0,Discovery,2025-04-20 00:00:00,Green
+914,1,Male,North West,Private,Telehealth,81,36.7,24,115,85,98,E11,8,0,0,None,2025-08-14 00:00:00,Green
+915,25,Male,Eastern Cape,Private,Emergency,64,36.9,24,160,78,89,J18,8,0,0,Discovery,2025-05-17 00:00:00,Yellow
+916,13,Female,Northern Cape,Private,Outpatient,98,37.3,22,173,85,93,J18,2,0,1,Bonitas,2025-04-29 00:00:00,Green
+917,58,Male,Limpopo,Private,Outpatient,73,37.2,15,129,81,99,S01,4,0,0,Bonitas,2025-04-05 00:00:00,Green
+918,55,Female,Gauteng,Private,Outpatient,68,37.0,17,116,84,95,I10,6,0,0,None,2025-04-27 00:00:00,Green
+919,6,Female,KwaZulu-Natal,Private,Outpatient,79,37.6,19,101,73,97,M54,2,0,0,Discovery,2025-03-22 00:00:00,Green
+920,2,Male,KwaZulu-Natal,Public,Outpatient,68,35.7,15,134,81,92,A09,4,0,1,Fedhealth,2025-04-12 00:00:00,Green
+921,22,Female,Eastern Cape,Public,Outpatient,76,37.2,25,161,67,100,I10,5,1,1,Bonitas,2025-06-19 00:00:00,Yellow
+922,17,Male,Limpopo,Public,Outpatient,87,37.2,19,120,93,100,N39,4,0,1,Bonitas,2025-05-17 00:00:00,Green
+923,37,Female,Mpumalanga,Public,Emergency,87,35.9,7,77,70,95,I10,5,1,1,Bonitas,2025-05-18 00:00:00,Red
+924,14,Female,Eastern Cape,Public,Outpatient,69,35.7,19,138,92,95,J18,2,0,1,Medihelp,2025-03-16 00:00:00,Green
+925,63,Male,Limpopo,Public,Outpatient,75,36.3,17,145,75,99,E11,4,0,0,GEMS,2025-06-25 00:00:00,Green
+926,88,Male,Gauteng,Private,Outpatient,98,36.3,18,93,80,100,N39,5,0,0,Discovery,2025-03-23 00:00:00,Green
+927,27,Male,North West,Public,Emergency,89,37.3,17,129,72,99,S01,9,0,1,Fedhealth,2025-03-19 00:00:00,Green
+928,73,Male,Mpumalanga,Public,Inpatient,113,36.4,21,134,66,100,K21,4,0,1,Bonitas,2025-08-10 00:00:00,Green
+929,38,Male,Northern Cape,Public,Emergency,100,36.2,22,124,57,93,K21,3,0,0,Medihelp,2025-06-26 00:00:00,Green
+930,56,Male,KwaZulu-Natal,Public,Outpatient,99,36.4,19,109,65,94,M54,6,0,0,GEMS,2025-07-10 00:00:00,Green
+931,16,Other,Western Cape,Public,Inpatient,61,37.6,17,145,74,92,S01,0,0,1,Momentum,2025-07-03 00:00:00,Green
+932,85,Male,Gauteng,Public,Outpatient,93,36.8,18,117,81,97,R51,4,0,0,None,2025-05-29 00:00:00,Green
+933,89,Male,KwaZulu-Natal,Public,Outpatient,81,36.7,18,95,90,97,L02,3,0,1,Momentum,2025-07-01 00:00:00,Green
+934,43,Female,Free State,Private,Outpatient,74,36.7,15,84,73,96,M54,5,1,0,Bonitas,2025-03-26 00:00:00,Red
+935,24,Male,Western Cape,Private,Outpatient,85,37.7,20,150,67,98,K21,8,0,0,Fedhealth,2025-07-04 00:00:00,Green
+936,16,Female,KwaZulu-Natal,Private,Inpatient,96,36.3,20,137,61,100,L02,8,0,0,Fedhealth,2025-06-04 00:00:00,Green
+937,12,Female,Eastern Cape,Private,Inpatient,90,37.7,24,127,84,91,R51,5,0,1,GEMS,2025-08-09 00:00:00,Yellow
+938,83,Female,Mpumalanga,Public,Outpatient,69,36.9,23,116,95,94,S01,1,1,1,GEMS,2025-03-30 00:00:00,Yellow
+939,24,Male,KwaZulu-Natal,Private,Outpatient,93,36.7,15,114,93,98,L02,3,0,0,Discovery,2025-05-17 00:00:00,Green
+940,67,Male,Northern Cape,Private,Emergency,72,38.6,21,103,87,95,S01,3,1,1,None,2025-05-08 00:00:00,Yellow
+941,9,Male,North West,Public,Outpatient,85,36.1,14,116,86,94,R51,5,0,0,None,2025-05-12 00:00:00,Green
+942,66,Female,Eastern Cape,Private,Outpatient,77,36.6,21,83,98,99,A09,5,1,0,Bonitas,2025-07-12 00:00:00,Red
+943,17,Male,Gauteng,Public,Outpatient,79,35.9,16,110,82,92,N39,3,0,1,Momentum,2025-05-13 00:00:00,Green
+944,85,Male,Gauteng,Private,Outpatient,93,37.5,14,119,86,95,L02,1,0,0,Discovery,2025-02-15 00:00:00,Green
+945,33,Other,Gauteng,Private,Outpatient,66,38.0,19,137,74,97,L02,2,0,1,Fedhealth,2025-03-02 00:00:00,Green
+946,7,Male,Gauteng,Public,Emergency,111,38.0,7,124,62,94,S01,2,0,1,Discovery,2025-06-05 00:00:00,Green
+947,39,Male,North West,Private,Outpatient,55,37.7,11,141,70,98,S01,9,1,1,Momentum,2025-03-25 00:00:00,Yellow
+948,82,Male,KwaZulu-Natal,Private,Outpatient,73,36.7,17,152,78,94,L02,3,0,1,Fedhealth,2025-04-22 00:00:00,Green
+949,41,Female,Limpopo,Private,Inpatient,88,36.5,18,146,79,100,S01,5,0,1,GEMS,2025-02-24 00:00:00,Green
+950,40,Male,KwaZulu-Natal,Public,Emergency,91,35.6,17,134,101,96,E11,7,1,0,Medihelp,2025-07-01 00:00:00,Yellow
+951,5,Female,Free State,Private,Outpatient,80,38.2,12,125,79,98,E11,5,0,0,Medihelp,2025-04-07 00:00:00,Green
+952,51,Female,Mpumalanga,Public,Inpatient,81,37.1,15,105,92,98,A09,2,1,0,GEMS,2025-04-06 00:00:00,Yellow
+953,25,Male,Western Cape,Public,Emergency,88,36.5,20,140,73,94,A09,7,0,1,Bonitas,2025-05-23 00:00:00,Green
+954,63,Female,Limpopo,Public,Outpatient,79,37.7,20,159,74,90,A09,5,1,0,Discovery,2025-07-12 00:00:00,Red
+955,58,Male,Limpopo,Private,Emergency,103,36.1,18,132,62,97,K21,0,0,1,Fedhealth,2025-02-18 00:00:00,Green
+956,55,Male,KwaZulu-Natal,Private,Outpatient,95,37.1,23,163,69,96,K21,8,0,1,GEMS,2025-04-10 00:00:00,Green
+957,58,Female,Limpopo,Private,Outpatient,95,36.7,20,94,84,98,I10,7,0,1,None,2025-05-17 00:00:00,Green
+958,69,Female,Free State,Private,Outpatient,68,37.2,15,102,78,95,M54,5,0,1,GEMS,2025-03-10 00:00:00,Green
+959,32,Female,Western Cape,Public,Outpatient,81,36.8,17,142,89,95,N39,9,0,1,Bonitas,2025-06-05 00:00:00,Green
+960,52,Female,Northern Cape,Public,Inpatient,77,35.8,12,130,80,100,E11,7,0,0,Discovery,2025-03-24 00:00:00,Green
+961,21,Male,North West,Public,Emergency,67,36.9,18,151,74,92,R51,7,1,1,GEMS,2025-07-10 00:00:00,Yellow
+962,20,Male,KwaZulu-Natal,Public,Emergency,87,37.5,22,125,104,98,N39,7,1,0,None,2025-04-19 00:00:00,Yellow
+963,69,Male,North West,Public,Inpatient,74,36.8,21,108,77,94,N39,6,1,0,Momentum,2025-05-08 00:00:00,Yellow
+964,69,Male,Northern Cape,Public,Outpatient,92,37.3,24,121,92,95,R51,0,1,1,None,2025-02-12 00:00:00,Yellow
+965,3,Male,KwaZulu-Natal,Public,Inpatient,66,36.1,17,94,73,95,J18,0,0,1,GEMS,2025-06-29 00:00:00,Green
+966,93,Male,KwaZulu-Natal,Public,Outpatient,108,36.8,23,102,87,94,L02,7,1,1,Fedhealth,2025-06-23 00:00:00,Yellow
+967,74,Male,Western Cape,Public,Inpatient,69,36.4,17,144,89,98,M54,8,1,1,None,2025-06-02 00:00:00,Yellow
+968,61,Male,North West,Public,Outpatient,85,37.3,24,142,81,100,I10,3,0,1,Discovery,2025-04-24 00:00:00,Green
+969,61,Female,Gauteng,Private,Inpatient,94,36.8,18,132,50,97,A09,2,0,0,None,2025-08-02 00:00:00,Green
+970,93,Female,North West,Private,Inpatient,73,37.3,21,91,78,96,R51,5,1,1,Fedhealth,2025-06-18 00:00:00,Yellow
+971,94,Male,Mpumalanga,Private,Outpatient,95,37.6,24,118,93,93,K21,1,0,1,None,2025-06-15 00:00:00,Green
+972,23,Female,Mpumalanga,Public,Emergency,64,37.3,17,101,84,98,A09,4,0,1,Discovery,2025-02-12 00:00:00,Green
+973,54,Female,KwaZulu-Natal,Public,Outpatient,104,37.0,19,149,83,100,S01,4,0,0,Momentum,2025-07-12 00:00:00,Green
+974,8,Male,Gauteng,Private,Emergency,82,36.1,23,113,57,95,R51,4,1,0,Fedhealth,2025-06-13 00:00:00,Yellow
+975,2,Female,Eastern Cape,Public,Emergency,73,36.8,17,103,69,95,A09,9,1,1,Medihelp,2025-05-24 00:00:00,Yellow
+976,30,Female,Northern Cape,Public,Outpatient,78,36.4,13,126,83,94,L02,3,0,0,GEMS,2025-03-11 00:00:00,Green
+977,39,Female,Free State,Public,Outpatient,94,36.6,27,112,83,95,L02,5,0,1,Momentum,2025-07-28 00:00:00,Green
+978,35,Male,Gauteng,Public,Outpatient,73,36.5,16,155,93,88,L02,1,0,0,Discovery,2025-08-06 00:00:00,Yellow
+979,23,Female,Free State,Public,Outpatient,71,36.1,19,110,76,97,A09,7,0,0,Fedhealth,2025-08-11 00:00:00,Green
+980,94,Male,North West,Public,Outpatient,79,35.4,23,97,83,93,L02,4,0,1,GEMS,2025-04-02 00:00:00,Green
+981,5,Female,North West,Private,Emergency,64,36.3,16,82,78,91,E11,7,0,0,Momentum,2025-04-14 00:00:00,Red
+982,65,Female,Free State,Public,Emergency,109,36.9,14,124,66,98,K21,0,1,1,Discovery,2025-05-22 00:00:00,Yellow
+983,83,Female,Northern Cape,Public,Emergency,74,35.9,19,114,51,93,I10,4,0,0,None,2025-07-10 00:00:00,Green
+984,91,Female,Gauteng,Private,Outpatient,94,36.8,11,96,83,95,R51,5,0,0,Medihelp,2025-06-02 00:00:00,Green
+985,74,Female,Eastern Cape,Public,Emergency,85,38.1,17,149,80,100,N39,7,1,0,None,2025-07-21 00:00:00,Yellow
+986,3,Male,KwaZulu-Natal,Public,Outpatient,67,37.5,19,138,71,92,A09,3,0,1,Medihelp,2025-07-06 00:00:00,Green
+987,78,Male,Western Cape,Private,Outpatient,82,38.0,17,124,59,91,A09,6,0,0,Discovery,2025-07-31 00:00:00,Yellow
+988,5,Female,North West,Public,Inpatient,94,37.1,12,152,86,97,K21,3,0,1,Medihelp,2025-06-12 00:00:00,Green
+989,93,Male,Mpumalanga,Public,Emergency,79,37.6,24,138,75,99,J18,5,0,1,Momentum,2025-03-24 00:00:00,Green
+990,50,Male,Northern Cape,Public,Outpatient,100,36.3,18,109,85,91,M54,7,1,1,GEMS,2025-02-09 00:00:00,Red
+991,61,Male,Western Cape,Public,Outpatient,97,36.3,24,104,100,97,S01,2,1,1,None,2025-04-11 00:00:00,Yellow
+992,56,Male,Eastern Cape,Public,Inpatient,96,34.9,17,141,52,98,R51,6,0,0,Medihelp,2025-03-06 00:00:00,Green
+993,65,Female,Limpopo,Private,Inpatient,75,37.6,14,133,70,90,J18,5,0,0,GEMS,2025-03-08 00:00:00,Yellow
+994,78,Female,KwaZulu-Natal,Public,Emergency,66,37.9,19,128,75,98,S01,4,0,1,Bonitas,2025-08-10 00:00:00,Green
+995,74,Female,North West,Public,Emergency,73,36.4,17,108,95,99,M54,3,0,0,Medihelp,2025-07-09 00:00:00,Green
+996,7,Female,KwaZulu-Natal,Public,Inpatient,85,36.6,13,137,58,95,N39,0,0,1,Bonitas,2025-05-31 00:00:00,Green
+997,25,Male,Western Cape,Public,Outpatient,90,36.3,24,110,101,100,A09,4,0,1,GEMS,2025-03-04 00:00:00,Green
+998,50,Male,KwaZulu-Natal,Private,Outpatient,49,37.1,16,123,80,99,L02,4,0,0,Fedhealth,2025-03-31 00:00:00,Green
+999,44,Female,Limpopo,Public,Outpatient,82,37.6,11,154,77,96,K21,6,1,1,GEMS,2025-07-14 00:00:00,Yellow
+1000,43,Male,Western Cape,Public,Outpatient,84,35.6,23,112,76,95,R51,6,1,1,Momentum,2025-02-20 00:00:00,Yellow

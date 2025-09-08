@@ -1,0 +1,1001 @@
+transaction_id,customer_id,bank,province,amount_zar,merchant_category,channel,device_type,chip_pin_used,foreign_transaction,hour_of_day,days_since_last_tx,is_fraud
+1,2316,Nedbank,KwaZulu-Natal,1362.95,Clothing,EFT,ATM,1,0,22,11.9,0
+2,4419,Standard Bank,Western Cape,276.53,Airtime/Data,Card Present,Mobile,1,0,4,0.1,0
+3,1222,Nedbank,Free State,309.67,Groceries,Card Present,Mobile,1,0,3,5.1,0
+4,3822,FNB,Northern Cape,1316.97,Airtime/Data,Card Present,Mobile,1,0,9,0.3,0
+5,1878,African Bank,Northern Cape,365.6,Clothing,EFT,POS,0,0,1,0.3,0
+6,2061,ABSA,North West,923.32,Clothing,Card Present,Mobile,0,0,7,1.2,0
+7,3489,African Bank,Free State,385.69,Fuel,EFT,Mobile,0,0,19,3.6,0
+8,4204,ABSA,KwaZulu-Natal,1389.85,Electronics,EFT,POS,1,0,19,3.4,0
+9,3620,Investec,Limpopo,258.3,Entertainment,Card Present,Mobile,0,0,2,3.0,0
+10,1594,FNB,North West,877.58,Fuel,Online,Web,1,0,8,4.5,0
+11,4276,Standard Bank,Limpopo,446.74,Entertainment,Card Present,Mobile,1,1,19,0.8,0
+12,1934,Nedbank,Mpumalanga,633.64,Utilities,Card Present,POS,0,0,1,3.0,0
+13,3075,Investec,Mpumalanga,744.13,Electronics,Card Present,POS,1,0,16,3.0,0
+14,1184,ABSA,Mpumalanga,1837.48,Fuel,EFT,Mobile,1,0,0,3.2,0
+15,2153,Investec,Northern Cape,618.27,Transport,App,POS,1,0,23,2.7,0
+16,3117,FNB,Northern Cape,1612.74,Airtime/Data,EFT,POS,1,0,16,0.8,0
+17,3766,Capitec,Gauteng,299.04,Fuel,Card Present,ATM,1,0,4,7.4,0
+18,1667,TymeBank,KwaZulu-Natal,151.38,Utilities,App,POS,1,0,12,11.2,0
+19,1548,African Bank,Free State,1008.61,Entertainment,Card Present,POS,1,0,7,3.5,0
+20,1216,TymeBank,Eastern Cape,504.42,Clothing,Card Present,Web,1,1,6,1.8,0
+21,2911,ABSA,Gauteng,259.11,Transport,Card Present,Web,0,0,22,2.3,0
+22,1607,ABSA,Gauteng,263.15,Transport,App,Web,0,0,13,0.3,0
+23,2272,FNB,Eastern Cape,297.45,Healthcare,Card Present,Mobile,1,0,7,1.4,0
+24,1694,Investec,Free State,880.73,Fuel,EFT,Mobile,0,0,10,11.2,0
+25,3660,Nedbank,Eastern Cape,481.87,Groceries,Card Present,Mobile,1,0,2,2.4,0
+26,3787,ABSA,Western Cape,182.87,Clothing,EFT,Web,1,0,4,2.5,0
+27,3028,Nedbank,Free State,396.31,Transport,Card Present,Web,1,0,17,9.2,0
+28,1471,Investec,KwaZulu-Natal,337.91,Groceries,Online,Web,1,0,4,6.5,0
+29,2361,TymeBank,Mpumalanga,254.55,Utilities,Card Present,Mobile,0,0,12,2.5,0
+30,1384,FNB,Eastern Cape,1591.2,Clothing,Card Present,Mobile,0,0,4,0.9,0
+31,1002,Capitec,Western Cape,611.95,Clothing,Card Present,Mobile,1,0,1,0.4,0
+32,3630,ABSA,North West,5138.84,Utilities,App,Web,1,0,12,6.0,0
+33,1096,African Bank,Western Cape,1319.75,Utilities,Card Present,POS,1,0,5,7.6,0
+34,1596,Investec,Mpumalanga,1382.14,Entertainment,Card Present,POS,1,0,16,2.0,0
+35,4981,TymeBank,North West,762.24,Electronics,Card Present,Mobile,1,0,7,0.3,0
+36,3798,Nedbank,KwaZulu-Natal,2350.86,Restaurants,Card Present,Web,1,0,16,2.8,0
+37,1687,Nedbank,Limpopo,2046.71,Healthcare,App,Web,1,0,18,1.4,0
+38,4876,African Bank,Eastern Cape,815.87,Fuel,Online,ATM,0,0,14,0.5,0
+39,1642,Investec,Western Cape,55.68,Groceries,App,POS,1,0,0,7.5,0
+40,4578,TymeBank,North West,107.0,Healthcare,App,POS,0,0,17,0.8,0
+41,1688,TymeBank,Western Cape,344.71,Clothing,Card Present,Web,1,1,6,3.7,0
+42,1612,Standard Bank,Northern Cape,818.81,Transport,App,Mobile,0,0,6,1.7,1
+43,2463,Investec,Northern Cape,184.71,Utilities,App,Web,1,1,15,5.3,0
+44,2752,African Bank,North West,973.76,Transport,Card Present,Mobile,1,0,10,3.6,0
+45,1699,Nedbank,KwaZulu-Natal,733.17,Fuel,Card Present,POS,1,0,4,0.4,0
+46,4317,African Bank,North West,590.91,Utilities,EFT,Mobile,1,0,20,1.8,0
+47,1352,Investec,Free State,700.27,Clothing,Online,POS,0,0,13,0.9,0
+48,4069,TymeBank,Free State,76.63,Restaurants,Card Present,Mobile,1,0,22,3.8,0
+49,4340,TymeBank,Western Cape,2784.52,Transport,Online,Web,1,1,9,2.4,0
+50,4966,TymeBank,KwaZulu-Natal,478.38,Transport,Card Present,POS,0,0,4,1.2,0
+51,3228,Nedbank,North West,777.83,Restaurants,EFT,Mobile,0,0,23,1.2,1
+52,2841,FNB,Gauteng,732.01,Airtime/Data,Card Present,Mobile,0,0,18,0.4,0
+53,3016,Nedbank,Eastern Cape,384.7,Airtime/Data,Card Present,POS,0,0,17,0.7,0
+54,1476,Standard Bank,Limpopo,725.84,Airtime/Data,Online,Mobile,1,0,3,3.7,0
+55,2426,Capitec,Northern Cape,269.39,Utilities,EFT,POS,1,0,22,2.8,0
+56,3713,Standard Bank,North West,611.63,Airtime/Data,Card Present,ATM,1,0,8,1.3,0
+57,4252,African Bank,Free State,708.46,Electronics,EFT,Web,0,0,18,5.4,0
+58,4128,TymeBank,Mpumalanga,510.69,Clothing,EFT,Web,0,0,10,2.0,0
+59,3038,Capitec,North West,702.02,Electronics,USSD,POS,1,1,2,4.7,0
+60,3469,ABSA,Northern Cape,1180.91,Fuel,Card Present,Mobile,1,0,10,4.6,0
+61,3952,Capitec,KwaZulu-Natal,1878.98,Airtime/Data,EFT,POS,1,0,6,5.7,0
+62,2069,Investec,North West,4094.96,Restaurants,App,Mobile,1,0,16,5.7,0
+63,1861,Capitec,KwaZulu-Natal,1191.66,Groceries,Online,Mobile,1,0,22,3.4,0
+64,1085,African Bank,Gauteng,509.55,Groceries,App,ATM,1,0,17,4.2,0
+65,3794,African Bank,Eastern Cape,239.56,Entertainment,USSD,Mobile,1,0,14,4.5,0
+66,4459,Investec,Mpumalanga,420.4,Restaurants,EFT,Mobile,1,0,16,0.6,0
+67,3940,TymeBank,Northern Cape,195.76,Airtime/Data,App,Web,1,0,16,1.1,0
+68,3641,TymeBank,Mpumalanga,513.47,Entertainment,Card Present,Mobile,1,0,23,0.3,0
+69,1177,Standard Bank,Free State,868.6,Airtime/Data,EFT,Mobile,1,1,9,0.6,0
+70,2861,FNB,Gauteng,927.96,Utilities,Card Present,Mobile,1,0,14,4.5,0
+71,4164,FNB,Gauteng,791.47,Transport,Card Present,Mobile,1,0,22,8.8,0
+72,2924,Capitec,Northern Cape,800.18,Restaurants,EFT,Mobile,0,0,15,3.4,1
+73,4781,Standard Bank,Eastern Cape,877.54,Groceries,Card Present,POS,1,0,14,6.5,0
+74,4233,Investec,KwaZulu-Natal,2009.16,Healthcare,Card Present,Mobile,1,0,8,1.1,0
+75,2249,FNB,Free State,289.21,Utilities,Card Present,Mobile,0,0,20,5.6,0
+76,3240,FNB,Mpumalanga,357.66,Transport,App,Web,1,0,18,1.2,0
+77,2169,Investec,Mpumalanga,2690.03,Fuel,Card Present,Web,1,0,0,6.7,0
+78,4325,African Bank,Free State,362.38,Healthcare,App,POS,0,0,1,4.8,0
+79,3842,Standard Bank,North West,2235.48,Utilities,Card Present,Mobile,1,0,5,12.3,0
+80,4593,Capitec,Free State,2127.65,Electronics,Card Present,Mobile,1,0,23,5.3,0
+81,3534,TymeBank,Eastern Cape,395.22,Healthcare,EFT,Mobile,1,0,8,1.5,0
+82,3689,ABSA,Limpopo,834.21,Entertainment,App,Web,1,0,23,0.3,0
+83,1466,Standard Bank,KwaZulu-Natal,1131.64,Entertainment,Card Present,POS,1,0,17,6.2,0
+84,3010,TymeBank,Eastern Cape,3693.58,Entertainment,Card Present,POS,1,0,0,2.5,0
+85,3492,Standard Bank,North West,636.47,Electronics,EFT,Mobile,1,0,9,5.9,0
+86,1885,Standard Bank,KwaZulu-Natal,614.6,Transport,App,POS,1,0,3,1.5,0
+87,2429,Capitec,KwaZulu-Natal,1319.2,Electronics,EFT,Web,0,0,13,0.1,0
+88,4977,Capitec,Limpopo,344.33,Healthcare,Card Present,Web,0,0,20,0.2,0
+89,4386,African Bank,North West,670.73,Healthcare,EFT,ATM,1,0,5,3.3,0
+90,1888,TymeBank,Western Cape,94.72,Clothing,Online,ATM,0,0,19,0.4,1
+91,3138,Standard Bank,Gauteng,5419.02,Airtime/Data,EFT,Mobile,1,0,4,4.1,0
+92,4467,FNB,Gauteng,2834.55,Airtime/Data,Card Present,Web,0,0,14,1.6,0
+93,1062,ABSA,Mpumalanga,657.42,Healthcare,Card Present,Mobile,1,0,23,2.5,0
+94,1014,TymeBank,Western Cape,289.98,Transport,Online,Mobile,1,0,9,4.8,0
+95,2777,Nedbank,Northern Cape,277.23,Healthcare,App,Mobile,0,0,2,0.9,0
+96,4062,Standard Bank,Eastern Cape,1124.17,Electronics,Card Present,Mobile,1,1,16,1.6,0
+97,4776,Standard Bank,Mpumalanga,294.3,Clothing,Card Present,Web,0,0,8,3.9,1
+98,2445,Investec,Free State,224.66,Clothing,App,Mobile,0,0,8,7.5,0
+99,2896,Capitec,Free State,194.8,Entertainment,Online,Mobile,1,0,14,1.0,0
+100,2239,Investec,Mpumalanga,735.62,Transport,EFT,Mobile,1,0,17,2.9,0
+101,2797,Capitec,Northern Cape,830.93,Electronics,Card Present,Mobile,1,0,2,9.1,0
+102,3780,Nedbank,Eastern Cape,3851.61,Transport,Card Present,POS,1,1,7,3.1,0
+103,4205,Investec,Northern Cape,368.35,Airtime/Data,App,ATM,1,0,2,6.7,0
+104,3341,TymeBank,Northern Cape,1102.91,Airtime/Data,EFT,POS,0,0,18,8.4,0
+105,1815,Capitec,North West,355.53,Healthcare,EFT,Web,0,0,21,7.9,0
+106,2550,Capitec,Gauteng,306.63,Restaurants,Card Present,Web,0,0,12,4.3,0
+107,4399,TymeBank,Northern Cape,1000.29,Transport,Card Present,POS,0,0,21,2.4,0
+108,4612,FNB,KwaZulu-Natal,1671.69,Airtime/Data,Card Present,Mobile,0,0,15,0.3,0
+109,3305,African Bank,North West,572.7,Groceries,USSD,Mobile,0,0,6,0.8,1
+110,2866,ABSA,Free State,207.89,Electronics,Card Present,Mobile,0,1,19,0.9,1
+111,3760,African Bank,Limpopo,1345.98,Airtime/Data,App,Mobile,0,0,4,0.1,0
+112,2935,FNB,KwaZulu-Natal,1075.83,Healthcare,App,POS,0,0,18,0.3,0
+113,4513,Standard Bank,Mpumalanga,1167.65,Groceries,EFT,POS,1,0,1,1.0,0
+114,4671,FNB,Western Cape,3323.05,Utilities,Card Present,Mobile,1,0,2,0.3,0
+115,3209,TymeBank,KwaZulu-Natal,304.57,Transport,Card Present,Mobile,1,0,2,0.6,0
+116,4069,Nedbank,Western Cape,1314.31,Transport,Card Present,Mobile,1,0,1,0.2,0
+117,1426,African Bank,Northern Cape,1181.9,Restaurants,Card Present,POS,1,0,15,1.6,0
+118,1023,FNB,KwaZulu-Natal,657.02,Transport,EFT,ATM,1,0,16,5.2,0
+119,2264,African Bank,North West,716.19,Electronics,App,POS,1,0,15,5.0,0
+120,1997,Capitec,Limpopo,988.88,Entertainment,App,POS,0,0,15,7.1,0
+121,2125,Nedbank,Gauteng,1168.96,Electronics,App,Mobile,0,0,18,4.1,0
+122,2304,Nedbank,Limpopo,326.78,Transport,Card Present,Mobile,0,0,16,0.8,0
+123,4496,Investec,North West,1588.57,Transport,EFT,Mobile,0,1,23,3.6,1
+124,3676,Standard Bank,KwaZulu-Natal,1101.26,Groceries,Card Present,ATM,0,0,4,4.2,0
+125,3592,Standard Bank,Mpumalanga,388.16,Electronics,Online,POS,0,0,11,2.3,0
+126,4947,Capitec,Limpopo,976.94,Entertainment,Card Present,Mobile,1,0,21,4.9,0
+127,4837,African Bank,Gauteng,1032.8,Healthcare,EFT,Mobile,1,0,11,0.2,0
+128,1298,African Bank,Western Cape,999.34,Transport,Card Present,Mobile,0,0,6,2.7,0
+129,2040,Investec,Free State,654.77,Electronics,Card Present,Mobile,1,1,6,2.0,1
+130,4078,ABSA,Mpumalanga,289.12,Airtime/Data,EFT,Web,1,0,3,4.9,0
+131,4002,African Bank,Eastern Cape,315.77,Healthcare,USSD,ATM,0,0,5,0.4,0
+132,4610,Nedbank,Limpopo,2986.67,Airtime/Data,Card Present,POS,1,0,15,0.7,0
+133,1547,African Bank,Western Cape,711.13,Clothing,App,Mobile,1,0,7,2.5,0
+134,3024,African Bank,Free State,1624.7,Electronics,Card Present,POS,1,0,5,8.8,0
+135,2426,Capitec,KwaZulu-Natal,717.68,Electronics,Card Present,Mobile,1,0,22,0.3,0
+136,3318,Standard Bank,Gauteng,258.8,Airtime/Data,App,Mobile,1,0,18,4.1,0
+137,3117,Standard Bank,Limpopo,1108.84,Transport,Card Present,Web,0,0,9,0.7,0
+138,4256,ABSA,Northern Cape,725.78,Electronics,App,POS,1,0,15,0.3,0
+139,3275,Nedbank,North West,1526.51,Restaurants,Card Present,Mobile,0,0,1,1.5,0
+140,4140,Nedbank,Eastern Cape,564.03,Fuel,Card Present,POS,1,0,13,2.6,0
+141,4636,Capitec,North West,420.69,Electronics,Card Present,POS,1,0,10,5.3,0
+142,3284,ABSA,Free State,118.02,Airtime/Data,App,Web,1,0,23,3.0,0
+143,1196,FNB,KwaZulu-Natal,1297.02,Fuel,App,Mobile,1,0,23,2.0,0
+144,2537,Capitec,Eastern Cape,901.11,Entertainment,EFT,Web,1,0,1,1.0,0
+145,2130,Nedbank,Mpumalanga,402.48,Entertainment,App,Mobile,1,0,2,1.0,0
+146,4217,Capitec,Free State,991.96,Transport,App,Web,1,0,21,4.4,0
+147,4231,Investec,Eastern Cape,268.5,Entertainment,Card Present,Web,0,0,10,0.4,0
+148,2262,African Bank,KwaZulu-Natal,4217.16,Groceries,Card Present,Mobile,0,0,3,0.5,0
+149,1368,Capitec,KwaZulu-Natal,130.99,Transport,Card Present,Web,1,0,13,3.8,0
+150,4197,Capitec,Limpopo,435.6,Restaurants,Online,Web,1,0,4,9.7,0
+151,4228,Capitec,North West,503.28,Transport,Card Present,POS,1,0,2,0.4,0
+152,1816,Nedbank,Eastern Cape,497.0,Clothing,USSD,POS,1,0,7,2.8,0
+153,2491,ABSA,Gauteng,616.5,Clothing,App,Mobile,1,0,9,0.8,0
+154,4538,ABSA,Eastern Cape,648.93,Groceries,App,ATM,1,0,11,0.1,0
+155,3931,Standard Bank,Free State,763.33,Clothing,Card Present,Web,0,0,7,5.4,0
+156,1719,TymeBank,North West,502.84,Transport,Card Present,ATM,1,0,22,2.1,0
+157,3762,Standard Bank,Mpumalanga,324.87,Groceries,App,POS,1,1,6,0.1,0
+158,4387,FNB,Western Cape,833.62,Healthcare,EFT,Mobile,1,0,1,6.8,0
+159,1638,Investec,Northern Cape,3957.48,Airtime/Data,App,Mobile,1,0,11,2.3,0
+160,1795,ABSA,KwaZulu-Natal,216.98,Groceries,Card Present,Web,0,0,21,4.0,0
+161,3389,Capitec,Northern Cape,451.43,Airtime/Data,App,ATM,0,0,19,1.7,0
+162,3202,African Bank,Gauteng,1091.41,Entertainment,Card Present,Mobile,0,0,10,0.6,0
+163,4024,African Bank,Northern Cape,2241.47,Airtime/Data,Card Present,Web,1,0,8,1.9,0
+164,4207,Investec,Mpumalanga,13125.22,Healthcare,EFT,Mobile,1,0,4,1.0,0
+165,3503,Investec,Western Cape,1911.81,Clothing,Online,POS,1,0,5,1.1,0
+166,2686,TymeBank,Mpumalanga,338.94,Restaurants,Online,POS,1,0,6,3.1,0
+167,3079,African Bank,Gauteng,1468.99,Airtime/Data,Card Present,Web,0,1,13,0.3,1
+168,2003,Standard Bank,KwaZulu-Natal,938.55,Transport,App,Mobile,0,0,17,1.5,0
+169,2038,Capitec,Mpumalanga,278.85,Utilities,EFT,Web,0,1,14,2.4,0
+170,2882,Investec,KwaZulu-Natal,448.75,Utilities,App,ATM,0,0,0,3.7,0
+171,3175,FNB,Western Cape,129.52,Healthcare,App,Mobile,1,0,15,3.0,0
+172,2402,African Bank,Free State,141.24,Transport,EFT,POS,0,0,14,6.5,0
+173,2987,African Bank,KwaZulu-Natal,358.22,Airtime/Data,App,Mobile,0,0,21,14.6,0
+174,3471,ABSA,Northern Cape,751.16,Restaurants,EFT,Mobile,1,0,8,8.3,0
+175,1095,Nedbank,Mpumalanga,1688.44,Electronics,Card Present,POS,1,0,6,4.3,0
+176,4384,African Bank,Gauteng,494.63,Airtime/Data,Online,POS,0,0,11,3.5,0
+177,1814,FNB,Gauteng,298.82,Transport,Card Present,Mobile,1,0,8,0.1,0
+178,3660,Nedbank,Limpopo,3865.39,Restaurants,Online,POS,1,0,11,2.3,0
+179,2141,Investec,Eastern Cape,243.66,Healthcare,Card Present,POS,1,0,10,3.3,0
+180,3569,ABSA,Gauteng,279.98,Airtime/Data,App,Web,0,0,2,1.6,0
+181,2975,Nedbank,Northern Cape,444.3,Restaurants,EFT,Mobile,0,1,12,1.5,1
+182,4188,Investec,Western Cape,2711.97,Healthcare,Card Present,Web,1,0,4,2.3,0
+183,4419,ABSA,Gauteng,1274.21,Utilities,USSD,ATM,1,0,21,7.1,0
+184,4251,Capitec,KwaZulu-Natal,392.47,Airtime/Data,EFT,Web,1,0,21,0.9,0
+185,1223,FNB,Gauteng,564.08,Electronics,App,Mobile,1,0,20,1.5,0
+186,2247,African Bank,Eastern Cape,608.69,Groceries,App,Web,1,0,17,3.2,0
+187,3295,Capitec,Eastern Cape,138.83,Transport,Card Present,ATM,1,0,10,0.6,0
+188,4325,ABSA,Limpopo,935.45,Clothing,Card Present,Web,1,0,2,5.4,0
+189,4390,ABSA,KwaZulu-Natal,665.52,Entertainment,EFT,POS,0,0,21,3.3,0
+190,1974,Capitec,Northern Cape,556.53,Healthcare,USSD,Mobile,0,0,8,1.3,0
+191,2861,TymeBank,Limpopo,860.76,Transport,Card Present,Mobile,1,0,7,3.8,0
+192,1648,Capitec,Mpumalanga,1347.14,Groceries,Card Present,Mobile,1,0,23,1.0,0
+193,1741,Capitec,Limpopo,642.37,Restaurants,EFT,Mobile,1,0,7,4.5,0
+194,3909,FNB,Northern Cape,579.12,Fuel,EFT,Mobile,0,0,12,0.2,0
+195,2576,FNB,Western Cape,1348.97,Restaurants,Card Present,POS,0,0,10,1.7,0
+196,3599,TymeBank,North West,232.89,Groceries,USSD,Mobile,1,0,5,0.9,0
+197,1783,ABSA,Free State,210.61,Fuel,Card Present,Mobile,1,0,12,5.1,0
+198,2787,Standard Bank,Western Cape,571.68,Utilities,Card Present,POS,1,0,10,4.2,0
+199,4096,Investec,Mpumalanga,1307.63,Restaurants,EFT,Mobile,0,0,13,5.5,0
+200,1137,Capitec,Free State,621.11,Entertainment,Card Present,POS,0,0,13,3.2,0
+201,3973,Nedbank,North West,1656.86,Electronics,Card Present,Web,1,0,18,4.8,0
+202,3056,Nedbank,Limpopo,533.88,Fuel,USSD,Mobile,1,0,4,1.7,0
+203,2831,African Bank,Mpumalanga,2847.1,Airtime/Data,Card Present,Mobile,0,0,14,3.4,0
+204,1568,TymeBank,Gauteng,579.05,Entertainment,Card Present,Mobile,1,0,12,0.1,0
+205,3349,African Bank,Western Cape,1229.38,Clothing,App,ATM,1,0,23,6.4,0
+206,1630,Nedbank,Northern Cape,1304.28,Groceries,Card Present,Mobile,0,0,15,3.5,0
+207,2798,TymeBank,Mpumalanga,996.16,Entertainment,App,POS,1,0,18,6.0,0
+208,1170,Investec,Mpumalanga,752.67,Entertainment,Card Present,Mobile,0,0,16,4.4,0
+209,1883,Capitec,Eastern Cape,554.81,Airtime/Data,Card Present,Mobile,0,0,15,1.0,0
+210,1511,Standard Bank,Eastern Cape,986.49,Groceries,Card Present,Web,1,0,13,1.0,0
+211,2919,TymeBank,KwaZulu-Natal,1727.12,Electronics,App,Mobile,1,0,16,4.8,0
+212,3416,African Bank,Eastern Cape,2053.25,Groceries,EFT,Mobile,1,0,6,0.6,0
+213,4582,African Bank,Limpopo,372.65,Restaurants,Card Present,Mobile,1,0,5,0.4,0
+214,1374,Standard Bank,KwaZulu-Natal,317.61,Airtime/Data,EFT,Web,1,0,4,0.0,0
+215,2895,TymeBank,North West,247.97,Groceries,EFT,Mobile,1,0,23,1.1,0
+216,1203,TymeBank,Gauteng,219.48,Utilities,EFT,POS,1,0,23,0.3,0
+217,1056,Investec,Limpopo,977.51,Healthcare,USSD,Web,0,0,0,4.9,0
+218,1656,African Bank,Western Cape,1130.19,Electronics,App,Mobile,0,0,15,2.0,0
+219,2048,FNB,Gauteng,2069.22,Electronics,App,Web,1,0,22,0.9,0
+220,4694,Standard Bank,Eastern Cape,698.21,Groceries,Card Present,Web,1,0,13,2.8,0
+221,4462,Nedbank,Limpopo,489.37,Clothing,EFT,POS,1,0,1,0.2,0
+222,4126,African Bank,Mpumalanga,3650.83,Utilities,Card Present,Mobile,0,0,3,3.9,0
+223,3194,Nedbank,Gauteng,506.41,Utilities,Card Present,Web,1,0,0,2.1,0
+224,4024,Capitec,KwaZulu-Natal,200.91,Airtime/Data,EFT,POS,1,0,1,0.0,0
+225,4615,FNB,Limpopo,365.26,Airtime/Data,App,Mobile,1,0,8,1.2,0
+226,4158,TymeBank,Limpopo,291.1,Utilities,Card Present,Mobile,0,0,0,4.2,0
+227,4052,African Bank,Limpopo,1577.04,Utilities,Card Present,Web,1,0,22,0.6,0
+228,4743,ABSA,Mpumalanga,325.07,Groceries,Online,POS,1,0,19,9.8,0
+229,3969,TymeBank,Mpumalanga,2475.98,Fuel,Card Present,Mobile,1,0,22,6.8,0
+230,1071,FNB,North West,688.78,Healthcare,EFT,Web,1,0,15,4.5,0
+231,2557,ABSA,Western Cape,853.92,Utilities,Card Present,Web,1,0,13,0.2,0
+232,1749,TymeBank,Gauteng,1547.47,Groceries,Card Present,Mobile,1,0,22,1.3,0
+233,4766,FNB,Mpumalanga,1740.15,Entertainment,Card Present,POS,1,0,12,1.1,0
+234,1952,Standard Bank,Gauteng,517.94,Entertainment,Card Present,ATM,1,0,18,0.4,0
+235,3183,FNB,Western Cape,1807.4,Healthcare,EFT,Web,1,0,14,23.6,1
+236,2069,Capitec,Gauteng,803.63,Fuel,Card Present,Web,1,0,17,0.5,0
+237,1516,ABSA,Gauteng,1004.23,Transport,Card Present,Web,1,0,2,1.1,0
+238,2035,African Bank,KwaZulu-Natal,152.99,Electronics,App,Mobile,0,0,14,6.4,1
+239,1026,Investec,Eastern Cape,1223.7,Healthcare,Card Present,POS,1,0,14,0.5,0
+240,1083,African Bank,Free State,274.26,Airtime/Data,Card Present,Mobile,1,1,4,1.9,0
+241,2930,Standard Bank,Free State,2262.52,Fuel,USSD,ATM,0,0,12,11.2,0
+242,3595,Standard Bank,Western Cape,4445.12,Healthcare,Card Present,POS,0,0,23,0.9,0
+243,2075,African Bank,KwaZulu-Natal,201.99,Groceries,USSD,Web,0,0,19,3.6,0
+244,2665,FNB,North West,2516.44,Entertainment,Card Present,ATM,0,0,15,0.3,0
+245,1073,Standard Bank,Western Cape,1070.4,Entertainment,App,ATM,0,0,21,2.8,0
+246,1489,African Bank,Eastern Cape,412.28,Entertainment,Card Present,POS,1,0,19,1.2,0
+247,4526,Nedbank,Mpumalanga,150.51,Clothing,Card Present,POS,0,1,14,3.6,0
+248,4319,African Bank,Northern Cape,39.37,Restaurants,Card Present,Mobile,0,0,13,1.7,0
+249,3059,Nedbank,KwaZulu-Natal,1888.56,Transport,USSD,POS,1,0,8,1.1,0
+250,4638,Nedbank,KwaZulu-Natal,2024.19,Healthcare,EFT,Mobile,1,0,20,2.4,0
+251,2359,FNB,Mpumalanga,397.63,Groceries,Card Present,ATM,1,0,17,0.5,0
+252,2277,ABSA,North West,323.14,Healthcare,EFT,Web,1,0,16,5.1,0
+253,3718,FNB,Eastern Cape,679.96,Utilities,App,Mobile,0,1,4,4.2,0
+254,1602,Capitec,Gauteng,618.57,Healthcare,Card Present,Mobile,1,0,14,2.4,0
+255,3719,Investec,Free State,1596.87,Electronics,Card Present,Web,1,0,23,1.4,0
+256,2001,Standard Bank,Eastern Cape,663.07,Fuel,EFT,Web,1,0,10,7.4,0
+257,1831,Nedbank,North West,1610.54,Electronics,Online,Mobile,1,0,21,3.0,0
+258,2127,FNB,Mpumalanga,360.4,Groceries,EFT,Mobile,1,0,11,1.0,0
+259,1602,African Bank,Western Cape,801.32,Healthcare,EFT,POS,0,0,6,4.9,0
+260,3362,FNB,Limpopo,1231.59,Healthcare,Card Present,Mobile,1,0,19,3.0,0
+261,1792,Standard Bank,Eastern Cape,496.66,Utilities,App,Mobile,1,1,20,0.4,0
+262,2895,FNB,Mpumalanga,616.71,Transport,Card Present,Mobile,0,0,8,0.4,0
+263,1067,Nedbank,Northern Cape,3889.17,Groceries,Card Present,Mobile,1,0,2,8.3,0
+264,2524,African Bank,Mpumalanga,2292.86,Groceries,App,Web,1,0,16,1.0,0
+265,2195,Standard Bank,Western Cape,229.37,Fuel,App,Mobile,1,0,23,3.3,0
+266,2706,ABSA,North West,870.69,Airtime/Data,Card Present,Mobile,0,0,8,0.1,0
+267,2166,Investec,Limpopo,114.12,Fuel,App,Web,1,1,10,2.4,1
+268,2932,Nedbank,Northern Cape,1006.76,Restaurants,App,Mobile,1,0,13,0.8,0
+269,2760,Investec,Mpumalanga,309.28,Entertainment,EFT,POS,1,0,9,0.5,0
+270,1196,Capitec,Free State,554.14,Groceries,Card Present,Web,1,1,3,4.5,0
+271,2733,African Bank,North West,1123.29,Entertainment,USSD,Mobile,0,0,15,5.0,0
+272,4244,Capitec,Mpumalanga,852.08,Transport,EFT,Mobile,1,0,15,3.8,0
+273,1664,TymeBank,Gauteng,319.41,Entertainment,Card Present,Mobile,0,1,11,0.0,0
+274,4736,TymeBank,Free State,200.51,Healthcare,USSD,Web,1,0,5,1.0,0
+275,3569,Standard Bank,Mpumalanga,970.01,Utilities,Online,Mobile,1,0,6,1.3,0
+276,3237,Nedbank,Mpumalanga,349.24,Airtime/Data,App,Mobile,1,0,22,3.5,0
+277,1011,TymeBank,KwaZulu-Natal,529.95,Healthcare,App,POS,1,0,7,4.2,0
+278,1962,Nedbank,Free State,220.38,Airtime/Data,Card Present,Web,1,0,5,3.0,0
+279,2052,Nedbank,North West,84.3,Transport,Card Present,POS,1,0,6,4.7,0
+280,1988,African Bank,Northern Cape,1162.6,Utilities,EFT,POS,1,0,8,1.7,0
+281,3602,Capitec,Northern Cape,438.65,Entertainment,Online,Mobile,0,0,15,2.3,0
+282,1087,Standard Bank,Free State,332.34,Utilities,App,Mobile,0,0,21,0.2,0
+283,1855,Capitec,Western Cape,2311.84,Entertainment,App,Web,1,0,12,1.7,0
+284,1472,African Bank,North West,1379.11,Clothing,Card Present,Mobile,1,0,14,1.7,0
+285,1110,TymeBank,Mpumalanga,949.81,Restaurants,Card Present,Web,1,0,17,2.8,0
+286,2904,FNB,Eastern Cape,726.1,Electronics,Card Present,Mobile,1,0,3,1.4,1
+287,3468,TymeBank,Free State,200.44,Electronics,Card Present,POS,1,0,4,0.8,0
+288,3116,Investec,Western Cape,1092.52,Entertainment,App,POS,1,0,7,0.8,0
+289,3166,ABSA,Northern Cape,2065.18,Entertainment,Card Present,ATM,1,0,3,0.4,1
+290,1778,Capitec,Limpopo,645.39,Groceries,Card Present,Mobile,1,0,16,3.6,0
+291,4495,Standard Bank,Northern Cape,1912.99,Clothing,Card Present,Web,1,0,16,2.9,0
+292,4946,Capitec,North West,306.01,Fuel,Card Present,POS,1,0,1,2.6,0
+293,1246,Investec,Gauteng,173.11,Clothing,USSD,Web,0,0,23,2.3,0
+294,3878,Investec,Northern Cape,382.62,Clothing,Card Present,Mobile,1,0,15,1.4,0
+295,3069,FNB,Northern Cape,813.95,Restaurants,Card Present,Mobile,0,0,18,4.4,0
+296,3035,Investec,Eastern Cape,667.31,Electronics,Card Present,Mobile,1,0,21,7.7,0
+297,1398,FNB,Gauteng,514.38,Airtime/Data,App,Mobile,1,1,6,1.7,0
+298,4976,FNB,Eastern Cape,1073.24,Healthcare,Card Present,Mobile,1,0,10,1.6,0
+299,2521,FNB,Limpopo,604.17,Electronics,Card Present,Mobile,1,0,0,0.5,0
+300,1325,ABSA,Eastern Cape,187.65,Restaurants,EFT,Web,1,0,20,3.3,0
+301,2215,Investec,Northern Cape,1045.49,Healthcare,Card Present,Mobile,1,0,17,2.4,0
+302,1601,Nedbank,Eastern Cape,370.26,Electronics,App,Mobile,0,0,6,13.3,0
+303,1645,TymeBank,North West,758.2,Fuel,App,Mobile,1,0,12,2.6,0
+304,1351,FNB,Western Cape,474.48,Groceries,Card Present,Web,0,0,2,1.0,0
+305,1810,ABSA,Mpumalanga,186.53,Clothing,Card Present,Mobile,0,0,8,2.5,0
+306,1403,Capitec,North West,908.97,Entertainment,EFT,ATM,1,0,16,12.5,0
+307,3684,FNB,Limpopo,367.71,Entertainment,USSD,POS,1,0,1,3.9,0
+308,2890,African Bank,Limpopo,287.96,Groceries,EFT,Mobile,1,0,14,0.4,0
+309,2450,Capitec,North West,446.61,Groceries,Card Present,Mobile,1,0,8,1.3,0
+310,3749,Capitec,KwaZulu-Natal,934.36,Utilities,EFT,Web,1,0,6,1.1,0
+311,3370,Standard Bank,Western Cape,678.73,Airtime/Data,Card Present,Mobile,1,0,18,5.8,0
+312,1593,ABSA,Northern Cape,257.23,Airtime/Data,EFT,Mobile,0,0,10,2.8,0
+313,3274,ABSA,North West,481.29,Entertainment,EFT,Mobile,1,1,23,5.0,0
+314,3227,Investec,Free State,1020.42,Clothing,Card Present,Mobile,1,0,20,0.6,0
+315,4017,FNB,Free State,652.91,Utilities,App,POS,1,0,17,7.2,0
+316,4939,Investec,Limpopo,276.11,Airtime/Data,Card Present,Mobile,1,0,16,0.2,0
+317,2501,Investec,Limpopo,1286.74,Fuel,EFT,Mobile,0,0,21,1.4,0
+318,4993,FNB,Western Cape,2427.68,Fuel,Card Present,Web,1,0,3,0.0,0
+319,4037,FNB,Mpumalanga,418.1,Electronics,Card Present,Mobile,1,0,1,0.6,0
+320,2438,Investec,KwaZulu-Natal,612.37,Groceries,EFT,Mobile,1,0,16,9.8,0
+321,1950,African Bank,North West,1035.55,Healthcare,App,POS,1,0,22,0.2,0
+322,3883,ABSA,Northern Cape,538.85,Clothing,App,Mobile,1,0,19,0.5,0
+323,4384,Capitec,KwaZulu-Natal,1085.5,Clothing,App,Web,0,0,0,7.8,0
+324,1663,Capitec,Limpopo,202.11,Groceries,EFT,Mobile,0,0,12,3.7,0
+325,2984,FNB,North West,649.54,Clothing,Card Present,Mobile,0,0,9,1.6,1
+326,1153,Capitec,Limpopo,1499.98,Electronics,EFT,POS,1,1,16,0.2,0
+327,4888,FNB,KwaZulu-Natal,242.83,Healthcare,Card Present,Web,1,0,22,4.6,0
+328,1732,TymeBank,Eastern Cape,572.03,Clothing,Online,Web,1,0,20,2.0,0
+329,1805,Nedbank,Northern Cape,208.13,Electronics,Card Present,Mobile,0,0,16,1.2,1
+330,4107,Capitec,Gauteng,622.94,Entertainment,EFT,Web,1,0,10,1.3,0
+331,1121,TymeBank,Eastern Cape,1383.91,Entertainment,Card Present,Web,0,0,8,2.1,0
+332,1181,ABSA,Gauteng,498.06,Restaurants,Online,POS,1,0,2,2.4,0
+333,4976,TymeBank,North West,1331.39,Restaurants,EFT,Mobile,1,0,9,5.1,0
+334,2449,Standard Bank,Mpumalanga,1672.17,Restaurants,Card Present,Mobile,0,0,16,4.4,0
+335,4679,TymeBank,Mpumalanga,135.63,Airtime/Data,Card Present,POS,0,0,15,4.4,0
+336,4175,TymeBank,Western Cape,343.95,Groceries,EFT,Web,1,0,15,3.9,0
+337,4153,TymeBank,Limpopo,202.9,Electronics,Card Present,Mobile,0,0,14,4.3,0
+338,3583,Investec,North West,729.92,Entertainment,Card Present,Mobile,1,0,12,3.4,0
+339,2703,African Bank,North West,1717.0,Utilities,Card Present,Mobile,0,0,1,6.1,0
+340,1337,ABSA,Free State,870.03,Restaurants,Card Present,POS,1,0,5,2.4,0
+341,3150,Investec,North West,951.98,Utilities,EFT,Web,1,0,2,2.2,0
+342,4335,ABSA,Western Cape,463.4,Transport,EFT,POS,1,0,23,3.6,0
+343,1230,Standard Bank,Eastern Cape,1198.7,Healthcare,App,Mobile,1,0,0,0.5,0
+344,2205,FNB,Western Cape,792.98,Restaurants,App,Mobile,0,0,16,4.5,0
+345,3674,Investec,Free State,2024.12,Entertainment,EFT,Web,1,0,23,8.3,0
+346,1778,Capitec,KwaZulu-Natal,777.73,Healthcare,EFT,Web,0,0,0,1.1,0
+347,3922,ABSA,Limpopo,177.09,Airtime/Data,App,Mobile,0,0,10,2.8,0
+348,4298,Capitec,Mpumalanga,220.38,Utilities,App,ATM,1,0,3,0.1,0
+349,1727,African Bank,Limpopo,242.56,Healthcare,Card Present,Mobile,1,0,10,4.4,0
+350,4571,Standard Bank,Western Cape,399.38,Fuel,Card Present,Mobile,0,0,12,2.5,0
+351,4020,TymeBank,Western Cape,2591.2,Restaurants,App,ATM,1,0,21,3.4,0
+352,1862,Standard Bank,Eastern Cape,1873.14,Airtime/Data,Card Present,Web,1,0,16,0.5,0
+353,3937,African Bank,Mpumalanga,976.63,Fuel,App,Web,0,0,19,5.0,0
+354,2534,Capitec,North West,1353.16,Transport,EFT,Web,1,0,20,0.9,0
+355,3013,Capitec,Free State,1249.69,Airtime/Data,Card Present,Mobile,1,0,12,3.5,0
+356,4996,African Bank,Gauteng,1694.13,Transport,App,ATM,0,0,16,2.7,0
+357,2833,Standard Bank,Northern Cape,261.58,Clothing,EFT,Mobile,0,0,1,3.2,0
+358,4845,FNB,North West,2107.55,Entertainment,EFT,ATM,0,0,1,0.2,0
+359,1002,Capitec,Gauteng,725.04,Restaurants,Card Present,Web,1,0,21,4.1,0
+360,2499,African Bank,Northern Cape,888.43,Clothing,Online,Mobile,1,0,17,4.8,0
+361,4401,Nedbank,Free State,1824.69,Clothing,App,Mobile,1,0,5,1.9,0
+362,4937,TymeBank,North West,856.85,Utilities,Card Present,Web,1,0,1,1.6,0
+363,2344,African Bank,Western Cape,304.88,Utilities,App,POS,0,0,22,1.3,0
+364,1907,African Bank,Mpumalanga,570.94,Groceries,Card Present,POS,0,0,10,7.9,0
+365,2571,Nedbank,Northern Cape,1259.77,Transport,Card Present,Mobile,1,0,16,4.2,0
+366,2207,Capitec,Mpumalanga,388.09,Transport,Online,Mobile,0,0,8,3.6,0
+367,3227,ABSA,Northern Cape,398.35,Healthcare,App,ATM,0,0,19,7.8,0
+368,2911,Standard Bank,Eastern Cape,907.28,Fuel,EFT,Mobile,0,0,4,1.3,0
+369,1124,FNB,Free State,783.49,Clothing,EFT,Web,1,0,19,3.0,0
+370,2695,Nedbank,Mpumalanga,373.12,Transport,Card Present,Mobile,0,0,14,3.5,0
+371,2463,Nedbank,Gauteng,2220.26,Restaurants,Card Present,POS,1,0,16,16.7,0
+372,4466,ABSA,Western Cape,803.85,Groceries,Card Present,Mobile,1,0,9,1.7,0
+373,3432,Capitec,Western Cape,96.47,Entertainment,Card Present,Web,0,0,5,1.5,0
+374,3044,ABSA,Northern Cape,964.99,Fuel,App,Mobile,1,0,12,0.3,0
+375,4183,FNB,KwaZulu-Natal,1197.9,Electronics,Card Present,Web,1,0,20,0.3,0
+376,3693,Capitec,Northern Cape,1249.25,Entertainment,EFT,ATM,1,0,15,2.2,0
+377,3010,Nedbank,Gauteng,453.22,Entertainment,Card Present,POS,0,0,23,0.6,0
+378,4918,Nedbank,KwaZulu-Natal,286.64,Utilities,Card Present,Mobile,0,0,1,0.2,0
+379,3249,African Bank,Western Cape,688.23,Electronics,Card Present,Web,1,0,19,10.0,0
+380,1663,Standard Bank,Western Cape,792.67,Groceries,App,Web,0,0,4,9.1,0
+381,1327,FNB,Gauteng,1321.86,Airtime/Data,EFT,Mobile,1,1,23,1.2,0
+382,1848,African Bank,Limpopo,901.63,Fuel,Card Present,POS,0,0,16,4.7,0
+383,3455,African Bank,Free State,1796.55,Utilities,EFT,POS,1,0,6,6.2,0
+384,1588,Nedbank,Free State,1874.27,Healthcare,EFT,Web,1,0,23,1.9,0
+385,1264,ABSA,Northern Cape,675.24,Healthcare,USSD,POS,0,0,16,0.8,0
+386,2466,Nedbank,Limpopo,278.33,Fuel,App,Mobile,0,0,4,0.4,1
+387,1253,ABSA,Northern Cape,1679.43,Healthcare,Card Present,ATM,0,0,5,0.5,0
+388,2093,ABSA,Eastern Cape,1121.05,Restaurants,Card Present,Web,1,0,9,4.8,0
+389,2558,TymeBank,Mpumalanga,272.93,Transport,Card Present,Web,1,0,4,1.5,0
+390,4413,TymeBank,Eastern Cape,541.7,Electronics,Card Present,Mobile,1,0,13,3.5,0
+391,2236,African Bank,Gauteng,267.05,Fuel,EFT,Web,1,0,19,2.3,0
+392,2808,TymeBank,Eastern Cape,116.44,Groceries,USSD,Mobile,1,0,13,1.5,0
+393,1609,Capitec,Western Cape,276.3,Restaurants,Card Present,Mobile,1,0,1,0.4,0
+394,3009,Capitec,Free State,97.02,Electronics,Online,Web,1,1,8,1.2,0
+395,3033,African Bank,Western Cape,1016.79,Entertainment,Card Present,Web,1,0,17,5.5,0
+396,4194,Nedbank,Western Cape,695.93,Entertainment,EFT,Mobile,1,0,17,5.0,0
+397,3584,Nedbank,Eastern Cape,312.54,Clothing,Card Present,Mobile,1,0,21,0.1,0
+398,3927,ABSA,Mpumalanga,1280.07,Clothing,Card Present,Mobile,0,0,8,0.5,0
+399,1549,Capitec,KwaZulu-Natal,183.59,Airtime/Data,Card Present,POS,1,0,4,4.2,0
+400,4842,African Bank,Mpumalanga,2034.92,Utilities,Card Present,Web,0,0,17,1.2,0
+401,2218,Nedbank,Northern Cape,441.04,Restaurants,EFT,Web,1,0,11,3.1,0
+402,3317,Capitec,KwaZulu-Natal,981.4,Clothing,App,Web,1,0,5,2.5,0
+403,2513,FNB,Eastern Cape,259.92,Airtime/Data,App,Mobile,1,0,16,3.2,0
+404,1777,ABSA,Gauteng,742.48,Fuel,Card Present,Mobile,1,0,13,0.2,0
+405,4137,TymeBank,Mpumalanga,603.84,Entertainment,EFT,POS,1,0,9,8.0,0
+406,1198,African Bank,Gauteng,510.59,Restaurants,App,Web,1,0,18,0.1,0
+407,3189,Capitec,KwaZulu-Natal,438.43,Airtime/Data,App,Mobile,0,0,2,0.0,0
+408,2264,Nedbank,Northern Cape,954.65,Entertainment,EFT,Mobile,0,0,9,0.8,0
+409,2232,African Bank,Free State,298.72,Entertainment,Card Present,Mobile,1,1,13,15.1,0
+410,4197,African Bank,Western Cape,113.27,Restaurants,EFT,Mobile,1,0,14,0.2,0
+411,2289,Investec,Northern Cape,626.35,Fuel,Online,Web,1,0,15,6.2,0
+412,1354,Investec,Limpopo,1730.02,Clothing,App,POS,1,0,5,0.5,0
+413,3864,ABSA,Northern Cape,146.12,Clothing,App,Web,1,0,13,0.3,0
+414,3028,Standard Bank,Eastern Cape,716.12,Utilities,Card Present,Mobile,1,1,3,4.5,0
+415,3223,ABSA,Limpopo,663.83,Transport,USSD,Mobile,1,0,12,5.6,0
+416,1386,FNB,Mpumalanga,1084.51,Airtime/Data,Card Present,Mobile,1,0,7,4.7,0
+417,4118,ABSA,Limpopo,723.76,Utilities,App,Mobile,0,1,22,0.8,0
+418,3619,Investec,Eastern Cape,355.87,Entertainment,Card Present,Web,1,0,8,6.4,0
+419,3840,Investec,North West,155.27,Electronics,EFT,Web,0,0,20,0.2,0
+420,4718,TymeBank,Limpopo,719.42,Clothing,Card Present,Mobile,1,0,10,1.3,0
+421,2868,TymeBank,Western Cape,361.65,Electronics,Card Present,ATM,0,0,4,1.9,0
+422,1632,Capitec,Limpopo,306.74,Entertainment,Card Present,ATM,0,1,4,0.2,0
+423,1166,Capitec,Gauteng,722.65,Fuel,EFT,POS,0,0,17,2.6,0
+424,4626,Nedbank,Northern Cape,250.36,Utilities,USSD,Mobile,0,0,15,2.5,0
+425,3605,Nedbank,Mpumalanga,739.88,Airtime/Data,Card Present,POS,1,0,22,14.6,0
+426,4288,ABSA,North West,1075.53,Airtime/Data,Card Present,ATM,1,0,18,2.9,0
+427,2322,TymeBank,Eastern Cape,171.84,Utilities,Card Present,POS,1,0,23,1.5,0
+428,1796,ABSA,North West,1584.75,Groceries,Card Present,Mobile,0,0,8,4.7,0
+429,4410,African Bank,Gauteng,646.63,Groceries,Card Present,Mobile,0,0,10,1.2,1
+430,2126,TymeBank,Eastern Cape,1664.67,Airtime/Data,Card Present,ATM,1,0,10,2.3,0
+431,1085,African Bank,Limpopo,499.88,Fuel,Card Present,ATM,0,0,13,0.2,0
+432,4777,ABSA,Mpumalanga,3496.43,Electronics,Online,Web,1,0,9,1.2,0
+433,4797,Capitec,KwaZulu-Natal,2491.23,Transport,Card Present,Mobile,1,0,8,2.3,0
+434,2890,Investec,Western Cape,660.09,Clothing,EFT,POS,1,0,4,3.6,0
+435,4297,Capitec,Northern Cape,576.16,Clothing,App,ATM,1,0,10,0.3,0
+436,4572,Standard Bank,Gauteng,75.68,Transport,EFT,Web,1,0,8,4.8,0
+437,4780,Investec,Gauteng,552.59,Healthcare,EFT,Mobile,1,0,12,6.9,0
+438,3714,Standard Bank,Western Cape,850.37,Airtime/Data,Online,Mobile,1,0,18,1.0,0
+439,2873,Standard Bank,Free State,655.5,Fuel,Card Present,Mobile,1,0,7,4.3,0
+440,2391,Nedbank,Gauteng,784.49,Electronics,Card Present,Web,0,0,22,0.6,0
+441,3050,Capitec,Limpopo,1029.79,Airtime/Data,Card Present,Mobile,1,0,3,2.2,0
+442,3871,ABSA,North West,508.18,Clothing,EFT,POS,0,0,11,4.8,0
+443,3926,ABSA,Western Cape,806.24,Healthcare,EFT,Mobile,1,0,6,1.5,0
+444,4391,Standard Bank,Free State,375.23,Entertainment,App,Mobile,0,0,23,0.1,1
+445,3836,Nedbank,KwaZulu-Natal,222.83,Transport,App,POS,0,0,7,2.3,0
+446,2047,Nedbank,Western Cape,2973.64,Electronics,EFT,Mobile,1,0,18,5.6,0
+447,2497,Standard Bank,Limpopo,226.63,Healthcare,Card Present,Web,1,0,22,0.3,0
+448,4731,Investec,Gauteng,521.62,Electronics,Card Present,Mobile,0,0,7,0.1,0
+449,2843,ABSA,North West,1304.72,Restaurants,Card Present,Web,1,0,18,5.0,0
+450,3572,Nedbank,Limpopo,526.59,Transport,Card Present,Mobile,1,0,3,0.9,0
+451,4013,TymeBank,Eastern Cape,1109.51,Utilities,Card Present,Web,1,0,9,1.4,0
+452,2241,TymeBank,Free State,1750.43,Groceries,USSD,Mobile,1,0,14,0.3,0
+453,1495,FNB,Western Cape,709.9,Fuel,App,Mobile,1,0,22,0.3,0
+454,3730,TymeBank,North West,1007.14,Electronics,Card Present,Web,1,0,7,2.9,0
+455,3909,Standard Bank,Limpopo,1096.23,Airtime/Data,USSD,Mobile,1,0,14,2.4,0
+456,1589,ABSA,Limpopo,311.95,Fuel,App,ATM,1,0,15,1.0,0
+457,2774,FNB,KwaZulu-Natal,190.19,Healthcare,USSD,POS,0,0,23,1.8,0
+458,2780,Capitec,Gauteng,4078.75,Utilities,Card Present,ATM,1,0,20,1.5,0
+459,3040,ABSA,North West,984.8,Restaurants,Card Present,Mobile,1,0,6,3.6,0
+460,4173,African Bank,Mpumalanga,304.97,Fuel,Card Present,Mobile,1,0,7,5.9,0
+461,1029,FNB,Gauteng,4364.64,Airtime/Data,Online,Mobile,1,0,12,4.3,0
+462,4854,Capitec,North West,174.48,Healthcare,EFT,Web,1,0,12,0.0,0
+463,3514,Nedbank,Western Cape,302.44,Entertainment,Card Present,Mobile,0,0,1,0.3,0
+464,3250,Investec,North West,435.9,Electronics,USSD,Web,1,0,19,1.7,0
+465,1723,ABSA,Free State,1604.49,Fuel,Card Present,Web,1,0,14,5.7,0
+466,1152,ABSA,North West,468.55,Entertainment,App,Mobile,0,0,5,0.8,0
+467,1677,Nedbank,Limpopo,605.75,Healthcare,EFT,POS,1,0,17,6.3,0
+468,3090,ABSA,Western Cape,219.89,Clothing,EFT,ATM,0,0,6,0.3,0
+469,3461,Investec,Mpumalanga,571.55,Healthcare,Card Present,Web,1,0,1,0.2,0
+470,2575,Standard Bank,Limpopo,519.4,Airtime/Data,Card Present,ATM,0,0,1,7.3,0
+471,3490,African Bank,Eastern Cape,158.05,Healthcare,Card Present,Mobile,1,0,0,0.5,0
+472,3198,FNB,Northern Cape,499.28,Clothing,Card Present,Mobile,1,1,21,1.9,0
+473,4115,Capitec,Eastern Cape,296.22,Clothing,USSD,Mobile,1,0,13,1.2,0
+474,2616,Capitec,Gauteng,2426.73,Transport,USSD,Web,1,0,1,0.5,0
+475,2280,FNB,KwaZulu-Natal,847.35,Clothing,EFT,Web,1,0,9,3.0,0
+476,4561,Standard Bank,North West,2504.51,Utilities,Card Present,Mobile,1,0,3,9.9,0
+477,2126,ABSA,KwaZulu-Natal,119.19,Electronics,Card Present,Mobile,1,1,3,3.2,0
+478,4964,Nedbank,Mpumalanga,262.16,Restaurants,Card Present,Mobile,0,0,22,1.3,1
+479,4921,Nedbank,Gauteng,347.11,Restaurants,EFT,ATM,0,0,6,3.7,0
+480,2576,African Bank,Eastern Cape,320.34,Fuel,Card Present,Mobile,1,0,19,0.5,0
+481,3877,ABSA,Eastern Cape,881.12,Utilities,Card Present,Mobile,1,0,4,2.6,0
+482,2723,TymeBank,Northern Cape,513.52,Airtime/Data,EFT,Web,1,0,11,1.9,0
+483,4279,Capitec,Gauteng,268.22,Transport,EFT,Mobile,1,0,11,1.3,0
+484,2417,FNB,Northern Cape,8609.54,Fuel,App,Web,0,1,5,4.0,0
+485,1107,FNB,North West,790.43,Fuel,EFT,Web,0,0,17,0.4,0
+486,3376,Capitec,Limpopo,107.94,Healthcare,App,ATM,1,0,1,2.3,0
+487,4405,Investec,Eastern Cape,1278.8,Groceries,EFT,POS,1,0,18,5.8,0
+488,2531,FNB,Limpopo,5780.34,Healthcare,Card Present,POS,1,0,15,0.7,0
+489,3753,Capitec,Limpopo,1280.18,Fuel,Card Present,Mobile,1,0,22,0.9,0
+490,4640,Investec,Western Cape,262.27,Entertainment,App,POS,1,0,1,3.2,0
+491,1632,Standard Bank,Mpumalanga,444.83,Groceries,EFT,POS,0,0,16,4.4,0
+492,2833,ABSA,Northern Cape,1382.33,Healthcare,EFT,Mobile,1,0,19,1.0,0
+493,3997,Capitec,North West,285.44,Electronics,Online,Web,0,0,6,1.3,0
+494,1596,Standard Bank,KwaZulu-Natal,579.03,Fuel,EFT,Mobile,0,0,20,4.0,0
+495,1425,Capitec,North West,295.04,Clothing,Card Present,Mobile,0,0,6,1.0,0
+496,4649,Standard Bank,Eastern Cape,1130.76,Healthcare,Card Present,Web,0,0,22,3.3,0
+497,4653,Standard Bank,Gauteng,1377.54,Utilities,EFT,POS,0,1,11,0.5,0
+498,1906,Standard Bank,KwaZulu-Natal,2191.31,Groceries,Card Present,Mobile,0,0,22,1.6,1
+499,3280,African Bank,Gauteng,1654.28,Entertainment,Card Present,Web,0,0,10,3.5,0
+500,3498,ABSA,Free State,2386.16,Airtime/Data,Online,Web,0,0,16,1.8,0
+501,1754,African Bank,Northern Cape,2872.65,Clothing,App,ATM,1,0,10,0.1,0
+502,2290,Capitec,Mpumalanga,189.1,Clothing,Card Present,POS,0,0,7,1.6,0
+503,3563,TymeBank,KwaZulu-Natal,329.94,Entertainment,Card Present,Mobile,1,0,5,1.0,0
+504,3638,African Bank,Mpumalanga,292.09,Entertainment,Card Present,Web,0,0,5,0.3,0
+505,4801,Capitec,North West,771.14,Fuel,App,ATM,1,0,14,0.0,0
+506,4450,Capitec,Eastern Cape,376.19,Utilities,Card Present,Mobile,1,0,19,0.1,0
+507,2771,Standard Bank,KwaZulu-Natal,471.58,Clothing,App,Web,1,0,11,8.9,0
+508,3531,FNB,Western Cape,1744.49,Fuel,USSD,Mobile,1,0,8,4.2,0
+509,1078,FNB,North West,1093.05,Entertainment,EFT,Mobile,0,0,12,8.4,0
+510,3736,Capitec,KwaZulu-Natal,425.5,Electronics,USSD,Mobile,1,0,14,0.4,0
+511,2265,FNB,Mpumalanga,1353.06,Clothing,Card Present,POS,1,0,14,2.5,0
+512,3453,TymeBank,Western Cape,862.71,Airtime/Data,Card Present,ATM,0,0,12,0.3,0
+513,4748,African Bank,Free State,865.48,Fuel,Card Present,Web,1,1,8,0.1,0
+514,1905,FNB,Free State,1214.29,Clothing,Card Present,Web,1,0,10,1.9,0
+515,1275,FNB,Northern Cape,73.12,Utilities,App,ATM,1,0,21,3.1,0
+516,4935,Standard Bank,North West,297.54,Groceries,Card Present,Mobile,1,0,10,0.2,0
+517,3041,Investec,North West,265.82,Utilities,Card Present,Web,1,0,8,1.4,0
+518,4912,African Bank,Western Cape,684.93,Fuel,Card Present,POS,0,0,16,0.3,0
+519,1177,Capitec,Western Cape,1327.75,Electronics,EFT,Web,0,0,22,1.3,0
+520,1670,Investec,Mpumalanga,417.85,Restaurants,EFT,Mobile,0,0,20,1.9,0
+521,1811,African Bank,Eastern Cape,286.73,Fuel,App,POS,1,0,5,1.2,0
+522,4047,TymeBank,KwaZulu-Natal,94.46,Healthcare,App,Mobile,0,0,21,2.6,0
+523,2566,African Bank,KwaZulu-Natal,927.97,Healthcare,Card Present,POS,1,0,4,2.6,0
+524,4035,Investec,Mpumalanga,230.35,Fuel,Card Present,ATM,1,1,20,1.2,0
+525,1330,TymeBank,Gauteng,874.52,Healthcare,EFT,Web,1,0,2,1.5,0
+526,4555,African Bank,Eastern Cape,299.47,Transport,Card Present,Mobile,1,0,5,1.7,0
+527,3600,Investec,Limpopo,1095.65,Restaurants,App,ATM,0,0,21,1.4,0
+528,4587,African Bank,Northern Cape,924.84,Healthcare,EFT,POS,0,0,16,4.3,0
+529,2905,Capitec,Gauteng,134.05,Electronics,EFT,Mobile,0,0,10,0.5,0
+530,4341,TymeBank,Gauteng,1459.56,Electronics,EFT,Web,0,0,3,5.8,0
+531,1173,Nedbank,Western Cape,869.45,Fuel,Card Present,Mobile,1,0,11,1.2,0
+532,2845,Nedbank,Mpumalanga,1763.28,Electronics,EFT,Mobile,0,0,9,3.9,0
+533,3524,FNB,Mpumalanga,190.81,Fuel,EFT,Web,0,0,16,6.5,0
+534,1091,Investec,Free State,245.13,Electronics,EFT,POS,0,0,5,6.6,0
+535,3557,African Bank,Eastern Cape,468.98,Utilities,Card Present,Mobile,1,0,17,1.8,0
+536,3943,Investec,Limpopo,577.5,Entertainment,EFT,Mobile,0,0,20,0.9,0
+537,3648,Capitec,North West,521.51,Electronics,App,ATM,0,1,18,2.8,0
+538,1598,FNB,Mpumalanga,114.93,Electronics,Card Present,Web,1,0,21,0.6,0
+539,2568,Investec,Western Cape,844.47,Airtime/Data,Card Present,Web,0,0,14,4.7,0
+540,1413,Investec,Western Cape,514.65,Groceries,Card Present,POS,0,0,11,3.7,1
+541,3184,Standard Bank,Limpopo,472.14,Airtime/Data,EFT,Mobile,1,0,18,4.8,0
+542,3725,Capitec,Gauteng,675.31,Entertainment,EFT,POS,1,0,4,1.7,1
+543,1088,TymeBank,Free State,827.84,Electronics,Card Present,Web,1,0,17,2.4,0
+544,2617,Standard Bank,Gauteng,597.03,Fuel,App,POS,1,0,11,0.3,0
+545,2066,Standard Bank,Mpumalanga,277.71,Electronics,USSD,Web,1,0,14,3.5,0
+546,2670,Capitec,KwaZulu-Natal,191.27,Fuel,EFT,Web,0,0,9,2.0,0
+547,1343,FNB,Northern Cape,1470.87,Healthcare,Card Present,POS,1,0,18,2.1,0
+548,3343,Nedbank,Free State,274.68,Airtime/Data,Card Present,Web,0,0,8,5.6,0
+549,1340,FNB,Gauteng,216.64,Transport,Card Present,Mobile,1,0,5,4.4,0
+550,3678,Nedbank,Eastern Cape,677.96,Fuel,Card Present,Mobile,1,0,13,2.3,0
+551,2341,ABSA,North West,1022.99,Transport,App,Mobile,1,0,0,1.3,0
+552,4766,Nedbank,Mpumalanga,2081.99,Entertainment,EFT,POS,1,0,0,1.8,0
+553,1034,Capitec,Limpopo,302.11,Utilities,App,Mobile,1,0,10,1.3,0
+554,1170,Nedbank,Northern Cape,343.24,Entertainment,Online,ATM,1,1,2,0.5,0
+555,4594,ABSA,Eastern Cape,801.07,Clothing,EFT,Web,0,0,20,3.1,0
+556,1385,TymeBank,Gauteng,1183.81,Healthcare,USSD,POS,1,0,21,3.5,0
+557,1334,TymeBank,Limpopo,392.66,Fuel,EFT,Web,1,0,4,10.6,0
+558,1078,Nedbank,Eastern Cape,1200.27,Clothing,Card Present,Web,0,0,7,1.8,1
+559,4204,FNB,Gauteng,387.36,Healthcare,Card Present,ATM,1,0,21,17.7,0
+560,3419,Nedbank,KwaZulu-Natal,740.59,Restaurants,EFT,Web,1,0,17,0.6,0
+561,2191,Capitec,Gauteng,204.23,Electronics,App,Mobile,1,0,4,3.2,1
+562,2999,Investec,Free State,970.01,Airtime/Data,App,Web,1,0,11,15.8,0
+563,3283,Capitec,North West,1052.54,Fuel,EFT,ATM,1,0,22,3.1,0
+564,2837,Standard Bank,Western Cape,796.05,Transport,Card Present,Mobile,0,0,17,1.8,0
+565,2556,FNB,Limpopo,122.68,Groceries,Card Present,ATM,1,0,20,2.2,0
+566,1492,FNB,Limpopo,464.68,Healthcare,Card Present,Web,1,0,11,5.6,0
+567,3696,Nedbank,Free State,919.19,Restaurants,Card Present,POS,0,0,20,8.4,0
+568,2350,Nedbank,Mpumalanga,325.58,Airtime/Data,Card Present,Mobile,1,0,7,1.8,0
+569,1154,Investec,Gauteng,1967.64,Clothing,EFT,Mobile,1,1,8,4.4,1
+570,4856,Capitec,Eastern Cape,5158.49,Utilities,Card Present,ATM,1,0,14,8.1,0
+571,3113,Investec,Limpopo,301.49,Airtime/Data,EFT,Mobile,1,1,2,1.0,0
+572,2767,Standard Bank,Eastern Cape,1170.0,Airtime/Data,Card Present,Mobile,0,0,14,2.0,1
+573,2561,ABSA,Limpopo,578.65,Groceries,Card Present,Mobile,0,0,3,16.2,0
+574,2388,Nedbank,Western Cape,993.59,Groceries,EFT,Web,0,0,15,1.3,0
+575,1199,FNB,Northern Cape,600.25,Transport,Card Present,Mobile,0,0,18,2.9,0
+576,1511,TymeBank,Eastern Cape,562.93,Utilities,Online,Web,0,0,17,3.2,0
+577,3559,Nedbank,Free State,439.14,Restaurants,EFT,Mobile,1,1,15,0.5,0
+578,3545,Investec,Mpumalanga,1056.83,Utilities,Card Present,POS,0,0,11,4.9,0
+579,3732,African Bank,North West,170.5,Utilities,EFT,Mobile,1,0,11,1.6,0
+580,3742,Standard Bank,Gauteng,354.02,Groceries,Card Present,POS,1,0,22,2.1,0
+581,2063,FNB,Mpumalanga,715.91,Clothing,EFT,Web,0,0,3,3.1,0
+582,3319,Investec,Northern Cape,388.05,Entertainment,Card Present,ATM,1,0,14,1.6,0
+583,3771,TymeBank,Western Cape,2010.43,Healthcare,App,POS,0,0,18,1.2,0
+584,4295,TymeBank,Western Cape,1084.81,Healthcare,EFT,ATM,0,0,17,2.4,0
+585,3207,Standard Bank,Eastern Cape,253.01,Restaurants,App,Web,1,0,10,1.3,0
+586,3082,FNB,Gauteng,528.49,Entertainment,Card Present,ATM,1,0,23,1.7,0
+587,3879,Nedbank,Northern Cape,1348.1,Entertainment,EFT,Mobile,1,0,22,0.3,0
+588,2983,Standard Bank,Free State,876.18,Groceries,EFT,Mobile,1,0,14,5.6,0
+589,4470,Capitec,KwaZulu-Natal,594.21,Fuel,EFT,Web,1,0,15,1.6,0
+590,3473,FNB,Limpopo,581.1,Restaurants,App,POS,1,0,10,0.3,0
+591,3168,Standard Bank,Mpumalanga,1910.55,Electronics,Card Present,Mobile,1,0,10,4.7,0
+592,2457,Standard Bank,Eastern Cape,200.52,Clothing,App,ATM,1,0,20,0.1,0
+593,3463,Investec,Western Cape,3460.68,Clothing,Card Present,Mobile,0,0,12,2.7,0
+594,1285,ABSA,Free State,800.25,Healthcare,Card Present,POS,0,0,6,3.6,0
+595,1978,ABSA,Mpumalanga,3108.82,Clothing,Card Present,ATM,1,0,14,0.6,0
+596,4479,TymeBank,KwaZulu-Natal,645.83,Restaurants,EFT,ATM,1,0,16,0.4,0
+597,4009,Nedbank,Western Cape,6260.25,Transport,EFT,Web,0,0,23,0.4,0
+598,1404,Capitec,Western Cape,376.41,Electronics,Card Present,Web,1,0,12,15.0,0
+599,4241,Capitec,Eastern Cape,712.99,Entertainment,Card Present,Mobile,1,0,3,4.2,0
+600,4579,Standard Bank,Eastern Cape,1385.5,Fuel,EFT,Mobile,1,0,0,1.1,1
+601,4407,Standard Bank,Free State,1347.52,Groceries,Card Present,ATM,0,0,11,1.2,0
+602,1487,African Bank,KwaZulu-Natal,305.11,Airtime/Data,EFT,Mobile,1,0,3,3.1,0
+603,2254,TymeBank,Gauteng,180.81,Entertainment,Card Present,Mobile,1,0,0,1.8,0
+604,2123,Standard Bank,Eastern Cape,312.59,Healthcare,Card Present,Web,1,0,5,0.9,0
+605,2977,FNB,Gauteng,534.84,Entertainment,App,Mobile,1,1,23,0.2,0
+606,3792,Nedbank,North West,583.82,Restaurants,App,Mobile,0,0,10,4.6,0
+607,2025,Nedbank,Free State,731.6,Groceries,Card Present,Mobile,1,0,20,6.6,0
+608,2532,ABSA,Western Cape,1275.02,Entertainment,EFT,Mobile,1,0,17,0.7,0
+609,1527,TymeBank,Free State,602.56,Airtime/Data,Card Present,ATM,1,0,17,0.2,0
+610,3780,Standard Bank,Free State,110.78,Utilities,App,Mobile,1,0,19,0.4,0
+611,4334,Standard Bank,Gauteng,1594.93,Transport,Card Present,Web,0,0,5,1.6,0
+612,3742,FNB,Free State,1892.52,Healthcare,App,Mobile,1,0,13,1.1,0
+613,3446,Standard Bank,North West,890.38,Transport,Card Present,POS,1,1,5,0.2,0
+614,4094,Investec,Western Cape,515.81,Electronics,App,Mobile,1,0,21,1.8,0
+615,1246,Standard Bank,North West,835.62,Fuel,Card Present,Web,0,0,14,0.7,0
+616,2988,Investec,North West,1893.36,Groceries,Card Present,POS,1,0,21,0.2,0
+617,4328,Nedbank,Gauteng,244.22,Transport,EFT,Mobile,0,0,0,3.2,1
+618,1627,African Bank,Eastern Cape,381.22,Entertainment,Card Present,POS,1,0,16,2.5,0
+619,3116,Standard Bank,Free State,376.25,Healthcare,Card Present,Mobile,0,0,11,5.3,0
+620,4724,TymeBank,North West,242.21,Healthcare,Card Present,Mobile,1,0,2,1.1,1
+621,2945,Investec,KwaZulu-Natal,7347.29,Fuel,Card Present,Mobile,1,0,1,0.4,0
+622,3611,FNB,Gauteng,744.79,Groceries,App,Mobile,1,0,22,1.3,0
+623,1396,FNB,Mpumalanga,240.76,Groceries,EFT,Web,1,0,5,4.5,0
+624,1607,Capitec,Eastern Cape,192.54,Airtime/Data,Card Present,Mobile,1,0,4,0.8,0
+625,4638,Capitec,Free State,1417.7,Groceries,USSD,Mobile,0,0,7,0.9,0
+626,3332,ABSA,Limpopo,1862.2,Entertainment,App,Mobile,1,0,1,0.5,0
+627,3193,FNB,Eastern Cape,1571.38,Entertainment,Card Present,ATM,1,0,11,12.9,0
+628,3433,TymeBank,Gauteng,3597.95,Restaurants,Card Present,Mobile,1,1,6,10.3,0
+629,2306,FNB,North West,447.77,Fuel,Card Present,Web,0,0,13,3.2,0
+630,4633,TymeBank,Northern Cape,209.24,Entertainment,EFT,Web,0,0,9,0.7,0
+631,1297,TymeBank,KwaZulu-Natal,6723.99,Restaurants,EFT,POS,0,0,19,4.4,0
+632,2730,Nedbank,Eastern Cape,359.77,Fuel,Online,POS,1,0,13,2.6,0
+633,4572,Investec,Free State,1180.76,Electronics,Card Present,Mobile,1,0,10,4.2,1
+634,4293,Capitec,Northern Cape,312.41,Airtime/Data,App,Mobile,1,1,18,5.9,1
+635,4209,TymeBank,Free State,1745.2,Electronics,Card Present,Mobile,1,0,0,1.2,0
+636,2544,African Bank,Mpumalanga,210.52,Utilities,Card Present,Mobile,1,0,1,7.3,0
+637,3562,ABSA,KwaZulu-Natal,6674.81,Clothing,USSD,Mobile,0,0,22,6.9,0
+638,4413,Investec,Gauteng,943.59,Fuel,EFT,POS,0,0,2,2.4,0
+639,2061,Nedbank,Limpopo,198.3,Healthcare,EFT,Mobile,1,0,4,3.5,0
+640,2482,TymeBank,Gauteng,98.15,Electronics,Card Present,Mobile,1,0,10,1.6,0
+641,2093,African Bank,Limpopo,623.36,Airtime/Data,Online,Mobile,1,0,18,3.2,0
+642,3628,African Bank,North West,1790.27,Groceries,Card Present,Mobile,0,0,6,2.4,0
+643,1669,Investec,Northern Cape,438.91,Airtime/Data,Card Present,Mobile,0,0,15,1.2,1
+644,1781,Nedbank,North West,2129.83,Restaurants,EFT,Mobile,1,0,19,1.2,0
+645,3049,Capitec,Free State,266.58,Airtime/Data,Card Present,ATM,0,0,7,3.2,0
+646,4936,Nedbank,Mpumalanga,1321.4,Restaurants,Card Present,ATM,1,0,23,9.4,0
+647,4684,Capitec,Limpopo,517.8,Utilities,Card Present,Web,1,0,3,0.7,0
+648,4207,FNB,Northern Cape,1279.65,Electronics,USSD,POS,1,0,11,1.5,0
+649,3889,FNB,Eastern Cape,317.34,Groceries,Card Present,POS,0,0,17,4.9,0
+650,4284,Capitec,North West,395.1,Groceries,EFT,Web,0,0,22,0.4,0
+651,4965,TymeBank,Northern Cape,191.71,Electronics,App,POS,0,0,13,15.4,0
+652,1082,Investec,Mpumalanga,1901.82,Entertainment,App,ATM,1,0,16,3.4,0
+653,1354,Investec,Mpumalanga,427.54,Clothing,App,Web,1,0,11,7.3,0
+654,2809,Standard Bank,Western Cape,429.6,Clothing,App,Web,1,0,8,5.5,0
+655,2990,Standard Bank,Northern Cape,419.94,Restaurants,Card Present,Mobile,1,0,15,4.5,0
+656,1140,ABSA,Free State,1086.1,Clothing,Card Present,Web,1,0,20,0.1,0
+657,4885,Standard Bank,KwaZulu-Natal,88.16,Airtime/Data,EFT,POS,1,0,9,1.6,0
+658,4057,ABSA,Eastern Cape,210.19,Restaurants,Card Present,POS,1,0,19,0.7,0
+659,3997,African Bank,Western Cape,2251.75,Clothing,Online,Web,1,0,19,6.2,0
+660,4723,Capitec,KwaZulu-Natal,818.89,Restaurants,App,Mobile,1,0,10,3.4,0
+661,2831,TymeBank,Limpopo,385.87,Groceries,App,ATM,1,0,8,0.3,0
+662,3647,Investec,Gauteng,1472.71,Transport,Card Present,Mobile,1,1,0,1.3,0
+663,3001,Capitec,Western Cape,799.64,Restaurants,App,Web,1,0,15,0.2,0
+664,2957,Capitec,Eastern Cape,2246.32,Fuel,EFT,Mobile,0,0,3,4.0,0
+665,2419,ABSA,Gauteng,384.54,Restaurants,Card Present,Mobile,0,0,21,1.6,0
+666,1834,Nedbank,Limpopo,324.11,Clothing,Card Present,Web,1,0,7,0.8,0
+667,3840,ABSA,Eastern Cape,191.19,Clothing,App,Web,1,0,1,2.2,0
+668,1930,Investec,Western Cape,1767.33,Entertainment,EFT,Mobile,1,0,13,0.1,0
+669,1911,TymeBank,Eastern Cape,1740.25,Entertainment,Card Present,POS,0,0,23,0.9,0
+670,3288,African Bank,North West,1248.38,Fuel,Card Present,Mobile,0,0,8,0.6,0
+671,3671,TymeBank,Limpopo,273.53,Transport,App,Mobile,0,0,23,8.0,0
+672,2324,African Bank,Gauteng,183.6,Entertainment,Card Present,Mobile,1,0,13,1.4,0
+673,2016,Nedbank,Free State,1493.25,Entertainment,EFT,Web,0,0,13,2.6,0
+674,4212,Investec,Limpopo,829.59,Transport,EFT,Mobile,1,0,20,2.1,0
+675,2175,FNB,Eastern Cape,290.99,Groceries,USSD,Web,1,0,11,3.2,0
+676,4787,FNB,Eastern Cape,1168.34,Groceries,EFT,Web,0,0,10,1.0,0
+677,2020,Nedbank,KwaZulu-Natal,3579.63,Entertainment,Card Present,Mobile,0,0,0,0.4,1
+678,4841,Investec,Limpopo,486.27,Restaurants,Card Present,Mobile,0,0,21,0.3,0
+679,1985,Investec,Northern Cape,616.61,Clothing,Card Present,Mobile,0,0,0,0.6,1
+680,2901,African Bank,Mpumalanga,1553.59,Transport,Card Present,ATM,1,1,10,2.0,0
+681,3953,TymeBank,Northern Cape,2027.73,Groceries,App,ATM,1,0,19,0.8,0
+682,1786,African Bank,Limpopo,700.03,Groceries,App,ATM,0,0,14,1.7,0
+683,3261,Nedbank,Western Cape,136.27,Electronics,Card Present,Mobile,1,0,20,0.1,0
+684,3839,African Bank,Limpopo,1731.44,Transport,EFT,Mobile,1,0,22,3.0,0
+685,4545,Standard Bank,Mpumalanga,369.47,Utilities,Card Present,Mobile,1,0,8,6.3,0
+686,2212,Nedbank,Western Cape,970.78,Airtime/Data,EFT,POS,1,0,19,0.1,0
+687,3180,Nedbank,Gauteng,1853.62,Fuel,Online,ATM,1,0,20,0.7,0
+688,3127,Capitec,Limpopo,1237.12,Electronics,EFT,Web,0,0,21,1.1,0
+689,1100,Investec,North West,731.88,Clothing,App,POS,1,0,16,1.0,0
+690,2381,Investec,Limpopo,643.16,Utilities,Card Present,Mobile,1,0,9,0.1,0
+691,3011,ABSA,North West,340.35,Airtime/Data,Card Present,POS,0,0,14,0.3,0
+692,4135,Nedbank,Limpopo,839.66,Electronics,Card Present,Web,1,0,11,7.3,0
+693,2547,Investec,Limpopo,254.92,Utilities,EFT,POS,1,0,4,3.7,0
+694,1634,Capitec,North West,1422.85,Utilities,EFT,Web,0,0,13,9.5,1
+695,2388,Nedbank,KwaZulu-Natal,1539.32,Electronics,Card Present,Mobile,0,0,9,1.7,0
+696,4180,Investec,KwaZulu-Natal,628.8,Fuel,EFT,Web,1,0,19,6.3,0
+697,1186,Standard Bank,Limpopo,354.96,Restaurants,App,Mobile,1,0,0,5.1,0
+698,4476,Nedbank,Eastern Cape,138.19,Clothing,Card Present,Web,0,0,15,6.2,0
+699,2375,Nedbank,Mpumalanga,318.39,Groceries,EFT,Mobile,1,0,3,0.1,0
+700,4032,Capitec,Mpumalanga,353.97,Clothing,Card Present,Mobile,0,0,4,3.2,0
+701,3253,Nedbank,Northern Cape,707.0,Electronics,Card Present,Mobile,0,0,8,2.5,0
+702,3930,Capitec,Western Cape,299.65,Clothing,App,POS,1,0,16,2.4,0
+703,1046,African Bank,Western Cape,1479.58,Groceries,EFT,Mobile,0,0,5,2.1,0
+704,3868,Investec,Limpopo,2402.61,Healthcare,Card Present,POS,1,0,23,4.8,0
+705,3146,ABSA,Northern Cape,741.79,Airtime/Data,Card Present,Mobile,0,0,4,10.3,0
+706,4912,Capitec,Mpumalanga,196.52,Healthcare,Online,Mobile,0,0,17,5.3,0
+707,3552,TymeBank,Limpopo,88.03,Entertainment,Card Present,POS,0,0,16,6.1,0
+708,4037,Investec,Free State,699.88,Clothing,EFT,Web,1,1,20,2.0,1
+709,4305,African Bank,North West,464.93,Restaurants,EFT,Mobile,0,0,10,3.5,0
+710,2756,ABSA,Western Cape,263.26,Entertainment,Card Present,ATM,0,0,2,1.6,0
+711,1422,TymeBank,KwaZulu-Natal,515.32,Transport,Card Present,ATM,1,0,5,1.3,0
+712,3974,Nedbank,Limpopo,6010.43,Transport,Card Present,Web,0,0,8,6.8,0
+713,2613,Investec,Gauteng,3410.57,Healthcare,Online,POS,1,0,12,7.1,0
+714,1976,ABSA,North West,3261.16,Healthcare,Card Present,Mobile,1,0,0,3.4,0
+715,3264,FNB,Northern Cape,444.34,Restaurants,App,POS,1,1,14,5.5,0
+716,3221,TymeBank,Western Cape,510.42,Groceries,App,Mobile,1,0,19,1.3,0
+717,3488,FNB,Northern Cape,1606.87,Electronics,App,POS,1,0,3,1.7,0
+718,3153,Capitec,Free State,698.47,Electronics,Card Present,Web,1,0,22,5.2,0
+719,2700,Standard Bank,North West,1130.86,Restaurants,EFT,Mobile,1,0,1,1.5,0
+720,3458,Nedbank,Gauteng,213.63,Clothing,App,Mobile,1,0,15,0.1,0
+721,2436,African Bank,Gauteng,986.84,Entertainment,Online,Mobile,1,0,23,1.3,0
+722,1112,TymeBank,Eastern Cape,172.86,Entertainment,Card Present,Mobile,1,0,5,1.5,0
+723,1145,African Bank,Gauteng,79.66,Utilities,Card Present,ATM,1,0,19,0.5,0
+724,3691,Investec,Gauteng,470.58,Healthcare,Online,Mobile,0,0,14,1.3,0
+725,4155,FNB,Free State,1566.71,Transport,App,Mobile,0,0,18,8.2,0
+726,4584,Investec,Western Cape,933.77,Electronics,Card Present,Web,0,0,6,5.9,0
+727,4836,Standard Bank,Eastern Cape,566.48,Fuel,Online,Web,1,0,10,1.8,0
+728,3583,Capitec,North West,99.65,Healthcare,Card Present,Web,1,0,17,3.7,0
+729,3345,ABSA,Limpopo,155.06,Restaurants,Card Present,Mobile,1,0,7,0.5,0
+730,3235,Nedbank,Western Cape,514.65,Entertainment,EFT,Web,1,0,1,4.2,0
+731,3158,TymeBank,KwaZulu-Natal,487.23,Groceries,EFT,Mobile,1,0,11,1.9,0
+732,4607,ABSA,Western Cape,631.86,Airtime/Data,Card Present,Mobile,1,0,21,3.8,0
+733,1055,Nedbank,Eastern Cape,3358.44,Healthcare,USSD,Mobile,0,0,7,3.1,0
+734,1580,FNB,Free State,755.85,Transport,Card Present,Web,0,0,0,0.8,1
+735,4545,Investec,Northern Cape,2226.24,Fuel,Card Present,Mobile,0,0,6,5.4,1
+736,1529,Standard Bank,Mpumalanga,347.71,Clothing,EFT,Mobile,1,0,8,2.5,0
+737,4811,Capitec,North West,88.27,Fuel,Card Present,Mobile,1,0,21,4.6,0
+738,1448,Investec,Mpumalanga,1749.74,Entertainment,EFT,Mobile,0,0,21,0.3,0
+739,4465,Nedbank,North West,2197.12,Clothing,Card Present,ATM,0,0,8,2.9,0
+740,2936,FNB,Free State,2482.79,Transport,EFT,POS,1,0,1,1.0,0
+741,4579,TymeBank,KwaZulu-Natal,284.51,Electronics,Card Present,Mobile,1,0,3,5.9,0
+742,4641,Capitec,Mpumalanga,393.22,Groceries,Card Present,Web,1,0,13,9.0,0
+743,2186,Nedbank,Gauteng,403.26,Restaurants,Card Present,POS,1,0,13,0.2,0
+744,2667,African Bank,KwaZulu-Natal,1050.92,Clothing,USSD,Mobile,1,0,7,3.9,0
+745,1218,FNB,Mpumalanga,283.87,Restaurants,App,POS,0,0,20,0.3,0
+746,1891,Capitec,Eastern Cape,893.49,Utilities,App,POS,1,0,8,5.8,0
+747,1330,ABSA,Mpumalanga,1517.09,Fuel,App,Web,1,0,2,0.4,0
+748,4522,Investec,Limpopo,1258.22,Fuel,EFT,POS,1,0,21,0.7,0
+749,4355,African Bank,Eastern Cape,269.97,Groceries,Card Present,Mobile,0,0,21,0.9,0
+750,2162,Standard Bank,Mpumalanga,1582.2,Groceries,Card Present,ATM,1,0,18,3.9,1
+751,4586,Standard Bank,North West,708.24,Electronics,EFT,POS,1,0,5,1.0,0
+752,3551,TymeBank,North West,396.0,Utilities,Card Present,POS,1,0,0,2.7,0
+753,2379,African Bank,Mpumalanga,1676.18,Utilities,Card Present,Mobile,1,0,20,2.5,0
+754,4842,African Bank,Western Cape,706.18,Utilities,Card Present,Web,1,0,17,1.5,0
+755,3328,TymeBank,North West,2376.26,Groceries,Card Present,Mobile,1,0,7,2.3,1
+756,1843,ABSA,Free State,1721.03,Groceries,Card Present,Web,1,0,6,0.4,0
+757,1011,Investec,Northern Cape,1236.4,Airtime/Data,Card Present,Mobile,0,0,6,6.3,0
+758,2968,Investec,Limpopo,641.68,Airtime/Data,EFT,Mobile,0,0,9,0.7,0
+759,4511,Standard Bank,Eastern Cape,184.33,Healthcare,Card Present,Mobile,1,0,3,6.4,0
+760,3612,Standard Bank,Northern Cape,175.83,Clothing,App,POS,1,0,17,2.2,0
+761,4837,Nedbank,Gauteng,6805.37,Utilities,App,Web,1,0,18,2.9,0
+762,2119,FNB,Eastern Cape,1074.93,Transport,USSD,Mobile,0,0,9,0.9,0
+763,1231,ABSA,Free State,2188.21,Groceries,EFT,Mobile,1,0,19,0.8,0
+764,2801,TymeBank,Eastern Cape,765.0,Airtime/Data,App,ATM,1,0,18,2.0,0
+765,2135,FNB,Northern Cape,605.99,Utilities,EFT,Mobile,0,0,2,0.9,0
+766,2938,Investec,Gauteng,723.85,Utilities,Card Present,Mobile,0,0,16,1.7,0
+767,2070,Investec,KwaZulu-Natal,815.75,Healthcare,EFT,Mobile,0,0,0,1.7,0
+768,4765,Standard Bank,Northern Cape,692.67,Entertainment,App,Mobile,1,0,23,0.9,0
+769,4818,FNB,Mpumalanga,2891.94,Restaurants,Card Present,Mobile,1,0,7,1.0,0
+770,3301,Capitec,Free State,1448.66,Fuel,App,Mobile,1,0,16,10.8,0
+771,2542,ABSA,Limpopo,950.17,Utilities,App,Web,1,0,3,2.7,0
+772,2879,ABSA,Eastern Cape,1443.0,Electronics,EFT,Web,1,0,1,5.3,0
+773,2446,African Bank,Free State,1590.1,Fuel,App,Web,1,0,16,0.1,0
+774,3335,African Bank,North West,914.98,Fuel,Card Present,Mobile,1,0,1,0.0,0
+775,4862,Investec,Free State,1152.71,Fuel,App,Web,0,1,0,2.2,1
+776,2329,ABSA,Western Cape,1300.66,Clothing,EFT,Mobile,1,0,4,5.3,0
+777,2938,Nedbank,North West,1248.15,Utilities,App,POS,1,0,5,2.8,0
+778,4055,FNB,KwaZulu-Natal,657.51,Entertainment,EFT,Mobile,1,0,11,2.9,0
+779,3421,FNB,Free State,1385.83,Transport,Card Present,ATM,1,0,23,0.5,0
+780,1194,Investec,Limpopo,256.66,Utilities,App,Web,1,1,9,11.5,0
+781,4096,TymeBank,Gauteng,767.26,Transport,App,Mobile,0,0,7,2.3,0
+782,2944,Nedbank,KwaZulu-Natal,669.71,Groceries,Card Present,Web,1,1,13,0.3,0
+783,2029,ABSA,Gauteng,1309.87,Entertainment,App,Mobile,0,0,3,1.6,0
+784,2504,Nedbank,Mpumalanga,358.16,Healthcare,Card Present,Web,1,0,18,0.2,0
+785,1864,Nedbank,Western Cape,410.53,Airtime/Data,Card Present,ATM,1,0,4,1.6,0
+786,3190,Standard Bank,Mpumalanga,315.42,Fuel,EFT,Web,0,0,23,3.7,0
+787,3750,ABSA,KwaZulu-Natal,1190.95,Restaurants,Card Present,ATM,0,0,20,1.2,0
+788,2683,TymeBank,KwaZulu-Natal,144.12,Fuel,Card Present,Mobile,1,0,6,1.1,0
+789,3218,Capitec,Gauteng,292.61,Entertainment,App,Web,1,0,19,2.2,0
+790,1489,TymeBank,Mpumalanga,109.14,Utilities,App,Web,1,0,1,2.1,0
+791,3143,Standard Bank,North West,358.61,Clothing,Card Present,Mobile,1,0,10,1.9,0
+792,4031,ABSA,Eastern Cape,685.64,Electronics,Card Present,Mobile,0,0,9,2.2,1
+793,2218,African Bank,Northern Cape,1967.41,Airtime/Data,EFT,ATM,1,0,17,0.1,0
+794,3307,ABSA,Eastern Cape,2211.47,Entertainment,Card Present,Web,1,0,1,1.9,0
+795,2259,Investec,Free State,189.36,Utilities,Card Present,POS,1,0,13,14.5,0
+796,3042,ABSA,Limpopo,473.18,Utilities,Card Present,POS,1,0,23,4.3,0
+797,2541,FNB,Northern Cape,972.86,Fuel,USSD,Web,0,0,9,1.0,0
+798,4130,ABSA,Northern Cape,496.7,Healthcare,App,Mobile,1,0,5,3.4,0
+799,2784,ABSA,North West,315.37,Entertainment,App,Web,1,0,20,1.2,0
+800,1051,Investec,Western Cape,136.99,Fuel,Card Present,Mobile,1,0,2,0.6,0
+801,1786,Capitec,Gauteng,244.64,Utilities,App,Web,1,0,22,4.5,0
+802,1121,ABSA,Western Cape,2102.25,Clothing,Online,POS,1,0,15,0.7,0
+803,2561,Nedbank,Limpopo,1846.11,Transport,EFT,ATM,1,0,7,5.9,0
+804,2839,ABSA,Mpumalanga,7521.91,Healthcare,Card Present,Web,1,0,8,1.4,0
+805,4288,ABSA,Limpopo,1483.86,Entertainment,App,Mobile,1,1,10,4.2,0
+806,3742,Investec,Gauteng,275.49,Utilities,Card Present,Mobile,1,0,15,0.9,0
+807,3136,TymeBank,Gauteng,1015.5,Clothing,EFT,Mobile,1,0,1,3.2,0
+808,2466,ABSA,Gauteng,1095.27,Transport,EFT,Web,0,0,23,0.7,0
+809,4017,African Bank,Gauteng,1205.57,Clothing,Card Present,ATM,0,0,4,0.1,0
+810,1037,Investec,Gauteng,576.04,Entertainment,Card Present,POS,1,0,0,5.1,0
+811,1083,FNB,Western Cape,515.43,Clothing,Online,Web,1,0,22,5.8,0
+812,2924,Standard Bank,Western Cape,1028.96,Transport,Card Present,ATM,1,0,14,6.4,0
+813,2961,FNB,Eastern Cape,310.38,Groceries,Card Present,POS,1,0,6,0.1,0
+814,4179,Capitec,KwaZulu-Natal,1785.43,Utilities,App,Mobile,1,0,15,4.3,0
+815,2009,TymeBank,Eastern Cape,252.41,Utilities,EFT,Web,1,0,11,5.4,0
+816,4746,TymeBank,Free State,229.71,Utilities,App,Mobile,1,0,18,1.1,0
+817,3756,Capitec,Eastern Cape,464.7,Airtime/Data,App,Mobile,1,0,14,1.9,0
+818,4836,Nedbank,KwaZulu-Natal,1095.35,Airtime/Data,Card Present,Web,1,0,2,1.6,0
+819,1738,Nedbank,KwaZulu-Natal,1656.17,Transport,EFT,POS,1,0,19,1.7,1
+820,2026,Capitec,Eastern Cape,1004.37,Airtime/Data,EFT,Web,1,0,20,5.6,0
+821,2832,Standard Bank,Limpopo,384.02,Entertainment,Online,ATM,1,0,20,1.6,0
+822,1671,Investec,Mpumalanga,577.6,Clothing,Card Present,Web,1,0,4,1.1,0
+823,4363,TymeBank,Eastern Cape,445.1,Entertainment,Card Present,Mobile,0,0,14,0.4,0
+824,1029,Investec,North West,1728.93,Entertainment,USSD,Mobile,1,0,21,3.4,0
+825,1627,Standard Bank,Limpopo,803.17,Electronics,EFT,Mobile,1,0,16,0.3,1
+826,4952,Capitec,Free State,2327.59,Entertainment,EFT,POS,0,0,15,0.2,0
+827,2190,ABSA,North West,1328.98,Utilities,App,ATM,1,1,15,3.4,0
+828,1092,FNB,Limpopo,521.12,Clothing,Card Present,Mobile,1,0,22,3.6,0
+829,3265,Investec,Gauteng,592.54,Healthcare,EFT,POS,1,0,11,0.7,0
+830,4692,FNB,Gauteng,715.95,Restaurants,App,Mobile,1,0,3,9.5,0
+831,4160,ABSA,Limpopo,631.04,Entertainment,Card Present,Mobile,1,0,4,4.7,0
+832,2211,Standard Bank,North West,1322.12,Restaurants,Card Present,ATM,1,0,23,3.5,0
+833,4767,FNB,Northern Cape,973.32,Restaurants,App,Mobile,1,1,7,4.2,0
+834,1971,FNB,Eastern Cape,406.36,Restaurants,Card Present,Web,0,0,11,1.6,0
+835,2745,Nedbank,Mpumalanga,4194.96,Groceries,App,POS,1,0,4,1.8,0
+836,1885,African Bank,Northern Cape,802.54,Transport,Card Present,POS,0,0,10,6.1,0
+837,1697,Investec,North West,278.68,Restaurants,Card Present,POS,1,0,18,0.1,0
+838,3329,Standard Bank,North West,1161.48,Healthcare,EFT,Web,0,0,9,4.9,0
+839,1974,Capitec,Gauteng,257.27,Restaurants,Card Present,Web,0,0,23,1.8,0
+840,1388,Capitec,Limpopo,883.72,Entertainment,EFT,POS,1,0,17,1.9,0
+841,4767,ABSA,Northern Cape,633.08,Airtime/Data,App,Mobile,1,0,11,1.2,0
+842,1928,African Bank,North West,704.19,Utilities,Card Present,Mobile,0,0,8,2.8,0
+843,3920,FNB,Western Cape,311.8,Groceries,Card Present,POS,1,0,21,3.4,0
+844,3184,Capitec,Free State,596.97,Utilities,EFT,Mobile,0,0,9,0.5,0
+845,1287,African Bank,Eastern Cape,606.08,Utilities,EFT,Web,1,0,19,2.5,0
+846,2356,ABSA,North West,658.69,Utilities,EFT,Mobile,1,0,19,1.9,0
+847,1618,African Bank,Northern Cape,3523.06,Transport,EFT,Mobile,0,0,18,4.6,0
+848,1411,Nedbank,KwaZulu-Natal,402.8,Healthcare,Card Present,Web,1,0,20,2.4,0
+849,1406,Standard Bank,Northern Cape,810.01,Clothing,Card Present,POS,0,0,5,1.7,0
+850,1599,FNB,Gauteng,204.48,Electronics,Card Present,Web,1,0,9,2.3,0
+851,3024,African Bank,Mpumalanga,103.27,Entertainment,Card Present,Mobile,1,0,18,2.0,0
+852,2148,FNB,North West,498.13,Airtime/Data,Card Present,Mobile,1,0,8,8.2,0
+853,3014,ABSA,Limpopo,2382.03,Groceries,EFT,Web,1,0,15,1.1,0
+854,4268,Investec,Eastern Cape,214.19,Groceries,Card Present,Mobile,1,0,7,0.1,0
+855,3669,Investec,Eastern Cape,1271.39,Groceries,App,Mobile,0,0,11,3.3,0
+856,4578,FNB,Mpumalanga,1933.85,Electronics,App,Mobile,0,0,21,2.8,0
+857,2853,Standard Bank,Limpopo,2410.06,Entertainment,App,Mobile,1,0,4,7.2,1
+858,4119,Investec,Eastern Cape,1213.56,Restaurants,App,Mobile,1,0,10,0.4,0
+859,2345,Capitec,Free State,324.22,Healthcare,Online,Mobile,0,1,18,2.2,0
+860,4261,ABSA,Eastern Cape,222.26,Groceries,Card Present,Mobile,1,0,2,0.5,0
+861,4694,Standard Bank,Gauteng,121.89,Groceries,Online,Mobile,1,0,23,1.8,0
+862,2757,Investec,Eastern Cape,3574.16,Restaurants,App,POS,1,0,21,4.8,0
+863,2520,FNB,Limpopo,1452.87,Airtime/Data,Card Present,Mobile,1,0,14,5.8,0
+864,3116,Capitec,Western Cape,1184.33,Utilities,App,ATM,1,0,21,5.4,0
+865,3743,Standard Bank,Mpumalanga,77.98,Electronics,App,ATM,0,0,19,2.4,1
+866,4401,Investec,Northern Cape,1171.66,Fuel,Card Present,ATM,1,0,2,3.0,0
+867,3542,Capitec,Western Cape,796.51,Airtime/Data,App,Mobile,0,0,21,2.4,0
+868,1883,Capitec,Mpumalanga,895.26,Entertainment,Card Present,Mobile,0,0,0,2.5,0
+869,2699,ABSA,Western Cape,456.43,Healthcare,App,POS,0,0,10,6.5,0
+870,3339,African Bank,Northern Cape,770.75,Transport,Card Present,Mobile,1,0,12,0.7,0
+871,4068,African Bank,Gauteng,259.15,Fuel,Card Present,Web,1,0,4,1.7,0
+872,2542,FNB,Eastern Cape,712.9,Entertainment,Online,POS,0,0,6,2.8,0
+873,3780,Nedbank,Western Cape,211.25,Airtime/Data,Card Present,Web,0,0,0,4.3,0
+874,1415,Nedbank,Gauteng,1666.98,Entertainment,App,POS,0,0,12,4.3,0
+875,2242,Nedbank,Western Cape,1424.92,Fuel,App,Mobile,1,0,9,0.4,0
+876,1896,African Bank,Limpopo,1278.28,Healthcare,App,Mobile,1,0,19,0.8,0
+877,4641,Investec,Free State,171.2,Electronics,App,Web,0,0,17,7.3,0
+878,4573,Investec,Gauteng,720.76,Transport,USSD,Web,1,0,12,1.3,0
+879,4347,Standard Bank,KwaZulu-Natal,1275.81,Healthcare,EFT,POS,0,0,0,0.0,0
+880,1417,Nedbank,Limpopo,1322.72,Airtime/Data,Card Present,POS,1,0,16,0.7,0
+881,1562,African Bank,Free State,3284.23,Restaurants,USSD,ATM,0,0,11,10.5,0
+882,2443,TymeBank,Limpopo,279.53,Healthcare,Card Present,ATM,1,0,22,1.1,0
+883,2945,TymeBank,North West,505.76,Clothing,EFT,Web,1,0,5,2.9,0
+884,3774,FNB,Limpopo,982.48,Electronics,App,Web,1,0,6,3.9,0
+885,2184,African Bank,Free State,774.1,Clothing,USSD,POS,1,0,0,3.1,0
+886,3048,Investec,Eastern Cape,1437.01,Transport,USSD,Mobile,1,0,9,1.4,0
+887,2090,Nedbank,Free State,125.75,Transport,EFT,Mobile,0,0,2,1.7,0
+888,4633,African Bank,Northern Cape,495.12,Airtime/Data,App,POS,0,0,6,5.5,0
+889,4618,Capitec,Limpopo,498.45,Transport,EFT,ATM,1,0,9,3.3,0
+890,1162,African Bank,Free State,1345.48,Transport,Card Present,POS,0,0,9,0.1,0
+891,1314,TymeBank,North West,1962.08,Electronics,Card Present,Mobile,1,0,8,0.7,0
+892,1332,Capitec,Free State,890.76,Fuel,Card Present,Mobile,1,0,5,1.0,0
+893,4680,Capitec,Free State,4023.75,Healthcare,Online,Mobile,1,0,23,1.4,0
+894,1524,African Bank,North West,628.02,Airtime/Data,App,Mobile,1,0,8,2.6,0
+895,4349,Nedbank,Northern Cape,382.4,Airtime/Data,EFT,Mobile,0,0,22,1.4,0
+896,3103,FNB,North West,2880.64,Restaurants,Card Present,Mobile,0,0,8,5.2,0
+897,3436,FNB,Northern Cape,570.37,Clothing,Card Present,POS,0,1,9,1.9,0
+898,1592,Nedbank,Northern Cape,340.78,Transport,Card Present,Mobile,1,0,3,2.1,0
+899,3986,FNB,North West,1656.46,Healthcare,App,ATM,0,0,15,1.7,0
+900,2737,TymeBank,Mpumalanga,348.29,Entertainment,Online,Mobile,1,0,1,1.1,0
+901,4322,Nedbank,Mpumalanga,1093.67,Restaurants,Card Present,Mobile,1,0,10,3.9,0
+902,3998,FNB,Gauteng,2287.46,Restaurants,Card Present,POS,1,1,8,0.8,0
+903,1730,ABSA,Mpumalanga,667.12,Clothing,USSD,ATM,1,0,2,3.5,0
+904,1526,ABSA,Limpopo,2156.35,Fuel,EFT,ATM,0,0,6,2.3,0
+905,4692,FNB,Gauteng,969.07,Restaurants,Card Present,Web,0,0,12,0.3,0
+906,4369,Capitec,North West,167.36,Transport,Card Present,ATM,1,0,12,0.1,0
+907,4464,Investec,Northern Cape,1563.42,Restaurants,EFT,POS,1,0,18,0.6,0
+908,1123,TymeBank,Western Cape,2692.55,Groceries,EFT,Mobile,0,0,10,4.3,0
+909,4142,ABSA,Eastern Cape,1059.26,Airtime/Data,Card Present,Web,1,0,4,1.5,0
+910,2720,Investec,Mpumalanga,496.59,Airtime/Data,Online,Mobile,1,1,15,4.9,0
+911,3441,Investec,Gauteng,879.05,Fuel,Card Present,Web,1,0,1,2.1,0
+912,1703,TymeBank,North West,419.39,Clothing,EFT,Mobile,1,0,9,0.1,0
+913,4496,African Bank,Northern Cape,2410.76,Entertainment,Card Present,Mobile,0,0,9,5.6,0
+914,1908,Standard Bank,North West,856.64,Restaurants,Card Present,Mobile,0,0,18,8.3,0
+915,3959,TymeBank,Western Cape,938.09,Utilities,App,Web,1,0,19,0.2,0
+916,1993,Nedbank,North West,595.17,Electronics,Card Present,Mobile,1,1,5,0.7,0
+917,1327,Investec,North West,1810.18,Restaurants,EFT,Mobile,0,0,21,3.8,0
+918,4131,Standard Bank,Western Cape,302.37,Fuel,Card Present,Mobile,1,0,15,17.6,0
+919,2566,Investec,Northern Cape,5816.7,Entertainment,Card Present,Mobile,0,1,12,6.3,0
+920,3614,FNB,Gauteng,713.86,Clothing,Card Present,Mobile,1,0,18,0.3,0
+921,1987,FNB,Mpumalanga,841.86,Entertainment,EFT,Mobile,1,1,2,2.8,0
+922,1454,African Bank,Western Cape,293.83,Utilities,Online,POS,1,0,8,3.3,0
+923,3721,Investec,North West,3078.01,Restaurants,EFT,Mobile,0,0,9,3.0,0
+924,1736,Capitec,North West,1037.55,Electronics,USSD,ATM,0,0,15,2.5,0
+925,2155,African Bank,Eastern Cape,1392.93,Transport,EFT,Mobile,1,0,17,1.0,0
+926,2974,ABSA,North West,414.78,Healthcare,EFT,Mobile,0,0,3,3.3,0
+927,1101,Investec,Free State,2324.66,Clothing,USSD,POS,1,0,20,3.9,0
+928,2881,TymeBank,Northern Cape,396.03,Healthcare,Card Present,Web,1,0,23,2.6,0
+929,4807,ABSA,Gauteng,1559.79,Healthcare,EFT,Mobile,0,0,23,2.1,0
+930,2254,TymeBank,Free State,484.54,Restaurants,EFT,POS,1,0,21,0.7,0
+931,2897,Standard Bank,Northern Cape,233.28,Clothing,Card Present,Mobile,1,0,15,2.4,0
+932,3618,African Bank,Limpopo,438.84,Clothing,Card Present,Web,1,0,17,0.4,0
+933,1808,ABSA,Eastern Cape,242.5,Entertainment,EFT,Mobile,1,0,9,0.2,0
+934,2241,FNB,Gauteng,645.33,Electronics,EFT,Mobile,1,0,0,4.5,0
+935,3990,Capitec,Limpopo,2803.99,Utilities,Card Present,Web,1,0,22,3.4,0
+936,4354,Investec,Mpumalanga,3406.52,Electronics,EFT,Mobile,1,0,9,3.1,0
+937,4662,Nedbank,Mpumalanga,6284.33,Healthcare,Card Present,Mobile,1,0,16,7.9,0
+938,4732,Standard Bank,Northern Cape,545.15,Fuel,App,Mobile,1,1,18,1.4,0
+939,3415,TymeBank,Eastern Cape,624.7,Restaurants,App,Mobile,0,0,15,1.5,0
+940,1090,Standard Bank,Eastern Cape,858.71,Electronics,EFT,POS,1,0,5,1.6,0
+941,2761,Nedbank,Free State,153.82,Utilities,Card Present,Mobile,0,0,7,1.9,0
+942,2392,Investec,Northern Cape,403.27,Entertainment,App,ATM,1,1,15,2.2,1
+943,3186,FNB,Western Cape,393.42,Transport,Card Present,Web,1,0,11,4.5,0
+944,4414,Standard Bank,Eastern Cape,303.08,Utilities,Card Present,Web,0,0,8,0.7,0
+945,3161,ABSA,Northern Cape,493.28,Healthcare,EFT,Mobile,0,0,15,1.7,0
+946,3069,ABSA,Limpopo,186.41,Clothing,EFT,POS,1,0,6,2.1,0
+947,2046,ABSA,Limpopo,729.59,Clothing,Card Present,Mobile,1,0,7,0.6,0
+948,2088,Capitec,Mpumalanga,160.51,Utilities,EFT,POS,1,0,19,3.6,0
+949,4642,Nedbank,Free State,390.58,Electronics,Card Present,POS,0,0,4,0.2,0
+950,1459,FNB,Eastern Cape,146.89,Restaurants,App,Web,1,0,22,2.6,0
+951,4672,ABSA,KwaZulu-Natal,1869.63,Healthcare,Online,POS,1,0,8,0.7,0
+952,2733,ABSA,Western Cape,4045.62,Fuel,EFT,Mobile,1,0,7,0.0,0
+953,1113,Capitec,Mpumalanga,411.17,Utilities,Card Present,Mobile,0,0,22,1.1,0
+954,2904,ABSA,Free State,307.75,Clothing,Card Present,Mobile,1,0,19,1.7,0
+955,2520,TymeBank,Gauteng,1205.06,Transport,Card Present,POS,0,0,15,5.1,0
+956,2505,Investec,Eastern Cape,381.28,Entertainment,EFT,Mobile,1,0,10,1.6,0
+957,3587,Capitec,Northern Cape,225.15,Restaurants,EFT,POS,1,0,0,7.4,0
+958,1920,Investec,North West,140.15,Electronics,Online,POS,1,0,16,5.5,0
+959,4793,TymeBank,Mpumalanga,216.91,Fuel,Card Present,Mobile,1,0,11,0.6,0
+960,4310,Investec,Free State,1918.21,Transport,USSD,Mobile,1,0,4,0.5,0
+961,3304,Investec,Gauteng,2007.78,Entertainment,App,Mobile,1,0,13,0.8,0
+962,4999,Nedbank,Free State,422.77,Fuel,Card Present,Mobile,1,0,6,1.3,0
+963,2308,Investec,North West,1005.07,Clothing,Card Present,ATM,0,0,23,2.6,0
+964,4475,Investec,Eastern Cape,2127.56,Healthcare,App,Mobile,1,0,6,0.4,1
+965,2069,Standard Bank,Free State,207.63,Groceries,EFT,ATM,1,0,3,2.3,0
+966,2868,ABSA,North West,824.89,Electronics,Online,Mobile,1,1,14,2.6,0
+967,4768,ABSA,Free State,136.0,Utilities,Card Present,ATM,1,0,6,3.2,0
+968,1651,African Bank,Eastern Cape,550.79,Restaurants,EFT,Mobile,1,0,21,2.4,0
+969,1455,Nedbank,Eastern Cape,1342.09,Electronics,App,Mobile,1,0,23,5.2,0
+970,3726,Standard Bank,Limpopo,2346.32,Fuel,App,Mobile,0,0,8,3.1,0
+971,1391,Capitec,Gauteng,1188.71,Entertainment,EFT,Mobile,0,0,0,7.8,0
+972,3513,Standard Bank,Eastern Cape,87.89,Clothing,Card Present,Web,1,0,1,3.6,0
+973,4284,ABSA,Gauteng,245.37,Restaurants,Card Present,Web,1,0,7,1.7,0
+974,1411,Nedbank,Limpopo,532.4,Healthcare,Card Present,Mobile,0,0,6,0.7,1
+975,2182,TymeBank,North West,842.37,Airtime/Data,EFT,Mobile,1,0,22,0.0,0
+976,1910,FNB,Eastern Cape,785.67,Groceries,App,ATM,1,0,2,0.3,0
+977,2979,Investec,North West,354.09,Entertainment,App,Mobile,1,0,6,0.6,0
+978,1550,Nedbank,Western Cape,1642.6,Airtime/Data,App,Mobile,1,0,19,0.7,0
+979,4040,Capitec,Free State,707.34,Groceries,Card Present,Web,1,0,15,4.1,0
+980,2637,Investec,KwaZulu-Natal,240.47,Electronics,EFT,POS,1,0,1,1.5,0
+981,4542,Investec,Mpumalanga,392.06,Airtime/Data,Online,Mobile,1,1,0,1.2,0
+982,2871,Capitec,Northern Cape,7702.68,Electronics,Card Present,Mobile,0,0,7,0.2,0
+983,3519,Investec,Gauteng,2152.09,Airtime/Data,App,ATM,0,0,4,2.3,0
+984,2940,ABSA,North West,1536.79,Restaurants,Card Present,POS,0,0,9,2.8,0
+985,4181,African Bank,Eastern Cape,886.64,Electronics,Card Present,Mobile,1,0,3,6.3,0
+986,1775,Nedbank,Free State,272.57,Restaurants,Card Present,Mobile,0,0,8,2.1,0
+987,3857,FNB,Gauteng,621.54,Electronics,Card Present,POS,1,0,13,0.0,0
+988,1442,Nedbank,Free State,368.83,Healthcare,App,POS,0,0,20,0.2,0
+989,3512,Capitec,Northern Cape,599.19,Restaurants,Card Present,Web,1,0,9,0.9,0
+990,2358,African Bank,North West,290.37,Healthcare,USSD,Mobile,1,0,17,0.4,0
+991,3893,Nedbank,North West,1093.18,Healthcare,Online,ATM,0,1,22,4.4,0
+992,1915,ABSA,Limpopo,334.33,Clothing,Online,Mobile,1,0,8,0.3,0
+993,3655,Capitec,Northern Cape,364.98,Electronics,Card Present,Mobile,1,0,4,0.5,0
+994,4644,Nedbank,Eastern Cape,993.66,Restaurants,Card Present,POS,1,0,22,3.3,0
+995,4722,Investec,Limpopo,3968.25,Clothing,Card Present,Web,1,0,7,0.8,0
+996,3789,Nedbank,KwaZulu-Natal,259.04,Healthcare,USSD,ATM,1,0,11,10.4,0
+997,1543,ABSA,Western Cape,359.43,Entertainment,Card Present,Web,0,0,19,6.0,0
+998,1899,ABSA,Northern Cape,700.95,Groceries,EFT,Mobile,0,0,23,4.1,0
+999,3972,Investec,Free State,432.48,Electronics,EFT,Mobile,1,0,22,1.3,0
+1000,1644,Investec,Western Cape,91.7,Airtime/Data,Online,Mobile,1,0,18,0.2,0
