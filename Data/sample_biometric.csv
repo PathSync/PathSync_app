@@ -1,6 +1,11 @@
-
-
-
-
-
-
+patient_id,age,gender,province,national_id,biometric_score,citizenship_status
+1,35,Male,Gauteng,8001015009087,0.92,SA
+2,28,Female,Western Cape,9503101000087,0.87,SA
+3,42,Male,KwaZulu-Natal,7802155009087,0.45,Non-SA
+4,67,Female,Eastern Cape,5506201000087,0.91,SA
+5,31,Male,Limpopo,9007085009087,0.32,Non-SA
+6,53,Female,Free State,6903301000087,0.78,SA
+7,29,Other,Mpumalanga,9401125009087,0.29,Non-SA
+8,45,Female,North West,7708251000087,0.95,SA
+9,38,Male,Northern Cape,8305105009087,0.84,SA
+10,22,Female,Gauteng,7191000087,0.61,Review
