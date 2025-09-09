@@ -1,15 +1,18 @@
 import pandas as pd
 import numpy as np
+import sys
+import os
+sys.path.append(os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
 from sklearn.ensemble import RandomForestClassifier
 from sklearn.model_selection import train_test_split
 from sklearn.metrics import accuracy_score, classification_report
 import joblib
 from data_loader import load_biometric_data, preprocess_biometric_data
 
-
 def train_biometric_model(data_path):
     """Train biometric verification model"""
     # Load and preprocess data
+
     df = load_biometric_data(data_path)
     df, province_map, citizenship_map = preprocess_biometric_data(df)
 
@@ -39,9 +42,7 @@ def train_biometric_model(data_path):
         'citizenship_map': citizenship_map
     }
     joblib.dump(preprocessing_info, '../models/biometric_preprocessing.pkl')
-
     return model, preprocessing_info
 
-
 if __name__ == "__main__":
-    train_biometric_model('../data/sample_biometric.csv')
+    train_biometric_model('../data/sample_Biometric.csv')

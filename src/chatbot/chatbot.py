@@ -1,7 +1,6 @@
 import re
 import random
-from predict import HealthcarePredictor
-
+from predicts import HealthcarePredictor
 
 class HealthcareChatbot:
     def __init__(self):
@@ -61,14 +60,11 @@ class HealthcareChatbot:
         # Extract values from message using regex
         age = self.extract_value(message, r'age[:]?[\s]*(\d+)')
         hr_bpm = self.extract_value(message, r'heart[:]?[\s]*(\d+)') or self.extract_value(message, r'hr[:]?[\s]*(\d+)')
-        temp = self.extract_value(message, r'temp[:]?[\s]*(\d+\.?\d*)') or self.extract_value(message,
-                                                                                              r'temperature[:]?[\s]*(\d+\.?\d*)')
-        resp_rate = self.extract_value(message, r'respiratory[:]?[\s]*(\d+)') or self.extract_value(message,
-                                                                                                    r'breath[:]?[\s]*(\d+)')
+        temp = self.extract_value(message, r'temp[:]?[\s]*(\d+\.?\d*)') or self.extract_value(message, r'temperature[:]?[\s]*(\d+\.?\d*)')
+        resp_rate = self.extract_value(message, r'respiratory[:]?[\s]*(\d+)') or self.extract_value(message, r'breath[:]?[\s]*(\d+)')
         systolic = self.extract_value(message, r'systolic[:]?[\s]*(\d+)')
         diastolic = self.extract_value(message, r'diastolic[:]?[\s]*(\d+)')
-        o2_sat = self.extract_value(message, r'oxygen[:]?[\s]*(\d+)') or self.extract_value(message,
-                                                                                            r'o2[:]?[\s]*(\d+)')
+        o2_sat = self.extract_value(message, r'oxygen[:]?[\s]*(\d+)') or self.extract_value(message, r'o2[:]?[\s]*(\d+)')
         pain = self.extract_value(message, r'pain[:]?[\s]*(\d+)')
 
         # Default values if not provided

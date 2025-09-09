@@ -1,6 +1,12 @@
 import pandas as pd
 import numpy as np
-
+from sklearn.model_selection import train_test_split
+from sklearn.ensemble import RandomForestClassifier
+from sklearn.metrics import accuracy_score, classification_report
+import joblib
+import sys
+import os
+sys.path.append(os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
 
 def load_biometric_data(file_path):
     """Load biometric data from CSV file"""

@@ -1,5 +1,4 @@
-from src.chatbot import HealthcareChatbot
-
+from chatbot import HealthcareChatbot
 
 def main():
     print("Initializing Healthcare AI System...")
@@ -29,7 +28,6 @@ def main():
         if user_input:
             response = chatbot.respond(user_input)
             print(f"Chatbot: {response}")
-
 
 if __name__ == "__main__":
     main()

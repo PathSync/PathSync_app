@@ -9,6 +9,7 @@ from data_loader import load_triage_data, preprocess_triage_data
 
 def train_triage_model(data_path):
     """Train triage priority model"""
+
     # Load and preprocess data
     df = load_triage_data(data_path)
     df, priority_map = preprocess_triage_data(df)
@@ -30,7 +31,8 @@ def train_triage_model(data_path):
     y_pred = model.predict(X_test)
     accuracy = accuracy_score(y_test, y_pred)
     print(f"Triage Model Accuracy: {accuracy:.2f}")
-    print(classification_report(y_test, y_pred,
+    print(classification_report(y_test,
+                                y_pred,labels=[0,1,2],
                                 target_names=['Red', 'Yellow', 'Green']))
 
     # Save model and preprocessing info
