@@ -1,4 +1,10 @@
+import streamlit as st
+import sys
+import os
+from pathlib import Path
+sys.path.append(str(Path(__file__).parent / "src"))
 from chatbot import HealthcareChatbot
+from predicts import HealthcarePredictor
 
 def main():
     print("Initializing Healthcare AI System...")
