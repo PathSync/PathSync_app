@@ -1,0 +1,9 @@
+# Virtual Environment
+venv/
+
+# IDEs
+.idea/
+.vscode/
+
+# Docs
+docs/

@@ -1,0 +1,25 @@
+
+
+
+numpy==2.0.0
+pandas==2.2.2
+scipy==1.13.0
+scikit-learn==1.4.2
+joblib==1.4.0
+
+# Visualization
+matplotlib==3.8.4
+seaborn==0.13.2
+pillow==10.2.0
+
+# App & Deployment
+streamlit==1.32.0
+flask==3.0.2
+
+# Utilities
+jupyter==1.1.0
+nltk==3.8.1
+python-dotenv==1.0.1
+
+# OpenCV - Use this specific version
+opencv-python==4.9.0.80
