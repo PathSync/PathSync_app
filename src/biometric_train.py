@@ -8,7 +8,7 @@ import joblib
 
 def load_and_preprocess_data():
     # Load the largest dataset for better model training
-    data_path = Path(__file__).parent.parent / 'Data' / 'sample' / 'sa_80000sample_data.csv'
+    data_path = Path(__file__).parent.parent / 'Data' / 'sample' / 'sa_80k_data.csv'
     df = pd.read_csv(data_path)
     
     # Select relevant features for biometric model
