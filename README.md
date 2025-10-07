@@ -31,6 +31,7 @@
 # ```
 
 # pip install -r requirements.txt
+# pip install numpy pandas scipy scikit-learn joblib
 
 # ```
 
