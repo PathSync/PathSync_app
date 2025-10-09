@@ -8,7 +8,7 @@ warnings.filterwarnings('ignore', category=FutureWarning)
 sys.path.append(str(Path(__file__).parent))
 sys.path.append(str(Path(__file__).parent / "src"))
 
-from src.chatbot.chatbot import HealthcareChatbot
+from chatbot.chatbot import HealthcareChatbot
 from predicts import HealthcarePredictor
 
 

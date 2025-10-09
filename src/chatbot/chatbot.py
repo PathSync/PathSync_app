@@ -56,22 +56,40 @@ class HealthcareChatbot:
         if use_voice and self.enable_speech:
             return self.process_voice_input(message)
 
-        if any(word in message for word in ['hello', 'hi', 'hey', 'greetings']):
-            response = random.choice(self.responses['greeting'])
-            return self._format_response(response, 'greeting')
+        if (('verify' in message or 'identity' in message or 'citizen' in message or 'biometric' in message) and 
+            ('pain' in message or 'medical' in message or 'emergency' in message or 'care' in message)):
+            identity_response = self.verify_identity(message)
+            triage_response = self.assess_triage(message)
+            return f"{identity_response}\n\nAdditionally, for your medical concerns: {triage_response}"
+        
+        elif any(word in message for word in ['identity', 'verify', 'nationality', 'citizen', 'citizenship', 'id', 'check',
+                                           'sa citizen', 'south african', 'biometric', 'score']):
+            return self.verify_identity(message)
+        
+        elif ('age' in message and ('citizen' in message or 'biometric' in message or 'score' in message)):
+            return self.verify_identity(message)
+
+        elif ('medical' in message and 'attention' in message):
+            return self.assess_triage(message)
+            
+        elif any(word in message for word in ['symptom', 'pain', 'hurt', 'not feeling', 'unwell', 'triage', 
+                                              'breathing', 'trouble breathing', 'chest pain', 'headache',
+                                              'heart rate', 'temperature', 'blood pressure', 'fever',
+                                              'bleeding', 'injury', 'unconscious', 'stroke', 'emergency',
+                                              'broken', 'severe', 'difficulty', 'abdominal', 'vomiting',
+                                              'confused', 'head injury', 'assessment', 'need triage']):
+            return self.assess_triage(message)
+
+        elif any(word in message for word in ['voice', 'speech', 'speak']):
+            return self.handle_speech_request(message)
 
         elif any(word in message for word in ['bye', 'goodbye', 'exit', 'quit']):
             response = random.choice(self.responses['goodbye'])
             return self._format_response(response, 'goodbye')
 
-        elif any(word in message for word in ['voice', 'speech', 'speak']):
-            return self.handle_speech_request(message)
-
-        elif any(word in message for word in ['symptom', 'pain', 'hurt', 'not feeling', 'unwell', 'triage']):
-            return self.assess_triage(message)
-
-        elif any(word in message for word in ['identity', 'verify', 'nationality', 'citizen', 'id']):
-            return self.verify_identity(message)
+        elif any(word in message for word in ['hello', 'hi', 'hey', 'greetings']):
+            response = random.choice(self.responses['greeting'])
+            return self._format_response(response, 'greeting')
 
         elif 'help' in message:
             help_text = "I can help with: 1) Triage assessment 2) Identity verification 3) General healthcare questions"
@@ -153,20 +171,21 @@ class HealthcareChatbot:
                 break
 
         try:
-            citizenship, confidence = self.predictor.predict_biometric(
+            immigration_status, confidence = self.predictor.predict_biometric(
                 int(default_values['age']),
                 default_values['gender'],
                 default_values['province'],
                 default_values['biometric_score']
             )
 
-            citizenship_display = {
-                'SA': 'South African Citizen',
-                'Non-SA': 'Non-South African Citizen',
-                'Review': 'Requires Manual Review'
-            }.get(citizenship, citizenship)
+            status_display = {
+                'Citizen': 'South African Citizen',
+                'Permanent Resident': 'Permanent Resident',
+                'Temporary Visa': 'Temporary Visa Holder',
+                'Asylum Seeker': 'Asylum Seeker'
+            }.get(immigration_status, immigration_status)
 
-            return self.responses['nationality'].format(citizenship_display, confidence)
+            return self.responses['nationality'].format(status_display, confidence)
         except Exception as e:
             return f"I encountered an error verifying your identity: {str(e)}"
 
